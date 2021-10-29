@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+html{
+    font-size: 62,5%;
+}
+
+.fondoHeader{
+    background-image: url("../multimedia/fondo_Cafe2.png");
+    background-position: right;
+    margin-right: 0;
+    background-size:40%;
+    background-repeat: no-repeat;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #b99d4f;
+    display: flex;
+    
+    
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.divContenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.divHijo{
+    order: 0;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+nav{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-around ;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    /* background-image: url("../multimedia/fondoPagina.png"); */
+    background-color: #f6f4ef;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.position{
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.menuPrincipal{
+    /*   font-size: 1.5rem; */
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+    
+.menuPrincipal li{
+    display: flex;
+    position: relative;
+    font-size: 3rem;
+    padding: 0 10px;
+}
+    
+.menuPrincipal ul{
+    position: absolute;
+    display: none;
+    background-color: #ecc863;
+}
+    
+.menuPrincipal ul li{
+    display: inline-block;
+    margin: 0 15 0 15;
+    background-color: #ecc863;
+    text-align: left;
+    width: 200px;
+    font-size: 2rem;
+}
+    
+.menuPrincipal li:hover ul{
+    display: block;
+}
+    
+    
+    
+.menuPrincipal a{
+    color: #372800;
+    text-decoration: none;
+    
+}
+    
+.menuPrincipal a:hover{
+    color: #f6f4ef;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.imagenLogo{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* ----INDEX----  */
+.main{
+    background-color: #faf2db;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.main h1{
+    font-size: 5rem;
+    
+}
+.main p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+h1{
+    color:#372800;
+    text-align: left;
+    line-height: 80px;
+    font-size: 4.768rem;
+    text-align: center;
+    letter-spacing: 8px;
+    text-decoration: line-through 3px #634c0c;
+    
+}
+
+h2{
+    color: #503d0a;
+    text-align: left;
+    line-height: 60px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.441rem;
+}
+
+h3{
+    color: #795d13;
+    text-align: left;
+    font-size: 1.563rem;
+    line-height: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.tituloInicio{
+    color: #372800;
+
+}
+
+p{
+    color: #372800;
+    text-align: center;
+}
+
+.alinearCentro{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: center;
+    line-height: 60px;
+    
+}
+
+.estiloImagenesTiposDeCafe{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    
+} 
+
+/* .divImagenesIndex{
+    padding: 20px;
+    margin: 50px 30px 10px 80px;
+    width: 500px;
+    height: 500px;
+    background-color: #e4ce92;
+    border: solid 8px #795d13;
+    border-radius: 50px;
+    display: inline-block;
+
+} */
+.divImagenesIndex h3{
+    font-size: 2rem;
+}
+.leyendaTipoCafe{
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.parrafoSubtituloIndex{
+    font-size: 1.6rem;
+}
+
+.section{
+    padding-bottom: 70px;
+}
+
+/*------NOSOTROS-------*/
+
+.articuloImportante{
+    color: #634c0c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.main h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.main h2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.main article{
+    font-size: 1.3rem;
+    margin: 0 40px 10px 40px;
+    text-align: justify;
+}
+
+/*-----SERVICIOS-----*/
+ol li{
+    color: #997511;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.alinearImagenTienda{
+    text-align: center;
+}
+
+/*-----SUCURSALES-----*/
+
+.main table{
+    padding-top: 50px;
+    border-style: none;
+    padding-bottom: 20px;
+}
+table{
+    font-size: 2rem;
+    margin: auto;
+}
+table th{
+    color: #372800;
+    background-color: #997511;
+    font-size: 1.5rem;
+    
+}
+table td{
+    color: #634c0c;
+}
+/*-----CONTACTO-----*/
+.estiloContacto{
+    font-size: 1.5rem;
+    color: #997511;
+    border-style: 2px solid black;
+    text-align: left;
+    display: inline-block;
+    margin-left: 750px;
+    
+}
+
+/*-----FOOTER-------*/
+
+.footer{
+    clear: both;
+    background-color: #b99d4f;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: #3f361d;
+    font-weight:600;
+}
+
+.footer li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.menuSecundario{
+    
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.copyright{
+    background-color: #795d13;
+    position: relative;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #e4ce92;
+}
+
+

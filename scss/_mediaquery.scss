@@ -1,0 +1,864 @@
+/*----------MQ Index----------*/
+@media screen and (min-width: 280px) and (max-width: 320px) {
+    .navbar-light{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+            .imagenLogo{
+                display: none;
+                font-size: 1rem;
+            }
+            .imagenLogoSmall{
+                font-size: 1.8rem;
+                display: inline-block;
+            }
+        }
+        .navbar-toggler{
+            .navbar-toggler-icon{
+                font-size: 0.2rem;
+            }
+        }
+        .navbar-collapse{
+            .nav-item{
+                .nav-link{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+    .mainIndex{
+        width: 100%;
+        .titleIndex{
+            font-size: 2rem;
+            margin-top: 5px;
+        }
+        .btn{
+            width: 50%;
+            height: 5%;
+            font-size: 0.7rem;
+        }
+    }
+    .sectionIndex{
+        padding-bottom: 10px;
+        height: 30vh;
+        .rowSectionIndex{
+            height: 60vh;
+            .h2Custom{
+                color: $color-titulo;
+                font-size: 1rem;
+            }
+            .pSectionIndex{
+                font-size: 1rem;
+            }
+        }
+        .containerCards{
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .navbar-light{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+            .imagenLogo{
+                display: none;
+                font-size: 1.2rem;
+            }
+            .imagenLogoSmall{
+                font-size: 2rem;
+                display: inline-block;
+            }
+        }
+        .navbar-toggler{
+            .navbar-toggler-icon{
+                font-size: 0.5rem;
+            }
+        }
+        .navbar-collapse{
+            .nav-item{
+                .nav-link{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+    .mainIndex{
+        width: 100%;
+        .titleIndex{
+            font-size: 2.2rem;
+            margin-top: 5px;
+        }
+        .btn{
+            width: 50%;
+            height: 5%;
+            font-size: 0.9rem;
+        }
+    }
+    .sectionIndex{
+        padding-bottom: 10px;
+        height: 30vh;
+        .rowSectionIndex{
+            height: 60vh;
+            .h2Custom{
+                color: $color-titulo;
+                font-size: 1rem;
+            }
+            .pSectionIndex{
+                font-size: 1rem;
+            }
+        }
+        .containerCards{
+            display: none;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-light{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+            .imagenLogo{
+                display: none;
+                font-size: 0.6rem;
+            }
+            .imagenLogoSmall{
+                font-size: 2rem;
+                display: inline-block;
+            }
+        }
+        .navbar-toggler{
+            .navbar-toggler-icon{
+                font-size: 0.8rem;
+            }
+        }
+        .navbar-collapse{
+            .nav-item{
+                .nav-link{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+    .mainIndex{
+        width: 100%;
+        .titleIndex{
+            font-size: 2.5rem;
+            margin-top: 5px;
+        }
+        .btn{
+            width: 50%;
+            height: 10%;
+            font-size: 1rem;
+        }
+    }
+    .sectionIndex{
+        padding-bottom: 10px;
+        height: 30vh;
+        .rowSectionIndex{
+            height: 60vh;
+            .h2Custom{
+                color: $color-titulo;
+                font-size: 1rem;
+            }
+            .pSectionIndex{
+                font-size: 1rem;
+            }
+        }
+        .containerCards{
+            display: none;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sectionIndex{
+        padding-bottom: 10px;
+        height: 30vh;
+        .rowSectionIndex{
+            height: 60vh;
+            .h2Custom{
+                color: $color-titulo;
+                font-size: 1rem;
+            }
+            .pSectionIndex{
+                font-size: 1rem;
+            }
+        }
+        .containerCards{
+            display: none;
+            
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .navCustom{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+        }
+        .imagenLogo{
+            font-size: 2rem;
+            padding-left:0;
+        }
+        .imagenLogoSmall{
+            display: none;
+        }
+    }
+    .navbar-light{
+        .navbar-brand{
+            padding-left: 0;
+        }
+    }
+    .navbar-toggler{
+        .navbar-toggler-icon{
+            font-size: 1rem;
+        }
+    }
+    .navbar-collapse{
+        .nav-item{
+            .nav-link{
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .titleIndex{
+        font-size: 3rem;
+        
+    }
+
+    .sectionIndex{
+        padding-top: 5px;
+        height: 80vh;
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navCustom{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+        }
+        .imagenLogo{
+            font-size: 2.5rem;
+            padding-left:0;
+        }
+        .imagenLogoSmall{
+            display: none;
+        }
+    }
+    .navbar-light{
+        .navbar-brand{
+            padding-left: 0;
+        }
+        .navbar-nav {
+            .nav-link {
+                color: $color-principal;
+                font-size: 1.3rem;
+                &:hover {
+                    color: #ebc999;
+                }
+            }
+            .nav-link.active {
+                color: #d1ae4e;
+            }
+            .show {
+                >.nav-link {
+                    color: #d1ae4e;
+                }
+            }
+        }
+    }
+    
+
+    .titleIndex{
+        font-size: 3.2rem;
+        
+    }
+
+    .sectionIndex{
+        padding-top: 5px;
+        height: 80vh;
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+@media screen and (max-width: 1920px) {
+    .navCustom{
+        width: 100%;
+        .container-fluid{
+            width: 100%;
+        }
+        .imagenLogo{
+            font-size: 2.5rem;
+            padding-left:0;
+        }
+        .imagenLogoSmall{
+            display: none;
+        }
+    }
+}
+
+/*----------MQ NOSOTROS-----------*/
+
+@media screen and (max-width: 320px) {
+    .mainNosotros{
+            width: 100%;
+            height: 300vh;
+            .contenedorNosotros{
+                width: 100%;
+                font-family: $fuente;
+                .titleNosotros{
+                    font-size: 3rem;
+                }
+            }
+        }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 1rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 1.2rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 1rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+    
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.2rem;
+        }
+    }
+    
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .mainNosotros{
+        width: 100%;
+        height: 300vh;
+        .contenedorNosotros{
+            width: 100%;
+            font-family: $fuente;
+            .titleNosotros{
+                font-size: 2.5rem;
+            }
+        }
+    }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 1rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 1.2rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 1rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+    
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.2rem;
+        }
+    }
+
+
+@media screen and (min-width: 376px ) and (max-width: 425px) {
+    .mainNosotros{
+        width: 100%;
+        height: 280vh;
+        .contenedorNosotros{
+            width: 100%;
+            font-family: $fuente;
+            .titleNosotros{
+                font-size: 3.5rem;
+            }
+        }
+    }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 1rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 1.2rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 1rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.2rem;
+        }
+    }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .mainNosotros{
+        width: 100%;
+        height: 180vh;
+        .contenedorNosotros{
+            width: 95%;
+            font-family: $fuente;
+        }
+        .rowNosotros{
+            .titleNosotros{
+            font-size: 3rem;
+            }
+        }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 1rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 1.2rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 2rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+    
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .mainNosotros{
+        width: 100%;
+        height: 160vh;
+        .contenedorNosotros{
+            width: 95%;
+            font-family: $fuente;
+        }
+        .rowNosotros{
+            .titleNosotros{
+                font-size: 4rem;
+
+            }
+        }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 2rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 2.5rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 2.5rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+    
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.5rem;
+        }
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .mainNosotros{
+        width: 100%;
+        height: 160vh;
+        .contenedorNosotros{
+            width: 95%;
+            font-family: $fuente;
+        }
+        .rowNosotros{
+            .titleNosotros{
+                font-size: 4rem;
+
+            }
+        }
+        
+        .nosotros{
+            .nosotros__articuloNosotros{
+                font-size: 2rem;
+            }
+        }
+        .nuestra_mision{
+            .nosotros__nuestra_mision__h2{
+                font-size: 2.5rem;
+                letter-spacing: 0.2rem;
+            }
+            .nosotros__nuestra_mision__articulo{
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        .nosotros__nuestros_valores__h2Custom{
+            font-size: 2.5rem ;
+            color: #edc999;
+            font-family: $fuente;
+            text-align: center;
+            color: #4d3227;
+            letter-spacing: 0;
+    
+        }
+        .nosotros__articuloValores__listaValores{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/*-----------MQ TIENDA----------*/
+@media screen and (max-width: 320px) {
+    .contenedorMain__centrar{
+        width: 100%;
+        .contenedorMain__centrar__titleTienda{
+            font-size: 1rem;
+            padding-top: 1vh;
+            padding-bottom: 0;
+        }
+        .cardCustom{
+            background-color: #4d3227;
+        }
+        .cardsBody{
+            width: 100vw;
+        }
+    }
+    .modalContentCustom{
+        .modalContentCustom__modalHeaderCustom{
+            font-size: 1.2rem;
+        }
+        .modalContentCustom__modalBodyCustom{
+            .text-mb-1{
+                font-size: 1rem;
+            }
+        }
+        .modalFooter{
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contenedorMain__centrar{
+        width: 100%;
+        .contenedorMain__centrar__titleTienda{
+            font-size: 2rem;
+            padding-top: 1vh;
+            padding-bottom: 0;
+        }
+        .cardCustom{
+            background-color: #4d3227;
+        }
+    }
+    .modalContentCustom{
+        .modalContentCustom__modalHeaderCustom{
+            font-size: 1.4rem;
+        }
+        .modalContentCustom__modalBodyCustom{
+            .text-mb-1{
+                font-size: 1.2rem;
+            }
+        }
+        .modalFooter{
+            font-size: 1.2rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .contenedorMain__centrar{
+        width: 100%;
+        .contenedorMain__centrar__titleTienda{
+            font-size: 2.5rem;
+            padding-top: 1vh;
+            padding-bottom: 0;
+        }
+        .cardCustom{
+            background-color: #4d3227;
+        }
+    }
+    .modalContentCustom{
+        .modalContentCustom__modalHeaderCustom{
+            font-size: 1.5rem;
+        }
+        .modalContentCustom__modalBodyCustom{
+            .text-mb-1{
+                font-size: 1.3rem;
+            }
+        }
+        .modalFooter{
+            font-size: 1.5rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .contenedorMain__centrar{
+        width: 100%;
+        .contenedorMain__centrar__titleTienda{
+            font-size: 3rem;
+            padding-top: 1vh;
+            padding-bottom: 0;
+        }
+        .cardCustom{
+            background-color: #4d3227;
+        }
+    }
+    .modalContentCustom{
+        .modalContentCustom__modalHeaderCustom{
+            font-size: 1.6rem;
+        }
+        .modalContentCustom__modalBodyCustom{
+            .text-mb-1{
+                font-size: 1.5rem;
+            }
+        }
+        .modalFooter{
+            font-size: 1.6rem;
+        }
+    }
+    
+}
+
+.contenedorMain__centrar{
+    width: 100%;
+    .contenedorMain__centrar__titleTienda{
+        font-size: 3.5rem;
+        padding-top: 1vh;
+        padding-bottom: 0;
+    }
+    .cardCustom{
+        background-color: #4d3227;
+    }
+}
+.modalContentCustom{
+    .modalContentCustom__modalHeaderCustom{
+        font-size: 1.6rem;
+    }
+    .modalContentCustom__modalBodyCustom{
+        .text-mb-1{
+            font-size: 1.5rem;
+        }
+    }
+    .modalFooter{
+        font-size: 1.6rem;
+    }
+}
+
+/*----------MQ SUCURSALES----------*/
+@media screen and (max-width: 280px) {
+    .mainSucursales{
+        .mainSucursales__titleSucursales--centrado{
+            font-size: 2rem !important;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .mainSucursales__titleSucursales--centrado{
+        padding-top: 10px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .mainSucursales__titleSucursales--centrado{
+        padding-top: 10px;
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainSucursales__titleSucursales--centrado{
+        padding-top: 10px;
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mainSucursales__titleSucursales--centrado{
+        padding-top: 10px;
+        font-size: 3.5rem;
+    }
+    .bodyContacto__headerCustom__navCustom{
+        .imagenLogoSmall{
+            display: none;
+        }
+    }
+}
+
+/*-----------MQ CONTACTO----------*/
+
+@media screen and (max-width: 320px){
+    .bodyContacto{
+        .imagenLogo{
+            display: none;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    .bodyContacto{
+        .imagenLogo{
+            display: none;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .bodyContacto{
+        .imagenLogo{
+            display: none;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .bodyContacto{
+        .imagenLogoSmall{
+            display: none;
+        }
+        .imagenLogo{
+            display: flex;
+            font-size: 2.5rem;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .bodyContacto{
+        .imagenLogoSmall{
+            display: none;
+        }
+        .imagenLogo{
+            display: flex;
+            font-size: 2.5rem;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .bodyContacto{
+        .imagenLogoSmall{
+            display: none;
+        }
+        .imagenLogo{
+            display: flex;
+            font-size: 2.5rem;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 2048px){
+    .bodyContacto{
+        .imagenLogoSmall{
+            display: none;
+        }
+        .imagenLogo{
+            display: flex;
+            font-size: 2.5rem;
+        }
+        .breadcrumbItem{
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

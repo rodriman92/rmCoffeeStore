@@ -1,0 +1,1004 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
+/*----------MQ Index----------*/
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .imagenLogo {
+        display: none;
+        font-size: 1rem; }
+      .navbar-light .container-fluid .imagenLogoSmall {
+        font-size: 1.8rem;
+        display: inline-block; }
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+      font-size: 0.2rem; }
+    .navbar-light .navbar-collapse .nav-item .nav-link {
+      font-size: 1.3rem; }
+  .mainIndex {
+    width: 100%; }
+    .mainIndex .titleIndex {
+      font-size: 2rem;
+      margin-top: 5px; }
+    .mainIndex .btn {
+      width: 50%;
+      height: 5%;
+      font-size: 0.7rem; }
+  .sectionIndex {
+    padding-bottom: 10px;
+    height: 30vh; }
+    .sectionIndex .rowSectionIndex {
+      height: 60vh; }
+      .sectionIndex .rowSectionIndex .h2Custom {
+        color: #cd7700;
+        font-size: 1rem; }
+      .sectionIndex .rowSectionIndex .pSectionIndex {
+        font-size: 1rem; }
+    .sectionIndex .containerCards {
+      display: none; } }
+
+@media screen and (max-width: 375px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .imagenLogo {
+        display: none;
+        font-size: 1.2rem; }
+      .navbar-light .container-fluid .imagenLogoSmall {
+        font-size: 2rem;
+        display: inline-block; }
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+      font-size: 0.5rem; }
+    .navbar-light .navbar-collapse .nav-item .nav-link {
+      font-size: 1.4rem; }
+  .mainIndex {
+    width: 100%; }
+    .mainIndex .titleIndex {
+      font-size: 2.2rem;
+      margin-top: 5px; }
+    .mainIndex .btn {
+      width: 50%;
+      height: 5%;
+      font-size: 0.9rem; }
+  .sectionIndex {
+    padding-bottom: 10px;
+    height: 30vh; }
+    .sectionIndex .rowSectionIndex {
+      height: 60vh; }
+      .sectionIndex .rowSectionIndex .h2Custom {
+        color: #cd7700;
+        font-size: 1rem; }
+      .sectionIndex .rowSectionIndex .pSectionIndex {
+        font-size: 1rem; }
+    .sectionIndex .containerCards {
+      display: none; } }
+
+@media screen and (max-width: 425px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .imagenLogo {
+        display: none;
+        font-size: 0.6rem; }
+      .navbar-light .container-fluid .imagenLogoSmall {
+        font-size: 2rem;
+        display: inline-block; }
+    .navbar-light .navbar-toggler .navbar-toggler-icon {
+      font-size: 0.8rem; }
+    .navbar-light .navbar-collapse .nav-item .nav-link {
+      font-size: 1.4rem; }
+  .mainIndex {
+    width: 100%; }
+    .mainIndex .titleIndex {
+      font-size: 2.5rem;
+      margin-top: 5px; }
+    .mainIndex .btn {
+      width: 50%;
+      height: 10%;
+      font-size: 1rem; }
+  .sectionIndex {
+    padding-bottom: 10px;
+    height: 30vh; }
+    .sectionIndex .rowSectionIndex {
+      height: 60vh; }
+      .sectionIndex .rowSectionIndex .h2Custom {
+        color: #cd7700;
+        font-size: 1rem; }
+      .sectionIndex .rowSectionIndex .pSectionIndex {
+        font-size: 1rem; }
+    .sectionIndex .containerCards {
+      display: none; } }
+
+@media screen and (max-width: 540px) {
+  .sectionIndex {
+    padding-bottom: 10px;
+    height: 30vh; }
+    .sectionIndex .rowSectionIndex {
+      height: 60vh; }
+      .sectionIndex .rowSectionIndex .h2Custom {
+        color: #cd7700;
+        font-size: 1rem; }
+      .sectionIndex .rowSectionIndex .pSectionIndex {
+        font-size: 1rem; }
+    .sectionIndex .containerCards {
+      display: none; } }
+
+@media screen and (max-width: 768px) {
+  .navCustom {
+    width: 100%; }
+    .navCustom .container-fluid {
+      width: 100%; }
+    .navCustom .imagenLogo {
+      font-size: 2rem;
+      padding-left: 0; }
+    .navCustom .imagenLogoSmall {
+      display: none; }
+  .navbar-light .navbar-brand {
+    padding-left: 0; }
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 1rem; }
+  .navbar-collapse .nav-item .nav-link {
+    font-size: 1.6rem; }
+  .titleIndex {
+    font-size: 3rem; }
+  .sectionIndex {
+    padding-top: 5px;
+    height: 80vh; }
+    .sectionIndex p {
+      font-size: 1.5rem; } }
+
+@media screen and (max-width: 1024px) {
+  .navCustom {
+    width: 100%; }
+    .navCustom .container-fluid {
+      width: 100%; }
+    .navCustom .imagenLogo {
+      font-size: 2.5rem;
+      padding-left: 0; }
+    .navCustom .imagenLogoSmall {
+      display: none; }
+  .navbar-light .navbar-brand {
+    padding-left: 0; }
+  .navbar-light .navbar-nav .nav-link {
+    color: #cd7700;
+    font-size: 1.3rem; }
+    .navbar-light .navbar-nav .nav-link:hover {
+      color: #ebc999; }
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #d1ae4e; }
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #d1ae4e; }
+  .titleIndex {
+    font-size: 3.2rem; }
+  .sectionIndex {
+    padding-top: 5px;
+    height: 80vh; }
+    .sectionIndex p {
+      font-size: 1.5rem; } }
+
+@media screen and (max-width: 1920px) {
+  .navCustom {
+    width: 100%; }
+    .navCustom .container-fluid {
+      width: 100%; }
+    .navCustom .imagenLogo {
+      font-size: 2.5rem;
+      padding-left: 0; }
+    .navCustom .imagenLogoSmall {
+      display: none; } }
+
+/*----------MQ NOSOTROS-----------*/
+@media screen and (max-width: 320px) {
+  .mainNosotros {
+    width: 100%;
+    height: 300vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 100%;
+      font-family: "Heebo", sans-serif; }
+      .mainNosotros .contenedorNosotros .titleNosotros {
+        font-size: 3rem; }
+  .nosotros .nosotros__articuloNosotros {
+    font-size: 1rem; }
+  .nuestra_mision .nosotros__nuestra_mision__h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem; }
+  .nuestra_mision .nosotros__nuestra_mision__articulo {
+    font-size: 1.2rem;
+    text-align: center; }
+  .nosotros__nuestros_valores__h2Custom {
+    font-size: 1rem;
+    color: #edc999;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    color: #4d3227;
+    letter-spacing: 0; }
+  .nosotros__articuloValores__listaValores {
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .mainNosotros {
+    width: 100%;
+    height: 300vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 100%;
+      font-family: "Heebo", sans-serif; }
+      .mainNosotros .contenedorNosotros .titleNosotros {
+        font-size: 2.5rem; }
+  .nosotros .nosotros__articuloNosotros {
+    font-size: 1rem; }
+  .nuestra_mision .nosotros__nuestra_mision__h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem; }
+  .nuestra_mision .nosotros__nuestra_mision__articulo {
+    font-size: 1.2rem;
+    text-align: center; }
+  .nosotros__nuestros_valores__h2Custom {
+    font-size: 1rem;
+    color: #edc999;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    color: #4d3227;
+    letter-spacing: 0; }
+  .nosotros__articuloValores__listaValores {
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .mainNosotros {
+    width: 100%;
+    height: 280vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 100%;
+      font-family: "Heebo", sans-serif; }
+      .mainNosotros .contenedorNosotros .titleNosotros {
+        font-size: 3.5rem; }
+  .nosotros .nosotros__articuloNosotros {
+    font-size: 1rem; }
+  .nuestra_mision .nosotros__nuestra_mision__h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem; }
+  .nuestra_mision .nosotros__nuestra_mision__articulo {
+    font-size: 1.2rem;
+    text-align: center; }
+  .nosotros__nuestros_valores__h2Custom {
+    font-size: 1rem;
+    color: #edc999;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    color: #4d3227;
+    letter-spacing: 0; }
+  .nosotros__articuloValores__listaValores {
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .mainNosotros {
+    width: 100%;
+    height: 180vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 95%;
+      font-family: "Heebo", sans-serif; }
+    .mainNosotros .rowNosotros .titleNosotros {
+      font-size: 3rem; }
+    .mainNosotros .nosotros .nosotros__articuloNosotros {
+      font-size: 1rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
+      font-size: 1.2rem;
+      letter-spacing: 0.2rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
+      font-size: 1.5rem;
+      text-align: center; }
+    .mainNosotros .nosotros__nuestros_valores__h2Custom {
+      font-size: 2rem;
+      color: #edc999;
+      font-family: "Heebo", sans-serif;
+      text-align: center;
+      color: #4d3227;
+      letter-spacing: 0; }
+    .mainNosotros .nosotros__articuloValores__listaValores {
+      font-size: 1.5rem; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .mainNosotros {
+    width: 100%;
+    height: 160vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 95%;
+      font-family: "Heebo", sans-serif; }
+    .mainNosotros .rowNosotros .titleNosotros {
+      font-size: 4rem; }
+    .mainNosotros .nosotros .nosotros__articuloNosotros {
+      font-size: 2rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
+      font-size: 2.5rem;
+      letter-spacing: 0.2rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
+      font-size: 2rem;
+      text-align: center; }
+    .mainNosotros .nosotros__nuestros_valores__h2Custom {
+      font-size: 2.5rem;
+      color: #edc999;
+      font-family: "Heebo", sans-serif;
+      text-align: center;
+      color: #4d3227;
+      letter-spacing: 0; }
+    .mainNosotros .nosotros__articuloValores__listaValores {
+      font-size: 1.5rem; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .mainNosotros {
+    width: 100%;
+    height: 160vh; }
+    .mainNosotros .contenedorNosotros {
+      width: 95%;
+      font-family: "Heebo", sans-serif; }
+    .mainNosotros .rowNosotros .titleNosotros {
+      font-size: 4rem; }
+    .mainNosotros .nosotros .nosotros__articuloNosotros {
+      font-size: 2rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
+      font-size: 2.5rem;
+      letter-spacing: 0.2rem; }
+    .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
+      font-size: 2rem;
+      text-align: center; }
+    .mainNosotros .nosotros__nuestros_valores__h2Custom {
+      font-size: 2.5rem;
+      color: #edc999;
+      font-family: "Heebo", sans-serif;
+      text-align: center;
+      color: #4d3227;
+      letter-spacing: 0; }
+    .mainNosotros .nosotros__articuloValores__listaValores {
+      font-size: 1.5rem; } }
+
+/*-----------MQ TIENDA----------*/
+@media screen and (max-width: 320px) {
+  .contenedorMain__centrar {
+    width: 100%; }
+    .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
+      font-size: 1rem;
+      padding-top: 1vh;
+      padding-bottom: 0; }
+    .contenedorMain__centrar .cardCustom {
+      background-color: #4d3227; }
+    .contenedorMain__centrar .cardsBody {
+      width: 100vw; }
+  .modalContentCustom .modalContentCustom__modalHeaderCustom {
+    font-size: 1.2rem; }
+  .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
+    font-size: 1rem; }
+  .modalContentCustom .modalFooter {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 375px) {
+  .contenedorMain__centrar {
+    width: 100%; }
+    .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
+      font-size: 2rem;
+      padding-top: 1vh;
+      padding-bottom: 0; }
+    .contenedorMain__centrar .cardCustom {
+      background-color: #4d3227; }
+  .modalContentCustom .modalContentCustom__modalHeaderCustom {
+    font-size: 1.4rem; }
+  .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
+    font-size: 1.2rem; }
+  .modalContentCustom .modalFooter {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 425px) {
+  .contenedorMain__centrar {
+    width: 100%; }
+    .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
+      font-size: 2.5rem;
+      padding-top: 1vh;
+      padding-bottom: 0; }
+    .contenedorMain__centrar .cardCustom {
+      background-color: #4d3227; }
+  .modalContentCustom .modalContentCustom__modalHeaderCustom {
+    font-size: 1.5rem; }
+  .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
+    font-size: 1.3rem; }
+  .modalContentCustom .modalFooter {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 1024px) {
+  .contenedorMain__centrar {
+    width: 100%; }
+    .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
+      font-size: 3rem;
+      padding-top: 1vh;
+      padding-bottom: 0; }
+    .contenedorMain__centrar .cardCustom {
+      background-color: #4d3227; }
+  .modalContentCustom .modalContentCustom__modalHeaderCustom {
+    font-size: 1.6rem; }
+  .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
+    font-size: 1.5rem; }
+  .modalContentCustom .modalFooter {
+    font-size: 1.6rem; } }
+
+.contenedorMain__centrar {
+  width: 100%; }
+  .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
+    font-size: 3.5rem;
+    padding-top: 1vh;
+    padding-bottom: 0; }
+  .contenedorMain__centrar .cardCustom {
+    background-color: #4d3227; }
+
+.modalContentCustom .modalContentCustom__modalHeaderCustom {
+  font-size: 1.6rem; }
+
+.modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
+  font-size: 1.5rem; }
+
+.modalContentCustom .modalFooter {
+  font-size: 1.6rem; }
+
+/*----------MQ SUCURSALES----------*/
+@media screen and (max-width: 280px) {
+  .mainSucursales .mainSucursales__titleSucursales--centrado {
+    font-size: 2rem !important; } }
+
+@media screen and (max-width: 375px) {
+  .mainSucursales__titleSucursales--centrado {
+    padding-top: 10px;
+    font-size: 2.5rem; } }
+
+@media screen and (max-width: 425px) {
+  .mainSucursales__titleSucursales--centrado {
+    padding-top: 10px;
+    font-size: 2.7rem; } }
+
+@media screen and (max-width: 768px) {
+  .mainSucursales__titleSucursales--centrado {
+    padding-top: 10px;
+    font-size: 3.2rem; } }
+
+@media screen and (max-width: 1024px) {
+  .mainSucursales__titleSucursales--centrado {
+    padding-top: 10px;
+    font-size: 3.5rem; }
+  .bodyContacto__headerCustom__navCustom .imagenLogoSmall {
+    display: none; } }
+
+/*-----------MQ CONTACTO----------*/
+@media screen and (max-width: 320px) {
+  .bodyContacto .imagenLogo {
+    display: none; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 375px) {
+  .bodyContacto .imagenLogo {
+    display: none; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 425px) {
+  .bodyContacto .imagenLogo {
+    display: none; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.3rem; } }
+
+@media screen and (max-width: 768px) {
+  .bodyContacto .imagenLogoSmall {
+    display: none; }
+  .bodyContacto .imagenLogo {
+    display: flex;
+    font-size: 2.5rem; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.3rem; } }
+
+@media screen and (max-width: 1024px) {
+  .bodyContacto .imagenLogoSmall {
+    display: none; }
+  .bodyContacto .imagenLogo {
+    display: flex;
+    font-size: 2.5rem; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.3rem; } }
+
+@media screen and (max-width: 1440px) {
+  .bodyContacto .imagenLogoSmall {
+    display: none; }
+  .bodyContacto .imagenLogo {
+    display: flex;
+    font-size: 2.5rem; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.3rem; } }
+
+@media screen and (max-width: 2048px) {
+  .bodyContacto .imagenLogoSmall {
+    display: none; }
+  .bodyContacto .imagenLogo {
+    display: flex;
+    font-size: 2.5rem; }
+  .bodyContacto .breadcrumbItem a {
+    font-size: 1.3rem; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62, 5%;
+  font-family: "Heebo", sans-serif; }
+
+main {
+  background-color: #edc999; }
+
+/*-----------------MIXIN TITULO-------------------*/
+/*---------------------------------------------------*/
+.navBreadcrumb {
+  background-color: #cd7700;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.2rem; }
+  .navBreadcrumb .breadcrumbItem a {
+    color: #4d3227; }
+  .navBreadcrumb .breadcrumbItemActive a {
+    color: white; }
+
+.mainIndex {
+  background-color: #edc999;
+  height: 60%; }
+
+.titleIndex {
+  color: #cd7700;
+  font-size: 5rem;
+  font-family: "Heebo", sans-serif;
+  font-size: 3.5rem; }
+
+.btnMainIndex {
+  background-color: #cd7700;
+  font-family: "Heebo", sans-serif;
+  color: #faf2db; }
+
+.pCustomIndex {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.3rem;
+  color: #4d3227;
+  text-align: center; }
+
+.carouselCustom {
+  margin-top: 50px;
+  height: 500px;
+  margin-bottom: 70px;
+  padding-right: 30px; }
+
+.carousel-item .img-fluid {
+  width: 90%; }
+
+.carousel-item a {
+  display: block;
+  width: 100%; }
+
+.navCustom {
+  background-image: linear-gradient(to left, #4d3227, #4d3227);
+  grid-area: header;
+  z-index: 2000;
+  justify-content: center;
+  height: 20%; }
+
+.navbar-brand {
+  font-family: "Heebo", sans-serif;
+  color: #cd7700;
+  font-size: 3rem; }
+
+.navbar-nav {
+  align-content: center;
+  font-family: "Heebo", sans-serif;
+  text-align: center; }
+
+a.nav-link {
+  justify-items: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+  color: #ebc999; }
+  a.nav-link:hover {
+    color: #cd7700; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #cd7700; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ebc999; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #d1ae4e; }
+
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #d1ae4e; }
+
+.navbar-light .navbar-brand {
+  padding-left: 0;
+  color: #cd7700; }
+  .navbar-light .navbar-brand:hover {
+    animation: shakeY;
+    animation-duration: 3s;
+    cursor: pointer;
+    color: #f6b60d; }
+
+.cardIndex {
+  margin-top: 50px;
+  margin-right: 40px;
+  background-color: #ebc999;
+  width: 16rem; }
+
+.cardBodyIndex {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.3rem;
+  text-align: center; }
+
+.fas {
+  color: #4d3227; }
+
+.imagesCardsIndex {
+  font-size: 6rem;
+  padding: 10px;
+  margin: auto; }
+
+.sectionIndex {
+  padding-top: 50px;
+  background-color: #4d3227;
+  height: 600px;
+  padding-bottom: 200px; }
+
+.h2Custom {
+  color: #edc999;
+  font-family: "Heebo", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: #4d3227;
+  font-size: 3rem; }
+
+.pSectionIndex {
+  text-align: center;
+  color: #edc999;
+  font-size: 1.5rem; }
+
+/*-------------------------------BUCLE FOR------------------------------*/
+.pCards-1 {
+  font-size: 1.2rem;
+  color: #4d3227; }
+
+.pCards-2 {
+  font-size: 1.2rem;
+  color: #4d3227; }
+
+.pCards-3 {
+  font-size: 1.2rem;
+  color: #4d3227; }
+
+.pCards-4 {
+  font-size: 1.2rem;
+  color: #4d3227; }
+
+/*------------------------------FIN FOR----------------------------------*/
+.container {
+  margin-top: 100px; }
+
+.counter-box {
+  display: block;
+  background: #f6f6f6;
+  padding: 20px;
+  text-align: center;
+  background-color: #cd7700; }
+  .counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #4d3227;
+    font-size: 18px;
+    font-weight: 500; }
+  .counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #4d3227; }
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4d3227;
+  line-height: 28px; }
+
+.footer {
+  background-color: #cd7700;
+  color: #4d3227;
+  font-size: 1.5rem;
+  clear: both;
+  height: 10vh;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  height: 20%; }
+  .footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    background-color: #cd7700; }
+    .footer ul a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.8; }
+      .footer ul a:hover {
+        text-decoration: underline; }
+  .footer li {
+    padding: 0 10px; }
+  .footer .footer__social {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .footer .footer__social > a {
+      font-size: 40px;
+      width: 60px;
+      height: 60px;
+      line-height: 40px;
+      border-radius: 100px solid white;
+      display: inline-block;
+      justify-content: center;
+      text-align: center;
+      margin: 0 8px;
+      color: white;
+      opacity: 0.75; }
+  .footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #4d3227;
+    margin-bottom: 0;
+    font-size: 1rem; }
+
+.footer__social--instagram:hover {
+  background: linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  animation: pulse;
+  animation-duration: 1s;
+  cursor: pointer; }
+
+.footer__social--whatsapp:hover {
+  background-color: #25d366;
+  animation: pulse;
+  animation-duration: 1s;
+  cursor: pointer; }
+
+.footer__social--twitter:hover {
+  background-color: #1da1f2;
+  animation: pulse;
+  animation-duration: 1s;
+  cursor: pointer; }
+
+.copyright {
+  background-color: #cd7700;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  color: #4d3227; }
+
+/*------NOSOTROS------*/
+.contenedorNosotros {
+  width: 95%;
+  height: 100vh;
+  font-family: "Heebo", sans-serif; }
+  .contenedorNosotros .titleNosotros {
+    color: #cd7700;
+    font-size: 5rem;
+    font-family: "Heebo", sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: auto; }
+  .contenedorNosotros .nosotros__articuloNosotros {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #4d3227;
+    padding-bottom: 20px; }
+  .contenedorNosotros .nosotros__nuestra_mision__h2 {
+    color: #edc999;
+    font-family: "Heebo", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #4d3227;
+    background-color: #cd7700;
+    letter-spacing: 0.8rem; }
+  .contenedorNosotros .nosotros__nuestra_mision__articulo {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.3rem;
+    text-align: left;
+    color: #4d3227;
+    padding-bottom: 20px;
+    line-height: 2rem; }
+  .contenedorNosotros .imagenNosotros {
+    width: 46.25rem;
+    height: 18rem;
+    margin-bottom: 5vh; }
+  .contenedorNosotros .nosotros__articuloValores {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #4d3227;
+    padding-bottom: 20px; }
+    .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores {
+      list-style-image: url("../multimedia/imagenItem.png"); }
+      .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li {
+        line-height: 2.5rem; }
+        .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li .spanResaltado {
+          background-color: #cd7700;
+          color: #4d3227; }
+  .contenedorNosotros .imagenNosotros2 {
+    width: 46.25rem;
+    height: 21.56rem; }
+
+.menuDropDownNosotros {
+  background-color: #cd7700;
+  font-size: 1.3rem; }
+
+.menuDropDownNosotros__item--quienesSomos:hover {
+  text-decoration: underline; }
+
+.menuDropDownNosotros__item--mision:hover {
+  text-decoration: underline; }
+
+.menuDropDownNosotros__item--valores:hover {
+  text-decoration: underline; }
+
+/*------SUCURSALES-------*/
+.mainSucursales {
+  width: 100%; }
+  .mainSucursales .mainSucursales__titleSucursales--centrado {
+    color: #cd7700;
+    font-size: 5rem;
+    font-family: "Heebo", sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px; }
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 30vh; }
+
+.btnMapaModal {
+  background-color: #cd7700;
+  color: white; }
+  .btnMapaModal:hover {
+    background-color: white;
+    color: #cd7700; }
+
+/*--------TIENDA-----------*/
+.contenedorMain__centrar__titleTienda {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-family: "Heebo", sans-serif;
+  font-size: 5rem !important;
+  color: #cd7700; }
+
+.modalContentCustom__modalHeaderCustom {
+  background-color: #cd7700;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem; }
+
+.modalContentCustom__modalBodyCustom {
+  font-family: "Heebo", sans-serif; }
+
+.modalFooter__botonCancelar--rojo {
+  background-color: red;
+  color: white; }
+
+.modalFooter__botonComprar--verde {
+  background-color: green;
+  color: white; }
+
+/*-----------------------------MAPS---------------------------------*/
+/*-----------------------------EACH---------------------------------*/
+.green-background {
+  color: white;
+  background-color: green;
+  border-color: green; }
+  .green-background:hover {
+    background-color: white;
+    border-radius: 2px solid green;
+    color: green; }
+
+.orange-background {
+  color: white;
+  background-color: orange;
+  border-color: orange; }
+  .orange-background:hover {
+    background-color: white;
+    border-radius: 2px solid orange;
+    color: orange; }
+
+.blue-background {
+  color: white;
+  background-color: blue;
+  border-color: blue; }
+  .blue-background:hover {
+    background-color: white;
+    border-radius: 2px solid blue;
+    color: blue; }
+
+.red-background {
+  color: white;
+  background-color: red;
+  border-color: red; }
+  .red-background:hover {
+    background-color: white;
+    border-radius: 2px solid red;
+    color: red; }
+
+/*------------------------FIN EACH----------------------------------*/
+.estiloPrecioCafé {
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem; }
+
+.cardsBody {
+  background-color: #5c453c;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  border-radius: 20px;
+  margin-bottom: 2vh; }
+  .cardsBody:hover {
+    background-color: #947265;
+    cursor: pointer; }
+  .cardsBody .btnComprar {
+    margin-bottom: 2.5vh;
+    font-family: "Heebo", sans-serif; }
+
+/*------------------------*/
+/*--------CONTACTO---------*/
+.bodyContacto__headerCustom__navCustom {
+  background-image: linear-gradient(to left, #4d3227, #4d3227);
+  grid-area: header;
+  z-index: 2000;
+  justify-content: center;
+  height: 20%; }
+
+.mainContacto {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../multimedia/patron_cafe.jpg);
+  background-repeat: repeat; }
+  .mainContacto .form-box {
+    font-family: "Heebo", sans-serif;
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    color: white;
+    background: #cd7700;
+    border: 10px solid #f2f2f2; }
+  .mainContacto h1,
+  .mainContacto p {
+    text-align: center; }
+  .mainContacto textarea {
+    width: 100%;
+    margin-bottom: 2rem; }
+  .mainContacto .btnEnviarFormulario {
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f77638;
+    color: white;
+    border-color: white;
+    justify-items: center; }
+    .mainContacto .btnEnviarFormulario:hover {
+      background-color: white;
+      color: #f77638;
+      border-color: #f77638; }
+  .mainContacto .btnCancelarFormulario {
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border-color: white;
+    justify-items: center; }
+    .mainContacto .btnCancelarFormulario:hover {
+      background-color: white;
+      color: red;
+      border-color: red; }

@@ -1,0 +1,20 @@
+header{
+    .navCustom{
+        background-image: linear-gradient(to left, #4d3227, #4d3227);
+        grid-area: header;
+        z-index: 2000;
+        justify-content: center;
+        height: 20%;
+    }
+    a{
+        .nav-link{
+            justify-items: center;
+            font-family: "Heebo", sans-serif;
+            font-size: 1.5rem;
+            color: #ebc999;
+            &:hover{
+                color: #cd7700;
+            }
+        }
+    }
+}
