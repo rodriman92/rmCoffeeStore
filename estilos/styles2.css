@@ -610,7 +610,8 @@ main {
   font-weight: 600;
   margin: auto;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  color: #593636; }
 
 .btnMainIndex {
   background-color: #F2DA63;
