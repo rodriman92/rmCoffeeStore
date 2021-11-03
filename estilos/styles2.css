@@ -729,11 +729,6 @@ body {
   justify-content: center;
   height: 40%; }
 
-.navbar-brand {
-  font-family: "Heebo", sans-serif;
-  color: #593636;
-  font-size: 5rem; }
-
 .navbar-nav {
   align-content: center;
   font-family: "Heebo", sans-serif;
@@ -742,7 +737,7 @@ body {
 a.nav-link {
   justify-items: center;
   font-family: "Heebo", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #ebc999; }
   a.nav-link:hover {
     color: #F2DA63; }
@@ -757,7 +752,7 @@ a.nav-link {
 
 .navbar-light .navbar-brand {
   padding-left: 2vw;
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: #F2DA63; }
 
 /*--------------------LOGO NEON----------------*/
@@ -765,26 +760,23 @@ a.nav-link {
   --neon-text-color: #f40;
   --neon-border-color: #08f; }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 100;
+.logoNeon {
+  font-family: "Exo 2", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
   font-style: italic;
   color: #fff;
-  padding: 4rem 6rem 5.5rem;
-  border: 0.4rem solid #fff;
+  padding: 2rem 2rem 2rem 1rem;
+  border: 0.3rem solid #fff;
   border-radius: 1rem;
   text-transform: uppercase;
   animation: flicker 1.5s infinite alternate; }
 
-h1::-moz-selection {
+.logoNeon::-moz-selection {
   background-color: var(--neon-border-color);
   color: var(--neon-text-color); }
 
-h1::selection {
-  background-color: var(--neon-border-color);
-  color: var(--neon-text-color); }
-
-h1:focus {
+.logoNeon:focus {
   outline: none; }
 
 /* Animate neon flicker */
