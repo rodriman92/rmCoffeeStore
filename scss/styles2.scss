@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 @import "variables";
 @import "mediaquery";
 
@@ -45,10 +45,12 @@ main {
 	background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	height: 40%;
 }
-.titleIndex {
-	@include titulosSecciones($color-titulo, $fuente);
-	font-size: 6rem;
-	margin-top: 18vh;
+.h1Index{
+	font-size: 4rem;
+	font-weight: 600;
+	margin: auto;
+	text-align: center;
+	justify-content: center;
 }
 .btnMainIndex {
 	background-color: $color-principal;
@@ -147,22 +149,77 @@ body {
 
 /*----------CAROUSEL IMAGENES INDEX-------------*/
 
-/*----------------------------------------------*/
-.carouselCustom {
-	margin-top: 50px;
-	height: 500px;
-	margin-bottom: 70px;
-	padding-right: 30px;
+.container {
+    transform-style: preserve-3d
 }
-.carousel-item {
-	.img-fluid {
-		width: 90%;
-	}
-	a {
-		display: block;
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease
+}
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+	img{
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: 100%;
+		height: 100%;
+		object-fit: cover
 	}
 }
+
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg)
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #593636, #F2DA63);
+    transform: translateZ(100px);
+	h3{
+		letter-spacing: 1px
+	}
+}
+
+
+/*----------------------------------------------*/
+
 .navCustom {
 	background-image: linear-gradient(to left, $color-navbar, $color-navbar);
 	z-index: 2000;
@@ -212,12 +269,12 @@ a.nav-link {
   }
   
 .logoNeon {
-font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 3.2rem;
   font-weight: 400;
   font-style: italic;
   color: #fff;
-  padding: 2rem 2rem 2rem 1rem;
+  padding-right: 2vw;
   border: 0.3rem solid #fff;
   border-radius: 1rem;
   text-transform: uppercase;
@@ -284,7 +341,7 @@ font-family: "Exo 2", sans-serif;
 .sectionIndex {
 	padding-top: 2vh;
 	background-color: $color-section;
-	height: 100vh;
+	height: 30%;
 	padding-bottom: 10vh;
 }
 .h2Custom {
@@ -300,11 +357,15 @@ font-family: "Exo 2", sans-serif;
 	color: #edc999;
 	font-size: 1.5rem;
 }
-.imgSectionIndex{
-	margin-top: 0;
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
 	width: 95%;
-	height: 45vh;
-}
+	height: 100%;
+	margin: 0;
+  }
+
 /*-------------------------------BUCLE FOR------------------------------*/
 @for $i from 1 through 4 {
 	.pCards-#{$i} {

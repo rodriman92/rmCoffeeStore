@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 /*----------MQ Index----------*/
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 @media screen and (min-width: 280px) and (max-width: 320px) {
@@ -605,12 +605,12 @@ main {
   background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 40%; }
 
-.titleIndex {
-  color: #F28627;
-  font-size: 5rem;
-  font-family: "Heebo", sans-serif;
-  font-size: 6rem;
-  margin-top: 18vh; }
+.h1Index {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  justify-content: center; }
 
 .btnMainIndex {
   background-color: #F2DA63;
@@ -709,20 +709,65 @@ body {
 
 /*-----------------------------------------*/
 /*----------CAROUSEL IMAGENES INDEX-------------*/
+.container {
+  transform-style: preserve-3d; }
+
+.container .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer; }
+
+.container .box .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.9s ease; }
+
+.container .box .body .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; }
+  .container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.container .box .body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg); }
+
+.container .box:hover .body {
+  transform: rotateY(180deg); }
+
+.container .box .body .content div {
+  transform-style: preserve-3d;
+  padding: 20px;
+  background: linear-gradient(45deg, #593636, #F2DA63);
+  transform: translateZ(100px); }
+  .container .box .body .content div h3 {
+    letter-spacing: 1px; }
+
 /*----------------------------------------------*/
-.carouselCustom {
-  margin-top: 50px;
-  height: 500px;
-  margin-bottom: 70px;
-  padding-right: 30px; }
-
-.carousel-item .img-fluid {
-  width: 90%; }
-
-.carousel-item a {
-  display: block;
-  width: 100%; }
-
 .navCustom {
   background-image: linear-gradient(to left, #593636, #593636);
   z-index: 2000;
@@ -766,7 +811,7 @@ a.nav-link {
   font-weight: 400;
   font-style: italic;
   color: #fff;
-  padding: 2rem 2rem 2rem 1rem;
+  padding-right: 2vw;
   border: 0.3rem solid #fff;
   border-radius: 1rem;
   text-transform: uppercase;
@@ -811,7 +856,7 @@ a.nav-link {
 .sectionIndex {
   padding-top: 2vh;
   background-color: #D9A036;
-  height: 100vh;
+  height: 30%;
   padding-bottom: 10vh; }
 
 .h2Custom {
@@ -827,10 +872,12 @@ a.nav-link {
   color: #edc999;
   font-size: 1.5rem; }
 
-.imgSectionIndex {
-  margin-top: 0;
+.img-responsive {
+  display: block;
+  max-width: 100%;
   width: 95%;
-  height: 45vh; }
+  height: 100%;
+  margin: 0; }
 
 /*-------------------------------BUCLE FOR------------------------------*/
 .pCards-1 {
