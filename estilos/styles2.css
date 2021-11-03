@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
 /*----------MQ Index----------*/
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
 @media screen and (min-width: 280px) and (max-width: 320px) {
   .navbar-light {
     width: 100%; }
@@ -31,7 +33,7 @@
     .sectionIndex .rowSectionIndex {
       height: 60vh; }
       .sectionIndex .rowSectionIndex .h2Custom {
-        color: #cd7700;
+        color: #F28627;
         font-size: 1rem; }
       .sectionIndex .rowSectionIndex .pSectionIndex {
         font-size: 1rem; }
@@ -68,7 +70,7 @@
     .sectionIndex .rowSectionIndex {
       height: 60vh; }
       .sectionIndex .rowSectionIndex .h2Custom {
-        color: #cd7700;
+        color: #F28627;
         font-size: 1rem; }
       .sectionIndex .rowSectionIndex .pSectionIndex {
         font-size: 1rem; }
@@ -105,7 +107,7 @@
     .sectionIndex .rowSectionIndex {
       height: 60vh; }
       .sectionIndex .rowSectionIndex .h2Custom {
-        color: #cd7700;
+        color: #F28627;
         font-size: 1rem; }
       .sectionIndex .rowSectionIndex .pSectionIndex {
         font-size: 1rem; }
@@ -119,7 +121,7 @@
     .sectionIndex .rowSectionIndex {
       height: 60vh; }
       .sectionIndex .rowSectionIndex .h2Custom {
-        color: #cd7700;
+        color: #F28627;
         font-size: 1rem; }
       .sectionIndex .rowSectionIndex .pSectionIndex {
         font-size: 1rem; }
@@ -163,7 +165,7 @@
   .navbar-light .navbar-brand {
     padding-left: 0; }
   .navbar-light .navbar-nav .nav-link {
-    color: #cd7700;
+    color: #F2DA63;
     font-size: 1.3rem; }
     .navbar-light .navbar-nav .nav-link:hover {
       color: #ebc999; }
@@ -520,6 +522,60 @@
   .bodyContacto .breadcrumbItem a {
     font-size: 1.3rem; } }
 
+/*---------------MQ CAROUSEL INICIO----------*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 20pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 25pt;
+    text-align: center;
+    margin-top: -20px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 765px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 25pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 38pt;
+    text-align: center;
+    margin-top: -20px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 30pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 5px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: right;
+    font-size: 30pt; }
+  .slideCol {
+    font-size: 55pt;
+    text-align: left; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -532,10 +588,12 @@ html {
 main {
   background-color: #edc999; }
 
+/*---------LOGO CAFE ANIMADO----------*/
+/*-------------------------------------*/
 /*-----------------MIXIN TITULO-------------------*/
 /*---------------------------------------------------*/
 .navBreadcrumb {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   font-family: "Heebo", sans-serif;
   font-size: 1.2rem; }
   .navBreadcrumb .breadcrumbItem a {
@@ -544,17 +602,18 @@ main {
     color: white; }
 
 .mainIndex {
-  background-color: #edc999;
-  height: 60%; }
+  background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 40%; }
 
 .titleIndex {
-  color: #cd7700;
+  color: #F28627;
   font-size: 5rem;
   font-family: "Heebo", sans-serif;
-  font-size: 3.5rem; }
+  font-size: 6rem;
+  margin-top: 18vh; }
 
 .btnMainIndex {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   font-family: "Heebo", sans-serif;
   color: #faf2db; }
 
@@ -564,6 +623,93 @@ main {
   color: #4d3227;
   text-align: center; }
 
+/*------------CAROUSEL TEXTO INICIO----------------*/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 13pt !important;
+  font-weight: 300 !important; }
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important; }
+
+.carouselInner {
+  margin-top: 0; }
+
+#myPageContent, section {
+  height: 50% !important;
+  width: 100% !important; }
+
+/* Slider */
+#textSlider.row {
+  position: absolute;
+  top: 10%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+
+#textSlider div {
+  color: #4d3227;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-top: 10%; }
+
+.iamCol {
+  text-align: right;
+  float: left;
+  font-weight: 300;
+  font-size: 10rem; }
+
+.iamCol p:nth-child(2) {
+  margin-top: -20pt !important; }
+
+.slideCol {
+  text-align: left;
+  overflow: hidden;
+  font-weight: 900;
+  font-size: 6rem;
+  display: block;
+  white-space: nowrap; }
+
+.slideCol p {
+  margin: 0px !important; }
+
+.scroller {
+  height: 10vh;
+  line-height: 10vh;
+  overflow: hidden; }
+
+.scroller .inner {
+  animation: 10s normal infinite running scroll; }
+
+@keyframes scroll {
+  0% {
+    margin-top: 0px; }
+  15% {
+    margin-top: 0px; }
+  25% {
+    margin-top: -70pt; }
+  40% {
+    margin-top: -70pt; }
+  50% {
+    margin-top: -140pt; }
+  65% {
+    margin-top: -140pt; }
+  75% {
+    margin-top: -210pt; }
+  90% {
+    margin-top: -210pt; }
+  100% {
+    margin-top: 0px; } }
+
+/*-----------------------------------------*/
+/*----------CAROUSEL IMAGENES INDEX-------------*/
+/*----------------------------------------------*/
 .carouselCustom {
   margin-top: 50px;
   height: 500px;
@@ -578,16 +724,15 @@ main {
   width: 100%; }
 
 .navCustom {
-  background-image: linear-gradient(to left, #4d3227, #4d3227);
-  grid-area: header;
+  background-image: linear-gradient(to left, #593636, #593636);
   z-index: 2000;
   justify-content: center;
-  height: 20%; }
+  height: 40%; }
 
 .navbar-brand {
   font-family: "Heebo", sans-serif;
-  color: #cd7700;
-  font-size: 3rem; }
+  color: #593636;
+  font-size: 5rem; }
 
 .navbar-nav {
   align-content: center;
@@ -600,28 +745,58 @@ a.nav-link {
   font-size: 1.5rem;
   color: #ebc999; }
   a.nav-link:hover {
-    color: #cd7700; }
+    color: #F2DA63; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #cd7700; }
+  color: #F2DA63; }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ebc999; }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #d1ae4e; }
 
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #d1ae4e; }
-
 .navbar-light .navbar-brand {
-  padding-left: 0;
-  color: #cd7700; }
-  .navbar-light .navbar-brand:hover {
-    animation: shakeY;
-    animation-duration: 3s;
-    cursor: pointer;
-    color: #f6b60d; }
+  padding-left: 2vw;
+  font-size: 3rem;
+  color: #F2DA63; }
 
+/*--------------------LOGO NEON----------------*/
+:root {
+  --neon-text-color: #f40;
+  --neon-border-color: #08f; }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  font-style: italic;
+  color: #fff;
+  padding: 4rem 6rem 5.5rem;
+  border: 0.4rem solid #fff;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  animation: flicker 1.5s infinite alternate; }
+
+h1::-moz-selection {
+  background-color: var(--neon-border-color);
+  color: var(--neon-text-color); }
+
+h1::selection {
+  background-color: var(--neon-border-color);
+  color: var(--neon-text-color); }
+
+h1:focus {
+  outline: none; }
+
+/* Animate neon flicker */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff, 0 0 2rem var(--neon-text-color), 0 0 4rem var(--neon-text-color), 0 0 6rem var(--neon-text-color), 0 0 8rem var(--neon-text-color), 0 0 10rem var(--neon-text-color);
+    box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 2rem var(--neon-border-color), inset 0 0 2rem var(--neon-border-color), 0 0 4rem var(--neon-border-color), inset 0 0 4rem var(--neon-border-color); }
+  20%, 24%, 55% {
+    text-shadow: none;
+    box-shadow: none; } }
+
+/*----------------------------------------------*/
 .cardIndex {
   margin-top: 50px;
   margin-right: 40px;
@@ -634,7 +809,7 @@ a.nav-link {
   text-align: center; }
 
 .fas {
-  color: #4d3227; }
+  color: #402624; }
 
 .imagesCardsIndex {
   font-size: 6rem;
@@ -642,17 +817,17 @@ a.nav-link {
   margin: auto; }
 
 .sectionIndex {
-  padding-top: 50px;
-  background-color: #4d3227;
-  height: 600px;
-  padding-bottom: 200px; }
+  padding-top: 2vh;
+  background-color: #D9A036;
+  height: 100vh;
+  padding-bottom: 10vh; }
 
 .h2Custom {
-  color: #edc999;
+  color: #A6691F;
   font-family: "Heebo", sans-serif;
   font-size: 4rem;
   text-align: center;
-  color: #4d3227;
+  color: #402624;
   font-size: 3rem; }
 
 .pSectionIndex {
@@ -660,53 +835,31 @@ a.nav-link {
   color: #edc999;
   font-size: 1.5rem; }
 
+.imgSectionIndex {
+  margin-top: 0;
+  width: 95%;
+  height: 45vh; }
+
 /*-------------------------------BUCLE FOR------------------------------*/
 .pCards-1 {
   font-size: 1.2rem;
-  color: #4d3227; }
+  color: #402624; }
 
 .pCards-2 {
   font-size: 1.2rem;
-  color: #4d3227; }
+  color: #402624; }
 
 .pCards-3 {
   font-size: 1.2rem;
-  color: #4d3227; }
+  color: #402624; }
 
 .pCards-4 {
   font-size: 1.2rem;
-  color: #4d3227; }
+  color: #402624; }
 
 /*------------------------------FIN FOR----------------------------------*/
-.container {
-  margin-top: 100px; }
-
-.counter-box {
-  display: block;
-  background: #f6f6f6;
-  padding: 20px;
-  text-align: center;
-  background-color: #cd7700; }
-  .counter-box p {
-    margin: 5px 0 0;
-    padding: 0;
-    color: #4d3227;
-    font-size: 18px;
-    font-weight: 500; }
-  .counter-box i {
-    font-size: 60px;
-    margin: 0 0 15px;
-    color: #4d3227; }
-
-.counter {
-  display: block;
-  font-size: 32px;
-  font-weight: 700;
-  color: #4d3227;
-  line-height: 28px; }
-
 .footer {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   color: #4d3227;
   font-size: 1.5rem;
   clear: both;
@@ -721,7 +874,7 @@ a.nav-link {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 0;
-    background-color: #cd7700; }
+    background-color: #F2DA63; }
     .footer ul a {
       color: inherit;
       text-decoration: none;
@@ -773,12 +926,13 @@ a.nav-link {
   cursor: pointer; }
 
 .copyright {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   padding-top: 30px;
   text-align: center;
   font-family: "Heebo", sans-serif;
   font-weight: bold;
-  color: #4d3227; }
+  color: #4d3227;
+  margin: 0; }
 
 /*------NOSOTROS------*/
 .contenedorNosotros {
@@ -786,7 +940,7 @@ a.nav-link {
   height: 100vh;
   font-family: "Heebo", sans-serif; }
   .contenedorNosotros .titleNosotros {
-    color: #cd7700;
+    color: #F28627;
     font-size: 5rem;
     font-family: "Heebo", sans-serif;
     align-items: center;
@@ -804,7 +958,7 @@ a.nav-link {
     font-size: 2.5rem;
     text-align: center;
     color: #4d3227;
-    background-color: #cd7700;
+    background-color: #F2DA63;
     letter-spacing: 0.8rem; }
   .contenedorNosotros .nosotros__nuestra_mision__articulo {
     font-family: "Heebo", sans-serif;
@@ -828,14 +982,14 @@ a.nav-link {
       .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li {
         line-height: 2.5rem; }
         .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li .spanResaltado {
-          background-color: #cd7700;
+          background-color: #F2DA63;
           color: #4d3227; }
   .contenedorNosotros .imagenNosotros2 {
     width: 46.25rem;
     height: 21.56rem; }
 
 .menuDropDownNosotros {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   font-size: 1.3rem; }
 
 .menuDropDownNosotros__item--quienesSomos:hover {
@@ -851,7 +1005,7 @@ a.nav-link {
 .mainSucursales {
   width: 100%; }
   .mainSucursales .mainSucursales__titleSucursales--centrado {
-    color: #cd7700;
+    color: #F28627;
     font-size: 5rem;
     font-family: "Heebo", sans-serif;
     align-items: center;
@@ -865,11 +1019,11 @@ a.nav-link {
   height: 30vh; }
 
 .btnMapaModal {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   color: white; }
   .btnMapaModal:hover {
     background-color: white;
-    color: #cd7700; }
+    color: #F2DA63; }
 
 /*--------TIENDA-----------*/
 .contenedorMain__centrar__titleTienda {
@@ -878,10 +1032,10 @@ a.nav-link {
   margin: auto;
   font-family: "Heebo", sans-serif;
   font-size: 5rem !important;
-  color: #cd7700; }
+  color: #F28627; }
 
 .modalContentCustom__modalHeaderCustom {
-  background-color: #cd7700;
+  background-color: #F2DA63;
   color: white;
   font-family: "Heebo", sans-serif;
   font-size: 2rem; }
@@ -973,7 +1127,7 @@ a.nav-link {
     margin: auto;
     padding: 50px;
     color: white;
-    background: #cd7700;
+    background: #F2DA63;
     border: 10px solid #f2f2f2; }
   .mainContacto h1,
   .mainContacto p {
