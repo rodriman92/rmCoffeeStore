@@ -4,7 +4,7 @@
         width: 100%;
         .container-fluid{
             width: 100%;
-            .imagenLogo{
+            .logoNeon{
                 display: none;
                 font-size: 1rem;
             }
@@ -31,6 +31,14 @@
         .titleIndex{
             font-size: 2rem;
             margin-top: 5px;
+        }
+        .scroller{
+            font-size: 3rem;
+            width: 90%;
+            .inner{
+                text-align: center;
+                width: 50%;
+            }
         }
         .btn{
             width: 50%;
