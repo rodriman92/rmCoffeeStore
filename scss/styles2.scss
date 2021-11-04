@@ -23,18 +23,17 @@ main {
 	font-family: $fuente;
 }
 /*---------------------------------------------------*/
-.navBreadcrumb{
-	background-color:  $color-principal;;
+.navBreadcrumb {
+	background-color: $color-principal;
 	font-family: $fuente;
 	font-size: 1.2rem;
-	.breadcrumbItem{
-		a{
-			color: #4d3227
+	.breadcrumbItem {
+		a {
+			color: #4d3227;
 		}
-		
 	}
-	.breadcrumbItemActive{
-		a{
+	.breadcrumbItemActive {
+		a {
 			color: white;
 		}
 	}
@@ -43,7 +42,7 @@ main {
 	background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	height: 40%;
 }
-.h1Index{
+.h1Index {
 	font-size: 4rem;
 	font-weight: 600;
 	margin: auto;
@@ -65,30 +64,31 @@ main {
 
 /*------------CAROUSEL TEXTO INICIO----------------*/
 
-html, body {
+html,
+body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 }
 
 body {
-	font-family:'Lato', sans-serif !important;
+	font-family: "Lato", sans-serif !important;
 	font-size: 13pt !important;
 	font-weight: 300 !important;
 }
 
 .container-fluid {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }
-.carouselInner{
+.carouselInner {
 	margin-top: 0;
 }
-#myPageContent, section { 
-	height:50% !important; 
-	width:100% !important;
+#myPageContent,
+section {
+	height: 50% !important;
+	width: 100% !important;
 }
-
 
 /* Slider */
 #textSlider.row {
@@ -100,53 +100,76 @@ body {
 }
 #textSlider div {
 	color: #4d3227;
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
 	margin-top: 10%;
 }
 
 .iamCol {
-    text-align: right;
+	text-align: right;
 	float: left;
 	font-weight: 300;
-	font-size:10rem;
+	font-size: 10rem;
 }
-.iamCol p:nth-child(2) { margin-top: -20pt !important; }
+.iamCol p:nth-child(2) {
+	margin-top: -20pt !important;
+}
 .slideCol {
 	text-align: left;
-    overflow: hidden;
+	overflow: hidden;
 	font-weight: 900;
-	font-size:6rem;
+	font-size: 6rem;
 	display: block;
 	white-space: nowrap;
 }
-.slideCol p { margin: 0px !important; }
+.slideCol p {
+	margin: 0px !important;
+}
 
 .scroller {
-   height: 10vh;
-   line-height: 10vh;
-   overflow: hidden;
+	height: 10vh;
+	line-height: 10vh;
+	overflow: hidden;
 }
-.scroller .inner { animation: 10s normal infinite running scroll; 
+.scroller .inner {
+	animation: 10s normal infinite running scroll;
 }
 @keyframes scroll {
-   0%{margin-top: 0px;}
-   15%{margin-top: 0px;}
-   25%{margin-top: -70pt;}
-   40%{margin-top: -70pt;}
-   50%{margin-top: -140pt;}
-   65%{margin-top: -140pt;}
-   75%{margin-top: -210pt;}
-   90%{margin-top: -210pt;}
-   100% {margin-top: 0px;}
+	0% {
+		margin-top: 0px;
+	}
+	15% {
+		margin-top: 0px;
+	}
+	25% {
+		margin-top: -70pt;
+	}
+	40% {
+		margin-top: -70pt;
+	}
+	50% {
+		margin-top: -140pt;
+	}
+	65% {
+		margin-top: -140pt;
+	}
+	75% {
+		margin-top: -210pt;
+	}
+	90% {
+		margin-top: -210pt;
+	}
+	100% {
+		margin-top: 0px;
+	}
 }
 
 /*-----------------------------------------*/
 
 /*----------CAROUSEL IMAGENES INDEX-------------*/
-.container{
+.container {
 	transform-style: preserve-3d;
-	.box{
+	.box {
 		position: relative;
 		width: 300px;
 		height: 300px;
@@ -154,13 +177,13 @@ body {
 		transform-style: preserve-3d;
 		perspective: 1000px;
 		cursor: pointer;
-		&:hover{
-			.body{
+		&:hover {
+			.body {
 				transform: rotateY(180deg);
 			}
 		}
 	}
-	.body{
+	.body {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -175,7 +198,7 @@ body {
 			width: 100%;
 			height: 100%;
 			transform-style: preserve-3d;
-			img{
+			img {
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -184,7 +207,7 @@ body {
 				object-fit: cover;
 			}
 		}
-		.content{
+		.content {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -194,18 +217,18 @@ body {
 			backface-visibility: hidden;
 			transform-style: preserve-3d;
 			transform: rotateY(180deg);
-			div{
+			div {
 				transform-style: preserve-3d;
 				padding: 20px;
-				background: linear-gradient(45deg, #593636, #F2DA63);
+				background: linear-gradient(45deg, #593636, #f2da63);
 				transform: translateZ(100px);
-				h3{
+				h3 {
 					letter-spacing: 1px;
 				}
 			}
 		}
 	}
-} 
+}
 
 /*------------------------------------------------------------------------------------*/
 
@@ -216,7 +239,6 @@ body {
 	height: 40%;
 }
 .navbar-nav {
-	
 	align-content: center;
 	font-family: $fuente;
 	text-align: center;
@@ -241,7 +263,6 @@ a.nav-link {
 		.nav-link.active {
 			color: #d1ae4e;
 		}
-		
 	}
 	.navbar-brand {
 		padding-left: 2vw;
@@ -256,21 +277,21 @@ a.nav-link {
 	font-weight: 600;
 	font-size: 4rem;
 	font-family: "Lato";
-	background: linear-gradient(to right, #F2DA63 20%, #D9A036 40%, #D9A036 60%, #F2DA63 80%);
+	background: linear-gradient(to right, #f2da63 20%, #d9a036 40%, #d9a036 60%, #f2da63 80%);
 	background-size: 200% auto;
-	
+
 	color: #000;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
+
 	animation: shine 1s linear infinite;
 	@keyframes shine {
-	  to {
-		background-position: 200% center;
-	  }
+		to {
+			background-position: 200% center;
+		}
 	}
-  }
+}
 /*----------------------------------------------*/
 .cardIndex {
 	margin-top: 50px;
@@ -317,7 +338,7 @@ a.nav-link {
 	width: 95%;
 	height: 100%;
 	margin: 0;
-  }
+}
 
 /*-------------------------------BUCLE FOR------------------------------*/
 @for $i from 1 through 4 {
