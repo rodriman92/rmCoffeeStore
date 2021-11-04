@@ -12,10 +12,6 @@ html {
 	font-size: 62, 5%;
 	font-family: $fuente;
 }
-main {
-	background-color: #edc999;
-}
-
 /*-----------------MIXIN TITULO-------------------*/
 @mixin titulosSecciones($color, $fuente) {
 	color: $color;
@@ -24,12 +20,13 @@ main {
 }
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
-	background-color: $color-principal;
+	padding-left: 2vw;
+	background-color: $color-navbar;
 	font-family: $fuente;
 	font-size: 1.2rem;
 	.breadcrumbItem {
 		a {
-			color: #4d3227;
+			color: $color-principal;
 		}
 	}
 	.breadcrumbItemActive {
@@ -157,7 +154,7 @@ section {
 /*---------------------NAVBAR----------------------------------------------------*/
 
 .navCustom {
-	background-image: linear-gradient(to left, $color-navbar, $color-navbar);
+	background-image: linear-gradient(to right, $color-navbar, black);
 	z-index: 2000;
 	justify-content: center;
 	height: 40%;
@@ -417,68 +414,85 @@ a.nav-link {
   }
 /*--------------------------------------------------------------------------------------------------*/
 /*-----------------------------------NOSOTROS--------------------------------------*/
-
-.contenedorNosotros {
-	width: 95%;
-	height: 100vh;
-	font-family: $fuente;
-	.titleNosotros {
-		@include titulosSecciones($color-titulo, $fuente);
-		align-items: center;
-		text-align: center;
-		margin: auto;
-	}
-	.nosotros__articuloNosotros {
-		font-family: $fuente;
-		font-size: 1.3rem;
-		text-align: justify;
-		color: #4d3227;
-		padding-bottom: 20px;
-	}
-	.nosotros__nuestra_mision__h2 {
-		color: #edc999;
-		font-family: $fuente;
-		font-size: 2.5rem;
-		text-align: center;
-		color: #4d3227;
-		background-color: $color-principal;
-		letter-spacing: 0.8rem;
-	}
-	.nosotros__nuestra_mision__articulo {
-		font-family: $fuente;
-		font-size: 1.3rem;
-		text-align: left;
-		color: #4d3227;
-		padding-bottom: 20px;
-		line-height: 2rem;
-	}
-	.imagenNosotros {
-		width: 46.25rem;
-		height: 18rem;
-		margin-bottom: 5vh;
-	}
-	.nosotros__articuloValores {
-		font-family: $fuente;
-		font-size: 1.3rem;
-		text-align: justify;
-		color: #4d3227;
-		padding-bottom: 20px;
-		.nosotros__articuloValores__listaValores {
-			list-style-image: url("../multimedia/imagenItem.png");
-			li {
-				line-height: 2.5rem;
-				.spanResaltado {
-					background-color: $color-principal;
-					color: #4d3227;
-				}
+.bodyNosotros{
+	background-image: linear-gradient(to right, $color-principal, $color-section);
+	.mainNosotros{
+		height: auto;
+		.contenedorNosotros {
+			width: 80%;
+			height: 30vh;
+			font-family: $fuente;
+			.titleNosotros {
+				@include titulosSecciones($color-navbar, $fuente);
+				align-items: center;
+				text-align: center;
+				margin: auto;
+			}
+			.articleNosotros1{
+	
+				text-align: center;
 			}
 		}
 	}
-	.imagenNosotros2 {
-		width: 46.25rem;
-		height: 21.56rem;
+	.articleNosotros{
+		.h2Nosotros{
+			font-size: 3rem;
+			text-align: center;
+			color: $color-navbar;
+			font-weight: 600;
+		}
+		.card {
+			border-radius: 20px;
+			background: $color-navbar;
+			border: none;
+			color: $color-principal;
+			img {
+				border-radius: 50%;
+				background: linear-gradient(145deg, #d6d6d6, #ffffff);
+			}
+		}
+	}
+	.mainNosotros{
+		.contenedorNosotros {
+			width: 80%;
+			height: 30vh;
+			font-family: $fuente;
+			.titleNosotros {
+				@include titulosSecciones($color-navbar, $fuente);
+				align-items: center;
+				text-align: center;
+				margin: auto;
+			}
+			.articleNosotros1{
+	
+				text-align: center;
+			}
+		}
+	}
+	.articleNosotros{
+		.h2Nosotros{
+			font-size: 3rem;
+			text-align: center;
+			color: $color-navbar;
+			font-weight: 600;
+		}
+		.card {
+			border-radius: 20px;
+			background: $color-navbar;
+			border: none;
+			color: $color-principal;
+			img {
+				border-radius: 50%;
+				background: linear-gradient(145deg, #d6d6d6, #ffffff);
+			}
+		}
 	}
 }
+
+
+
+
+
 
 .menuDropDownNosotros {
 	background-color: $color-principal;

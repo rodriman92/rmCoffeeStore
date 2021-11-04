@@ -245,17 +245,15 @@ html {
   font-size: 62, 5%;
   font-family: "Heebo", sans-serif; }
 
-main {
-  background-color: #edc999; }
-
 /*-----------------MIXIN TITULO-------------------*/
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
-  background-color: #F2DA63;
+  padding-left: 2vw;
+  background-color: #593636;
   font-family: "Heebo", sans-serif;
   font-size: 1.2rem; }
   .navBreadcrumb .breadcrumbItem a {
-    color: #4d3227; }
+    color: #F2DA63; }
   .navBreadcrumb .breadcrumbItemActive a {
     color: white; }
 
@@ -355,7 +353,7 @@ section {
 /*----------CAROUSEL IMAGENES INDEX-------------*/
 /*---------------------NAVBAR----------------------------------------------------*/
 .navCustom {
-  background-image: linear-gradient(to left, #593636, #593636);
+  background-image: linear-gradient(to right, #593636, black);
   z-index: 2000;
   justify-content: center;
   height: 40%; }
@@ -583,58 +581,62 @@ a.nav-link {
 
 /*--------------------------------------------------------------------------------------------------*/
 /*-----------------------------------NOSOTROS--------------------------------------*/
-.contenedorNosotros {
-  width: 95%;
-  height: 100vh;
-  font-family: "Heebo", sans-serif; }
-  .contenedorNosotros .titleNosotros {
-    color: #F28627;
-    font-size: 5rem;
-    font-family: "Heebo", sans-serif;
-    align-items: center;
+.bodyNosotros {
+  background-image: linear-gradient(to right, #F2DA63, #D9A036); }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 80%;
+      height: 30vh;
+      font-family: "Heebo", sans-serif; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
+        color: #593636;
+        font-size: 5rem;
+        font-family: "Heebo", sans-serif;
+        align-items: center;
+        text-align: center;
+        margin: auto; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+        text-align: center; }
+  .bodyNosotros .articleNosotros .h2Nosotros {
+    font-size: 3rem;
     text-align: center;
-    margin: auto; }
-  .contenedorNosotros .nosotros__articuloNosotros {
-    font-family: "Heebo", sans-serif;
-    font-size: 1.3rem;
-    text-align: justify;
-    color: #4d3227;
-    padding-bottom: 20px; }
-  .contenedorNosotros .nosotros__nuestra_mision__h2 {
-    color: #edc999;
-    font-family: "Heebo", sans-serif;
-    font-size: 2.5rem;
+    color: #593636;
+    font-weight: 600; }
+  .bodyNosotros .articleNosotros .card {
+    border-radius: 20px;
+    background: #593636;
+    border: none;
+    color: #F2DA63; }
+    .bodyNosotros .articleNosotros .card img {
+      border-radius: 50%;
+      background: linear-gradient(145deg, #d6d6d6, #ffffff); }
+  .bodyNosotros .mainNosotros .contenedorNosotros {
+    width: 80%;
+    height: 30vh;
+    font-family: "Heebo", sans-serif; }
+    .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
+      color: #593636;
+      font-size: 5rem;
+      font-family: "Heebo", sans-serif;
+      align-items: center;
+      text-align: center;
+      margin: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+      text-align: center; }
+  .bodyNosotros .articleNosotros .h2Nosotros {
+    font-size: 3rem;
     text-align: center;
-    color: #4d3227;
-    background-color: #F2DA63;
-    letter-spacing: 0.8rem; }
-  .contenedorNosotros .nosotros__nuestra_mision__articulo {
-    font-family: "Heebo", sans-serif;
-    font-size: 1.3rem;
-    text-align: left;
-    color: #4d3227;
-    padding-bottom: 20px;
-    line-height: 2rem; }
-  .contenedorNosotros .imagenNosotros {
-    width: 46.25rem;
-    height: 18rem;
-    margin-bottom: 5vh; }
-  .contenedorNosotros .nosotros__articuloValores {
-    font-family: "Heebo", sans-serif;
-    font-size: 1.3rem;
-    text-align: justify;
-    color: #4d3227;
-    padding-bottom: 20px; }
-    .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores {
-      list-style-image: url("../multimedia/imagenItem.png"); }
-      .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li {
-        line-height: 2.5rem; }
-        .contenedorNosotros .nosotros__articuloValores .nosotros__articuloValores__listaValores li .spanResaltado {
-          background-color: #F2DA63;
-          color: #4d3227; }
-  .contenedorNosotros .imagenNosotros2 {
-    width: 46.25rem;
-    height: 21.56rem; }
+    color: #593636;
+    font-weight: 600; }
+  .bodyNosotros .articleNosotros .card {
+    border-radius: 20px;
+    background: #593636;
+    border: none;
+    color: #F2DA63; }
+    .bodyNosotros .articleNosotros .card img {
+      border-radius: 50%;
+      background: linear-gradient(145deg, #d6d6d6, #ffffff); }
 
 .menuDropDownNosotros {
   background-color: #F2DA63;
