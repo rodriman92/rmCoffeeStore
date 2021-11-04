@@ -2,18 +2,13 @@
 @import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 /*----------MQ Index----------*/
-@media screen and (min-width: 280px) and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .navbar-light {
     width: 100%; }
     .navbar-light .container-fluid {
       width: 100%; }
       .navbar-light .container-fluid .logoNeon {
-        display: none;
-        font-size: 1rem; }
-      .navbar-light .container-fluid .imagenLogoSmall {
-        font-size: 2.5rem;
-        font-weight: 800;
-        display: inline-block; }
+        font-size: 1.5rem; }
   .navbar-toggler .navbar-toggler-icon {
     font-size: 0.8rem; }
   .navbar-collapse .nav-item .nav-link {
@@ -30,517 +25,216 @@
 .articleIndexTestimonios .h2Index {
   font-size: 1.5rem !important; }
 
-.footer-dark {
-  /*----------MQ NOSOTROS-----------*/
-  /*-----------MQ TIENDA----------*/
-  /*----------MQ SUCURSALES----------*/
-  /*-----------MQ CONTACTO----------*/
-  /*---------------MQ CAROUSEL INICIO----------*/ }
-  .footer-dark h3 {
-    text-align: center;
-    margin: auto;
-    justify-content: center; }
-  .footer-dark .card .btn-light {
-    font-size: 1rem; }
-  .footer-dark .card .btn {
-    font-size: 1rem;
-    width: 100%;
-    padding: 0.4rem; }
-  @media screen and (min-width: 321px) and (max-width: 375px) {
-    .footer-dark .navbar-light {
-      width: 100%; }
-      .footer-dark .navbar-light .container-fluid {
-        width: 100%; }
-        .footer-dark .navbar-light .container-fluid .logoNeon {
-          display: none;
-          font-size: 1rem; }
-        .footer-dark .navbar-light .container-fluid .imagenLogoSmall {
-          font-size: 2.5rem;
-          font-weight: 800;
-          display: inline-block; }
-    .footer-dark .navbar-toggler .navbar-toggler-icon {
-      font-size: 0.8rem; }
-    .footer-dark .navbar-collapse .nav-item .nav-link {
-      font-size: 1.3rem; } }
-  .footer-dark .mainIndex {
-    display: none; }
-  .footer-dark .sectionIndex {
-    height: auto; }
-    .footer-dark .sectionIndex .h1Index {
-      font-size: 2rem !important; }
-  .footer-dark .articleIndexTestimonios .h2Index {
-    font-size: 1.8rem !important; }
-  .footer-dark .footer-dark h3 {
-    text-align: center;
-    margin: auto;
-    justify-content: center; }
-  .footer-dark .footer-dark .item-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  @media screen and (min-width: 376px) and (max-width: 425px) {
-    .footer-dark .navbar-light {
-      width: 100%; }
-      .footer-dark .navbar-light .container-fluid {
-        width: 100%; }
-        .footer-dark .navbar-light .container-fluid .logoNeon {
-          display: none;
-          font-size: 3rem; }
-        .footer-dark .navbar-light .container-fluid .imagenLogoSmall {
-          font-size: 2.5rem;
-          font-weight: 800;
-          display: inline-block; }
-    .footer-dark .navbar-toggler .navbar-toggler-icon {
-      font-size: 0.8rem; }
-    .footer-dark .navbar-collapse .nav-item .nav-link {
-      font-size: 1.3rem; } }
-  .footer-dark .mainIndex {
-    display: none; }
-  .footer-dark .sectionIndex {
-    height: auto; }
-    .footer-dark .sectionIndex .h1Index {
-      font-size: 2.2rem !important; }
-  .footer-dark .articleIndexTestimonios .h2Index {
-    font-size: 1.9rem !important; }
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .footer-dark .navbar-light {
-      width: 100%; }
-      .footer-dark .navbar-light .container-fluid {
-        width: 100%; }
-        .footer-dark .navbar-light .container-fluid .logoNeon {
-          display: none;
-          font-size: 1rem; }
-        .footer-dark .navbar-light .container-fluid .imagenLogoSmall {
-          font-size: 2.5rem;
-          font-weight: 800;
-          display: inline-block; }
-    .footer-dark .navbar-toggler .navbar-toggler-icon {
-      font-size: 0.8rem; }
-    .footer-dark .navbar-collapse .nav-item .nav-link {
-      font-size: 1.3rem; } }
-  .footer-dark .mainIndex {
-    display: none; }
-  .footer-dark .sectionIndex {
-    height: auto; }
-    .footer-dark .sectionIndex .h1Index {
-      font-size: 2.2rem !important; }
-  .footer-dark .articleIndexTestimonios .h2Index {
-    font-size: 1.9rem !important; }
-  .footer-dark .footer-dark h3 {
-    text-align: center;
-    margin: auto;
-    justify-content: center; }
-  .footer-dark .footer-dark .item-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .footer-dark .navbar-light {
-      width: 100%; }
-      .footer-dark .navbar-light .container-fluid {
-        width: 100%; }
-        .footer-dark .navbar-light .container-fluid .logoNeon {
-          font-size: 2.5rem; }
-        .footer-dark .navbar-light .container-fluid .imagenLogoSmall {
-          display: none; }
-    .footer-dark .navbar-toggler .navbar-toggler-icon {
-      font-size: 0.8rem; }
-    .footer-dark .navbar-collapse .nav-item .nav-link {
-      font-size: 1.3rem; } }
-  .footer-dark .mainIndex {
-    display: none; }
-  .footer-dark .sectionIndex {
-    height: auto; }
-    .footer-dark .sectionIndex .h1Index {
-      font-size: 2.2rem !important; }
-  .footer-dark .articleIndexTestimonios .h2Index {
-    font-size: 1.9rem !important; }
-  .footer-dark .footer-dark h3 {
-    text-align: center;
-    margin: auto;
-    justify-content: center; }
-  .footer-dark .footer-dark .item-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  @media screen and (min-width: 1025px) and (max-width: 2600px) {
-    .footer-dark .navbar-light {
-      width: 100%; }
-      .footer-dark .navbar-light .container-fluid {
-        width: 100%; }
-        .footer-dark .navbar-light .container-fluid .logoNeon {
-          font-size: 3rem; }
-        .footer-dark .navbar-light .container-fluid .imagenLogoSmall {
-          display: none; }
-    .footer-dark .navbar-toggler .navbar-toggler-icon {
-      font-size: 0.8rem; }
-    .footer-dark .navbar-collapse .nav-item .nav-link {
-      font-size: 1.3rem; } }
-  .footer-dark .mainIndex {
-    display: none; }
-  .footer-dark .sectionIndex {
-    height: auto; }
-    .footer-dark .sectionIndex .h1Index {
-      font-size: 2.2rem !important; }
-  .footer-dark .articleIndexTestimonios .h2Index {
-    font-size: 1.9rem !important; }
-  .footer-dark .footer-dark h3 {
-    text-align: center;
-    margin: auto;
-    justify-content: center; }
-  .footer-dark .footer-dark .item-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  @media screen and (max-width: 320px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 300vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 100%;
-        font-family: "Heebo", sans-serif; }
-        .footer-dark .mainNosotros .contenedorNosotros .titleNosotros {
-          font-size: 3rem; }
-    .footer-dark .nosotros .nosotros__articuloNosotros {
-      font-size: 1rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__h2 {
-      font-size: 1.2rem;
-      letter-spacing: 0.2rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__articulo {
-      font-size: 1.2rem;
-      text-align: center; }
-    .footer-dark .nosotros__nuestros_valores__h2Custom {
-      font-size: 1rem;
-      color: #edc999;
-      font-family: "Heebo", sans-serif;
-      text-align: center;
-      color: #4d3227;
-      letter-spacing: 0; }
-    .footer-dark .nosotros__articuloValores__listaValores {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 321px) and (max-width: 375px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 300vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 100%;
-        font-family: "Heebo", sans-serif; }
-        .footer-dark .mainNosotros .contenedorNosotros .titleNosotros {
-          font-size: 2.5rem; }
-    .footer-dark .nosotros .nosotros__articuloNosotros {
-      font-size: 1rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__h2 {
-      font-size: 1.2rem;
-      letter-spacing: 0.2rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__articulo {
-      font-size: 1.2rem;
-      text-align: center; }
-    .footer-dark .nosotros__nuestros_valores__h2Custom {
-      font-size: 1rem;
-      color: #edc999;
-      font-family: "Heebo", sans-serif;
-      text-align: center;
-      color: #4d3227;
-      letter-spacing: 0; }
-    .footer-dark .nosotros__articuloValores__listaValores {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 376px) and (max-width: 425px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 280vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 100%;
-        font-family: "Heebo", sans-serif; }
-        .footer-dark .mainNosotros .contenedorNosotros .titleNosotros {
-          font-size: 3.5rem; }
-    .footer-dark .nosotros .nosotros__articuloNosotros {
-      font-size: 1rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__h2 {
-      font-size: 1.2rem;
-      letter-spacing: 0.2rem; }
-    .footer-dark .nuestra_mision .nosotros__nuestra_mision__articulo {
-      font-size: 1.2rem;
-      text-align: center; }
-    .footer-dark .nosotros__nuestros_valores__h2Custom {
-      font-size: 1rem;
-      color: #edc999;
-      font-family: "Heebo", sans-serif;
-      text-align: center;
-      color: #4d3227;
-      letter-spacing: 0; }
-    .footer-dark .nosotros__articuloValores__listaValores {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 180vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 95%;
-        font-family: "Heebo", sans-serif; }
-      .footer-dark .mainNosotros .rowNosotros .titleNosotros {
-        font-size: 3rem; }
-      .footer-dark .mainNosotros .nosotros .nosotros__articuloNosotros {
-        font-size: 1rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
-        font-size: 1.2rem;
-        letter-spacing: 0.2rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
-        font-size: 1.5rem;
-        text-align: center; }
-      .footer-dark .mainNosotros .nosotros__nuestros_valores__h2Custom {
-        font-size: 2rem;
-        color: #edc999;
-        font-family: "Heebo", sans-serif;
-        text-align: center;
-        color: #4d3227;
-        letter-spacing: 0; }
-      .footer-dark .mainNosotros .nosotros__articuloValores__listaValores {
-        font-size: 1.5rem; } }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 160vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 95%;
-        font-family: "Heebo", sans-serif; }
-      .footer-dark .mainNosotros .rowNosotros .titleNosotros {
-        font-size: 4rem; }
-      .footer-dark .mainNosotros .nosotros .nosotros__articuloNosotros {
-        font-size: 2rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
-        font-size: 2.5rem;
-        letter-spacing: 0.2rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
-        font-size: 2rem;
-        text-align: center; }
-      .footer-dark .mainNosotros .nosotros__nuestros_valores__h2Custom {
-        font-size: 2.5rem;
-        color: #edc999;
-        font-family: "Heebo", sans-serif;
-        text-align: center;
-        color: #4d3227;
-        letter-spacing: 0; }
-      .footer-dark .mainNosotros .nosotros__articuloValores__listaValores {
-        font-size: 1.5rem; } }
-  @media screen and (min-width: 1025px) and (max-width: 1440px) {
-    .footer-dark .mainNosotros {
-      width: 100%;
-      height: 160vh; }
-      .footer-dark .mainNosotros .contenedorNosotros {
-        width: 95%;
-        font-family: "Heebo", sans-serif; }
-      .footer-dark .mainNosotros .rowNosotros .titleNosotros {
-        font-size: 4rem; }
-      .footer-dark .mainNosotros .nosotros .nosotros__articuloNosotros {
-        font-size: 2rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__h2 {
-        font-size: 2.5rem;
-        letter-spacing: 0.2rem; }
-      .footer-dark .mainNosotros .nuestra_mision .nosotros__nuestra_mision__articulo {
-        font-size: 2rem;
-        text-align: center; }
-      .footer-dark .mainNosotros .nosotros__nuestros_valores__h2Custom {
-        font-size: 2.5rem;
-        color: #edc999;
-        font-family: "Heebo", sans-serif;
-        text-align: center;
-        color: #4d3227;
-        letter-spacing: 0; }
-      .footer-dark .mainNosotros .nosotros__articuloValores__listaValores {
-        font-size: 1.5rem; } }
-  @media screen and (max-width: 320px) {
-    .footer-dark .contenedorMain__centrar {
-      width: 100%; }
-      .footer-dark .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
-        font-size: 1rem;
-        padding-top: 1vh;
-        padding-bottom: 0; }
-      .footer-dark .contenedorMain__centrar .cardCustom {
-        background-color: #4d3227; }
-      .footer-dark .contenedorMain__centrar .cardsBody {
-        width: 100vw; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalHeaderCustom {
-      font-size: 1.2rem; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
-      font-size: 1rem; }
-    .footer-dark .modalContentCustom .modalFooter {
-      font-size: 1rem; } }
-  @media screen and (max-width: 375px) {
-    .footer-dark .contenedorMain__centrar {
-      width: 100%; }
-      .footer-dark .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
-        font-size: 2rem;
-        padding-top: 1vh;
-        padding-bottom: 0; }
-      .footer-dark .contenedorMain__centrar .cardCustom {
-        background-color: #4d3227; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalHeaderCustom {
-      font-size: 1.4rem; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
-      font-size: 1.2rem; }
-    .footer-dark .modalContentCustom .modalFooter {
-      font-size: 1.2rem; } }
-  @media screen and (max-width: 425px) {
-    .footer-dark .contenedorMain__centrar {
-      width: 100%; }
-      .footer-dark .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
-        font-size: 2.5rem;
-        padding-top: 1vh;
-        padding-bottom: 0; }
-      .footer-dark .contenedorMain__centrar .cardCustom {
-        background-color: #4d3227; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalHeaderCustom {
-      font-size: 1.5rem; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
-      font-size: 1.3rem; }
-    .footer-dark .modalContentCustom .modalFooter {
-      font-size: 1.5rem; } }
-  @media screen and (max-width: 1024px) {
-    .footer-dark .contenedorMain__centrar {
-      width: 100%; }
-      .footer-dark .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
-        font-size: 3rem;
-        padding-top: 1vh;
-        padding-bottom: 0; }
-      .footer-dark .contenedorMain__centrar .cardCustom {
-        background-color: #4d3227; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalHeaderCustom {
-      font-size: 1.6rem; }
-    .footer-dark .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
-      font-size: 1.5rem; }
-    .footer-dark .modalContentCustom .modalFooter {
-      font-size: 1.6rem; } }
-  .footer-dark .contenedorMain__centrar {
+.footer-dark h3 {
+  text-align: center;
+  margin: auto;
+  justify-content: center; }
+
+.footer-dark .card .btn-light {
+  font-size: 1rem; }
+
+.footer-dark .card .btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.4rem; }
+
+@media screen and (max-width: 375px) {
+  .navbar-light {
     width: 100%; }
-    .footer-dark .contenedorMain__centrar .contenedorMain__centrar__titleTienda {
-      font-size: 3.5rem;
-      padding-top: 1vh;
-      padding-bottom: 0; }
-    .footer-dark .contenedorMain__centrar .cardCustom {
-      background-color: #4d3227; }
-  .footer-dark .modalContentCustom .modalContentCustom__modalHeaderCustom {
-    font-size: 1.6rem; }
-  .footer-dark .modalContentCustom .modalContentCustom__modalBodyCustom .text-mb-1 {
-    font-size: 1.5rem; }
-  .footer-dark .modalContentCustom .modalFooter {
-    font-size: 1.6rem; }
-  @media screen and (max-width: 280px) {
-    .footer-dark .mainSucursales .mainSucursales__titleSucursales--centrado {
-      font-size: 2rem !important; } }
-  @media screen and (max-width: 375px) {
-    .footer-dark .mainSucursales__titleSucursales--centrado {
-      padding-top: 10px;
-      font-size: 2.5rem; } }
-  @media screen and (max-width: 425px) {
-    .footer-dark .mainSucursales__titleSucursales--centrado {
-      padding-top: 10px;
-      font-size: 2.7rem; } }
-  @media screen and (max-width: 768px) {
-    .footer-dark .mainSucursales__titleSucursales--centrado {
-      padding-top: 10px;
-      font-size: 3.2rem; } }
-  @media screen and (max-width: 1024px) {
-    .footer-dark .mainSucursales__titleSucursales--centrado {
-      padding-top: 10px;
-      font-size: 3.5rem; }
-    .footer-dark .bodyContacto__headerCustom__navCustom .imagenLogoSmall {
-      display: none; } }
-  @media screen and (max-width: 320px) {
-    .footer-dark .bodyContacto .imagenLogo {
-      display: none; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1rem; } }
-  @media screen and (max-width: 375px) {
-    .footer-dark .bodyContacto .imagenLogo {
-      display: none; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.2rem; } }
-  @media screen and (max-width: 425px) {
-    .footer-dark .bodyContacto .imagenLogo {
-      display: none; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.3rem; } }
-  @media screen and (max-width: 768px) {
-    .footer-dark .bodyContacto .imagenLogoSmall {
-      display: none; }
-    .footer-dark .bodyContacto .imagenLogo {
-      display: flex;
-      font-size: 2.5rem; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.3rem; } }
-  @media screen and (max-width: 1024px) {
-    .footer-dark .bodyContacto .imagenLogoSmall {
-      display: none; }
-    .footer-dark .bodyContacto .imagenLogo {
-      display: flex;
-      font-size: 2.5rem; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.3rem; } }
-  @media screen and (max-width: 1440px) {
-    .footer-dark .bodyContacto .imagenLogoSmall {
-      display: none; }
-    .footer-dark .bodyContacto .imagenLogo {
-      display: flex;
-      font-size: 2.5rem; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.3rem; } }
-  @media screen and (max-width: 2048px) {
-    .footer-dark .bodyContacto .imagenLogoSmall {
-      display: none; }
-    .footer-dark .bodyContacto .imagenLogo {
-      display: flex;
-      font-size: 2.5rem; }
-    .footer-dark .bodyContacto .breadcrumbItem a {
-      font-size: 1.3rem; } }
-  @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .footer-dark #textSlider.row {
-      margin-right: 0px !important;
-      margin-left: 0px !important; }
-    .footer-dark .iamCol {
-      text-align: center;
-      font-size: 20pt; }
-    .footer-dark .iamCol p {
-      display: inline !important; }
-    .footer-dark .slideCol {
-      font-size: 25pt;
-      text-align: center;
-      margin-top: -20px; } }
-  @media only screen and (min-width: 480px) and (max-width: 765px) {
-    .footer-dark #textSlider.row {
-      margin-right: 0px !important;
-      margin-left: 0px !important; }
-    .footer-dark .iamCol {
-      text-align: center;
-      font-size: 25pt; }
-    .footer-dark .iamCol p {
-      display: inline !important; }
-    .footer-dark .slideCol {
-      font-size: 38pt;
-      text-align: center;
-      margin-top: -20px; } }
-  @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .footer-dark #textSlider.row {
-      margin-right: 0px !important;
-      margin-left: 0px !important; }
-    .footer-dark .iamCol {
-      text-align: center;
-      font-size: 30pt; }
-    .footer-dark .iamCol p {
-      display: inline !important; }
-    .footer-dark .slideCol {
-      font-size: 50pt;
-      text-align: center;
-      margin-top: 5px; } }
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .footer-dark #textSlider.row {
-      margin-right: 0px !important;
-      margin-left: 0px !important; }
-    .footer-dark .iamCol {
-      text-align: right;
-      font-size: 30pt; }
-    .footer-dark .slideCol {
-      font-size: 55pt;
-      text-align: left; } }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .logoNeon {
+        font-size: 1.5rem; }
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 0.8rem; }
+  .navbar-collapse .nav-item .nav-link {
+    font-size: 1.3rem; } }
+
+.mainIndex {
+  display: none; }
+
+.sectionIndex {
+  height: auto; }
+  .sectionIndex .h1Index {
+    font-size: 2rem !important; }
+
+.articleIndexTestimonios .h2Index {
+  font-size: 1.5rem !important; }
+
+.footer-dark h3 {
+  text-align: center;
+  margin: auto;
+  justify-content: center; }
+
+.footer-dark .card .btn-light {
+  font-size: 1rem; }
+
+.footer-dark .card .btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.4rem; }
+
+@media screen and (max-width: 425px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .logoNeon {
+        font-size: 1.7rem; }
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 0.8rem; }
+  .navbar-collapse .nav-item .nav-link {
+    font-size: 1.3rem; } }
+
+.mainIndex {
+  display: none; }
+
+.sectionIndex {
+  height: auto; }
+  .sectionIndex .h1Index {
+    font-size: 2.2rem !important; }
+
+.articleIndexTestimonios .h2Index {
+  font-size: 1.8rem !important; }
+
+.footer-dark h3 {
+  text-align: center;
+  margin: auto;
+  justify-content: center; }
+
+.footer-dark .card .btn-light {
+  font-size: 1rem; }
+
+.footer-dark .card .btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.4rem; }
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .logoNeon {
+        font-size: 3rem; }
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 0.8rem; }
+  .navbar-collapse .nav-item .nav-link {
+    font-size: 1.3rem; } }
+
+.mainIndex {
+  display: none; }
+
+.sectionIndex {
+  height: auto; }
+  .sectionIndex .h1Index {
+    font-size: 2rem !important; }
+
+.articleIndexTestimonios .h2Index {
+  font-size: 1.5rem !important; }
+
+.footer-dark h3 {
+  text-align: center;
+  margin: auto;
+  justify-content: center; }
+
+.footer-dark .card .btn-light {
+  font-size: 1rem; }
+
+.footer-dark .card .btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.4rem; }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar-light {
+    width: 100%; }
+    .navbar-light .container-fluid {
+      width: 100%; }
+      .navbar-light .container-fluid .logoNeon {
+        font-size: 2.5rem; }
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 0.8rem; }
+  .navbar-collapse .nav-item .nav-link {
+    font-size: 1.3rem; } }
+
+.mainIndex {
+  display: none; }
+
+.sectionIndex {
+  height: auto; }
+  .sectionIndex .h1Index {
+    font-size: 3.5rem !important; }
+
+.articleIndexTestimonios .h2Index {
+  font-size: 2.5rem !important; }
+
+.footer-dark h3 {
+  text-align: center;
+  margin: auto;
+  justify-content: center; }
+
+.footer-dark .card .btn-light {
+  font-size: 1rem; }
+
+.footer-dark .card .btn {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.4rem; }
+
+/*---------------MQ CAROUSEL INICIO----------*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 20pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 25pt;
+    text-align: center;
+    margin-top: -20px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 765px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 25pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 38pt;
+    text-align: center;
+    margin-top: -20px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: center;
+    font-size: 30pt; }
+  .iamCol p {
+    display: inline !important; }
+  .slideCol {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 5px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #textSlider.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; }
+  .iamCol {
+    text-align: right;
+    font-size: 30pt; }
+  .slideCol {
+    font-size: 55pt;
+    text-align: left; } }
 
 * {
   margin: 0;
