@@ -18,8 +18,6 @@
           font-size: 0.5rem; }
       .navbar-light .container-fluid .navbar-collapse .nav-item .nav-link {
         font-size: 1.3rem; }
-  .mainIndex .wrapper p {
-    font-size: 1.5rem; }
   .sectionIndex {
     height: auto; }
     .sectionIndex .h1Index {
@@ -311,7 +309,7 @@ html {
 
 #spin {
   color: #593636;
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: 800; }
 
 #spin:after {
