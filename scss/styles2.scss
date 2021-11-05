@@ -38,19 +38,25 @@ html {
 /*---------------- MAIN INDEX ----------------*/
 
 .mainIndex {
-	background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	height: 40%;
-	
+	background-image: url("https://images.pexels.com/photos/4085291/pexels-photo-4085291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: 60%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 #spin {
-	color: $color-navbar;
-	font-size: 6rem;
-	font-weight: 800;
+	color: $color-principal;
+	font-size: 5.5rem;
+	font-weight: 900;
+	background-color: black;
+	p{
+		margin-top: 10rem;
+	}
   }
   #spin:after {
 	content:"";
-	animation: spin 20s linear infinite;
+	animation: spin 30s linear infinite;
   }
   @keyframes spin {
 	0% { content: "café" }
@@ -76,14 +82,21 @@ html {
   }
 
 .btnIndexTienda{
-	background-color: $color-navbar;
-	color: $color-principal;
-	margin-bottom: 1rem;
+	background-color: $color-principal;
+	color: $color-navbar;
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+	font-weight: 400;
+	&:hover{
+		background-color: $color-navbar;
+		color: $color-principal;
+	}
 }
 .img-responsive{
 	max-width: 100%;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+
 }
 
 @keyframes textclip {
