@@ -148,6 +148,70 @@ section {
 
 /*-----------------------------------------*/
 
+/*----------ANIMACION TEXTO DISPOSITIVOS MOVILES-----------*/
+.wrapper {
+	padding-top: 2vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.typing-demo {
+		width: 22ch;
+		animation: typing 6s steps(20), blink .5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: "Lato", sans-serif;
+		font-weight: 900;
+		font-size: 1.5rem;
+		color: $color-navbar;
+
+	  }
+  }
+  .btnIndexTienda{
+	  justify-content: center;
+	  text-align: center;
+	  margin: auto;
+	  justify-items: center;
+	  margin-left: 2rem;
+	  margin-right: 2rem;
+	  margin-top: 1rem;
+	  display: block;
+	  background-color: $color-navbar;
+	  color: $color-section;
+	  font-weight: 800;
+  }
+  .colImagenIndexMovil{
+	  padding-top: 2rem;
+	  padding-right: 2rem;
+	.img-responsive {
+		padding-right: 1rem;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	  }
+	  
+	  img {
+		  max-width: 100%;
+		  height: auto;
+	  }
+  }
+  
+  
+  
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
+/*----------------------------------------------------------*/
+
 /*----------CAROUSEL IMAGENES INDEX-------------*/
 
 
@@ -335,36 +399,44 @@ a.nav-link {
 	padding:1vh 0;
 	color:$color-navbar;
 	background-color:#A6691F;
-	h3{
-		margin-top:1vh;
-		margin-bottom:12px;
-		font-weight:bold;
-		font-size:1.5rem;
+	.item{
+		margin: auto;
 		text-align: center;
-	}
-	ul{
-		text-align: center;
-		padding: 1vh;
-		list-style:none;
-		line-height:1.6;
-		font-weight: 600;
-		font-size: 2rem;
-		margin-bottom:0;
-		a{
-			color:inherit;
-			text-decoration:none;
-			opacity:0.6;
-			&:hover{
-				opacity:0.8;
+		justify-content: center;
+		justify-items: center;
+		h3{
+			margin-top:1vh;
+			margin-bottom:12px;
+			font-weight:bold;
+			font-size:1.5rem;
+			text-align: center;
+		}
+		ul{
+			text-align: center;
+			padding: 1vh;
+			list-style:none;
+			line-height:1.6;
+			font-weight: 600;
+			font-size: 2rem;
+			margin-bottom:0;
+			a{
+				color:inherit;
+				text-decoration:none;
+				opacity:0.6;
+				&:hover{
+					opacity:0.8;
+				}
 			}
 		}
 	}
+	
 	.card {
 		background-color: $color-navbar;
+		.text-color {
+			color: #eee;
+		}
 	}
-	.text-color {
-		color: #eee;
-	}
+	
 	.form-control {
 		display: block;
 		width: 100%;
