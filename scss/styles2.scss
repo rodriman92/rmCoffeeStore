@@ -432,6 +432,22 @@ a.nav-link {
 					transition: .5s;
 				}
 			}
+			.separador{
+				border: 1rem solid $color-navbar;
+			}
+			.h6Nosotros{
+				color: $color-navbar;
+				font-size: 1.2rem;
+				text-decoration: 3px solid $color-navbar underline;
+			}
+			.pNosotros{
+				color: $color-navbar;
+				font-size: 1.1rem;
+				.linkConsulta{
+					color: $color-navbar;
+					background-color: $color-section;
+				}
+			}
 		}
 	}
 }

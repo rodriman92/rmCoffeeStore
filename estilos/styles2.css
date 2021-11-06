@@ -784,6 +784,18 @@ a.nav-link {
       .bodyNosotros .mainNosotros .contenedorNosotros img:hover {
         filter: opacity(0.5);
         transition: .5s; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .separador {
+        border: 1rem solid #593636; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .h6Nosotros {
+        color: #593636;
+        font-size: 1.2rem;
+        text-decoration: 3px solid #593636 underline; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .pNosotros {
+        color: #593636;
+        font-size: 1.1rem; }
+        .bodyNosotros .mainNosotros .contenedorNosotros .pNosotros .linkConsulta {
+          color: #593636;
+          background-color: #D9A036; }
 
 /*------SUCURSALES-------*/
 .mainSucursales {
