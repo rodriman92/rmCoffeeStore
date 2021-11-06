@@ -28,6 +28,9 @@
     text-align: center;
     margin: auto;
     justify-content: center; }
+  .footer-dark ul li a {
+    font-size: 1.3rem;
+    font-weight: 800; }
   .footer-dark .card .btn-light {
     font-size: 1rem; }
   .footer-dark .card .btn {
@@ -65,6 +68,10 @@
   text-align: center;
   margin: auto;
   justify-content: center; }
+
+.footer-dark ul li a {
+  font-size: 1.3rem;
+  font-weight: 800; }
 
 .footer-dark .card .btn-light {
   font-size: 1rem; }
@@ -105,6 +112,10 @@
   margin: auto;
   justify-content: center; }
 
+.footer-dark ul li a {
+  font-size: 1.5rem;
+  font-weight: 800; }
+
 .footer-dark .card .btn-light {
   font-size: 1rem; }
 
@@ -142,7 +153,12 @@
 .footer-dark h3 {
   text-align: center;
   margin: auto;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 3rem; }
+
+.footer-dark ul li a {
+  font-size: 1.3rem;
+  font-weight: 800; }
 
 .footer-dark .card .btn-light {
   font-size: 1rem; }
@@ -227,60 +243,169 @@
   width: 100%;
   padding: 0.4rem; }
 
-/*---------------MQ CAROUSEL INICIO----------*/
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-  #textSlider.row {
-    margin-right: 0px !important;
-    margin-left: 0px !important; }
-  .iamCol {
-    text-align: center;
-    font-size: 20pt; }
-  .iamCol p {
-    display: inline !important; }
-  .slideCol {
-    font-size: 25pt;
-    text-align: center;
-    margin-top: -20px; } }
+/*------------------MQ NOSOTROS---------------------*/
+@media screen and (max-width: 320px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1rem; }
+  .bodyNosotros .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros #titleNosotros {
+    font-size: 3rem; }
+  .bodyNosotros .articleNosotros #h2Nosotros {
+    font-size: 2.5rem; }
+  .bodyNosotros .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; } }
 
-@media only screen and (min-width: 480px) and (max-width: 765px) {
-  #textSlider.row {
-    margin-right: 0px !important;
-    margin-left: 0px !important; }
-  .iamCol {
-    text-align: center;
-    font-size: 25pt; }
-  .iamCol p {
-    display: inline !important; }
-  .slideCol {
-    font-size: 38pt;
-    text-align: center;
-    margin-top: -20px; } }
+@media screen and (max-width: 375px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1rem; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros #titleNosotros {
+      font-size: 3.2rem; }
+  .bodyNosotros .articleNosotros #h2Nosotros {
+    font-size: 2.5rem; }
+  .bodyNosotros .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; } }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  #textSlider.row {
-    margin-right: 0px !important;
-    margin-left: 0px !important; }
-  .iamCol {
-    text-align: center;
-    font-size: 30pt; }
-  .iamCol p {
-    display: inline !important; }
-  .slideCol {
-    font-size: 50pt;
-    text-align: center;
-    margin-top: 5px; } }
+@media screen and (max-width: 425px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1.2rem; }
+  .bodyNosotros .mainNosotros {
+    height: 60vh; }
+    .bodyNosotros .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros #titleNosotros {
+      font-size: 3.3rem; }
+  .articleNosotros #h2Nosotros {
+    font-size: 2.6rem; }
+  .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; } }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  #textSlider.row {
-    margin-right: 0px !important;
-    margin-left: 0px !important; }
-  .iamCol {
-    text-align: right;
-    font-size: 30pt; }
-  .slideCol {
-    font-size: 55pt;
-    text-align: left; } }
+@media screen and (max-width: 768px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1.3rem; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 100%; }
+      .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
+        font-size: 4.5rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        color: #593636; }
+  .articleNosotros #h2Nosotros {
+    font-size: 3.5rem; }
+  .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; }
+    .articleNosotros .card h3 {
+      font-size: 1.5rem; } }
 
+@media screen and (max-width: 1024px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1.3rem; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 100%; }
+      .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
+        font-size: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        color: #593636; }
+  .articleNosotros #h2Nosotros {
+    font-size: 3.5rem; }
+  .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; }
+    .articleNosotros .card h3 {
+      font-size: 1.5rem; } }
+
+@media screen and (max-width: 1440px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1.3rem; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 100%; }
+      .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
+        font-size: 4.5rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        color: #593636; }
+  .articleNosotros #h2Nosotros {
+    font-size: 3.5rem; }
+  .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; }
+    .articleNosotros .card h3 {
+      font-size: 1.5rem; } }
+
+@media screen and (max-width: 2560px) {
+  .bodyNosotros .navBreadcrumb {
+    margin-bottom: 2rem; }
+    .bodyNosotros .navBreadcrumb .breadcrumb li a {
+      font-size: 1.3rem; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 100%; }
+      .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
+        font-size: 4.5rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
+        width: 100%;
+        height: auto;
+        font-size: 1.3rem;
+        color: #593636; }
+  .articleNosotros #h2Nosotros {
+    font-size: 3.5rem; }
+  .articleNosotros .card {
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem; }
+    .articleNosotros .card h3 {
+      font-size: 1.5rem; } }
+
+/*---------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -621,10 +746,9 @@ a.nav-link {
 .bodyNosotros {
   background-image: linear-gradient(to right, #F2DA63, #D9A036); }
   .bodyNosotros .mainNosotros {
-    height: auto; }
+    height: 210vh; }
     .bodyNosotros .mainNosotros .contenedorNosotros {
       width: 80%;
-      height: 30vh;
       font-family: "Heebo", sans-serif; }
       .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
         color: #593636;
@@ -635,58 +759,31 @@ a.nav-link {
         margin: auto; }
       .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
         text-align: center; }
-  .bodyNosotros .articleNosotros .h2Nosotros {
-    font-size: 3rem;
-    text-align: center;
-    color: #593636;
-    font-weight: 600; }
-  .bodyNosotros .articleNosotros .card {
-    border-radius: 20px;
-    background: #593636;
-    border: none;
-    color: #F2DA63; }
-    .bodyNosotros .articleNosotros .card img {
-      border-radius: 50%;
-      background: linear-gradient(145deg, #d6d6d6, #ffffff); }
-  .bodyNosotros .mainNosotros .contenedorNosotros {
-    width: 80%;
-    height: 30vh;
-    font-family: "Heebo", sans-serif; }
-    .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
-      color: #593636;
-      font-size: 5rem;
-      font-family: "Heebo", sans-serif;
-      align-items: center;
-      text-align: center;
-      margin: auto; }
-    .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
-      text-align: center; }
-  .bodyNosotros .articleNosotros .h2Nosotros {
-    font-size: 3rem;
-    text-align: center;
-    color: #593636;
-    font-weight: 600; }
-  .bodyNosotros .articleNosotros .card {
-    border-radius: 20px;
-    background: #593636;
-    border: none;
-    color: #F2DA63; }
-    .bodyNosotros .articleNosotros .card img {
-      border-radius: 50%;
-      background: linear-gradient(145deg, #d6d6d6, #ffffff); }
-
-.menuDropDownNosotros {
-  background-color: #F2DA63;
-  font-size: 1.3rem; }
-
-.menuDropDownNosotros__item--quienesSomos:hover {
-  text-decoration: underline; }
-
-.menuDropDownNosotros__item--mision:hover {
-  text-decoration: underline; }
-
-.menuDropDownNosotros__item--valores:hover {
-  text-decoration: underline; }
+    .bodyNosotros .mainNosotros .rowImagenesNosotros {
+      justify-content: center; }
+  .bodyNosotros .mainNosotros {
+    height: auto; }
+    .bodyNosotros .mainNosotros .contenedorNosotros {
+      width: 90%;
+      font-family: "Heebo", sans-serif; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
+        color: #593636;
+        font-size: 5rem;
+        font-family: "Heebo", sans-serif;
+        align-items: center;
+        text-align: center;
+        margin: auto; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .carousel .carousel-item {
+        height: 53vh; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 2vh; }
+      .bodyNosotros .mainNosotros .contenedorNosotros img:hover {
+        filter: opacity(0.5);
+        transition: .5s; }
 
 /*------SUCURSALES-------*/
 .mainSucursales {

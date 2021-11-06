@@ -385,10 +385,29 @@ a.nav-link {
 .bodyNosotros{
 	background-image: linear-gradient(to right, $color-principal, $color-section);
 	.mainNosotros{
+		height: 210vh;
+		.contenedorNosotros {
+			width: 80%;
+			font-family: $fuente;
+			.titleNosotros {
+				@include titulosSecciones($color-navbar, $fuente);
+				align-items: center;
+				text-align: center;
+				margin: auto;
+			}
+			.articleNosotros1{
+				text-align: center;
+			}
+		}
+		.rowImagenesNosotros{
+			justify-content: center;
+		}
+	}
+
+	.mainNosotros{
 		height: auto;
 		.contenedorNosotros {
-			width: 80%;
-			height: 30vh;
+			width: 90%;
 			font-family: $fuente;
 			.titleNosotros {
 				@include titulosSecciones($color-navbar, $fuente);
@@ -396,91 +415,27 @@ a.nav-link {
 				text-align: center;
 				margin: auto;
 			}
-			.articleNosotros1{
-	
-				text-align: center;
-			}
-		}
-	}
-	.articleNosotros{
-		.h2Nosotros{
-			font-size: 3rem;
-			text-align: center;
-			color: $color-navbar;
-			font-weight: 600;
-		}
-		.card {
-			border-radius: 20px;
-			background: $color-navbar;
-			border: none;
-			color: $color-principal;
-			img {
-				border-radius: 50%;
-				background: linear-gradient(145deg, #d6d6d6, #ffffff);
-			}
-		}
-	}
-	.mainNosotros{
-		.contenedorNosotros {
-			width: 80%;
-			height: 30vh;
-			font-family: $fuente;
-			.titleNosotros {
-				@include titulosSecciones($color-navbar, $fuente);
-				align-items: center;
-				text-align: center;
-				margin: auto;
-			}
-			.articleNosotros1{
-	
-				text-align: center;
-			}
-		}
-	}
-	.articleNosotros{
-		.h2Nosotros{
-			font-size: 3rem;
-			text-align: center;
-			color: $color-navbar;
-			font-weight: 600;
-		}
-		.card {
-			border-radius: 20px;
-			background: $color-navbar;
-			border: none;
-			color: $color-principal;
-			img {
-				border-radius: 50%;
-				background: linear-gradient(145deg, #d6d6d6, #ffffff);
+			.carousel .carousel-item {
+				height: 53vh;
+			  }
+			  
+			  .carousel-item img {
+				  position: absolute;
+				  object-fit:cover;
+				  top: 0;
+				  left: 0;
+				  min-height: 2vh;
+			  }
+			img{
+				&:hover{
+					filter: opacity(.5);
+					transition: .5s;
+				}
 			}
 		}
 	}
 }
 
-
-
-
-
-
-.menuDropDownNosotros {
-	background-color: $color-principal;
-	font-size: 1.3rem;
-}
-.menuDropDownNosotros__item--quienesSomos {
-	&:hover {
-		text-decoration: underline;
-	}
-}
-.menuDropDownNosotros__item--mision {
-	&:hover {
-		text-decoration: underline;
-	}
-}
-.menuDropDownNosotros__item--valores {
-	&:hover {
-		text-decoration: underline;
-	}
-}
 
 /*------SUCURSALES-------*/
 .mainSucursales {
