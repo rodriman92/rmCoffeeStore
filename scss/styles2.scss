@@ -481,7 +481,10 @@ a.nav-link {
 
 /*--------------------------------------TIENDA----------------------------------------*/
 .bodyTienda{
-	background-color: $color-section;
+	background-image: linear-gradient(to left, $color-principal, $color-section);
+	.navBreadcrumb{
+		margin-bottom: 2rem;
+	}
 }
 .titleTienda{
 	@include titulosSecciones($color-navbar, $fuente );
@@ -520,6 +523,7 @@ a.nav-link {
 		}
 	}
 }
+
 
 
 /*----------------------------------------------------------------------------------*/

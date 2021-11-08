@@ -359,7 +359,7 @@
     .bodyNosotros .mainNosotros .contenedorNosotros {
       width: 100%; }
       .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
-        font-size: 4.5rem;
+        font-size: 5rem;
         margin-right: 1rem;
         margin-bottom: 3rem; }
       .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
@@ -387,7 +387,7 @@
     .bodyNosotros .mainNosotros .contenedorNosotros {
       width: 100%; }
       .bodyNosotros .mainNosotros .contenedorNosotros #titleNosotros {
-        font-size: 4.5rem;
+        font-size: 5rem;
         margin-right: 1rem;
         margin-bottom: 3rem; }
       .bodyNosotros .mainNosotros .contenedorNosotros .articleNosotros1 {
@@ -420,6 +420,48 @@
   .cardTienda .card-footer .btnComprar {
     width: 50%;
     font-size: 0.5rem; } }
+
+@media screen and (max-width: 375px) {
+  #titleTienda {
+    margin-top: 2rem;
+    font-size: 3rem; }
+  .cardTienda .cardBody {
+    height: 30%; }
+    .cardTienda .cardBody h3 {
+      font-size: 1.7rem; }
+    .cardTienda .cardBody .precioCard {
+      font-size: 1.4rem; }
+  .cardTienda .card-footer .btnComprar {
+    width: 50%;
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 425px) {
+  #titleTienda {
+    margin-top: 2rem;
+    font-size: 3.5rem; }
+  .cardTienda .cardBody {
+    height: 30%; }
+    .cardTienda .cardBody h3 {
+      font-size: 1.7rem; }
+    .cardTienda .cardBody .precioCard {
+      font-size: 1.4rem; }
+  .cardTienda .card-footer .btnComprar {
+    width: 50%;
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 768px) {
+  #titleTienda {
+    margin-top: 2rem;
+    font-size: 4rem; }
+  .cardTienda .cardBody {
+    height: 30%; }
+    .cardTienda .cardBody h3 {
+      font-size: 1.7rem; }
+    .cardTienda .cardBody .precioCard {
+      font-size: 1.4rem; }
+  .cardTienda .card-footer .btnComprar {
+    width: 50%;
+    font-size: 0.8rem; } }
 
 /*---------------------------------------------------------*/
 * {
@@ -839,7 +881,9 @@ a.nav-link {
 
 /*--------------------------------------TIENDA----------------------------------------*/
 .bodyTienda {
-  background-color: #D9A036; }
+  background-image: linear-gradient(to left, #F2DA63, #D9A036); }
+  .bodyTienda .navBreadcrumb {
+    margin-bottom: 2rem; }
 
 .titleTienda {
   color: #593636;

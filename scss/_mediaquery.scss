@@ -650,7 +650,7 @@
             .contenedorNosotros{
                 width: 100%;
                 #titleNosotros{
-                    font-size: 4.5rem;
+                    font-size: 5rem;
                     margin-right: 1rem;
                     margin-bottom: 3rem;
                 }
@@ -697,7 +697,7 @@
             .contenedorNosotros{
                 width: 100%;
                 #titleNosotros{
-                    font-size: 4.5rem;
+                    font-size: 5rem;
                     margin-right: 1rem;
                     margin-bottom: 3rem;
                 }
@@ -748,6 +748,78 @@
             .btnComprar{
                 width: 50%;
                 font-size: 0.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #titleTienda{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .cardTienda{
+        .cardBody{
+            height: 30%;
+            h3{
+                font-size: 1.7rem;
+            }
+            .precioCard{
+                font-size: 1.4rem;
+            }
+        }
+        .card-footer{
+            .btnComprar{
+                width: 50%;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #titleTienda{
+        margin-top: 2rem;
+        font-size: 3.5rem;
+    }
+    .cardTienda{
+        .cardBody{
+            height: 30%;
+            h3{
+                font-size: 1.7rem;
+            }
+            .precioCard{
+                font-size: 1.4rem;
+            }
+        }
+        .card-footer{
+            .btnComprar{
+                width: 50%;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #titleTienda{
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+    .cardTienda{
+        .cardBody{
+            height: 30%;
+            h3{
+                font-size: 1.7rem;
+            }
+            .precioCard{
+                font-size: 1.4rem;
+            }
+        }
+        .card-footer{
+            .btnComprar{
+                width: 50%;
+                font-size: 0.8rem;
             }
         }
     }
