@@ -479,77 +479,56 @@ a.nav-link {
 	}
 }
 
-/*--------TIENDA-----------*/
-.contenedorMain__centrar__titleTienda {
-	align-items: center;
-	text-align: center;
+/*--------------------------------------TIENDA----------------------------------------*/
+.bodyTienda{
+	background-color: $color-section;
+}
+.titleTienda{
+	@include titulosSecciones($color-navbar, $fuente );
 	margin: auto;
-	font-family: $fuente;
-	font-size: 5rem !important;
-	color: $color-titulo;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 2rem;
 }
-.modalContentCustom__modalHeaderCustom {
-	background-color: $color-principal;
-	color: white;
-	font-family: $fuente;
-	font-size: 2rem;
-}
-.modalContentCustom__modalBodyCustom {
-	font-family: $fuente;
-}
-
-.modalFooter__botonCancelar--rojo {
-	background-color: red;
-	color: white;
-}
-.modalFooter__botonComprar--verde {
-	background-color: green;
-	color: white;
-}
-/*-----------------------------MAPS---------------------------------*/
-$colors: (
-	color1: green,
-	color2: orange,
-	color3: blue,
-	color4: red,
-);
-
-/*-----------------------------EACH---------------------------------*/
-@each $key, $value in $colors {
-	.#{$value}-background {
-		color: white;
-		background-color: $value;
-		border-color: $value;
-		&:hover {
-			background-color: white;
-			border-radius: 2px solid $value;
-			color: $value;
+.cardTienda{
+	.carousel-item{
+		height: 40vh;
+	} 
+	.carousel-item img{
+		height: 40vh;
+		background-size: cover ;
+	}
+	.cardBody{
+		background-color: $color-navbar;
+		color: $color-section;
+		text-align: center;
+		h3{
+			font-family: $fuente;
+			font-weight: 600;
+		}
+		.precioCard{
+			font-size: 1.7rem;
+			font-weight: 800;
+			color: white;
+		}
+	}
+	.card-footer{
+		background-color: $color-navbar;
+		opacity: .9;
+		.btnComprar{
+			text-align: center;
+			margin: auto;
+			justify-content: center;
+			background-color: $color-principal;
+			color: black;
+			font-size: 1rem;
+			font-weight: 600;
 		}
 	}
 }
-/*------------------------FIN EACH----------------------------------*/
-.estiloPrecioCafé {
-	font-family: $fuente;
-	font-size: 2rem;
-}
 
-.cardsBody {
-	background-color: #5c453c;
-	color: white;
-	font-family: $fuente;
-	border-radius: 20px;
-	margin-bottom: 2vh;
-	&:hover {
-		background-color: #947265;
-		cursor: pointer;
-	}
-	.btnComprar {
-		margin-bottom: 2.5vh;
-		font-family: $fuente;
-	}
-}
 
-/*------------------------*/
+/*----------------------------------------------------------------------------------*/
 
 /*--------CONTACTO---------*/
 .bodyContacto__headerCustom__navCustom {

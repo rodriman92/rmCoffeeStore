@@ -821,89 +821,51 @@ a.nav-link {
     background-color: white;
     color: #F2DA63; }
 
-/*--------TIENDA-----------*/
-.contenedorMain__centrar__titleTienda {
-  align-items: center;
-  text-align: center;
+/*--------------------------------------TIENDA----------------------------------------*/
+.bodyTienda {
+  background-color: #D9A036; }
+
+.titleTienda {
+  color: #593636;
+  font-size: 5rem;
+  font-family: "Heebo", sans-serif;
   margin: auto;
-  font-family: "Heebo", sans-serif;
-  font-size: 5rem !important;
-  color: #F28627; }
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2rem; }
 
-.modalContentCustom__modalHeaderCustom {
-  background-color: #F2DA63;
-  color: white;
-  font-family: "Heebo", sans-serif;
-  font-size: 2rem; }
+.cardTienda .carousel-item {
+  height: 40vh; }
 
-.modalContentCustom__modalBodyCustom {
-  font-family: "Heebo", sans-serif; }
+.cardTienda .carousel-item img {
+  height: 40vh;
+  background-size: cover; }
 
-.modalFooter__botonCancelar--rojo {
-  background-color: red;
-  color: white; }
+.cardTienda .cardBody {
+  background-color: #593636;
+  color: #D9A036;
+  text-align: center; }
+  .cardTienda .cardBody h3 {
+    font-family: "Heebo", sans-serif;
+    font-weight: 600; }
+  .cardTienda .cardBody .precioCard {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: white; }
 
-.modalFooter__botonComprar--verde {
-  background-color: green;
-  color: white; }
+.cardTienda .card-footer {
+  background-color: #593636;
+  opacity: .9; }
+  .cardTienda .card-footer .btnComprar {
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background-color: #F2DA63;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600; }
 
-/*-----------------------------MAPS---------------------------------*/
-/*-----------------------------EACH---------------------------------*/
-.green-background {
-  color: white;
-  background-color: green;
-  border-color: green; }
-  .green-background:hover {
-    background-color: white;
-    border-radius: 2px solid green;
-    color: green; }
-
-.orange-background {
-  color: white;
-  background-color: orange;
-  border-color: orange; }
-  .orange-background:hover {
-    background-color: white;
-    border-radius: 2px solid orange;
-    color: orange; }
-
-.blue-background {
-  color: white;
-  background-color: blue;
-  border-color: blue; }
-  .blue-background:hover {
-    background-color: white;
-    border-radius: 2px solid blue;
-    color: blue; }
-
-.red-background {
-  color: white;
-  background-color: red;
-  border-color: red; }
-  .red-background:hover {
-    background-color: white;
-    border-radius: 2px solid red;
-    color: red; }
-
-/*------------------------FIN EACH----------------------------------*/
-.estiloPrecioCafé {
-  font-family: "Heebo", sans-serif;
-  font-size: 2rem; }
-
-.cardsBody {
-  background-color: #5c453c;
-  color: white;
-  font-family: "Heebo", sans-serif;
-  border-radius: 20px;
-  margin-bottom: 2vh; }
-  .cardsBody:hover {
-    background-color: #947265;
-    cursor: pointer; }
-  .cardsBody .btnComprar {
-    margin-bottom: 2.5vh;
-    font-family: "Heebo", sans-serif; }
-
-/*------------------------*/
+/*----------------------------------------------------------------------------------*/
 /*--------CONTACTO---------*/
 .bodyContacto__headerCustom__navCustom {
   background-image: linear-gradient(to left, #4d3227, #4d3227);

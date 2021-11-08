@@ -25,14 +25,11 @@
     <meta name="description" content="En RM COFFEE STORE contamos con una tienda online, donde se destacan tipos de café importados y finamente seleccionados">
 </head>
 
-<body>
+<body class="bodyTienda">
     <header class="headerCustom">
         <nav class="navCustom navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand logoNeon" href="../index.html">RM COFFEE STORE</a>
-                <a class="imagenLogoSmall navbar-brand " href="../index.html">
-                    RM☕
-                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -43,19 +40,8 @@
                         <li class="nav-item">
                             <a href="../index.html" class="nav-link active" aria-current="page">Inicio</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Nosotros
-                            </a>
-                            <ul class="dropdown-menu menuDropDownNosotros" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item menuDropDownNosotros__item--quienesSomos"
-                                        href="../pages/nosotros.html">¿Quienes somos?</a></li>
-                                <li><a class="dropdown-item menuDropDownNosotros__item--mision"
-                                        href="../pages/nosotros.html#nuestraMision">Nuestra misión</a></li>
-                                <li><a class="dropdown-item menuDropDownNosotros__item--valores"
-                                        href="../pages/nosotros.html#valores">Nuestros valores</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/tienda.html">Tienda</a>
@@ -75,25 +61,23 @@
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item breadcrumbItem"><a href="../index.html">Inicio</a></li>
-                  <li class="breadcrumb-item active breadcrumbItemActive" aria-current="page"><a href="../pages/tienda.html">Tienda</a></li>
+                  <li class="breadcrumb-item active breadcrumbItemActive" aria-current="page"><a href="../pages/nosotros.html">Nosotros</a></li>
                 </ol>
               </nav>
             </div>
         </nav>
     </header>
 
-    <main class="container-fluid contenedorMain">
-        <div class="row contenedorMain__centrar">
-            <h1 class="contenedorMain__centrar__titleTienda">TIENDA</h1>
+    <main class="container-fluid mainTienda">
+        <div class="row">
+            <h1 class="titleTienda" id="titleTienda">TIENDA</h1>
         </div>
-
-        <div class="container d-flex justify-content-center mt-50 mb-50">
-            <div class="row">
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody background-green">
-                        <div class="card-body  ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide carousel-dark "
+        <div class="container-fluid">
+            <div class="px-lg-5">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide carousel-dark"
                                     data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="10000">
@@ -106,96 +90,97 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card-body text-center ">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ STARBUCKS</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ STARBUCKS</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1200,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1200
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light green-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class="text-center btn btn-light btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="11000">
-                                            <img src="https://m.media-amazon.com/images/I/41Wf303p0wL.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe juan valdez">
-                                        </div>
-                                        <div class="carousel-item" data-bs-interval="11000">
-                                            <img src="https://http2.mlstatic.com/D_Q_NP_2X_908341-MLA41355344906_042020-P.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe juan valdez 2">
-                                        </div>
+                    <!--CARD 2-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="11000">
+                                        <img src="https://m.media-amazon.com/images/I/41Wf303p0wL.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe juan valdez">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="11000">
+                                        <img src="https://http2.mlstatic.com/D_Q_NP_2X_908341-MLA41355344906_042020-P.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe juan valdez 2">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ JUAN VALDEZ</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ JUAN VALDEZ</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1300,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1300
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light red-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="12000">
-                                            <img src="https://http2.mlstatic.com/D_NQ_NP_687782-MLA46433612263_062021-O.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe nescafe">
-                                        </div>
-                                        <div class="carousel-item" data-bs-interval="12000">
-                                            <img src="https://http2.mlstatic.com/D_NQ_NP_827094-MLA43632494547_092020-O.webp"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe nescafe 2">
-                                        </div>
+                    <!--CARD 3-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="12000">
+                                        <img src="https://http2.mlstatic.com/D_NQ_NP_687782-MLA46433612263_062021-O.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe nescafe">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="12000">
+                                        <img src="https://http2.mlstatic.com/D_NQ_NP_827094-MLA43632494547_092020-O.webp"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe nescafe 2">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ NESCAFÉ DOLCE</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ NESCAFÉ</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1200,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $800
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light red-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
+                    <!--CARD 4-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
                                 <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="13000">
@@ -209,27 +194,29 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ MOCCONA</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ MOCCONA</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1500,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1500
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light orange-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
+                    <!--CARD 5-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
                                 <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active" data-bs-interval="14000">
@@ -245,126 +232,128 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ EOC COMPANY</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ EOC COMPANY</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1600,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1600
-                            </button>
-
-                        </div>
-                        <button type="button" class="btn btn-light red-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="15000">
-                                            <img src="https://images-na.ssl-images-amazon.com/images/I/41K3qy2F3jL._SX500_SY500_CR,0,0,500,500_.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe boss">
-                                        </div>
-                                        <div class="carousel-item" data-bs-interval="15000">
-                                            <img src="https://m.media-amazon.com/images/I/51rsopOUpIL.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe boss 2">
-                                        </div>
+                    <!--CARD 6-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="15000">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/41K3qy2F3jL._SX500_SY500_CR,0,0,500,500_.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe boss">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="15000">
+                                        <img src="https://m.media-amazon.com/images/I/51rsopOUpIL.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe boss 2">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ BOSS COMPANY</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ BOSS COMPANY</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1800,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1600
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light blue-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="16000">
-                                            <img src="https://m.media-amazon.com/images/I/41oLebptlfL.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe ethipian">
-                                        </div>
-                                        <div class="carousel-item" data-bs-interval="16000">
-                                            <img src="https://www.ubuy.com.pl/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNDFWcTRrSGd5WUwuX1NTNDAwXy5qcGc.jpg"
-                                                class="d-block w-100 img-fluid" alt="imagen tienda cafe ethiopian 2">
-                                        </div>
+                    <!--CARD 7-->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="16000">
+                                        <img src="https://m.media-amazon.com/images/I/41oLebptlfL.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe ethipian">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="16000">
+                                        <img src="https://www.ubuy.com.pl/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNDFWcTRrSGd5WUwuX1NTNDAwXy5qcGc.jpg"
+                                            class="d-block w-100 img-fluid" alt="imagen tienda cafe ethiopian 2">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ ETHIOPIAN</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ ETHIOPIAN COMPANY</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $1800,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $1600
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light blue-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2">
-                    <div class="card cardsBody">
-                        <div class="card-body ">
-                            <div class="card-img-actions">
-                                <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active" data-bs-interval="17000">
-                                            <img src="https://images-na.ssl-images-amazon.com/images/I/51lU0OYQE-L._SX500_SY500_CR,0,0,500,500_.jpg"
-                                                class="d-block w-100 img-fluid"
-                                                alt="imagen tienda cafe fresh roasted coffee">
-                                        </div>
-                                        <div class="carousel-item" data-bs-interval="17000">
-                                            <img src="https://images-na.ssl-images-amazon.com/images/I/51Xlcf0dDBL._SX500_SY500_CR,0,0,500,500_.jpg"
-                                                class="d-block w-100 img-fluid"
-                                                alt="imagen tienda cafe fresh roasted coffee 2">
-                                        </div>
+                    <!-- CARD 8 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTienda">
+                        <div class="bg-white rounded shadow-sm">
+                            <div id="carouselExampleSlidesOnly1" class="carousel slide " data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="17000">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/51lU0OYQE-L._SX500_SY500_CR,0,0,500,500_.jpg"
+                                            class="d-block w-100 img-fluid"
+                                            alt="imagen tienda cafe fresh roasted coffee">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="17000">
+                                        <img src="https://images-na.ssl-images-amazon.com/images/I/51Xlcf0dDBL._SX500_SY500_CR,0,0,500,500_.jpg"
+                                            class="d-block w-100 img-fluid"
+                                            alt="imagen tienda cafe fresh roasted coffee 2">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body text-center">
-                            <div class="mb-2">
-                                <div class="cards-title">
-                                    <h3 class="h3">CAFÉ FRESH COFFEE LLC</h3>
+                            <div class="p-4 cardBody">
+                                <div class="mb-2">
+                                    <div class="cards-title">
+                                        <h3 class="h3">CAFÉ FRESH COFFEE LLC</h3>
+                                    </div>
                                 </div>
+                                <p class="precioCard">
+                                    $2500,00
+                                </p>
+                                
                             </div>
-                            <button type="button" class="btn btn-light disabled estiloPrecioCafé">
-                                $2000
-                            </button>
-                        </div>
-                        <button type="button" class="btn btn-light orange-background btnComprar" data-bs-toggle="modal"
+                            <div class="card-footer text-center">
+                                <button type="button" class=" text-center btn btn-light green-background btnComprar" data-bs-toggle="modal"
                             data-bs-target="#modal1">
                             Comprar 🛒
                         </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -417,23 +406,40 @@
         </div>
 
     </main>
-    <footer>
-        <div class="footer">
-            <div class="footer__social">
-                <a href="#"><i class="fab fa-instagram footer__social--instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp footer__social--whatsapp"></i></a>
-                <a href="#"><i class="fab fa-twitter-square footer__social--twitter"></i></a>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 item">
+                        <h3 class="text-center">Menú</h3>
+                        <ul>
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                            <li><a href="../pages/tienda.html">Tienda</a></li>
+                            <li><a href="../pages/sucursales.html">Sucursales</a></li>
+                            <li><a href="../pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                        <div class="container mt-5">
+                            <div class="row">
+                                <div class="col-xl-8 col-lg-10 mx-auto">
+                                    <div class="card p-4 px-5">
+                                        <h2 class="font-weight-bold text-white">Recibi nuestras novedades</h2>
+                                        <h6 class="text-white-50 mb-5 text-color">Suscribite a nuestro newsletter y recibí por correo todas las promos e ingresos de productos.</h6>
+                                        <div class="form-group bg-white border rounded px-2 py-2 mb-2">
+                                            <div class="row">
+                                                <div class="col"> <input type="email" name="email" class="form-control pl-3 shadow-none bg-transparent border-0" placeholder="usuario@email.com"> </div>
+                                                <div class="col-auto"> <button type="submit" class="btn btn-block btn-light"><i class="fas fa-check"></i></button> </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <p class="copyright">RM Coffee Store © 2021</p>
             </div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="../index.html">Inicio</a></li>
-                <li class="list-inline-item"><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li class="list-inline-item"><a href="../pages/tienda.html">Tienda</a></li>
-                <li class="list-inline-item"><a href="../pages/sucursales.html">Sucursales</a></li>
-                <li class="list-inline-item"><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <p class="copyright">RM Coffee Store. Todos los derechos reservados</p>
-    </footer>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
     </script>
