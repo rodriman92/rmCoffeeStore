@@ -727,3 +727,29 @@
     
 }
 /*---------------------------------------------------*/
+
+/*-------------------------MQ TIENDA-----------------------*/
+@media screen and (max-width: 320px) {
+    #titleTienda{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .cardTienda{
+        .cardBody{
+            height: 30%;
+            h3{
+                font-size: 1.2rem;
+            }
+            .precioCard{
+                font-size: 1.3rem;
+            }
+        }
+        .card-footer{
+            .btnComprar{
+                width: 50%;
+                font-size: 0.5rem;
+            }
+        }
+    }
+}
+/*---------------------------------------------------------*/

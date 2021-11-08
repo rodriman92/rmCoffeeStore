@@ -406,6 +406,22 @@
       font-size: 1.5rem; } }
 
 /*---------------------------------------------------*/
+/*-------------------------MQ TIENDA-----------------------*/
+@media screen and (max-width: 320px) {
+  #titleTienda {
+    margin-top: 2rem;
+    font-size: 3rem; }
+  .cardTienda .cardBody {
+    height: 30%; }
+    .cardTienda .cardBody h3 {
+      font-size: 1.2rem; }
+    .cardTienda .cardBody .precioCard {
+      font-size: 1.3rem; }
+  .cardTienda .card-footer .btnComprar {
+    width: 50%;
+    font-size: 0.5rem; } }
+
+/*---------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
