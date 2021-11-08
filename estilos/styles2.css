@@ -834,13 +834,6 @@ a.nav-link {
   justify-content: center;
   margin-bottom: 2rem; }
 
-.cardTienda .carousel-item {
-  height: 40vh; }
-
-.cardTienda .carousel-item img {
-  height: 40vh;
-  background-size: cover; }
-
 .cardTienda .cardBody {
   background-color: #593636;
   color: #D9A036;
