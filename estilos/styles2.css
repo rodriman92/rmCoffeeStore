@@ -857,9 +857,10 @@ a.nav-link {
 
 /*------SUCURSALES-------*/
 .mainSucursales {
-  width: 100%; }
+  width: 100%;
+  background-image: linear-gradient(to right, #F2DA63, #D9A036); }
   .mainSucursales .mainSucursales__titleSucursales--centrado {
-    color: #F28627;
+    color: #593636;
     font-size: 5rem;
     font-family: "Heebo", sans-serif;
     align-items: center;

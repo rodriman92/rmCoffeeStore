@@ -454,8 +454,9 @@ a.nav-link {
 /*------SUCURSALES-------*/
 .mainSucursales {
 	width: 100%;
+	background-image: linear-gradient(to right, $color-principal, $color-section);
 	.mainSucursales__titleSucursales--centrado {
-		@include titulosSecciones($color-titulo, $fuente);
+		@include titulosSecciones($color-navbar, $fuente);
 		align-items: center;
 		text-align: center;
 		margin: auto;
