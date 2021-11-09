@@ -179,12 +179,10 @@ a.nav-link {
 	background-color: $color-section;
 	padding-bottom: 10vh;
 	.h1Index {
-		font-size: 4rem;
-		font-weight: 600;
-		margin: auto;
+		@include titulosSecciones($color-navbar, $fuente);
+		align-items: center;
 		text-align: center;
-		justify-content: center;
-		color: $color-navbar;
+		margin: auto;
 	}
 	.container {
 		transform-style: preserve-3d;
@@ -520,6 +518,34 @@ a.nav-link {
 			color: black;
 			font-size: 1rem;
 			font-weight: 600;
+		}
+	}
+}
+.modalCompra{
+	.modalContent{
+		background-color: $color-navbar;
+		.modalHeader{
+			background-color: $color-navbar;
+			font-size: 1.2rem;
+			text-align: center;
+			margin: auto;
+			color: $color-principal;
+		}
+		.modalBody{
+			background-color: $color-principal;
+			font-family: $fuente;
+			.px-4{
+				background-color: $color-principal;
+			}
+			.modal-footer{
+				width: 100%;
+				justify-content: center;
+				background-color: $color-navbar;
+				.btnComprar{
+					background-color: $color-principal;
+					color: $color-navbar;
+				}
+			}
 		}
 	}
 }

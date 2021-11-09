@@ -99,7 +99,7 @@
                     <div class="form-box">
                         <h1 class="titleContacto">Comunicate con nosotros</h1>
                         <h2 class="h2">Estamos para escucharte</h2>
-                        <form method="post">
+                        <form method="post" id="form">
                             <div class="form-group">
                                 <label for="name">Nombre</label>
                                 <input class="form-control" id="name" type="text" name="name"
@@ -112,13 +112,14 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Mensaje</label>
-                                <textarea class="form-control" id="message" name="Message"
+                                <textarea class="form-control" id="message" name="message"
                                     placeholder="¿Cómo podemos ayudarte?" rows="6"></textarea>
                             </div>
-                            <button class="btn btn-light btnEnviarFormulario" type="button"
+                            <button class="btn btn-light btnEnviarFormulario" type="submit"
                                 data-bs-target="#modalContacto" data-bs-toggle="modal">Enviar</button>
                     </div>
                     </form>
+                    <a href="mailto:contacto@rmcoffeestore.com" id="superFormOculto"></a>
                 </div>
             </div>
         </div>
@@ -173,6 +174,21 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
+    </script>
+
+    <!--ENVIO DE FORMULARIO-->
+
+    <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#superFormOculto')
+        $form.addEventListener('submit', handleSubmit)
+        function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this)
+            console.log(form.get('name'))
+            $buttonMailto.setAttribute('href', `mailto:contacto@rmcoffeestore.com?subject=consulta tienda de cafe&body=${form.get('message')}`)
+            $buttonMailto.click()
+        }
     </script>
 </body>
 
