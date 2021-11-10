@@ -454,32 +454,29 @@ a.nav-link {
 /*------SUCURSALES-------*/
 .mainSucursales {
 	width: 100%;
-	background-image: linear-gradient(to right, $color-principal, $color-section);
-	.mainSucursales__titleSucursales--centrado {
+	background-image: linear-gradient(to top, $color-navbar, $color-principal);
+	.titleSucursales{
 		@include titulosSecciones($color-navbar, $fuente);
 		align-items: center;
 		text-align: center;
 		margin: auto;
-		padding-bottom: 20px;
 	}
-	.footerCard{
-		background-color: $color-navbar;
+	.p-4{
+		background-color: #A6691F;
+		.tituloCardSucursales{
+			a{
+				color: $color-principal;
+				text-decoration: none;
+			}
+		}
+		.pCardSucursales{
+			color: white;
+			font-size: 0.8rem;
+		}
 	}
 }
 
-.card-img-top {
-	object-fit: cover;
-	width: 100%;
-	height: 30vh;
-}
-.btnMapaModal {
-	background-color: $color-principal;
-	color: white;
-	&:hover {
-		background-color: white;
-		color: $color-principal;
-	}
-}
+
 
 /*--------------------------------------TIENDA----------------------------------------*/
 .bodyTienda{

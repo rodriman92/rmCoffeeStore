@@ -463,6 +463,44 @@
 
 /*---------------------------------------------------------*/
 /*------------------------SUCURSALES-----------------------*/
+@media screen and (max-width: 320px) {
+  .mainSucursales .row .titleSucursales {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; } }
+
+@media screen and (max-width: 375px) {
+  .mainSucursales .row .titleSucursales {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; } }
+
+@media screen and (max-width: 425px) {
+  .mainSucursales .row .titleSucursales {
+    font-size: 3.5em;
+    margin-top: 2rem;
+    margin-bottom: 2rem; } }
+
+@media screen and (max-width: 768px) {
+  .mainSucursales .row .titleSucursales {
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .mainSucursales .card-img-top {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover; } }
+
+@media screen and (max-width: 1024px) {
+  .mainSucursales .row .titleSucursales {
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .mainSucursales .card-img-top {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover; } }
+
 /*---------------------------------------------------------*/
 * {
   margin: 0;
@@ -858,29 +896,22 @@ a.nav-link {
 /*------SUCURSALES-------*/
 .mainSucursales {
   width: 100%;
-  background-image: linear-gradient(to right, #F2DA63, #D9A036); }
-  .mainSucursales .mainSucursales__titleSucursales--centrado {
+  background-image: linear-gradient(to top, #593636, #F2DA63); }
+  .mainSucursales .titleSucursales {
     color: #593636;
     font-size: 5rem;
     font-family: "Heebo", sans-serif;
     align-items: center;
     text-align: center;
-    margin: auto;
-    padding-bottom: 20px; }
-  .mainSucursales .footerCard {
-    background-color: #593636; }
-
-.card-img-top {
-  object-fit: cover;
-  width: 100%;
-  height: 30vh; }
-
-.btnMapaModal {
-  background-color: #F2DA63;
-  color: white; }
-  .btnMapaModal:hover {
-    background-color: white;
-    color: #F2DA63; }
+    margin: auto; }
+  .mainSucursales .p-4 {
+    background-color: #A6691F; }
+    .mainSucursales .p-4 .tituloCardSucursales a {
+      color: #F2DA63;
+      text-decoration: none; }
+    .mainSucursales .p-4 .pCardSucursales {
+      color: white;
+      font-size: 0.8rem; }
 
 /*--------------------------------------TIENDA----------------------------------------*/
 .bodyTienda {
