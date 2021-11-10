@@ -867,6 +867,8 @@ a.nav-link {
     text-align: center;
     margin: auto;
     padding-bottom: 20px; }
+  .mainSucursales .footerCard {
+    background-color: #593636; }
 
 .card-img-top {
   object-fit: cover;
