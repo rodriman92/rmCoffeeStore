@@ -404,7 +404,7 @@
       font-size: 1.5rem; } }
 
 /*---------------------------------------------------*/
-/*-------------------------MQ TIENDA-----------------------*/
+/*-------------------------MQ SHOP-----------------------*/
 @media screen and (max-width: 320px) {
   #titleTienda {
     margin-top: 2rem;
@@ -462,7 +462,7 @@
     font-size: 0.8rem; } }
 
 /*---------------------------------------------------------*/
-/*------------------------SUCURSALES-----------------------*/
+/*------------------------MQ TIENDAS-----------------------*/
 @media screen and (max-width: 320px) {
   .mainTiendas .row .titleTiendas {
     font-size: 2rem;
@@ -513,7 +513,7 @@
 
 @media screen and (max-width: 425px) {
   .titleContacto {
-    font-size: 3.5rem; } }
+    font-size: 3.3rem; } }
 
 @media screen and (max-width: 768px) {
   .titleContacto {
