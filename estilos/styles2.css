@@ -464,44 +464,78 @@
 /*---------------------------------------------------------*/
 /*------------------------SUCURSALES-----------------------*/
 @media screen and (max-width: 320px) {
-  .mainSucursales .row .titleSucursales {
+  .mainTiendas .row .titleTiendas {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
 @media screen and (max-width: 375px) {
-  .mainSucursales .row .titleSucursales {
+  .mainTiendas .row .titleTiendas {
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
 @media screen and (max-width: 425px) {
-  .mainSucursales .row .titleSucursales {
+  .mainTiendas .row .titleTiendas {
     font-size: 3.5em;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
 @media screen and (max-width: 768px) {
-  .mainSucursales .row .titleSucursales {
+  .mainTiendas .row .titleTiendas {
     font-size: 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem; }
-  .mainSucursales .card-img-top {
+  .mainTiendas .card-img-top {
     width: 100%;
     height: 50vw;
     object-fit: cover; } }
 
 @media screen and (max-width: 1024px) {
-  .mainSucursales .row .titleSucursales {
+  .mainTiendas .row .titleTiendas {
     font-size: 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem; }
-  .mainSucursales .card-img-top {
+  .mainTiendas .card-img-top {
     width: 100%;
     height: 50vw;
     object-fit: cover; } }
 
 /*---------------------------------------------------------*/
+/*------------------------MQ CONTACTO----------------------*/
+@media screen and (max-width: 320px) {
+  .titleContacto {
+    font-size: 3rem !important; } }
+
+@media screen and (max-width: 375px) {
+  .titleContacto {
+    font-size: 3.2rem !important; } }
+
+@media screen and (max-width: 425px) {
+  .titleContacto {
+    font-size: 3.5rem; } }
+
+@media screen and (max-width: 768px) {
+  .titleContacto {
+    font-size: 4rem; } }
+
+@media screen and (max-width: 1024px) {
+  .titleContacto {
+    font-size: 4.5rem; } }
+
+@media screen and (max-width: 1024px) {
+  .titleContacto {
+    font-size: 5rem; } }
+
+@media screen and (max-width: 1440px) {
+  .titleContacto {
+    font-size: 5rem; } }
+
+@media screen and (max-width: 2160px) {
+  .titleContacto {
+    font-size: 5rem; } }
+
+/*----------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -534,7 +568,8 @@ html {
   color: #F2DA63;
   font-size: 5.5rem;
   font-weight: 900;
-  background-color: black; }
+  background-color: black;
+  transition: 0.5s; }
   #spin p {
     margin-top: 10rem; }
 
@@ -589,7 +624,7 @@ html {
   color: #593636;
   margin-top: 4rem;
   margin-bottom: 6rem;
-  font-weight: 400; }
+  font-weight: 800; }
   .btnIndexTienda:hover {
     background-color: #593636;
     color: #F2DA63; }
@@ -627,17 +662,32 @@ a.nav-link {
 .navbar-light .navbar-nav .nav-link {
   color: #F2DA63; }
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #ebc999; }
+    color: #ebc999;
+    text-decoration: 6px solid #F2DA63 underline;
+    transition: 0.6s; }
+    .navbar-light .navbar-nav .nav-link:hover::before {
+      transform: scaleX(1); }
 
 .navbar-light .navbar-nav .nav-link.active {
   color: #d1ae4e; }
+  .navbar-light .navbar-nav .nav-link.active::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease; }
 
 .navbar-light .navbar-brand {
   padding-left: 1vw;
   font-size: 3rem;
   color: #F2DA63; }
 
-/*--------------LOGO NEON----------------------*/
+/*----------------------------------------LOGO NEON--------------------------------------------*/
 .logoNeon {
   text-align: center;
   font-weight: 600;
@@ -655,7 +705,7 @@ a.nav-link {
   to {
     background-position: 200% center; } }
 
-/*-----------------SECTION INDEX----------------------*/
+/*---------------------------------------------SECTION INDEX---------------------------------------------*/
 .sectionIndex {
   padding-top: 2vh;
   background-color: #D9A036;
@@ -743,29 +793,11 @@ a.nav-link {
     .articleIndexTestimonios .card .ratings i {
       color: #593636; }
 
-/*-------------------------------BUCLE FOR------------------------------*/
-.pCards-1 {
-  font-size: 1.2rem;
-  color: #402624; }
-
-.pCards-2 {
-  font-size: 1.2rem;
-  color: #402624; }
-
-.pCards-3 {
-  font-size: 1.2rem;
-  color: #402624; }
-
-.pCards-4 {
-  font-size: 1.2rem;
-  color: #402624; }
-
-/*------------------------------FIN FOR----------------------------------*/
 /*-----------------------------FOOTER NUEVO-------------------------------*/
 .footer-dark {
   padding: 1vh 0;
   color: #593636;
-  background-color: #A6691F; }
+  background-color: #a6691f; }
   .footer-dark .item {
     margin: auto;
     text-align: center;
@@ -799,17 +831,17 @@ a.nav-link {
     display: block;
     width: 100%;
     height: calc(1.5em + 1.5rem + 2px);
-    padding: .75rem 1.25rem;
-    font-size: .875rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5;
     color: #696973;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #d5d5dc;
-    border-radius: .375rem;
+    border-radius: 0.375rem;
     box-shadow: none;
-    transition: all .3s ease; }
+    transition: all 0.3s ease; }
   .footer-dark .btn-light {
     color: #fff;
     background-color: #593636;
@@ -824,11 +856,11 @@ a.nav-link {
     user-select: none;
     background-color: #593636;
     border: 1px solid transparent;
-    padding: .75rem 1.75rem;
-    font-size: .875rem;
+    padding: 0.75rem 1.75rem;
+    font-size: 0.875rem;
     line-height: 1.5;
-    border-radius: .375rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+    border-radius: 0.375rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .footer-dark .copyright {
     text-align: center;
     padding-top: 2rem;
@@ -840,12 +872,14 @@ a.nav-link {
 /*--------------------------------------------------------------------------------------------------*/
 /*-----------------------------------NOSOTROS--------------------------------------*/
 .bodyNosotros {
-  background-image: linear-gradient(to right, #F2DA63, #D9A036); }
+  background-image: linear-gradient(to left, #F2DA63, #D9A036); }
   .bodyNosotros .mainNosotros {
     height: 210vh; }
     .bodyNosotros .mainNosotros .contenedorNosotros {
       width: 80%;
       font-family: "Heebo", sans-serif; }
+      .bodyNosotros .mainNosotros .contenedorNosotros .carousel-item {
+        margin-bottom: 2rem; }
       .bodyNosotros .mainNosotros .contenedorNosotros .titleNosotros {
         color: #593636;
         font-size: 5rem;
@@ -879,7 +913,7 @@ a.nav-link {
         min-height: 2vh; }
       .bodyNosotros .mainNosotros .contenedorNosotros img:hover {
         filter: opacity(0.5);
-        transition: .5s; }
+        transition: 0.5s; }
       .bodyNosotros .mainNosotros .contenedorNosotros .separador {
         border: 1rem solid #593636; }
       .bodyNosotros .mainNosotros .contenedorNosotros .h6Nosotros {
@@ -893,27 +927,29 @@ a.nav-link {
           color: #593636;
           background-color: #D9A036; }
 
-/*------SUCURSALES-------*/
-.mainSucursales {
+/*-------------------------------------TIENDAS------------------------------------------*/
+.mainTiendas {
   width: 100%;
-  background-image: linear-gradient(to top, #593636, #F2DA63); }
-  .mainSucursales .titleSucursales {
+  background-image: linear-gradient(to left, #F2DA63, #D9A036); }
+  .mainTiendas .titleTiendas {
     color: #593636;
     font-size: 5rem;
     font-family: "Heebo", sans-serif;
     align-items: center;
     text-align: center;
-    margin: auto; }
-  .mainSucursales .p-4 {
-    background-color: #A6691F; }
-    .mainSucursales .p-4 .tituloCardSucursales a {
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
+  .mainTiendas .p-4 {
+    background-color: #a6691f; }
+    .mainTiendas .p-4 .tituloCardTiendas a {
       color: #F2DA63;
       text-decoration: none; }
-    .mainSucursales .p-4 .pCardSucursales {
+    .mainTiendas .p-4 .pCardTiendas {
       color: white;
       font-size: 0.8rem; }
 
-/*--------------------------------------TIENDA----------------------------------------*/
+/*--------------------------------------SHOP----------------------------------------*/
 .bodyTienda {
   background-image: linear-gradient(to left, #F2DA63, #D9A036); }
   .bodyTienda .navBreadcrumb {
@@ -942,7 +978,7 @@ a.nav-link {
 
 .cardTienda .card-footer {
   background-color: #593636;
-  opacity: .9; }
+  opacity: 0.9; }
   .cardTienda .card-footer .btnComprar {
     text-align: center;
     margin: auto;
@@ -975,50 +1011,40 @@ a.nav-link {
 
 /*----------------------------------------------------------------------------------*/
 /*--------CONTACTO---------*/
-.bodyContacto__headerCustom__navCustom {
-  background-image: linear-gradient(to left, #4d3227, #4d3227);
-  grid-area: header;
-  z-index: 2000;
-  justify-content: center;
-  height: 20%; }
-
 .mainContacto {
   width: 100%;
-  height: 100vh;
-  background-image: url(../multimedia/patron_cafe.jpg);
+  height: auto;
+  background-image: linear-gradient(to left, #F2DA63, #D9A036);
   background-repeat: repeat; }
+  .mainContacto .titleContacto {
+    color: #593636;
+    font-size: 5rem;
+    font-family: "Heebo", sans-serif;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem; }
   .mainContacto .form-box {
     font-family: "Heebo", sans-serif;
-    max-width: 500px;
+    max-width: 80vw;
     margin: auto;
-    padding: 50px;
+    padding: 1rem;
     color: white;
     background: #F2DA63;
-    border: 10px solid #f2f2f2; }
-  .mainContacto h1,
-  .mainContacto p {
-    text-align: center; }
-  .mainContacto textarea {
-    width: 100%;
+    border: 10px solid #f2f2f2;
+    margin-top: 4rem;
     margin-bottom: 2rem; }
-  .mainContacto .btnEnviarFormulario {
-    width: 100%;
-    font-size: 1rem;
-    background-color: #f77638;
-    color: white;
-    border-color: white;
-    justify-items: center; }
-    .mainContacto .btnEnviarFormulario:hover {
-      background-color: white;
-      color: #f77638;
-      border-color: #f77638; }
-  .mainContacto .btnCancelarFormulario {
-    font-size: 1rem;
-    background-color: red;
-    color: white;
-    border-color: white;
-    justify-items: center; }
-    .mainContacto .btnCancelarFormulario:hover {
-      background-color: white;
-      color: red;
-      border-color: red; }
+    .mainContacto .form-box textarea {
+      width: 100%;
+      margin-bottom: 2rem; }
+    .mainContacto .form-box .btnEnviarFormulario {
+      width: 100%;
+      font-size: 1rem;
+      background-color: #593636;
+      color: white;
+      border-color: white;
+      justify-items: center; }
+      .mainContacto .form-box .btnEnviarFormulario:hover {
+        background-color: white;
+        color: #593636;
+        border-color: #593636; }

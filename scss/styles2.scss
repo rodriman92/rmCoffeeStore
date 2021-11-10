@@ -42,7 +42,6 @@ html {
 	height: 60%;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
 #spin {
@@ -50,53 +49,94 @@ html {
 	font-size: 5.5rem;
 	font-weight: 900;
 	background-color: black;
-	p{
+	transition: 0.5s;
+	p {
 		margin-top: 10rem;
 	}
-  }
-  #spin:after {
-	content:"";
-	animation: spin 30s linear infinite;
-  }
-  @keyframes spin {
-	0% { content: "café" }
-	5% { content: "coffee" }
-	10% { content: "kafe" }
-	15% { content: "kaffe" }
-	20% { content: "kafés" }
-	25% { content: "der Kaffee" }
-	30% { content: "kaffii" }
-	35% { content: "kahveh" }
-	40% { content: "kawa" }
-	45% { content: "koohii" }
-	50% { content: "kohv" }
-	55% { content: "qéhvé" }
-	60% { content: "kofi" }
-	70% { content: "kafea" }
-	75% { content: "keopi" }
-	80% { content: "kawah" }
-	85% { content: "kape" }
-	90% { content: "kafei" }
-	95% { content: "kafija" }
-	99% { content: "bunna" }
-  }
+}
+#spin:after {
+	content: "";
 
-.btnIndexTienda{
+	animation: spin 30s linear infinite;
+}
+@keyframes spin {
+	0% {
+		content: "café";
+	}
+	5% {
+		content: "coffee";
+	}
+	10% {
+		content: "kafe";
+	}
+	15% {
+		content: "kaffe";
+	}
+	20% {
+		content: "kafés";
+	}
+	25% {
+		content: "der Kaffee";
+	}
+	30% {
+		content: "kaffii";
+	}
+	35% {
+		content: "kahveh";
+	}
+	40% {
+		content: "kawa";
+	}
+	45% {
+		content: "koohii";
+	}
+	50% {
+		content: "kohv";
+	}
+	55% {
+		content: "qéhvé";
+	}
+	60% {
+		content: "kofi";
+	}
+	70% {
+		content: "kafea";
+	}
+	75% {
+		content: "keopi";
+	}
+	80% {
+		content: "kawah";
+	}
+	85% {
+		content: "kape";
+	}
+	90% {
+		content: "kafei";
+	}
+	95% {
+		content: "kafija";
+	}
+	99% {
+		content: "bunna";
+	}
+}
+
+.btnIndexTienda {
 	background-color: $color-principal;
 	color: $color-navbar;
 	margin-top: 4rem;
 	margin-bottom: 6rem;
-	font-weight: 400;
-	&:hover{
+	font-weight: 800;
+	&:hover {
 		background-color: $color-navbar;
 		color: $color-principal;
 	}
 }
-.img-responsive{
+.img-responsive {
 	max-width: 100%;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
-
 }
 
 @keyframes textclip {
@@ -105,11 +145,7 @@ html {
 	}
 }
 
-  
-
 /*-----------------------------------------*/
-
-
 
 /*---------------------NAVBAR----------------------------------------------------*/
 
@@ -139,10 +175,27 @@ a.nav-link {
 			color: $color-principal;
 			&:hover {
 				color: #ebc999;
+				text-decoration: 6px solid $color-principal underline;
+				transition: 0.6s;
+				&::before {
+					transform: scaleX(1);
+				}
 			}
 		}
 		.nav-link.active {
 			color: #d1ae4e;
+			&::before {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 100%;
+				height: 2px;
+				bottom: 0;
+				left: 0;
+				background-color: #000;
+				transform: scaleX(0);
+				transition: transform 0.3s ease;
+			}
 		}
 	}
 	.navbar-brand {
@@ -152,7 +205,7 @@ a.nav-link {
 	}
 }
 
-/*--------------LOGO NEON----------------------*/
+/*----------------------------------------LOGO NEON--------------------------------------------*/
 .logoNeon {
 	text-align: center;
 	font-weight: 600;
@@ -173,7 +226,7 @@ a.nav-link {
 		}
 	}
 }
-/*-----------------SECTION INDEX----------------------*/
+/*---------------------------------------------SECTION INDEX---------------------------------------------*/
 .sectionIndex {
 	padding-top: 2vh;
 	background-color: $color-section;
@@ -248,12 +301,12 @@ a.nav-link {
 	}
 }
 /*---------------ARTICLE CARDS TESTIMONIOS------------*/
-.articleIndexTestimonios{
+.articleIndexTestimonios {
 	background-color: $color-navbar;
 	height: auto;
 	padding-top: 2vh;
 	padding-bottom: 10vh;
-	.h2Index{
+	.h2Index {
 		margin: auto;
 		justify-content: center;
 		text-align: center;
@@ -262,90 +315,79 @@ a.nav-link {
 		padding-bottom: 2vh;
 		margin-top: 1vh;
 	}
-	.card{
+	.card {
 		border: none;
 		background-color: $color-section;
-		
+
 		.contenidoUsuario p {
 			font-family: $fuente;
 			margin-top: 2rem;
 			font-size: 1rem;
-			
-			
 		}
 		.ratings i {
 			color: $color-navbar;
 		}
 	}
-	
 }
 
-/*-------------------------------BUCLE FOR------------------------------*/
-@for $i from 1 through 4 {
-	.pCards-#{$i} {
-		font-size: 1.2rem;
-		color: #402624;
-	}
-}
-/*------------------------------FIN FOR----------------------------------*/
 /*-----------------------------FOOTER NUEVO-------------------------------*/
 .footer-dark {
-	padding:1vh 0;
-	color:$color-navbar;
-	background-color:#A6691F;
-	.item{
+	padding: 1vh 0;
+	color: $color-navbar;
+	background-color: #a6691f;
+	.item {
 		margin: auto;
 		text-align: center;
 		justify-content: center;
 		justify-items: center;
-		h3{
-			margin-top:1vh;
-			margin-bottom:12px;
-			font-weight:bold;
-			font-size:1.5rem;
+		h3 {
+			margin-top: 1vh;
+			margin-bottom: 12px;
+			font-weight: bold;
+			font-size: 1.5rem;
 			text-align: center;
 		}
-		ul{
+		ul {
 			text-align: center;
 			padding: 1vh;
-			list-style:none;
-			line-height:1.6;
+			list-style: none;
+			line-height: 1.6;
 			font-weight: 600;
 			font-size: 2rem;
-			margin-bottom:0;
-			a{
-				color:inherit;
-				text-decoration:none;
-				opacity:0.6;
-				&:hover{
-					opacity:0.8;
+			margin-bottom: 0;
+			a {
+				color: inherit;
+				text-decoration: none;
+				opacity: 0.6;
+				&:hover {
+					opacity: 0.8;
 				}
 			}
 		}
 	}
-	
+
 	.card {
 		background-color: $color-navbar;
 		.text-color {
 			color: #eee;
 		}
 	}
-	
+
 	.form-control {
 		display: block;
 		width: 100%;
 		height: calc(1.5em + 1.5rem + 2px);
-		padding: .75rem 1.25rem;
-		font-size: .875rem;
+		padding: 0.75rem 1.25rem;
+		font-size: 0.875rem;
 		font-weight: 400;
 		line-height: 1.5;
 		color: #696973;
 		background-color: #fff;
 		background-clip: padding-box;
 		border: 1px solid #d5d5dc;
-		border-radius: .375rem;
+		border-radius: 0.375rem;
 		box-shadow: none;
-		transition: all .3s ease;
+		transition: all 0.3s ease;
 	}
 	.btn-light {
 		color: #fff;
@@ -360,49 +402,53 @@ a.nav-link {
 		vertical-align: middle;
 		cursor: pointer;
 		user-select: none;
-		background-color: $color-navbar;;
+		background-color: $color-navbar;
 		border: 1px solid transparent;
-		padding: .75rem 1.75rem;
-		font-size: .875rem;
+		padding: 0.75rem 1.75rem;
+		font-size: 0.875rem;
 		line-height: 1.5;
-		border-radius: .375rem;
-		transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		border-radius: 0.375rem;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+			box-shadow 0.15s ease-in-out;
 	}
-	
-	.copyright{
-		text-align:center;
-		padding-top:2rem;
-		opacity:0.3;
+
+	.copyright {
+		text-align: center;
+		padding-top: 2rem;
+		opacity: 0.3;
 		font-weight: 600;
-		font-size:1.3rem;
-		margin-bottom:0;
+		font-size: 1.3rem;
+		margin-bottom: 0;
 	}
-  }
+}
 /*--------------------------------------------------------------------------------------------------*/
 /*-----------------------------------NOSOTROS--------------------------------------*/
-.bodyNosotros{
-	background-image: linear-gradient(to right, $color-principal, $color-section);
-	.mainNosotros{
+.bodyNosotros {
+	background-image: linear-gradient(to left, $color-principal, $color-section);
+	.mainNosotros {
 		height: 210vh;
 		.contenedorNosotros {
 			width: 80%;
 			font-family: $fuente;
+			.carousel-item {
+				margin-bottom: 2rem;
+			}
 			.titleNosotros {
 				@include titulosSecciones($color-navbar, $fuente);
 				align-items: center;
 				text-align: center;
 				margin: auto;
 			}
-			.articleNosotros1{
+			.articleNosotros1 {
 				text-align: center;
 			}
 		}
-		.rowImagenesNosotros{
+		.rowImagenesNosotros {
 			justify-content: center;
 		}
 	}
 
-	.mainNosotros{
+	.mainNosotros {
 		height: auto;
 		.contenedorNosotros {
 			width: 90%;
@@ -415,33 +461,33 @@ a.nav-link {
 			}
 			.carousel .carousel-item {
 				height: 53vh;
-			  }
-			  
-			  .carousel-item img {
-				  position: absolute;
-				  object-fit:cover;
-				  top: 0;
-				  left: 0;
-				  min-height: 2vh;
-			  }
-			img{
-				&:hover{
-					filter: opacity(.5);
-					transition: .5s;
+			}
+
+			.carousel-item img {
+				position: absolute;
+				object-fit: cover;
+				top: 0;
+				left: 0;
+				min-height: 2vh;
+			}
+			img {
+				&:hover {
+					filter: opacity(0.5);
+					transition: 0.5s;
 				}
 			}
-			.separador{
+			.separador {
 				border: 1rem solid $color-navbar;
 			}
-			.h6Nosotros{
+			.h6Nosotros {
 				color: $color-navbar;
 				font-size: 1.2rem;
 				text-decoration: 3px solid $color-navbar underline;
 			}
-			.pNosotros{
+			.pNosotros {
 				color: $color-navbar;
 				font-size: 1.1rem;
-				.linkConsulta{
+				.linkConsulta {
 					color: $color-navbar;
 					background-color: $color-section;
 				}
@@ -450,68 +496,66 @@ a.nav-link {
 	}
 }
 
-
-/*------SUCURSALES-------*/
-.mainSucursales {
+/*-------------------------------------TIENDAS------------------------------------------*/
+.mainTiendas {
 	width: 100%;
-	background-image: linear-gradient(to top, $color-navbar, $color-principal);
-	.titleSucursales{
+	background-image: linear-gradient(to left, $color-principal, $color-section);
+	.titleTiendas {
 		@include titulosSecciones($color-navbar, $fuente);
 		align-items: center;
 		text-align: center;
 		margin: auto;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
 	}
-	.p-4{
-		background-color: #A6691F;
-		.tituloCardSucursales{
-			a{
+	.p-4 {
+		background-color: #a6691f;
+		.tituloCardTiendas {
+			a {
 				color: $color-principal;
 				text-decoration: none;
 			}
 		}
-		.pCardSucursales{
+		.pCardTiendas {
 			color: white;
 			font-size: 0.8rem;
 		}
 	}
 }
 
-
-
-/*--------------------------------------TIENDA----------------------------------------*/
-.bodyTienda{
+/*--------------------------------------SHOP----------------------------------------*/
+.bodyTienda {
 	background-image: linear-gradient(to left, $color-principal, $color-section);
-	.navBreadcrumb{
+	.navBreadcrumb {
 		margin-bottom: 2rem;
 	}
 }
-.titleTienda{
-	@include titulosSecciones($color-navbar, $fuente );
+.titleTienda {
+	@include titulosSecciones($color-navbar, $fuente);
 	margin: auto;
 	text-align: center;
 	justify-content: center;
 	margin-bottom: 2rem;
 }
-.cardTienda{
-
-	.cardBody{
+.cardTienda {
+	.cardBody {
 		background-color: $color-navbar;
 		color: $color-section;
 		text-align: center;
-		h3{
+		h3 {
 			font-family: $fuente;
 			font-weight: 600;
 		}
-		.precioCard{
+		.precioCard {
 			font-size: 1.7rem;
 			font-weight: 800;
 			color: white;
 		}
 	}
-	.card-footer{
+	.card-footer {
 		background-color: $color-navbar;
-		opacity: .9;
-		.btnComprar{
+		opacity: 0.9;
+		.btnComprar {
 			text-align: center;
 			margin: auto;
 			justify-content: center;
@@ -522,27 +566,27 @@ a.nav-link {
 		}
 	}
 }
-.modalCompra{
-	.modalContent{
+.modalCompra {
+	.modalContent {
 		background-color: $color-navbar;
-		.modalHeader{
+		.modalHeader {
 			background-color: $color-navbar;
 			font-size: 1.2rem;
 			text-align: center;
 			margin: auto;
 			color: $color-principal;
 		}
-		.modalBody{
+		.modalBody {
 			background-color: $color-principal;
 			font-family: $fuente;
-			.px-4{
+			.px-4 {
 				background-color: $color-principal;
 			}
-			.modal-footer{
+			.modal-footer {
 				width: 100%;
 				justify-content: center;
 				background-color: $color-navbar;
-				.btnComprar{
+				.btnComprar {
 					background-color: $color-principal;
 					color: $color-navbar;
 				}
@@ -551,66 +595,50 @@ a.nav-link {
 	}
 }
 
-
-
 /*----------------------------------------------------------------------------------*/
 
 /*--------CONTACTO---------*/
-.bodyContacto__headerCustom__navCustom {
-	background-image: linear-gradient(to left, #4d3227, #4d3227);
-	grid-area: header;
-	z-index: 2000;
-	justify-content: center;
-	height: 20%;
-}
 .mainContacto {
 	width: 100%;
-	height: 100vh;
-	background-image: url(../multimedia/patron_cafe.jpg);
+	height: auto;
+	background-image: linear-gradient(to left, $color-principal, $color-section);
 	background-repeat: repeat;
+	.titleContacto {
+		@include titulosSecciones($color-navbar, $fuente );
+		margin: auto;
+		text-align: center;
+		justify-content: center;
+		margin-top: 2rem;
+		
+	}
 	.form-box {
 		font-family: $fuente;
-		max-width: 500px;
+		max-width: 80vw;
 		margin: auto;
-		padding: 50px;
+		padding: 1rem;
 		color: white;
 		background: $color-principal;
 		border: 10px solid #f2f2f2;
-	}
-
-	h1,
-	p {
-		text-align: center;
-	}
-
-	textarea {
-		width: 100%;
+		margin-top: 4rem;
 		margin-bottom: 2rem;
-	}
-
-	.btnEnviarFormulario {
-		width: 100%;
-		font-size: 1rem;
-		background-color: #f77638;
-		color: white;
-		border-color: white;
-		justify-items: center;
-		&:hover {
-			background-color: white;
-			color: #f77638;
-			border-color: #f77638;
+		
+		textarea {
+			width: 100%;
+			margin-bottom: 2rem;
 		}
-	}
-	.btnCancelarFormulario {
-		font-size: 1rem;
-		background-color: red;
-		color: white;
-		border-color: white;
-		justify-items: center;
-		&:hover {
-			background-color: white;
-			color: red;
-			border-color: red;
+
+		.btnEnviarFormulario {
+			width: 100%;
+			font-size: 1rem;
+			background-color: $color-navbar;
+			color: white;
+			border-color: white;
+			justify-items: center;
+			&:hover {
+				background-color: white;
+				color: $color-navbar;
+				border-color: $color-navbar;
+			}
 		}
 	}
 }

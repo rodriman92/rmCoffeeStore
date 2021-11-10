@@ -825,9 +825,9 @@
 /*---------------------------------------------------------*/
 /*------------------------SUCURSALES-----------------------*/
 @media screen and (max-width: 320px) {
-    .mainSucursales{
+    .mainTiendas{
         .row{
-            .titleSucursales{
+            .titleTiendas{
                 font-size: 2rem;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
@@ -837,9 +837,9 @@
 }
 
 @media screen and (max-width: 375px) {
-    .mainSucursales{
+    .mainTiendas{
         .row{
-            .titleSucursales{
+            .titleTiendas{
                 font-size: 2.5rem;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
@@ -849,9 +849,9 @@
 }
 
 @media screen and (max-width: 425px) {
-    .mainSucursales{
+    .mainTiendas{
         .row{
-            .titleSucursales{
+            .titleTiendas{
                 font-size: 3.5em;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
@@ -861,9 +861,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .mainSucursales{
+    .mainTiendas{
         .row{
-            .titleSucursales{
+            .titleTiendas{
                 font-size: 4rem;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
@@ -878,9 +878,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .mainSucursales{
+    .mainTiendas{
         .row{
-            .titleSucursales{
+            .titleTiendas{
                 font-size: 4rem;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
@@ -894,3 +894,57 @@
     }
 }
 /*---------------------------------------------------------*/
+
+/*------------------------MQ CONTACTO----------------------*/
+@media screen and (max-width: 320px){
+    .titleContacto{
+        font-size: 3rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 375px){
+    .titleContacto{
+        font-size: 3.2rem !important;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .titleContacto{
+        font-size: 3.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .titleContacto{
+        font-size: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .titleContacto{
+        font-size: 4.5rem;
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .titleContacto{
+        font-size: 5rem;
+    }
+    
+}
+@media screen and (max-width: 1440px){
+    .titleContacto{
+        font-size: 5rem;
+    }
+    
+}
+@media screen and (max-width: 2160px){
+    .titleContacto{
+        font-size: 5rem;
+    }
+}
+/*----------------------------------------------------------*/
