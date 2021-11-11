@@ -1,5 +1,6 @@
-@import "https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap";
+
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
+@import "https://fonts.googleapis.com/css?family=Montserrat";
 @import "variables";
 @import "mediaquery";
 
@@ -10,20 +11,32 @@
 }
 html {
 	font-size: 62, 5%;
-	font-family: $fuente;
 }
 /*-----------------MIXIN TITULO-------------------*/
 @mixin titulosSecciones($color, $fuente) {
 	color: $color;
 	font-size: 5rem;
-	font-family: $fuente;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #413225;
+	text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9,
+        1px 2px 1px #f1efe9,
+        1px 3px 1px #f1efe9,
+        1px 4px 1px #f1efe9,
+        
+    1px 18px 6px rgba(16,16,16,0.4),
+
+
 }
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
 	padding-left: 2vw;
 	background-color: $color-navbar;
-	font-family: $fuente;
 	font-size: 1.2rem;
+	font-family: $fuente-navbar;
 	.breadcrumbItem {
 		a {
 			color: $color-principal;
@@ -38,17 +51,18 @@ html {
 /*---------------- MAIN INDEX ----------------*/
 
 .mainIndex {
-	background-image: url("https://images.pexels.com/photos/4085291/pexels-photo-4085291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	height: 60%;
+	background-image: url("https://images.pexels.com/photos/7214478/pexels-photo-7214478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	height: 80%;
 	background-size: cover;
+	background-position-y: -45vh;
 	background-repeat: no-repeat;
 }
 
 #spin {
-	color: $color-principal;
-	font-size: 5.5rem;
+	color: #FFF5CF;
+	font-size: 8rem;
 	font-weight: 900;
-	background-color: black;
+	background-color: #806854;
 	transition: 0.5s;
 	p {
 		margin-top: 10rem;
@@ -56,8 +70,7 @@ html {
 }
 #spin:after {
 	content: "";
-
-	animation: spin 30s linear infinite;
+	animation: spin 50s linear infinite;
 }
 @keyframes spin {
 	0% {
@@ -123,7 +136,8 @@ html {
 }
 
 .btnIndexTienda {
-	background-color: $color-principal;
+	background-color: #806854;
+	font-size: 3rem;
 	color: $color-navbar;
 	margin-top: 4rem;
 	margin-bottom: 6rem;
@@ -147,92 +161,78 @@ html {
 
 /*-----------------------------------------*/
 
+
 /*---------------------NAVBAR----------------------------------------------------*/
 
 .navCustom {
-	background-image: linear-gradient(to right, $color-navbar, black);
+	background-image: linear-gradient(to left, $color-navbar 50%, $color-navbar);
 	z-index: 2000;
 	justify-content: center;
-	height: 40%;
-}
-.navbar-nav {
-	align-content: center;
-	font-family: $fuente;
-	text-align: center;
-}
-a.nav-link {
-	justify-items: center;
-	font-family: $fuente;
-	font-size: 1.8rem;
-	color: #ebc999;
-	&:hover {
-		color: $color-principal;
-	}
-}
-.navbar-light {
 	.navbar-nav {
-		.nav-link {
-			color: $color-principal;
-			&:hover {
-				color: #ebc999;
-				text-decoration: 6px solid $color-principal underline;
-				transition: 0.6s;
-				&::before {
-					transform: scaleX(1);
+		align-content: center;
+		text-align: center;
+		.nav-item{
+			.nav-link{
+				font-size: 2rem;
+				color: #5a493b;
+				font-weight: 600;
+				font-family: $fuente-navbar;
+				&:hover{
+					
+					color: #FFF5CF;
+					border-color: #5a493b;
 				}
 			}
 		}
-		.nav-link.active {
-			color: #d1ae4e;
-			&::before {
-				content: "";
-				position: absolute;
-				display: block;
-				width: 100%;
-				height: 2px;
-				bottom: 0;
-				left: 0;
-				background-color: #000;
-				transform: scaleX(0);
-				transition: transform 0.3s ease;
-			}
-		}
-	}
-	.navbar-brand {
-		padding-left: 1vw;
-		font-size: 3rem;
-		color: $color-principal;
 	}
 }
 
-/*----------------------------------------LOGO NEON--------------------------------------------*/
-.logoNeon {
-	text-align: center;
-	font-weight: 600;
-	font-size: 3rem;
-	font-family: "Lato";
-	background: linear-gradient(to right, #f2da63 20%, #d9a036 40%, #d9a036 60%, #f2da63 80%);
-	background-size: 200% auto;
 
-	color: #000;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 
-	animation: shine 3s linear infinite;
-	@keyframes shine {
-		to {
-			background-position: 200% center;
-		}
+
+/*-------------------------------LOGO NUEVO--------------------------------------*/
+.logo {
+
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #413225;
+	text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9,
+        1px 2px 1px #f1efe9,
+        1px 3px 1px #f1efe9,
+        1px 4px 1px #f1efe9,
+        1px 5px 1px #f1efe9,
+        1px 6px 1px #f1efe9,
+        1px 7px 1px #f1efe9,
+        1px 8px 1px #f1efe9,
+        1px 9px 1px #f1efe9,
+        1px 10px 1px #f1efe9,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+	&:hover{
+		letter-spacing: 0.1rem;
+		transition: .5s;
+		color: #413225;
 	}
 }
+  
+
+
+/*-------------------------------------------------------------------------------*/
 /*---------------------------------------------SECTION INDEX---------------------------------------------*/
 .sectionIndex {
 	padding-top: 2vh;
 	background-color: $color-section;
 	padding-bottom: 10vh;
 	.h1Index {
-		@include titulosSecciones($color-navbar, $fuente);
+		@include titulosSecciones($color-h1, $fuente);
+		font-weight: 600;
+		font-size: 4rem;
 		align-items: center;
 		text-align: center;
 		margin: auto;
@@ -300,6 +300,85 @@ a.nav-link {
 		}
 	}
 }
+/*------------------GALERIA INDEX-------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif
+}
+
+
+
+.container {
+    margin: 20px auto
+}
+
+p {
+    margin: 0%;
+    font-size: 0.8rem;
+    font-weight: 600
+}
+
+img.pic1 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover
+}
+
+img.pic2 {
+    width: 100%;
+    height: 624px;
+    object-fit: fill
+}
+
+.image-top {
+    position: relative;
+    overflow: hidden
+}
+
+.image-top .overlay {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    color: white;
+	background-color: #413225;
+}
+
+
+.image-middle {
+    position: relative;
+    overflow: hidden
+}
+
+.image-middle .overlay {
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 0 15px 15px;
+    width: 100%;
+    color: white
+}
+
+
+.text-muted {
+    color: #e5e2e2 !important
+}
+
+@media(max-width:930px) {
+    img.pic2 {
+        height: 300px !important;
+        object-fit: cover
+    }
+
+    P {
+        font-size: 16px
+    }
+}
+/*-----------------------------------------------*/
 /*---------------ARTICLE CARDS TESTIMONIOS------------*/
 .articleIndexTestimonios {
 	background-color: $color-navbar;
@@ -311,116 +390,168 @@ a.nav-link {
 		justify-content: center;
 		text-align: center;
 		color: $color-h2;
+		font-weight: 600;
 		font-size: 3rem;
 		padding-bottom: 2vh;
 		margin-top: 1vh;
+		text-decoration: underline 0.8rem dotted $color-h2;
 	}
 	.card {
 		border: none;
 		background-color: $color-section;
 
-		.contenidoUsuario p {
-			font-family: $fuente;
-			margin-top: 2rem;
-			font-size: 1rem;
+		.contenidoUsuario{
+			h5{
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+				font-weight: 600;
+				span{
+					font-weight: 400;
+				}
+			}
+			p {
+				font-family: $fuente;
+				margin-top: 2rem;
+				font-size: 1rem;
+				
+			}
+			
+		} 
+		.experienciaDestacada{
+			background-color: $color-navbar;
+			color: black;
+			font-style: normal;
 		}
 		.ratings i {
-			color: $color-navbar;
+			margin-top: 1rem;
+			color: $color-h1;
 		}
 	}
 }
 
 /*-----------------------------FOOTER NUEVO-------------------------------*/
-.footer-dark {
-	padding: 1vh 0;
-	color: $color-navbar;
-	background-color: #a6691f;
-	.item {
-		margin: auto;
-		text-align: center;
-		justify-content: center;
-		justify-items: center;
-		h3 {
-			margin-top: 1vh;
-			margin-bottom: 12px;
-			font-weight: bold;
-			font-size: 1.5rem;
-			text-align: center;
-		}
-		ul {
-			text-align: center;
-			padding: 1vh;
-			list-style: none;
-			line-height: 1.6;
-			font-weight: 600;
-			font-size: 2rem;
-			margin-bottom: 0;
-			a {
-				color: inherit;
-				text-decoration: none;
-				opacity: 0.6;
-				&:hover {
-					opacity: 0.8;
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+.footer-section {
+	background: #806854;
+	position: relative;
+	.container{
+		margin-top: 0;
+		.footer-content {
+			position: relative;
+			z-index: 2;
+			.footer-widget {
+				ul {
+					li {
+						display: inline-block;
+						width: 50%;
+						margin-bottom: 2rem;
+						a {
+							&:hover {
+								color: white;
+								font-weight: 800;
+							}
+							color: #FFF5CF;
+							font-family: $fuente-navbar;
+							text-transform: capitalize;
+							font-size: 1.2rem;
+							font-weight: 600;
+						}
+					}
+				}
+				.footer-social-icon {
+					span {
+						color: #fff;
+						display: block;
+						font-size: 1.2rem;
+						font-weight: 700;
+						margin-bottom: 2rem;
+					}
+					a {
+						color: #fff;
+						font-size: 16px;
+						margin-right: 15px;
+					}
+					i {
+						height: 2.2rem;
+						width: 2.2rem;
+						text-align: center;
+						line-height: 2rem;
+						border-radius: 50%;
+						
+					}
+					.facebook-bg, .twitter-bg, .google-bg {
+						background: $color-navbar;
+					}
+					
+				}
+
+			}
+			.subscribe-form {
+				position: relative;
+				overflow: hidden;
+				input {
+					width: 100%;
+					padding: 14px 28px;
+					background: #2E2E2E;
+					border: 1px solid #2E2E2E;
+					color: #fff;
+				}
+				button {
+					position: absolute;
+					right: 0;
+					background: $color-navbar;
+					padding: 13px 20px;
+					border: 1px solid $color-navbar;
+					top: 0;
+					i {
+						color: #fff;
+						font-size: 22px;
+						transform: rotate(-6deg);
+					}
 				}
 			}
 		}
-	}
-
-	.card {
-		background-color: $color-navbar;
-		.text-color {
-			color: #eee;
+		.footer-widget-heading {
+			h3 {
+				color: #fff;
+				font-size: 20px;
+				font-weight: 600;
+				margin-bottom: 40px;
+				position: relative;
+				&::before {
+					content: "";
+					position: absolute;
+					left: 0;
+					bottom: -15px;
+					height: 2px;
+					width: 50px;
+					background: $color-navbar;
+				}
+			}
 		}
-	}
 
-	.form-control {
-		display: block;
-		width: 100%;
-		height: calc(1.5em + 1.5rem + 2px);
-		padding: 0.75rem 1.25rem;
-		font-size: 0.875rem;
-		font-weight: 400;
-		line-height: 1.5;
-		color: #696973;
-		background-color: #fff;
-		background-clip: padding-box;
-		border: 1px solid #d5d5dc;
-		border-radius: 0.375rem;
-		box-shadow: none;
-		transition: all 0.3s ease;
-	}
-	.btn-light {
-		color: #fff;
-		background-color: $color-navbar;
-		border-color: $color-navbar;
-	}
-	.btn {
-		display: inline-block;
-		font-weight: 500;
-		color: #fff;
-		text-align: center;
-		vertical-align: middle;
-		cursor: pointer;
-		user-select: none;
-		background-color: $color-navbar;
-		border: 1px solid transparent;
-		padding: 0.75rem 1.75rem;
-		font-size: 0.875rem;
-		line-height: 1.5;
-		border-radius: 0.375rem;
-		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
-			box-shadow 0.15s ease-in-out;
-	}
-
-	.copyright {
-		text-align: center;
-		padding-top: 2rem;
-		opacity: 0.3;
-		font-weight: 600;
-		font-size: 1.3rem;
-		margin-bottom: 0;
 	}
 }
+
+.copyright-area {
+	background: #382e25;
+	padding: 25px 0;
+	.copyright-text {
+		p {
+			margin: 0;
+			font-size: 14px;
+			color: #878787;
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+
 /*--------------------------------------------------------------------------------------------------*/
 /*-----------------------------------NOSOTROS--------------------------------------*/
 .bodyNosotros {
