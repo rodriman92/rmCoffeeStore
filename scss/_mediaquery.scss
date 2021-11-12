@@ -1,107 +1,233 @@
 /*----------MQ Index----------*/
 @media screen and (max-width: 320px){
-    .navCustom{
-        .container-nav{
-            .title{
+    .bodyIndex{
+        .navCustom{
+            .navbar-brand{
                 .logo{
                     font-size: 1.5rem;
                 }
             }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .mainIndex{
+        width: auto;
+        height: auto;
+        .container-fluid{
+            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-size: cover;
+            section{
+                .row{
+                    .colPIndex{
+                        p{
+                            margin-top: 2rem;
+                            #spin{
+                                font-size: 3rem;
+                            }
+                        }
+                        .btnIndexTienda{
+                            font-size: 1rem;
+                        }
+                       }
+                    }
+                }
+            }
+        }
+        .sectionIndex{
+            #titleIndex{
+                font-size: 1.5rem;
+            }
+            .container{
+                .row{
+                    .colImagen{
+                        .image-top{
+                            .overlay{
+                                .tituloImagen{
+                                    font-size: 1rem;
+                                }
+                                .infoImagen{
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .articleIndexTestimonios{
+            .container{
+                .row{
+                    .h2Index{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
     }
-}
 
+/*------------MQ INDEX 375PX------------*/
 @media screen and (max-width: 375px){
-    .navCustom{
-        .container-nav{
-            .title{
+    .bodyIndex{
+        .navCustom{
+            .navbar-brand{
                 .logo{
-                    font-size: 1.8rem;
+                    font-size: 1.5rem;
                 }
             }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            
         }
+        
     }
     .mainIndex{
-        #spin{
-            font-size: 3.7rem;
-        }
-        .btnIndexTienda{
-            font-size: 1.3rem;
-        }
-    }
-    .sectionIndex{
-        .container{
-            .colImagen{
-                .overlay{
-                    .tituloImagen{
-                        font-size: 2rem;
+        width: auto;
+        height: auto;
+        .container-fluid{
+            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-size: cover;
+            section{
+                .row{
+                    .colPIndex{
+                        p{
+                            margin-top: 2rem;
+                            #spin{
+                                font-size: 3rem;
+                            }
+                        }
+                        .btnIndexTienda{
+                            font-size: 1rem;
+                        }
+                       }
                     }
                 }
             }
         }
-    }
-    .footer-section{
-        .container{
-            .footer-widget{
-                ul{
-                    li{
-                        a{
-                            font-size: 2rem;
+        .sectionIndex{
+            #titleIndex{
+                font-size: 1.7rem;
+            }
+            .container{
+                .row{
+                    .colImagen{
+                        .image-top{
+                            .overlay{
+                                .tituloImagen{
+                                    font-size: 1.2rem;
+                                }
+                                .infoImagen{
+                                    font-size: 1rem;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+        .articleIndexTestimonios{
+            .container{
+                .row{
+                    .h2Index{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
     }
-}
 
+/*---------------MQ INDEX 425PX---------------------*/
 @media screen and (max-width: 425px){
-    .navCustom{
-        .container-nav{
-            .title{
+    .bodyIndex{
+        .navCustom{
+            .navbar-brand{
                 .logo{
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
             }
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+            
         }
+        
     }
     .mainIndex{
-        #spin{
-            font-size: 3.7rem;
-        }
-        .btnIndexTienda{
-            font-size: 1.3rem;
-        }
-    }
-    .sectionIndex{
-        .container{
-            .colImagen{
-                .overlay{
-                    .tituloImagen{
-                        font-size: 2rem;
+        width: auto;
+        height: auto;
+        .container-fluid{
+            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-size: cover;
+            section{
+                .row{
+                    .colPIndex{
+                        p{
+                            margin-top: 2rem;
+                            #spin{
+                                font-size: 3.3rem;
+                            }
+                        }
+                        .btnIndexTienda{
+                            font-size: 1rem;
+                        }
+                       }
                     }
                 }
             }
         }
-    }
-    .footer-section{
-        .container{
-            .footer-widget{
-                ul{
-                    li{
-                        a{
-                            font-size: 2rem;
+        .sectionIndex{
+            #titleIndex{
+                font-size: 1.5rem;
+            }
+            .container{
+                .row{
+                    .colImagen{
+                        .image-top{
+                            .overlay{
+                                .tituloImagen{
+                                    font-size: 1rem;
+                                }
+                                .infoImagen{
+                                    font-size: 0.8rem;
+                                }
+                            }
                         }
                     }
                 }
             }
         }
+        .articleIndexTestimonios{
+            .container{
+                .row{
+                    .h2Index{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
     }
-}
-
-
-
-
 
 /*------------------MQ NOSOTROS---------------------*/
 @media screen and (max-width: 320px) {
