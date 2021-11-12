@@ -82,6 +82,62 @@
   .articleIndexTestimonios .container .row .h2Index {
     font-size: 1.8rem; } }
 
+/*-------------INDEX MQ 768PX----------------------*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .bodyIndex .navCustom .navbar-brand .logo {
+    font-size: 2.5rem; }
+  .bodyIndex .navCustom .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 1rem; }
+  .mainIndex {
+    width: auto;
+    height: auto; }
+    .mainIndex .container-fluid {
+      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      background-size: cover; }
+      .mainIndex .container-fluid section .row .colPIndex p {
+        margin-top: 2rem; }
+        .mainIndex .container-fluid section .row .colPIndex p #spin {
+          font-size: 4.5rem; }
+      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+        font-size: 1rem; }
+  .sectionIndex #titleIndex {
+    font-size: 1.8rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
+    font-size: 1rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
+    font-size: 0.8rem; }
+  .articleIndexTestimonios .container .row .h2Index {
+    font-size: 1.8rem; } }
+
+/*---------------MQ INDEX 1024PX------------------*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .bodyIndex .navCustom .navbar-brand .logo {
+    font-size: 3rem; }
+  .bodyIndex .navCustom .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 1.5rem; }
+  .mainIndex {
+    width: auto;
+    height: auto; }
+    .mainIndex .container-fluid {
+      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      background-size: cover; }
+      .mainIndex .container-fluid section .row .colPIndex p {
+        margin-top: 2rem; }
+        .mainIndex .container-fluid section .row .colPIndex p #spin {
+          font-size: 4.5rem; }
+      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+        font-size: 1rem; }
+  .sectionIndex #titleIndex {
+    font-size: 2.5rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
+    font-size: 1.2rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
+    font-size: 0.8rem; }
+  .articleIndexTestimonios .container .row .h2Index {
+    font-size: 2.5rem; }
+  .articleIndexTestimonios .container .row .card {
+    height: 60vh; } }
+
 /*------------------MQ NOSOTROS---------------------*/
 @media screen and (max-width: 320px) {
   .bodyNosotros .navBreadcrumb {
