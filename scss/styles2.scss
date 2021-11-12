@@ -15,10 +15,9 @@ html {
 /*-----------------MIXIN TITULO-------------------*/
 @mixin titulosSecciones($color, $fuente) {
 	color: $color;
-	font-size: 5rem;
+	font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    font-size: 4rem;
     font-weight: 700;
     color: #413225;
 	text-decoration: none;
@@ -52,15 +51,15 @@ html {
 
 .mainIndex {
 	background-image: url("https://images.pexels.com/photos/7214478/pexels-photo-7214478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-	height: 80%;
+	height: auto;
 	background-size: cover;
-	background-position-y: -45vh;
+	
 	background-repeat: no-repeat;
 }
 
 #spin {
 	color: #FFF5CF;
-	font-size: 8rem;
+	font-size: 3.5rem;
 	font-weight: 900;
 	background-color: #806854;
 	transition: 0.5s;
@@ -137,7 +136,7 @@ html {
 
 .btnIndexTienda {
 	background-color: #806854;
-	font-size: 3rem;
+	font-size: 1rem;
 	color: $color-navbar;
 	margin-top: 4rem;
 	margin-bottom: 6rem;
@@ -168,12 +167,24 @@ html {
 	background-image: linear-gradient(to left, $color-navbar 50%, $color-navbar);
 	z-index: 2000;
 	justify-content: center;
+	.navbar-toggler{
+		background-color: $color-h2;
+		width: 17%;
+		.navbar-toggler-icon{
+			color: $color-navbar;
+			font-size: 1rem;
+			text-align: center;
+			justify-content: center;
+			font-weight: 200;
+			
+		}
+	}
 	.navbar-nav {
 		align-content: center;
 		text-align: center;
 		.nav-item{
 			.nav-link{
-				font-size: 2rem;
+				font-size: 1rem;
 				color: #5a493b;
 				font-weight: 600;
 				font-family: $fuente-navbar;
@@ -196,7 +207,7 @@ html {
     transform: translate(50%,-50%);
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
-    font-size: 4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #413225;
 	text-decoration: none;
@@ -205,20 +216,14 @@ html {
         1px 3px 1px #f1efe9,
         1px 4px 1px #f1efe9,
         1px 5px 1px #f1efe9,
-        1px 6px 1px #f1efe9,
-        1px 7px 1px #f1efe9,
-        1px 8px 1px #f1efe9,
-        1px 9px 1px #f1efe9,
-        1px 10px 1px #f1efe9,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
-	&:hover{
-		letter-spacing: 0.1rem;
-		transition: .5s;
-		color: #413225;
-	}
+		1px 18px 6px rgba(16,16,16,0.4),
+		1px 22px 10px rgba(16,16,16,0.2),
+		1px 25px 35px rgba(16,16,16,0.2),
+		1px 30px 60px rgba(16,16,16,0.4);
+		&:hover{
+			text-decoration: none;
+			color: #413225;
+		}
 }
   
 
@@ -232,7 +237,6 @@ html {
 	.h1Index {
 		@include titulosSecciones($color-h1, $fuente);
 		font-weight: 600;
-		font-size: 4rem;
 		align-items: center;
 		text-align: center;
 		margin: auto;
@@ -253,6 +257,22 @@ html {
 				}
 			}
 		}
+		.colImagen{
+			.overlay{
+				.tituloImagen{
+					font-size: 1rem;
+					font-weight: 600;
+				}
+				.infoImagen{
+					font-size: 0.8rem;
+					.infoDestacada{
+						background-color: $color-navbar;
+						color: $color-h1;
+					}
+				}
+			}
+		}
+
 		.body {
 			position: absolute;
 			top: 0;
@@ -302,17 +322,6 @@ html {
 }
 /*------------------GALERIA INDEX-------------*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Montserrat', sans-serif
-}
-
-
-
 .container {
     margin: 20px auto
 }
@@ -368,16 +377,6 @@ img.pic2 {
     color: #e5e2e2 !important
 }
 
-@media(max-width:930px) {
-    img.pic2 {
-        height: 300px !important;
-        object-fit: cover
-    }
-
-    P {
-        font-size: 16px
-    }
-}
 /*-----------------------------------------------*/
 /*---------------ARTICLE CARDS TESTIMONIOS------------*/
 .articleIndexTestimonios {
@@ -390,11 +389,12 @@ img.pic2 {
 		justify-content: center;
 		text-align: center;
 		color: $color-h2;
-		font-weight: 600;
-		font-size: 3rem;
+		font-weight: 700;
+		text-decoration: underline 0.2rem dotted $color-h2;
+		font-size: 1.5rem;
 		padding-bottom: 2vh;
 		margin-top: 1vh;
-		text-decoration: underline 0.8rem dotted $color-h2;
+		letter-spacing: 0.5rem;
 	}
 	.card {
 		border: none;
@@ -452,27 +452,29 @@ ul {
 							&:hover {
 								color: white;
 								font-weight: 800;
+								font-size: 1rem;
 							}
 							color: #FFF5CF;
 							font-family: $fuente-navbar;
 							text-transform: capitalize;
-							font-size: 1.2rem;
+							font-size: 1rem;
 							font-weight: 600;
 						}
 					}
 				}
 				.footer-social-icon {
+					margin-bottom: 1rem;
 					span {
 						color: #fff;
 						display: block;
-						font-size: 1.2rem;
+						font-size: 1rem;
 						font-weight: 700;
-						margin-bottom: 2rem;
+						padding-bottom: 2rem;
 					}
 					a {
 						color: #fff;
-						font-size: 16px;
-						margin-right: 15px;
+						font-size: 1.2rem;
+						margin-right: 1rem;
 					}
 					i {
 						height: 2.2rem;
@@ -494,7 +496,7 @@ ul {
 				overflow: hidden;
 				input {
 					width: 100%;
-					padding: 14px 28px;
+					padding: 1rem 2rem;
 					background: #2E2E2E;
 					border: 1px solid #2E2E2E;
 					color: #fff;
@@ -503,12 +505,12 @@ ul {
 					position: absolute;
 					right: 0;
 					background: $color-navbar;
-					padding: 13px 20px;
+					padding: 1rem 2rem;
 					border: 1px solid $color-navbar;
 					top: 0;
 					i {
 						color: #fff;
-						font-size: 22px;
+						font-size: 1rem;
 						transform: rotate(-6deg);
 					}
 				}
@@ -517,9 +519,9 @@ ul {
 		.footer-widget-heading {
 			h3 {
 				color: #fff;
-				font-size: 20px;
+				font-size: 1rem;
 				font-weight: 600;
-				margin-bottom: 40px;
+				margin-bottom: 3rem;
 				position: relative;
 				&::before {
 					content: "";
@@ -530,6 +532,7 @@ ul {
 					width: 50px;
 					background: $color-navbar;
 				}
+				
 			}
 		}
 
