@@ -49,7 +49,7 @@ html {
 }
 
 /*--------------------------------------------*/
-.bodyIndex{
+body{
 	/*--------------------------NAVBAR------------------------*/
 	.navCustom {
 		background-image: linear-gradient(to left, $color-navbar 50%, $color-navbar);
@@ -111,10 +111,10 @@ html {
 	}
 	/*----------MAIN INDEX----------*/
 	.mainIndex {
-		background-image: url("https://images.pexels.com/photos/7214478/pexels-photo-7214478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-image: url("https://images.pexels.com/photos/3737655/pexels-photo-3737655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 		height: auto;
 		background-size: cover;
-		background-position-y: -45vh;
+		background-position-y: -80vh;
 		background-repeat: no-repeat;
 		.container-fluid{
 			/*----------CAFE VARIOS IDIOMAS INDEX---------*/
@@ -206,7 +206,7 @@ html {
 		}
 		.btnIndexTienda {
 			background-color: #806854;
-			font-size: 2.5rem;
+			font-size: 1.5rem;
 			color: $color-navbar;
 			margin-top: 5rem;
 			margin-bottom: 1rem;
@@ -490,7 +490,7 @@ html {
 }
 
 /*-----------------------------------NOSOTROS--------------------------------------*/
-.bodyNosotros {
+.body {
 	background-image: linear-gradient(to left, $color-principal, $color-section);
 	.mainNosotros {
 		height: 210vh;
