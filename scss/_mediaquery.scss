@@ -55,6 +55,49 @@
     }
 }
 
+@media screen and (max-width: 425px){
+    .navCustom{
+        .container-nav{
+            .title{
+                .logo{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .mainIndex{
+        #spin{
+            font-size: 3.7rem;
+        }
+        .btnIndexTienda{
+            font-size: 1.3rem;
+        }
+    }
+    .sectionIndex{
+        .container{
+            .colImagen{
+                .overlay{
+                    .tituloImagen{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    .footer-section{
+        .container{
+            .footer-widget{
+                ul{
+                    li{
+                        a{
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
