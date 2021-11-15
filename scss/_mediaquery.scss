@@ -151,6 +151,7 @@
                 }
             }
         }
+        
 
 }
 
@@ -387,106 +388,242 @@
                 }
             }
         }
-/*---------------------MQ NOSOTROS 320px-----------------*/
 
-
-/*-------------------------MQ SHOP-----------------------*/
-@media screen and (max-width: 320px) {
-    #titleTienda{
-        margin-top: 2rem;
-        font-size: 3rem;
-    }
-    .cardTienda{
-        .cardBody{
-            height: 30%;
-            h3{
-                font-size: 1.2rem;
+/*---------------MQ INDEX 1440PX------------------*/
+ @media screen and (min-width: 1025px) and (max-width: 1440px){
+    .body{
+        .navCustom{
+            .navbar-brand{
+                .logo{
+                    font-size: 3rem;
+                }
             }
-            .precioCard{
-                font-size: 1.3rem;
+            .navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        a{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .mainIndex{
+        width: auto;
+        height: auto;
+        .container-fluid{
+            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+            background-size: contain;
+            
+            section{
+                .row{
+                    .colPIndex{
+                        p{
+                            margin-top: 2rem;
+                            #spin{
+                                font-size: 4.5rem;
+                            }
+                        }
+                        .btnIndexTienda{
+                            font-size: 1rem;
+                        }
+                       }
+                    }
+                }
             }
         }
-        .card-footer{
-            .btnComprar{
-                width: 50%;
-                font-size: 0.5rem;
+        .sectionIndex{
+            #titleIndex{
+                font-size: 2.5rem;
+            }
+            .container{
+                .row{
+                    .colImagen{
+                        .image-top{
+                            .overlay{
+                                .tituloImagen{
+                                    font-size: 1.2rem;
+                                }
+                                .infoImagen{
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .articleIndexTestimonios{
+            .container{
+                .row{
+                    .h2Index{
+                        font-size: 2.5rem;
+                    }
+                    .card{
+                        height: 40vh;
+                    }
+                }
+            }
+        }
+/*---------------------MQ NOSOTROS 320px-----------------*/
+@media screen and (max-width: 320px) {
+
+    
+    
+}
+/*-------------------------MQ SHOP-----------------------*/
+@media screen and (max-width: 320px) {
+    .mainShop{
+        .titleShop{
+            font-size: 2rem;
+        }
+        .cardTienda {
+            height: auto;
+            .cardBody {
+                height: 60vh;
+                h3 {
+                    font-family: $fuente;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+                .precioCard {
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    color: white;
+                }
+            }
+            .card-footer {
+                background-color: $color-navbar;
+                opacity: 0.9;
+                .btnComprar {
+                    font-size: 1rem;
+                }
             }
         }
     }
 }
 
 @media screen and (max-width: 375px) {
-    #titleTienda{
-        margin-top: 2rem;
-        font-size: 3rem;
-    }
-    .cardTienda{
-        .cardBody{
-            height: 30%;
-            h3{
-                font-size: 1.7rem;
-            }
-            .precioCard{
-                font-size: 1.4rem;
-            }
+    .mainShop{
+        .titleShop{
+            font-size: 2.2rem;
         }
-        .card-footer{
-            .btnComprar{
-                width: 50%;
-                font-size: 0.8rem;
+        .cardTienda {
+            height: auto;
+            .cardBody {
+                h3 {
+                    font-family: $fuente;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+                .precioCard {
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    color: white;
+                }
+            }
+            .card-footer {
+                background-color: $color-navbar;
+                opacity: 0.9;
+                .btnComprar {
+                    font-size: 1rem;
+                }
             }
         }
     }
 }
 
 @media screen and (max-width: 425px) {
-    #titleTienda{
-        margin-top: 2rem;
-        font-size: 3.5rem;
-    }
-    .cardTienda{
-        .cardBody{
-            height: 30%;
-            h3{
-                font-size: 1.7rem;
-            }
-            .precioCard{
-                font-size: 1.4rem;
-            }
+    .mainShop{
+        .titleShop{
+            font-size: 2rem;
         }
-        .card-footer{
-            .btnComprar{
-                width: 50%;
-                font-size: 0.8rem;
+        .cardTienda {
+            height: auto;
+            .cardBody {
+                h3 {
+                    font-family: $fuente;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+                .precioCard {
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                    color: white;
+                }
+            }
+            .card-footer {
+                background-color: $color-navbar;
+                opacity: 0.9;
+                .btnComprar {
+                    font-size: 1rem;
+                }
             }
         }
     }
 }
 
 @media screen and (max-width: 768px) {
-    #titleTienda{
-        margin-top: 2rem;
-        font-size: 4rem;
-    }
-    .cardTienda{
-        .cardBody{
-            height: 30%;
-            h3{
-                font-size: 1.7rem;
-            }
-            .precioCard{
-                font-size: 1.4rem;
-            }
+    .mainShop{
+        .titleShop{
+            font-size: 3rem;
         }
-        .card-footer{
-            .btnComprar{
-                width: 50%;
-                font-size: 0.8rem;
+        .cardTienda {
+            height: auto;
+            .cardBody {
+                h3 {
+                    font-family: $fuente;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
+                .precioCard {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: white;
+                }
+            }
+            .card-footer {
+                background-color: $color-navbar;
+                opacity: 0.9;
+                .btnComprar {
+                    font-size: 1.2rem;
+                }
             }
         }
     }
 }
-
+@media screen and (max-width: 1024px) {
+    .mainShop{
+        .titleShop{
+            font-size: 4rem;
+        }
+        .cardTienda {
+            height: auto;
+            .cardBody {
+                h3 {
+                    font-family: $fuente;
+                    font-size: 2.5rem;
+                    font-weight: 600;
+                }
+                .precioCard {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: white;
+                }
+            }
+            .card-footer {
+                background-color: $color-navbar;
+                opacity: 0.9;
+                .btnComprar {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
 /*---------------------------------------------------------*/
 /*------------------------MQ TIENDAS-----------------------*/
 @media screen and (max-width: 320px) {
@@ -558,4 +695,5 @@
         }
     }
 }
+ }
 }

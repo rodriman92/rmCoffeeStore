@@ -33,12 +33,13 @@ html {
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
 	padding-left: 2vw;
-	background-color: $color-navbar;
+	background-color: $color-h1;
 	font-size: 1.2rem;
 	font-family: $fuente-navbar;
+	font-weight: 600;
 	.breadcrumbItem {
 		a {
-			color: $color-principal;
+			color: $color-navbar;
 		}
 	}
 	.breadcrumbItemActive {
@@ -491,73 +492,147 @@ body{
 
 /*-----------------------------------NOSOTROS--------------------------------------*/
 .body {
-	background-image: linear-gradient(to left, $color-principal, $color-section);
-	.mainNosotros {
-		height: 210vh;
-		.contenedorNosotros {
-			width: 80%;
-			font-family: $fuente;
-			.carousel-item {
-				margin-bottom: 2rem;
+	.mainNosotros{
+		background-color: $color-section;
+		.contenedorNosotros{
+			width: 100%;
+			.row{
+				.colPrincipalMainNosotros{
+					.titleNosotros{
+						@include titulosSecciones($color-h1, $fuente);
+						font-size: 4rem;
+						font-weight: 600;
+						align-items: center;
+						text-align: center;
+						margin: auto;
+						margin-top: 2rem;
+						margin-bottom: 2rem;
+					}
+					.carouselNosotros{
+						.carousel-inner{
+							height: 50vh;
+							margin-bottom: 1rem;
+							.carousel-item{
+								.imgCarousel{
+									width: 100%;
+									background-position-y: -50vh;
+								}
+							}
+						}
+					}
+				}
 			}
-			.titleNosotros {
-				@include titulosSecciones($color-navbar, $fuente);
-				align-items: center;
-				text-align: center;
-				margin: auto;
-			}
-			.articleNosotros1 {
-				text-align: center;
-			}
-		}
-		.rowImagenesNosotros {
-			justify-content: center;
 		}
 	}
+	.rowImagenesNosotros{
+		background-color: $color-navbar;
+		border-bottom-style: 1rem dotted $color-h1;
+		padding-bottom: 3rem;
+		.colTitulo1{
+			.h6Nosotros{
+				@include titulosSecciones($color-h2, $fuente );
+				letter-spacing: 0.5rem;
+				font-size: 3rem;
+				letter-spacing: 0.5rem;
+				text-align: center;
+				margin-bottom: 5vh;
+				margin-top: 2rem;
 
-	.mainNosotros {
-		height: auto;
-		.contenedorNosotros {
-			width: 90%;
-			font-family: $fuente;
-			.titleNosotros {
-				@include titulosSecciones($color-navbar, $fuente);
-				align-items: center;
+				
+			}
+			.pNosotros{
+				margin-left: 0.5rem;
+				font-size: 2rem;
+				text-align: justify;
+				.infoDestacada{
+					color: $color-section;
+					background-color: #5a493b;
+				}
+				
+			}
+		}
+		.colImagen1{
+			height: 25%;
+			.img-responsive{
+				margin-top: 2rem;
+				width: 100%;
+			}
+		}
+	}
+	.rowImagenesNosotros2{
+		background-color: #b89272;
+		.colImagen2{
+			height: 25%;
+			.img-responsive{
+				margin-top: 2rem;
+				width: 100%;
+			}
+
+		}
+		.colTitulo2{
+			.h6Nosotros{
+				@include titulosSecciones($color-h2, $fuente );
+				letter-spacing: 0.5rem;
+				font-size: 3rem;
 				text-align: center;
 				margin: auto;
-			}
-			.carousel .carousel-item {
-				height: 53vh;
-			}
+				margin-bottom: 5vh;
+				margin-top: 2rem;
 
-			.carousel-item img {
-				position: absolute;
-				object-fit: cover;
-				top: 0;
-				left: 0;
-				min-height: 2vh;
 			}
-			img {
-				&:hover {
-					filter: opacity(0.5);
-					transition: 0.5s;
+			.pNosotros{
+				font-size: 2rem;
+				text-align: justify;
+				margin-right: 0.5rem;
+				.infoDestacada{
+					color: $color-section;
+					background-color: #5a493b;
 				}
 			}
-			.separador {
-				border: 1rem solid $color-navbar;
+		}
+	}
+	.rowImagenesNosotros3{
+		padding-bottom: 2rem;
+		.colTitulo3{
+			.h6Nosotros{
+				@include titulosSecciones($color-h2, $fuente );
+				letter-spacing: 0.5rem;
+				font-size: 3rem;
+				letter-spacing: 0.5rem;
+				text-align: center;
+				background-color: $color-section;
+				margin-bottom: 5vh;
+				margin-top: 2rem;
+				
 			}
-			.h6Nosotros {
-				color: $color-navbar;
-				font-size: 1.2rem;
-				text-decoration: 3px solid $color-navbar underline;
-			}
-			.pNosotros {
-				color: $color-navbar;
-				font-size: 1.1rem;
-				.linkConsulta {
-					color: $color-navbar;
-					background-color: $color-section;
+			.pNosotros{
+				font-size: 2rem;
+				text-align: justify;
+				.infoDestacada{
+					color: $color-section;
+					background-color: #5a493b;
+					a{
+						color: $color-navbar;
+						
+					}
+					
 				}
+				
+			}
+			.listaTel{
+				li{
+					font-size: 1.8rem;
+					font-weight: 600;
+					background-color: $color-navbar;
+					color: black;
+				}
+			}
+		}
+		.colImagen3{
+			height: 15%;
+			.img-responsive{
+				margin-top: 2rem;
+				width: 100%;
 			}
 		}
 	}
@@ -591,76 +666,88 @@ body{
 }
 
 /*--------------------------------------SHOP----------------------------------------*/
-.bodyTienda {
-	background-image: linear-gradient(to left, $color-principal, $color-section);
-	.navBreadcrumb {
-		margin-bottom: 2rem;
-	}
-}
-.titleTienda {
-	@include titulosSecciones($color-navbar, $fuente);
-	margin: auto;
-	text-align: center;
-	justify-content: center;
-	margin-bottom: 2rem;
-}
-.cardTienda {
-	.cardBody {
-		background-color: $color-navbar;
-		color: $color-section;
+.mainShop{
+	background-color: $color-section;
+	.titleShop{
+		@include titulosSecciones($color-navbar, $fuente);
+		margin: auto;
 		text-align: center;
-		h3 {
-			font-family: $fuente;
-			font-weight: 600;
-		}
-		.precioCard {
-			font-size: 1.7rem;
-			font-weight: 800;
-			color: white;
-		}
+		justify-content: center;
+		margin-bottom: 2rem;
+		font-size: 4rem;
 	}
-	.card-footer {
-		background-color: $color-navbar;
-		opacity: 0.9;
-		.btnComprar {
+	.cardTienda {
+		.cardBody {
+			background-color: #413225;
+			color: $color-section;
 			text-align: center;
-			margin: auto;
-			justify-content: center;
-			background-color: $color-principal;
-			color: black;
-			font-size: 1rem;
-			font-weight: 600;
-		}
-	}
-}
-.modalCompra {
-	.modalContent {
-		background-color: $color-navbar;
-		.modalHeader {
-			background-color: $color-navbar;
-			font-size: 1.2rem;
-			text-align: center;
-			margin: auto;
-			color: $color-principal;
-		}
-		.modalBody {
-			background-color: $color-principal;
-			font-family: $fuente;
-			.px-4 {
-				background-color: $color-principal;
+			height: 20%;
+			h3 {
+				font-family: $fuente;
+				font-size: 1.5rem;
+				font-weight: 600;
 			}
-			.modal-footer {
-				width: 100%;
+			.precioCard {
+				font-size: 1.7rem;
+				font-weight: 800;
+				color: white;
+				margin: 0;
+				padding: 0;
+			}
+			.cantidadProducto{
+				input{
+					font-size: 1rem;
+					font-weight: 800;
+				}
+			}
+		}
+		.card-footer {
+			background-color: $color-navbar;
+			opacity: 0.9;
+			.btnComprar {
+				text-align: center;
+				margin: auto;
 				justify-content: center;
-				background-color: $color-navbar;
-				.btnComprar {
+				background-color: #413225;
+				color: white;
+				font-size: 1rem;
+				font-weight: 600;
+			}
+		}
+	}
+	.modalCompra {
+		.modalContent {
+			background-color: $color-section;
+			.modalHeader {
+				background-color: $color-section;
+				font-size: 1.2rem;
+				text-align: center;
+				font-weight: 600;
+				margin: auto;
+				color: $color-principal;
+			}
+			.modalBody {
+				background-color: $color-section;
+				font-family: $fuente;
+				color: white;
+				.px-4 {
 					background-color: $color-principal;
-					color: $color-navbar;
+				}
+				.modal-footer {
+					width: 100%;
+					justify-content: center;
+					.btnComprar {
+						background-color: $color-navbar;
+						color: white;
+					}
 				}
 			}
 		}
 	}
 }
+
+
+
 
 /*----------------------------------------------------------------------------------*/
 

@@ -137,88 +137,158 @@
     font-size: 2.5rem; }
   .articleIndexTestimonios .container .row .card {
     height: 40vh; }
+  /*---------------MQ INDEX 1440PX------------------*/ }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) {
+  .body .navCustom .navbar-brand .logo {
+    font-size: 3rem; }
+  .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 1.5rem; }
+  .mainIndex {
+    width: auto;
+    height: auto; }
+    .mainIndex .container-fluid {
+      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      background-size: contain; }
+      .mainIndex .container-fluid section .row .colPIndex p {
+        margin-top: 2rem; }
+        .mainIndex .container-fluid section .row .colPIndex p #spin {
+          font-size: 4.5rem; }
+      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+        font-size: 1rem; }
+  .sectionIndex #titleIndex {
+    font-size: 2.5rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
+    font-size: 1.2rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
+    font-size: 0.8rem; }
+  .articleIndexTestimonios .container .row .h2Index {
+    font-size: 2.5rem; }
+  .articleIndexTestimonios .container .row .card {
+    height: 40vh; }
   /*---------------------MQ NOSOTROS 320px-----------------*/
   /*-------------------------MQ SHOP-----------------------*/ }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 320px) {
-  #titleTienda {
-    margin-top: 2rem;
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 320px) {
+  .mainShop .titleShop {
+    font-size: 2rem; }
+  .mainShop .cardTienda {
+    height: auto; }
+    .mainShop .cardTienda .cardBody {
+      height: 60vh; }
+      .mainShop .cardTienda .cardBody h3 {
+        font-family: "Heebo", sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .mainShop .cardTienda .cardBody .precioCard {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: white; }
+    .mainShop .cardTienda .card-footer {
+      background-color: #A8BAA9;
+      opacity: 0.9; }
+      .mainShop .cardTienda .card-footer .btnComprar {
+        font-size: 1rem; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 375px) {
+  .mainShop .titleShop {
+    font-size: 2.2rem; }
+  .mainShop .cardTienda {
+    height: auto; }
+    .mainShop .cardTienda .cardBody h3 {
+      font-family: "Heebo", sans-serif;
+      font-size: 1rem;
+      font-weight: 600; }
+    .mainShop .cardTienda .cardBody .precioCard {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: white; }
+    .mainShop .cardTienda .card-footer {
+      background-color: #A8BAA9;
+      opacity: 0.9; }
+      .mainShop .cardTienda .card-footer .btnComprar {
+        font-size: 1rem; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 425px) {
+  .mainShop .titleShop {
+    font-size: 2rem; }
+  .mainShop .cardTienda {
+    height: auto; }
+    .mainShop .cardTienda .cardBody h3 {
+      font-family: "Heebo", sans-serif;
+      font-size: 1rem;
+      font-weight: 600; }
+    .mainShop .cardTienda .cardBody .precioCard {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: white; }
+    .mainShop .cardTienda .card-footer {
+      background-color: #A8BAA9;
+      opacity: 0.9; }
+      .mainShop .cardTienda .card-footer .btnComprar {
+        font-size: 1rem; } }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 768px) {
+  .mainShop .titleShop {
     font-size: 3rem; }
-  .cardTienda .cardBody {
-    height: 30%; }
-    .cardTienda .cardBody h3 {
-      font-size: 1.2rem; }
-    .cardTienda .cardBody .precioCard {
-      font-size: 1.3rem; }
-  .cardTienda .card-footer .btnComprar {
-    width: 50%;
-    font-size: 0.5rem; } }
+  .mainShop .cardTienda {
+    height: auto; }
+    .mainShop .cardTienda .cardBody h3 {
+      font-family: "Heebo", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 600; }
+    .mainShop .cardTienda .cardBody .precioCard {
+      font-size: 2rem;
+      font-weight: 800;
+      color: white; }
+    .mainShop .cardTienda .card-footer {
+      background-color: #A8BAA9;
+      opacity: 0.9; }
+      .mainShop .cardTienda .card-footer .btnComprar {
+        font-size: 1.2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 375px) {
-  #titleTienda {
-    margin-top: 2rem;
-    font-size: 3rem; }
-  .cardTienda .cardBody {
-    height: 30%; }
-    .cardTienda .cardBody h3 {
-      font-size: 1.7rem; }
-    .cardTienda .cardBody .precioCard {
-      font-size: 1.4rem; }
-  .cardTienda .card-footer .btnComprar {
-    width: 50%;
-    font-size: 0.8rem; } }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 425px) {
-  #titleTienda {
-    margin-top: 2rem;
-    font-size: 3.5rem; }
-  .cardTienda .cardBody {
-    height: 30%; }
-    .cardTienda .cardBody h3 {
-      font-size: 1.7rem; }
-    .cardTienda .cardBody .precioCard {
-      font-size: 1.4rem; }
-  .cardTienda .card-footer .btnComprar {
-    width: 50%;
-    font-size: 0.8rem; } }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 768px) {
-  #titleTienda {
-    margin-top: 2rem;
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 1024px) {
+  .mainShop .titleShop {
     font-size: 4rem; }
-  .cardTienda .cardBody {
-    height: 30%; }
-    .cardTienda .cardBody h3 {
-      font-size: 1.7rem; }
-    .cardTienda .cardBody .precioCard {
-      font-size: 1.4rem; }
-  .cardTienda .card-footer .btnComprar {
-    width: 50%;
-    font-size: 0.8rem; } }
+  .mainShop .cardTienda {
+    height: auto; }
+    .mainShop .cardTienda .cardBody h3 {
+      font-family: "Heebo", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 600; }
+    .mainShop .cardTienda .cardBody .precioCard {
+      font-size: 2rem;
+      font-weight: 800;
+      color: white; }
+    .mainShop .cardTienda .card-footer {
+      background-color: #A8BAA9;
+      opacity: 0.9; }
+      .mainShop .cardTienda .card-footer .btnComprar {
+        font-size: 2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) {
   /*---------------------------------------------------------*/
   /*------------------------MQ TIENDAS-----------------------*/ }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 320px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 320px) {
   .mainTiendas .row .titleTiendas {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 375px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 375px) {
   .mainTiendas .row .titleTiendas {
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 425px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 425px) {
   .mainTiendas .row .titleTiendas {
     font-size: 3.5em;
     margin-top: 2rem;
     margin-bottom: 2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 768px) {
   .mainTiendas .row .titleTiendas {
     font-size: 4rem;
     margin-top: 2rem;
@@ -228,7 +298,7 @@
     height: 50vw;
     object-fit: cover; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 1024px) {
   .mainTiendas .row .titleTiendas {
     font-size: 4rem;
     margin-top: 2rem;
@@ -250,11 +320,12 @@ html {
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
   padding-left: 2vw;
-  background-color: #A8BAA9;
+  background-color: #806854;
   font-size: 1.2rem;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  font-weight: 600; }
   .navBreadcrumb .breadcrumbItem a {
-    color: #806854; }
+    color: #A8BAA9; }
   .navBreadcrumb .breadcrumbItemActive a {
     color: white; }
 
@@ -583,71 +654,131 @@ body {
           font-weight: 800; }
 
 /*-----------------------------------NOSOTROS--------------------------------------*/
-.body {
-  background-image: linear-gradient(to left, #806854, #DBCDAD); }
-  .body .mainNosotros {
-    height: 210vh; }
-    .body .mainNosotros .contenedorNosotros {
-      width: 80%;
-      font-family: "Heebo", sans-serif; }
-      .body .mainNosotros .contenedorNosotros .carousel-item {
-        margin-bottom: 2rem; }
-      .body .mainNosotros .contenedorNosotros .titleNosotros {
-        color: #A8BAA9;
-        font-size: 2rem;
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        color: #413225;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-        align-items: center;
-        text-align: center;
-        margin: auto; }
-      .body .mainNosotros .contenedorNosotros .articleNosotros1 {
-        text-align: center; }
-    .body .mainNosotros .rowImagenesNosotros {
-      justify-content: center; }
-  .body .mainNosotros {
-    height: auto; }
-    .body .mainNosotros .contenedorNosotros {
-      width: 90%;
-      font-family: "Heebo", sans-serif; }
-      .body .mainNosotros .contenedorNosotros .titleNosotros {
-        color: #A8BAA9;
-        font-size: 2rem;
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        color: #413225;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-        align-items: center;
-        text-align: center;
-        margin: auto; }
-      .body .mainNosotros .contenedorNosotros .carousel .carousel-item {
-        height: 53vh; }
-      .body .mainNosotros .contenedorNosotros .carousel-item img {
-        position: absolute;
-        object-fit: cover;
-        top: 0;
-        left: 0;
-        min-height: 2vh; }
-      .body .mainNosotros .contenedorNosotros img:hover {
-        filter: opacity(0.5);
-        transition: 0.5s; }
-      .body .mainNosotros .contenedorNosotros .separador {
-        border: 1rem solid #A8BAA9; }
-      .body .mainNosotros .contenedorNosotros .h6Nosotros {
-        color: #A8BAA9;
-        font-size: 1.2rem;
-        text-decoration: 3px solid #A8BAA9 underline; }
-      .body .mainNosotros .contenedorNosotros .pNosotros {
-        color: #A8BAA9;
-        font-size: 1.1rem; }
-        .body .mainNosotros .contenedorNosotros .pNosotros .linkConsulta {
-          color: #A8BAA9;
-          background-color: #DBCDAD; }
+.body .mainNosotros {
+  background-color: #DBCDAD; }
+  .body .mainNosotros .contenedorNosotros {
+    width: 100%; }
+    .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .titleNosotros {
+      color: #806854;
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      color: #413225;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+      font-size: 4rem;
+      font-weight: 600;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+    .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .carouselNosotros .carousel-inner {
+      height: 50vh;
+      margin-bottom: 1rem; }
+      .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .carouselNosotros .carousel-inner .carousel-item .imgCarousel {
+        width: 100%;
+        background-position-y: -50vh; }
+
+.body .rowImagenesNosotros {
+  background-color: #A8BAA9;
+  border-bottom-style: 1rem dotted #806854;
+  padding-bottom: 3rem; }
+  .body .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+    color: #7e6e59;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #413225;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 2rem; }
+  .body .rowImagenesNosotros .colTitulo1 .pNosotros {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+    text-align: justify; }
+    .body .rowImagenesNosotros .colTitulo1 .pNosotros .infoDestacada {
+      color: #DBCDAD;
+      background-color: #5a493b; }
+  .body .rowImagenesNosotros .colImagen1 {
+    height: 25%; }
+    .body .rowImagenesNosotros .colImagen1 .img-responsive {
+      margin-top: 2rem;
+      width: 100%; }
+
+.body .rowImagenesNosotros2 {
+  background-color: #b89272; }
+  .body .rowImagenesNosotros2 .colImagen2 {
+    height: 25%; }
+    .body .rowImagenesNosotros2 .colImagen2 .img-responsive {
+      margin-top: 2rem;
+      width: 100%; }
+  .body .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+    color: #7e6e59;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #413225;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top: 2rem; }
+  .body .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+    font-size: 2rem;
+    text-align: justify;
+    margin-right: 0.5rem; }
+    .body .rowImagenesNosotros2 .colTitulo2 .pNosotros .infoDestacada {
+      color: #DBCDAD;
+      background-color: #5a493b; }
+
+.body .rowImagenesNosotros3 {
+  padding-bottom: 2rem; }
+  .body .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+    color: #7e6e59;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #413225;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    background-color: #DBCDAD;
+    margin-bottom: 5vh;
+    margin-top: 2rem; }
+  .body .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+    font-size: 2rem;
+    text-align: justify; }
+    .body .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
+      color: #DBCDAD;
+      background-color: #5a493b; }
+      .body .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
+        color: #A8BAA9; }
+  .body .rowImagenesNosotros3 .colTitulo3 .listaTel li {
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #A8BAA9;
+    color: black; }
+  .body .rowImagenesNosotros3 .colImagen3 {
+    height: 15%; }
+    .body .rowImagenesNosotros3 .colImagen3 .img-responsive {
+      margin-top: 2rem;
+      width: 100%; }
 
 /*-------------------------------------TIENDAS------------------------------------------*/
 .mainTiendas {
@@ -677,69 +808,72 @@ body {
       font-size: 0.8rem; }
 
 /*--------------------------------------SHOP----------------------------------------*/
-.bodyTienda {
-  background-image: linear-gradient(to left, #806854, #DBCDAD); }
-  .bodyTienda .navBreadcrumb {
-    margin-bottom: 2rem; }
-
-.titleTienda {
-  color: #A8BAA9;
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  color: #413225;
-  text-decoration: none;
-  text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-  margin: auto;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 2rem; }
-
-.cardTienda .cardBody {
-  background-color: #A8BAA9;
-  color: #DBCDAD;
-  text-align: center; }
-  .cardTienda .cardBody h3 {
-    font-family: "Heebo", sans-serif;
-    font-weight: 600; }
-  .cardTienda .cardBody .precioCard {
-    font-size: 1.7rem;
-    font-weight: 800;
-    color: white; }
-
-.cardTienda .card-footer {
-  background-color: #A8BAA9;
-  opacity: 0.9; }
-  .cardTienda .card-footer .btnComprar {
-    text-align: center;
+.mainShop {
+  background-color: #DBCDAD; }
+  .mainShop .titleShop {
+    color: #A8BAA9;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #413225;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
     margin: auto;
+    text-align: center;
     justify-content: center;
-    background-color: #806854;
-    color: black;
-    font-size: 1rem;
-    font-weight: 600; }
-
-.modalCompra .modalContent {
-  background-color: #A8BAA9; }
-  .modalCompra .modalContent .modalHeader {
-    background-color: #A8BAA9;
-    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem; }
+  .mainShop .cardTienda .cardBody {
+    background-color: #413225;
+    color: #DBCDAD;
     text-align: center;
-    margin: auto;
-    color: #806854; }
-  .modalCompra .modalContent .modalBody {
-    background-color: #806854;
-    font-family: "Heebo", sans-serif; }
-    .modalCompra .modalContent .modalBody .px-4 {
-      background-color: #806854; }
-    .modalCompra .modalContent .modalBody .modal-footer {
-      width: 100%;
+    height: 20%; }
+    .mainShop .cardTienda .cardBody h3 {
+      font-family: "Heebo", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600; }
+    .mainShop .cardTienda .cardBody .precioCard {
+      font-size: 1.7rem;
+      font-weight: 800;
+      color: white;
+      margin: 0;
+      padding: 0; }
+    .mainShop .cardTienda .cardBody .cantidadProducto input {
+      font-size: 1rem;
+      font-weight: 800; }
+  .mainShop .cardTienda .card-footer {
+    background-color: #A8BAA9;
+    opacity: 0.9; }
+    .mainShop .cardTienda .card-footer .btnComprar {
+      text-align: center;
+      margin: auto;
       justify-content: center;
-      background-color: #A8BAA9; }
-      .modalCompra .modalContent .modalBody .modal-footer .btnComprar {
-        background-color: #806854;
-        color: #A8BAA9; }
+      background-color: #413225;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600; }
+  .mainShop .modalCompra .modalContent {
+    background-color: #DBCDAD; }
+    .mainShop .modalCompra .modalContent .modalHeader {
+      background-color: #DBCDAD;
+      font-size: 1.2rem;
+      text-align: center;
+      font-weight: 600;
+      margin: auto;
+      color: #806854; }
+    .mainShop .modalCompra .modalContent .modalBody {
+      background-color: #DBCDAD;
+      font-family: "Heebo", sans-serif;
+      color: white; }
+      .mainShop .modalCompra .modalContent .modalBody .px-4 {
+        background-color: #806854; }
+      .mainShop .modalCompra .modalContent .modalBody .modal-footer {
+        width: 100%;
+        justify-content: center; }
+        .mainShop .modalCompra .modalContent .modalBody .modal-footer .btnComprar {
+          background-color: #A8BAA9;
+          color: white; }
 
 /*----------------------------------------------------------------------------------*/
 /*--------CONTACTO---------*/
