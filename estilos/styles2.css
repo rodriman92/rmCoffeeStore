@@ -165,11 +165,11 @@
   .articleIndexTestimonios .container .row .h2Index {
     font-size: 2.5rem; }
   .articleIndexTestimonios .container .row .card {
-    height: 40vh; }
-  /*---------------------MQ NOSOTROS 320px-----------------*/
-  /*-------------------------MQ SHOP-----------------------*/ }
+    height: 40vh; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 320px) {
+/*---------------------MQ NOSOTROS 320px-----------------*/
+/*-------------------------MQ SHOP-----------------------*/
+@media screen and (max-width: 320px) {
   .mainShop .titleShop {
     font-size: 2rem; }
   .mainShop .cardTienda {
@@ -190,7 +190,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .mainShop .titleShop {
     font-size: 2.2rem; }
   .mainShop .cardTienda {
@@ -209,7 +209,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .mainShop .titleShop {
     font-size: 2rem; }
   .mainShop .cardTienda {
@@ -228,7 +228,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .mainShop .titleShop {
     font-size: 3rem; }
   .mainShop .cardTienda {
@@ -247,7 +247,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1.2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .mainShop .titleShop {
     font-size: 4rem; }
   .mainShop .cardTienda {
@@ -266,47 +266,53 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 2rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) {
-  /*---------------------------------------------------------*/
-  /*------------------------MQ TIENDAS-----------------------*/ }
+/*------------------------MQ TIENDAS-----------------------*/
+@media screen and (max-width: 320px) {
+  .mainTiendas #titleTiendas {
+    font-size: 3rem; }
+  .mainTiendas .contenedorCards .footerCard {
+    height: auto; }
+    .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
+      font-size: 1rem; }
+    .mainTiendas .contenedorCards .footerCard .pCardTiendas {
+      font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 320px) {
-  .mainTiendas .row .titleTiendas {
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem; } }
+@media screen and (max-width: 375px) {
+  .mainTiendas #titleTiendas {
+    font-size: 3rem; }
+  .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
+    font-size: 1.2rem; }
+  .mainTiendas .contenedorCards .footerCard .pCardTiendas {
+    font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 375px) {
-  .mainTiendas .row .titleTiendas {
-    font-size: 2.5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem; } }
+@media screen and (max-width: 425px) {
+  .mainTiendas #titleTiendas {
+    font-size: 3.5rem; }
+  .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
+    font-size: 1rem; }
+  .mainTiendas .contenedorCards .footerCard .pCardTiendas {
+    font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 425px) {
-  .mainTiendas .row .titleTiendas {
-    font-size: 3.5em;
-    margin-top: 2rem;
-    margin-bottom: 2rem; } }
+@media screen and (max-width: 768px) {
+  .mainTiendas #titleTiendas {
+    font-size: 3.5rem; }
+  .mainTiendas .contenedorCards .footerCard {
+    height: 30vh; }
+    .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
+      font-size: 1rem; }
+    .mainTiendas .contenedorCards .footerCard .pCardTiendas {
+      font-size: 1rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 768px) {
-  .mainTiendas .row .titleTiendas {
-    font-size: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem; }
-  .mainTiendas .card-img-top {
-    width: 100%;
-    height: 50vw;
-    object-fit: cover; } }
-
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) and (max-width: 1024px) {
-  .mainTiendas .row .titleTiendas {
-    font-size: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem; }
-  .mainTiendas .card-img-top {
-    width: 100%;
-    height: 50vw;
-    object-fit: cover; } }
+@media screen and (max-width: 1024px) {
+  .mainTiendas #titleTiendas {
+    font-size: 3.5rem; }
+  .mainTiendas .contenedorCards .cardHeader {
+    background-color: #A8BAA9;
+    height: 30vh; }
+    .mainTiendas .contenedorCards .cardHeader .tituloCardTiendas a {
+      font-size: 1rem; }
+    .mainTiendas .contenedorCards .cardHeader .pCardTiendas {
+      font-size: 1rem; } }
 
 * {
   margin: 0;
@@ -782,10 +788,9 @@ body {
 
 /*-------------------------------------TIENDAS------------------------------------------*/
 .mainTiendas {
-  width: 100%;
-  background-image: linear-gradient(to left, #806854, #DBCDAD); }
-  .mainTiendas .titleTiendas {
-    color: #A8BAA9;
+  background-color: #DBCDAD; }
+  .mainTiendas .row .titleTiendas {
+    color: #806854;
     font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
@@ -793,25 +798,44 @@ body {
     color: #413225;
     text-decoration: none;
     text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-    align-items: center;
-    text-align: center;
     margin: auto;
+    text-align: center;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem; }
-  .mainTiendas .p-4 {
-    background-color: #a6691f; }
-    .mainTiendas .p-4 .tituloCardTiendas a {
-      color: #806854;
-      text-decoration: none; }
-    .mainTiendas .p-4 .pCardTiendas {
-      color: white;
-      font-size: 0.8rem; }
+    font-size: 4rem; }
+  .mainTiendas .contenedorCards .cardTiendas .cardHeader {
+    background-color: #A8BAA9;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    margin: auto; }
+    .mainTiendas .contenedorCards .cardTiendas .cardHeader .tituloCardTiendas a {
+      color: #413225;
+      font-size: 2rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.3rem;
+      text-decoration: 0.5rem dotted #413225 underline; }
+    .mainTiendas .contenedorCards .cardTiendas .cardHeader .pCardTiendas {
+      color: #413225;
+      font-size: 1.2rem; }
+  .mainTiendas .contenedorCards .cardTiendas .card-footer {
+    background-color: #413225; }
+    .mainTiendas .contenedorCards .cardTiendas .card-footer .btnMapaModal {
+      background-color: #806854;
+      color: #A8BAA9;
+      font-weight: 700;
+      margin: auto;
+      justify-content: center;
+      text-align: center;
+      display: block; }
 
 /*--------------------------------------SHOP----------------------------------------*/
 .mainShop {
   background-color: #DBCDAD; }
   .mainShop .titleShop {
-    color: #A8BAA9;
+    color: #806854;
     font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
@@ -823,6 +847,7 @@ body {
     text-align: center;
     justify-content: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     font-size: 4rem; }
   .mainShop .cardTienda .cardBody {
     background-color: #413225;
@@ -875,8 +900,7 @@ body {
           background-color: #A8BAA9;
           color: white; }
 
-/*----------------------------------------------------------------------------------*/
-/*--------CONTACTO---------*/
+/*------------------------------------CONTACTO---------------------------------*/
 .mainContacto {
   width: 100%;
   height: auto;

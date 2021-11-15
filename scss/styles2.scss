@@ -639,28 +639,56 @@ body{
 }
 
 /*-------------------------------------TIENDAS------------------------------------------*/
-.mainTiendas {
-	width: 100%;
-	background-image: linear-gradient(to left, $color-principal, $color-section);
-	.titleTiendas {
-		@include titulosSecciones($color-navbar, $fuente);
-		align-items: center;
-		text-align: center;
-		margin: auto;
-		margin-bottom: 2rem;
-		margin-top: 2rem;
-	}
-	.p-4 {
-		background-color: #a6691f;
-		.tituloCardTiendas {
-			a {
-				color: $color-principal;
-				text-decoration: none;
-			}
+.mainTiendas{
+	background-color: $color-section;
+	.row{
+		.titleTiendas{
+			@include titulosSecciones($color-h1, $fuente );
+			margin: auto;
+			text-align: center;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+			font-size: 4rem;
 		}
-		.pCardTiendas {
-			color: white;
-			font-size: 0.8rem;
+	}
+	.contenedorCards{
+		.cardTiendas{
+			.cardHeader{
+				background-color: $color-navbar;
+				height: 30%;
+				text-align: center;
+				justify-content: center;
+				margin: auto;
+				.tituloCardTiendas{
+					a{
+						color: #413225;
+						font-size: 2rem;
+						text-decoration: none;
+						text-transform: uppercase;
+						font-weight: 700;
+						letter-spacing: 0.3rem;
+						text-decoration: 0.5rem dotted #413225 underline;
+						
+					}
+				}
+				.pCardTiendas{
+					color: #413225;
+					font-size: 1.2rem;
+				}
+				
+			}
+			.card-footer{
+				background-color: #413225;
+				.btnMapaModal{
+					background-color: $color-h1;
+					color: $color-navbar;
+					font-weight: 700;
+					margin: auto;
+					justify-content: center;
+					text-align: center;
+					display: block;
+				}
+			}
 		}
 	}
 }
@@ -669,11 +697,12 @@ body{
 .mainShop{
 	background-color: $color-section;
 	.titleShop{
-		@include titulosSecciones($color-navbar, $fuente);
+		@include titulosSecciones($color-h1, $fuente);
 		margin: auto;
 		text-align: center;
 		justify-content: center;
 		margin-bottom: 2rem;
+		margin-top: 2rem;
 		font-size: 4rem;
 	}
 	.cardTienda {
@@ -749,9 +778,8 @@ body{
 
 
 
-/*----------------------------------------------------------------------------------*/
+/*------------------------------------CONTACTO---------------------------------*/
 
-/*--------CONTACTO---------*/
 .mainContacto {
 	width: 100%;
 	height: auto;
