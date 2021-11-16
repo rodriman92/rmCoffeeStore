@@ -27,8 +27,8 @@
 
 </head>
 
-<body class="bodyContacto">
-    <header class="headerCustom">
+<body class="body">
+    <header>
         <nav class="navCustom navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid container-nav">
                 <div class="title navbar-brand">
@@ -73,39 +73,15 @@
     </header>
     <main class="mainContacto">
         <div class="container containerFormContacto">
-            <div class="row rowContacto">
-                <div class="col-md-12 col-sm-12 col-lg-12 colContacto">
-                    <h1 class="titleContacto">CONTACTO</h1>
-                </div>
-            </div>
+            <h1 class="titleContacto">Contacto</h1>
             <div class="row">
-                <div col-md-6>
-                    <div class="form-box">
-                        <form method="post" id="form">
-                            <div class="form-group">
-                                <label for="name">Nombre</label>
-                                <input class="form-control" id="name" type="text" name="name"
-                                    placeholder="Ingresa tu nombre">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input class="form-control" id="email" type="email" name="Email"
-                                    placeholder="usuario@mail.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Mensaje</label>
-                                <textarea class="form-control" id="message" name="message"
-                                    placeholder="¿Cómo podemos ayudarte?" rows="6"></textarea>
-                            </div>
-                            <button class="btn btn-light btnEnviarFormulario" type="submit"
-                                data-bs-target="#modalContacto" data-bs-toggle="modal">Enviar</button>
-                    </div>
-                    </form>
-                    <a href="mailto:contacto@rmcoffeestore.com" id="superFormOculto"></a>
+                <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-md-center">
+                    <button class="btn btn-light btnEscribinos text-center" data-bs-target="#modalContactoEnvio" data-bs-toggle="modal">Escribinos✉</button>
                 </div>
             </div>
         </div>
         </div>
+        <!----------------------MODAL ENVIO CONFIRMADO-------------------->
         <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content modalBodyContacto">
@@ -128,6 +104,51 @@
                 </div>
             </div>
         </div>
+        <!------------------------MODAL APERTURA FORMULARIO--------------------------------->
+        <div class="modal fade" id="modalContactoEnvio" tabindex="-1" role="dialog" 
+        aria-labelledby="contactFormLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg modalEnvio" role="document">
+              <div class="modal-content">
+                  <div class="modal-header modalHeaderEnvio">
+                      <h4 class="modal-title modalTituloEnvio" id="contactFormLabel">Completa tus datos </h4>
+                  </div>
+                  <div class="modal-body modalBodyEnvio">
+                    <div class="row">
+                        <div col-md-6>
+                            <div class="form-box">
+                                <form method="post" id="form">
+                                    <div class="form-group">
+                                        <label for="name">Nombre</label>
+                                        <input class="form-control" id="name" type="text" name="name"
+                                            placeholder="Ingresa tu nombre">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input class="form-control" id="email" type="email" name="Email"
+                                            placeholder="usuario@mail.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Mensaje</label>
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="¿Cómo podemos ayudarte?" rows="6"></textarea>
+                                    </div>
+                                    <button class="btn btn-light btnEnviarFormulario" type="submit"
+                                        data-bs-target="#modalContacto" data-bs-toggle="modal">Enviar</button>
+                                </form>
+                            </div>
+                            <a href="mailto:contacto@rmcoffeestore.com" id="superFormOculto"></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer modalFooterEnvio">
+                    <button type="button" class="btn btn-light btnCerrarFormEnvio" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+              </div>
+          </div>
+      </div>
+        <!-- #FIN -->
     </main>
     <footer class="footer-section">
         <div class="container">
@@ -163,7 +184,7 @@
                             <div class="footer-widget-heading">
                                 <h3>Suscribite</h3>
                             </div>
-                            <div class="footer-text mb-25">
+                            <div class="footer-text mb-25 text-white">
                                 <p>Enterate de todas nuestras novedades suscribiendote a nuestro boletín.</p>
                             </div>
                             <div class="subscribe-form">
@@ -180,9 +201,10 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center">
+                    <div class="col-xl-12 col-sm-12 col-lg-12 text-center">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2021, Todos los derechos reservados <a href="https://github.com/rodriman92" target="_blank">por Rodriman</a></p>
+                            <p>Copyright &copy; 2021 RM Coffee Store, Todos los derechos reservados</p>
+                            <p class="devBy">Desarrollado por <a href="https://github.com/rodriman92" target="_blank">Rodriman🦸‍♂️</a></p>
                         </div>
                     </div>
                 </div>

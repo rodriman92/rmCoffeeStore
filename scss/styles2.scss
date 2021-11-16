@@ -522,120 +522,125 @@ body{
 					}
 				}
 			}
-		}
-	}
-	.rowImagenesNosotros{
-		background-color: $color-navbar;
-		border-bottom-style: 1rem dotted $color-h1;
-		padding-bottom: 3rem;
-		.colTitulo1{
-			.h6Nosotros{
-				@include titulosSecciones($color-h2, $fuente );
-				letter-spacing: 0.5rem;
-				font-size: 3rem;
-				letter-spacing: 0.5rem;
-				text-align: center;
-				margin-bottom: 5vh;
-				margin-top: 2rem;
-
-				
-			}
-			.pNosotros{
-				margin-left: 0.5rem;
-				font-size: 2rem;
-				text-align: justify;
-				.infoDestacada{
-					color: $color-section;
-					background-color: #5a493b;
-				}
-				
-			}
-		}
-		.colImagen1{
-			height: 25%;
-			.img-responsive{
-				margin-top: 2rem;
-				width: 100%;
-			}
-		}
-	}
-	.rowImagenesNosotros2{
-		background-color: #b89272;
-		.colImagen2{
-			height: 25%;
-			.img-responsive{
-				margin-top: 2rem;
-				width: 100%;
-			}
-
-		}
-		.colTitulo2{
-			.h6Nosotros{
-				@include titulosSecciones($color-h2, $fuente );
-				letter-spacing: 0.5rem;
-				font-size: 3rem;
-				text-align: center;
-				margin: auto;
-				margin-bottom: 5vh;
-				margin-top: 2rem;
-
-			}
-			.pNosotros{
-				font-size: 2rem;
-				text-align: justify;
-				margin-right: 0.5rem;
-				.infoDestacada{
-					color: $color-section;
-					background-color: #5a493b;
-				}
-			}
-		}
-	}
-	.rowImagenesNosotros3{
-		padding-bottom: 2rem;
-		.colTitulo3{
-			.h6Nosotros{
-				@include titulosSecciones($color-h2, $fuente );
-				letter-spacing: 0.5rem;
-				font-size: 3rem;
-				letter-spacing: 0.5rem;
-				text-align: center;
-				background-color: $color-section;
-				margin-bottom: 5vh;
-				margin-top: 2rem;
-				
-			}
-			.pNosotros{
-				font-size: 2rem;
-				text-align: justify;
-				.infoDestacada{
-					color: $color-section;
-					background-color: #5a493b;
-					a{
-						color: $color-navbar;
+			.rowImagenesNosotros{
+				background-color: $color-navbar;
+				border-bottom-style: 1rem dotted $color-h1;
+				padding-bottom: 3rem;
+				.colTitulo1{
+					.h6Nosotros{
+						@include titulosSecciones($color-h2, $fuente );
+						letter-spacing: 0.5rem;
+						font-size: 3rem;
+						letter-spacing: 0.5rem;
+						text-align: center;
+						margin-bottom: 5vh;
+						margin-top: 2rem;
+		
 						
 					}
-					
+					.pNosotros{
+						margin-left: 0.5rem;
+						font-size: 1.6rem;
+						text-align: justify;
+						.infoDestacada{
+							color: $color-section;
+							background-color: #5a493b;
+						}
+						
+					}
 				}
-				
-			}
-			.listaTel{
-				li{
-					font-size: 1.8rem;
-					font-weight: 600;
-					background-color: $color-navbar;
-					color: black;
+				.colImagen1{
+					height: 25%;
+					.img-responsive{
+						margin-top: 2rem;
+						width: 100%;
+					}
 				}
 			}
-		}
-		.colImagen3{
-			height: 15%;
-			.img-responsive{
-				margin-top: 2rem;
-				width: 100%;
+			.rowImagenesNosotros2{
+				background-color: #b89272;
+				.colImagen2{
+					height: 25%;
+					.img-responsive{
+						margin-top: 2rem;
+						width: 100%;
+						margin-bottom: 2rem;
+					}
+		
+				}
+				.colTitulo2{
+					.h6Nosotros{
+						@include titulosSecciones($color-h2, $fuente );
+						letter-spacing: 0.5rem;
+						font-size: 3rem;
+						text-align: center;
+						margin: auto;
+						margin-bottom: 5vh;
+						margin-top: 2rem;
+		
+					}
+					.pNosotros{
+						font-size: 1.6rem;
+						text-align: justify;
+						margin-right: 0.5rem;
+						.infoDestacada{
+							color: $color-section;
+							background-color: #5a493b;
+							word-spacing: 0.5rem;
+						}
+						
+					}
+				}
+			}
+			.rowImagenesNosotros3{
+				padding-bottom: 2rem;
+				.colTitulo3{
+					.h6Nosotros{
+						@include titulosSecciones($color-h2, $fuente );
+						letter-spacing: 0.5rem;
+						font-size: 3rem;
+						letter-spacing: 0.5rem;
+						text-align: center;
+						background-color: $color-section;
+						margin-bottom: 5vh;
+						margin-top: 2rem;
+						
+					}
+					.pNosotros{
+						font-size: 1.6rem;
+						text-align: justify;
+						.infoDestacada{
+							color: $color-section;
+							background-color: #5a493b;
+							a{
+								color: $color-navbar;
+								
+							}
+							
+						}
+						
+					}
+					.listaTel{
+						margin-bottom: 2rem;
+						li{
+							font-size: 1.6rem;
+							font-weight: 600;
+							background-color: $color-navbar;
+							color: black;
+						}
+					}
+				}
+				.colImagen3{
+					height: 15%;
+					.img-responsive{
+						margin-top: 2rem;
+						width: 100%;
+					}
+				}
 			}
 		}
 	}
+	
 }
 
 /*-------------------------------------TIENDAS------------------------------------------*/
@@ -662,18 +667,19 @@ body{
 				.tituloCardTiendas{
 					a{
 						color: #413225;
-						font-size: 2rem;
+						font-size: 1.5rem;
 						text-decoration: none;
 						text-transform: uppercase;
 						font-weight: 700;
 						letter-spacing: 0.3rem;
 						text-decoration: 0.5rem dotted #413225 underline;
+						margin-bottom: 1.5rem;
 						
 					}
 				}
 				.pCardTiendas{
 					color: #413225;
-					font-size: 1.2rem;
+					font-size: 1rem;
 				}
 				
 			}
@@ -689,6 +695,24 @@ body{
 					display: block;
 				}
 			}
+		}
+	}
+	.modalMapa{
+		.modalMapaHeader{
+			background-color: $color-navbar;
+			color: #413225;
+			#staticBackdropLabel{
+				font-size: 1.2rem;
+				font-weight: 800;
+			}
+			
+		}
+		.modalMapaBody{
+			background-color: #413225;
+		}
+		.modalMapaFooter{
+			background-color: $color-navbar;
+
 		}
 	}
 }
@@ -783,44 +807,86 @@ body{
 .mainContacto {
 	width: 100%;
 	height: auto;
-	background-image: linear-gradient(to left, $color-principal, $color-section);
-	background-repeat: repeat;
+	background-color: $color-section;
 	.titleContacto {
 		@include titulosSecciones($color-navbar, $fuente );
 		margin: auto;
 		text-align: center;
 		justify-content: center;
-		margin-top: 2rem;
+		padding-top: 2rem;
+		font-size: 4rem;
+		margin-bottom: 4rem;
 		
 	}
-	.form-box {
-		font-family: $fuente;
-		max-width: 80vw;
+	.btnEscribinos{
+		font-size: 2.5rem;
+		text-align: center;
+		justify-content: center;
+		justify-items: center;
 		margin: auto;
-		padding: 1rem;
+		margin-bottom: 4rem;
+		background-color: $color-navbar;
+		font-weight: 600;
+		transition: .5s;
 		color: white;
-		background: $color-principal;
-		border: 10px solid #f2f2f2;
-		margin-top: 4rem;
-		margin-bottom: 2rem;
-		
-		textarea {
-			width: 100%;
-			margin-bottom: 2rem;
-		}
-
-		.btnEnviarFormulario {
-			width: 100%;
-			font-size: 1rem;
+		&:hover{
+			background-color: #413225;
+			color: $color-navbar;
+			transition: .5s;
+			letter-spacing: .3rem;
+		}		
+	}
+	.modalEnvio{
+		.modalHeaderEnvio{
 			background-color: $color-navbar;
-			color: white;
-			border-color: white;
-			justify-items: center;
-			&:hover {
-				background-color: white;
-				color: $color-navbar;
-				border-color: $color-navbar;
+			color: #413225;
+			.modalTituloEnvio{
+				font-size: 1.5rem;
+				font-weight: 600;
+				text-align: center;
+				justify-items: center;
+				margin: auto;
+			}
+		}
+		.modalBodyEnvio{
+			background-color: #5a493b;
+			.form-box {
+				font-family: $fuente;
+				max-width: 80vw;
+				margin: auto;
+				padding: 1rem;
+				color: white;
+				background: $color-principal;
+				margin-bottom: 2rem;
+				
+				textarea {
+					width: 100%;
+					margin-bottom: 2rem;
+				}
+		
+				.btnEnviarFormulario {
+					width: 100%;
+					font-size: 1rem;
+					background-color: $color-navbar;
+					color: white;
+					border-color: white;
+					justify-items: center;
+					&:hover {
+						background-color: white;
+						color: $color-navbar;
+						border-color: $color-navbar;
+					}
+				}
+			}
+		}
+		.modalFooterEnvio{
+			background-color: $color-navbar;
+			.btnCerrarFormEnvio{
+				background-color: #806854;
+				color: white;
+				font-weight: 600;
 			}
 		}
 	}
 }
+	

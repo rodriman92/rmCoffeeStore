@@ -6,7 +6,7 @@
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   .body .mainIndex {
     width: auto;
     height: auto; }
@@ -33,7 +33,7 @@
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   .mainIndex {
     width: auto;
     height: auto; }
@@ -60,7 +60,7 @@
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1rem; }
+    font-size: 1.3rem; }
   .mainIndex {
     width: auto;
     height: auto; }
@@ -87,7 +87,7 @@
   .body .navCustom .navbar-brand .logo {
     font-size: 2.5rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1rem; }
+    font-size: 1.3rem; }
   .mainIndex {
     width: auto;
     height: auto; }
@@ -312,6 +312,17 @@
     .mainTiendas .contenedorCards .cardHeader .tituloCardTiendas a {
       font-size: 1rem; }
     .mainTiendas .contenedorCards .cardHeader .pCardTiendas {
+      font-size: 1rem; } }
+
+/*------------CONTACTO MQ 320PX------------------*/
+@media screen and (max-width: 320px) {
+  .mainContacto .containerFormContacto .titleContacto {
+    font-size: 3rem; }
+  .mainContacto .containerFormContacto .row .btnEscribinos {
+    font-size: 1.5rem; }
+  .mainContacto .modalEnvio {
+    overflow-y: auto; }
+    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
       font-size: 1rem; } }
 
 * {
@@ -686,105 +697,106 @@ body {
       .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .carouselNosotros .carousel-inner .carousel-item .imgCarousel {
         width: 100%;
         background-position-y: -50vh; }
-
-.body .rowImagenesNosotros {
-  background-color: #A8BAA9;
-  border-bottom-style: 1rem dotted #806854;
-  padding-bottom: 3rem; }
-  .body .rowImagenesNosotros .colTitulo1 .h6Nosotros {
-    color: #7e6e59;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #413225;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-    letter-spacing: 0.5rem;
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    text-align: center;
-    margin-bottom: 5vh;
-    margin-top: 2rem; }
-  .body .rowImagenesNosotros .colTitulo1 .pNosotros {
-    margin-left: 0.5rem;
-    font-size: 2rem;
-    text-align: justify; }
-    .body .rowImagenesNosotros .colTitulo1 .pNosotros .infoDestacada {
-      color: #DBCDAD;
-      background-color: #5a493b; }
-  .body .rowImagenesNosotros .colImagen1 {
-    height: 25%; }
-    .body .rowImagenesNosotros .colImagen1 .img-responsive {
-      margin-top: 2rem;
-      width: 100%; }
-
-.body .rowImagenesNosotros2 {
-  background-color: #b89272; }
-  .body .rowImagenesNosotros2 .colImagen2 {
-    height: 25%; }
-    .body .rowImagenesNosotros2 .colImagen2 .img-responsive {
-      margin-top: 2rem;
-      width: 100%; }
-  .body .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-    color: #7e6e59;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #413225;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-    letter-spacing: 0.5rem;
-    font-size: 3rem;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 5vh;
-    margin-top: 2rem; }
-  .body .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-    font-size: 2rem;
-    text-align: justify;
-    margin-right: 0.5rem; }
-    .body .rowImagenesNosotros2 .colTitulo2 .pNosotros .infoDestacada {
-      color: #DBCDAD;
-      background-color: #5a493b; }
-
-.body .rowImagenesNosotros3 {
-  padding-bottom: 2rem; }
-  .body .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-    color: #7e6e59;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #413225;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-    letter-spacing: 0.5rem;
-    font-size: 3rem;
-    letter-spacing: 0.5rem;
-    text-align: center;
-    background-color: #DBCDAD;
-    margin-bottom: 5vh;
-    margin-top: 2rem; }
-  .body .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-    font-size: 2rem;
-    text-align: justify; }
-    .body .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
-      color: #DBCDAD;
-      background-color: #5a493b; }
-      .body .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
-        color: #A8BAA9; }
-  .body .rowImagenesNosotros3 .colTitulo3 .listaTel li {
-    font-size: 1.8rem;
-    font-weight: 600;
-    background-color: #A8BAA9;
-    color: black; }
-  .body .rowImagenesNosotros3 .colImagen3 {
-    height: 15%; }
-    .body .rowImagenesNosotros3 .colImagen3 .img-responsive {
-      margin-top: 2rem;
-      width: 100%; }
+    .body .mainNosotros .contenedorNosotros .rowImagenesNosotros {
+      background-color: #A8BAA9;
+      border-bottom-style: 1rem dotted #806854;
+      padding-bottom: 3rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+        color: #7e6e59;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        color: #413225;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+        letter-spacing: 0.5rem;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        margin-bottom: 5vh;
+        margin-top: 2rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+        margin-left: 0.5rem;
+        font-size: 1.6rem;
+        text-align: justify; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros .infoDestacada {
+          color: #DBCDAD;
+          background-color: #5a493b; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+        height: 25%; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 .img-responsive {
+          margin-top: 2rem;
+          width: 100%; }
+    .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 {
+      background-color: #b89272; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+        height: 25%; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 .img-responsive {
+          margin-top: 2rem;
+          width: 100%;
+          margin-bottom: 2rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+        color: #7e6e59;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        color: #413225;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+        letter-spacing: 0.5rem;
+        font-size: 3rem;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5vh;
+        margin-top: 2rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+        font-size: 1.6rem;
+        text-align: justify;
+        margin-right: 0.5rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros .infoDestacada {
+          color: #DBCDAD;
+          background-color: #5a493b;
+          word-spacing: 0.5rem; }
+    .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 {
+      padding-bottom: 2rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+        color: #7e6e59;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        color: #413225;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+        letter-spacing: 0.5rem;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        background-color: #DBCDAD;
+        margin-bottom: 5vh;
+        margin-top: 2rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+        font-size: 1.6rem;
+        text-align: justify; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
+          color: #DBCDAD;
+          background-color: #5a493b; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
+            color: #A8BAA9; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
+        margin-bottom: 2rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
+          font-size: 1.6rem;
+          font-weight: 600;
+          background-color: #A8BAA9;
+          color: black; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
+        height: 15%; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 .img-responsive {
+          margin-top: 2rem;
+          width: 100%; }
 
 /*-------------------------------------TIENDAS------------------------------------------*/
 .mainTiendas {
@@ -811,15 +823,16 @@ body {
     margin: auto; }
     .mainTiendas .contenedorCards .cardTiendas .cardHeader .tituloCardTiendas a {
       color: #413225;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 700;
       letter-spacing: 0.3rem;
-      text-decoration: 0.5rem dotted #413225 underline; }
+      text-decoration: 0.5rem dotted #413225 underline;
+      margin-bottom: 1.5rem; }
     .mainTiendas .contenedorCards .cardTiendas .cardHeader .pCardTiendas {
       color: #413225;
-      font-size: 1.2rem; }
+      font-size: 1rem; }
   .mainTiendas .contenedorCards .cardTiendas .card-footer {
     background-color: #413225; }
     .mainTiendas .contenedorCards .cardTiendas .card-footer .btnMapaModal {
@@ -830,6 +843,16 @@ body {
       justify-content: center;
       text-align: center;
       display: block; }
+  .mainTiendas .modalMapa .modalMapaHeader {
+    background-color: #A8BAA9;
+    color: #413225; }
+    .mainTiendas .modalMapa .modalMapaHeader #staticBackdropLabel {
+      font-size: 1.2rem;
+      font-weight: 800; }
+  .mainTiendas .modalMapa .modalMapaBody {
+    background-color: #413225; }
+  .mainTiendas .modalMapa .modalMapaFooter {
+    background-color: #A8BAA9; }
 
 /*--------------------------------------SHOP----------------------------------------*/
 .mainShop {
@@ -904,8 +927,7 @@ body {
 .mainContacto {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(to left, #806854, #DBCDAD);
-  background-repeat: repeat; }
+  background-color: #DBCDAD; }
   .mainContacto .titleContacto {
     color: #A8BAA9;
     font-size: 2rem;
@@ -918,28 +940,61 @@ body {
     margin: auto;
     text-align: center;
     justify-content: center;
-    margin-top: 2rem; }
-  .mainContacto .form-box {
-    font-family: "Heebo", sans-serif;
-    max-width: 80vw;
+    padding-top: 2rem;
+    font-size: 4rem;
+    margin-bottom: 4rem; }
+  .mainContacto .btnEscribinos {
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
     margin: auto;
-    padding: 1rem;
-    color: white;
-    background: #806854;
-    border: 10px solid #f2f2f2;
-    margin-top: 4rem;
-    margin-bottom: 2rem; }
-    .mainContacto .form-box textarea {
-      width: 100%;
-      margin-bottom: 2rem; }
-    .mainContacto .form-box .btnEnviarFormulario {
-      width: 100%;
-      font-size: 1rem;
-      background-color: #A8BAA9;
+    margin-bottom: 4rem;
+    background-color: #A8BAA9;
+    font-weight: 600;
+    transition: .5s;
+    color: white; }
+    .mainContacto .btnEscribinos:hover {
+      background-color: #413225;
+      color: #A8BAA9;
+      transition: .5s;
+      letter-spacing: .3rem; }
+  .mainContacto .modalEnvio .modalHeaderEnvio {
+    background-color: #A8BAA9;
+    color: #413225; }
+    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      justify-items: center;
+      margin: auto; }
+  .mainContacto .modalEnvio .modalBodyEnvio {
+    background-color: #5a493b; }
+    .mainContacto .modalEnvio .modalBodyEnvio .form-box {
+      font-family: "Heebo", sans-serif;
+      max-width: 80vw;
+      margin: auto;
+      padding: 1rem;
       color: white;
-      border-color: white;
-      justify-items: center; }
-      .mainContacto .form-box .btnEnviarFormulario:hover {
-        background-color: white;
-        color: #A8BAA9;
-        border-color: #A8BAA9; }
+      background: #806854;
+      margin-bottom: 2rem; }
+      .mainContacto .modalEnvio .modalBodyEnvio .form-box textarea {
+        width: 100%;
+        margin-bottom: 2rem; }
+      .mainContacto .modalEnvio .modalBodyEnvio .form-box .btnEnviarFormulario {
+        width: 100%;
+        font-size: 1rem;
+        background-color: #A8BAA9;
+        color: white;
+        border-color: white;
+        justify-items: center; }
+        .mainContacto .modalEnvio .modalBodyEnvio .form-box .btnEnviarFormulario:hover {
+          background-color: white;
+          color: #A8BAA9;
+          border-color: #A8BAA9; }
+  .mainContacto .modalEnvio .modalFooterEnvio {
+    background-color: #A8BAA9; }
+    .mainContacto .modalEnvio .modalFooterEnvio .btnCerrarFormEnvio {
+      background-color: #806854;
+      color: white;
+      font-weight: 600; }

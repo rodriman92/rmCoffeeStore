@@ -11,7 +11,7 @@
                 .navbar-nav{
                     .nav-item{
                         a{
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -89,7 +89,7 @@
                 .navbar-nav{
                     .nav-item{
                         a{
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -168,7 +168,7 @@
                 .navbar-nav{
                     .nav-item{
                         a{
-                            font-size: 1rem;
+                            font-size: 1.3rem;
                         }
                     }
                 }
@@ -245,7 +245,7 @@
                 .navbar-nav{
                     .nav-item{
                         a{
-                            font-size: 1rem;
+                            font-size: 1.3rem;
                         }
                     }
                 }
@@ -730,4 +730,30 @@
             }
         }
     }
+}
+
+/*------------CONTACTO MQ 320PX------------------*/
+@media screen and (max-width: 320px) {
+    .mainContacto{
+        .containerFormContacto{
+            .titleContacto{
+                font-size: 3rem;
+            }
+            .row{
+                .btnEscribinos{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .modalEnvio{
+            overflow-y: auto;
+            .modalHeaderEnvio{
+                .modalTituloEnvio{
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }
+    
 }
