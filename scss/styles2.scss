@@ -112,9 +112,9 @@ body{
 	}
 	/*----------MAIN INDEX----------*/
 	.mainIndex {
-		background-image: url("https://images.pexels.com/photos/3737655/pexels-photo-3737655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		background-size: cover;		
 		height: auto;
-		background-size: cover;
 		background-position-y: -80vh;
 		background-repeat: no-repeat;
 		.container-fluid{
@@ -240,7 +240,7 @@ body{
 						font-size: 1.4rem;
 						background-color: $color-navbar;
 						color: #413225;
-						font-weight: 700;
+						font-weight: 800;
 						margin-bottom: 1rem;
 						text-align: center;
 
@@ -248,7 +248,8 @@ body{
 					.infoImagen{
 						font-size: 1rem;
 						.infoDestacada{
-							background-color: #806854;
+							background-color: $color-section;
+							color: #413225;
 							
 						}
 					}
@@ -294,7 +295,7 @@ body{
 			}
 		}
 		.text-muted {
-			color: #e5e2e2 !important;
+			color: #e5e2e2 ;
 		}
 		
 
@@ -314,7 +315,6 @@ body{
 			font-weight: 800;
 			text-decoration: underline 0.3rem dotted $color-h2;
 			font-size: 2.5rem;
-			padding-bottom: 2vh;
 			margin-top: 1vh;
 			letter-spacing: 0.5rem;
 		}
@@ -333,7 +333,7 @@ body{
 				}
 				p {
 					font-family: $fuente;
-					margin-top: 2rem;
+					margin-top: 1rem;
 					font-size: 1rem;
 					font-weight: 600;
 					.experienciaDestacada{
@@ -496,36 +496,18 @@ body{
 		background-color: $color-section;
 		.contenedorNosotros{
 			width: 100%;
-			.row{
-				.colPrincipalMainNosotros{
-					.titleNosotros{
-						@include titulosSecciones($color-h1, $fuente);
-						font-size: 4rem;
-						font-weight: 600;
-						align-items: center;
-						text-align: center;
-						margin: auto;
-						margin-top: 2rem;
-						margin-bottom: 2rem;
-					}
-					.carouselNosotros{
-						.carousel-inner{
-							height: 50vh;
-							margin-bottom: 1rem;
-							.carousel-item{
-								.imgCarousel{
-									width: 100%;
-									background-position-y: -50vh;
-								}
-							}
-						}
-					}
-				}
+			.titleNosotros{
+				@include titulosSecciones($color-h1, $fuente);
+				font-size: 4rem;
+				font-weight: 600;
+				align-items: center;
+				text-align: center;
+				margin: auto;
+				padding-top: 2rem;
+				margin-bottom: 2rem;
 			}
 			.rowImagenesNosotros{
 				background-color: $color-navbar;
-				border-bottom-style: 1rem dotted $color-h1;
-				padding-bottom: 3rem;
 				.colTitulo1{
 					.h6Nosotros{
 						@include titulosSecciones($color-h2, $fuente );
@@ -593,7 +575,7 @@ body{
 				}
 			}
 			.rowImagenesNosotros3{
-				padding-bottom: 2rem;
+				padding-bottom: 1rem;
 				.colTitulo3{
 					.h6Nosotros{
 						@include titulosSecciones($color-h2, $fuente );
@@ -612,6 +594,7 @@ body{
 						.infoDestacada{
 							color: $color-section;
 							background-color: #5a493b;
+							margin-bottom: 2rem;
 							a{
 								color: $color-navbar;
 								
@@ -622,7 +605,9 @@ body{
 					}
 					.listaTel{
 						margin-bottom: 2rem;
+						padding-top: 1rem;
 						li{
+							
 							font-size: 1.6rem;
 							font-weight: 600;
 							background-color: $color-navbar;

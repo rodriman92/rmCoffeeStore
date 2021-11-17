@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 @import "https://fonts.googleapis.com/css?family=Montserrat";
-/*----------MQ Index----------*/
+/*-----------------MEDIA QUERY INDEX 320px-------------------*/
 @media screen and (max-width: 320px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
@@ -24,11 +24,17 @@
   .body .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
     font-size: 1rem; }
   .body .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.8rem; }
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    text-align: justify; }
   .body .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.8rem; } }
+    font-size: 1.6rem; }
+  .body .articleIndexTestimonios .container .row .contenidoUsuario p {
+    font-size: 0.8rem; }
+  .body .footer-section .copyright-area .copyright-text p {
+    font-size: 0.8rem; } }
 
-/*------------MQ INDEX 375PX------------*/
+/*-----------------MEDIA QUERY INDEX 375px-------------------*/
 @media screen and (max-width: 375px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
@@ -51,11 +57,17 @@
   .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
     font-size: 1.2rem; }
   .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 1rem; }
+    font-size: 0.5rem;
+    text-align: justify;
+    margin-right: 1rem; }
   .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .articleIndexTestimonios .container .row .contenidoUsuario p {
+    font-size: 0.8rem; }
+  .footer-section .copyright-area .copyright-text p {
+    font-size: 0.9rem; } }
 
-/*---------------MQ INDEX 425PX---------------------*/
+/*-----------------MEDIA QUERY INDEX 425px-------------------*/
 @media screen and (max-width: 425px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 1.5rem; }
@@ -76,13 +88,19 @@
   .sectionIndex #titleIndex {
     font-size: 1.5rem; }
   .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1rem; }
+    font-size: 1.2rem; }
   .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.8rem; }
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-align: justify; }
   .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.8rem; } }
+    font-size: 1.7rem; }
+  .articleIndexTestimonios .container .row .contenidoUsuario p {
+    font-size: 1.1rem; }
+  .footer-section .copyright-area .copyright-text p {
+    font-size: 1rem; } }
 
-/*-------------INDEX MQ 768PX----------------------*/
+/*-----------------MEDIA QUERY INDEX 768px-------------------*/
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 2.5rem; }
@@ -91,25 +109,31 @@
   .mainIndex {
     width: auto;
     height: auto; }
-    .mainIndex .container-fluid {
-      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-      background-size: cover; }
-      .mainIndex .container-fluid section .row .colPIndex p {
-        margin-top: 2rem; }
-        .mainIndex .container-fluid section .row .colPIndex p #spin {
-          font-size: 4.5rem; }
-      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-        font-size: 1rem; }
-  .sectionIndex #titleIndex {
-    font-size: 1.8rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.8rem; }
-  .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.8rem; } }
+    .mainIndex .container-fluid section .row .colPIndex p {
+      margin-top: 2rem; }
+      .mainIndex .container-fluid section .row .colPIndex p #spin {
+        font-size: 4.5rem; }
+    .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+      font-size: 1rem; } }
 
-/*---------------MQ INDEX 1024PX------------------*/
+.sectionIndex #titleIndex {
+  font-size: 1.8rem; }
+
+.sectionIndex .container .row .colImagen .image-top .overlay {
+  height: 55%; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
+    font-size: 1.5rem; }
+  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
+    font-size: 1rem;
+    margin-right: 1rem; }
+
+.articleIndexTestimonios .container .row .h2Index {
+  font-size: 1.8rem; }
+
+.articleIndexTestimonios .container .row .contenidoUsuario p {
+  font-size: 1rem; }
+
+/*-----------------MEDIA QUERY INDEX 1024px-------------------*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 3rem; }
@@ -137,25 +161,22 @@
     font-size: 2.5rem; }
   .articleIndexTestimonios .container .row .card {
     height: 40vh; }
-  /*---------------MQ INDEX 1440PX------------------*/ }
+  /*-----------------MEDIA QUERY INDEX 1440px-------------------*/ }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 1440px) {
   .body .navCustom .navbar-brand .logo {
     font-size: 3rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
     font-size: 1.5rem; }
   .mainIndex {
-    width: auto;
+    width: 100%;
     height: auto; }
-    .mainIndex .container-fluid {
-      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-      background-size: contain; }
-      .mainIndex .container-fluid section .row .colPIndex p {
-        margin-top: 2rem; }
-        .mainIndex .container-fluid section .row .colPIndex p #spin {
-          font-size: 4.5rem; }
-      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-        font-size: 1rem; }
+    .mainIndex .container-fluid section .row .colPIndex p {
+      margin-top: 2rem; }
+      .mainIndex .container-fluid section .row .colPIndex p #spin {
+        font-size: 4.5rem; }
+    .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+      font-size: 1rem; }
   .sectionIndex #titleIndex {
     font-size: 2.5rem; }
   .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
@@ -167,8 +188,99 @@
   .articleIndexTestimonios .container .row .card {
     height: 40vh; } }
 
-/*---------------------MQ NOSOTROS 320px-----------------*/
-/*-------------------------MQ SHOP-----------------------*/
+/*-----------------MEDIA QUERY NOSOTROS 320px-------------------*/
+@media screen and (max-width: 320px) {
+  .mainNosotros .contenedorNosotros .titleNosotros {
+    font-size: 3.3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    margin-bottom: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+    font-size: 1.2rem; } }
+
+/*-----------------MEDIA QUERY NOSOTROS 375px-------------------*/
+@media screen and (max-width: 375px) {
+  .mainNosotros .contenedorNosotros .titleNosotros {
+    font-size: 3.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    margin-bottom: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+    font-size: 1.2rem; } }
+
+/*-----------------MEDIA QUERY NOSOTROS 425px-------------------*/
+@media screen and (max-width: 425px) {
+  .mainNosotros .contenedorNosotros .titleNosotros {
+    font-size: 3.6rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+    font-size: 2.7rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    margin-bottom: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 1rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+    font-size: 2.7rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+    font-size: 2.7rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+    font-size: 1.2rem; } }
+
+/*-----------------MEDIA QUERY NOSOTROS 768px-------------------*/
+@media screen and (max-width: 768px) {
+  .mainNosotros .contenedorNosotros .titleNosotros {
+    font-size: 3.8rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+    font-size: 3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    margin-top: 25%;
+    margin-bottom: 1rem;
+    height: auto; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 20%;
+    margin-bottom: 1rem;
+    height: auto; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+    font-size: 2.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
+    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
+    margin-top: 28%;
+    margin-bottom: 1rem;
+    height: auto; } }
+
+/*-----------------MEDIA QUERY SHOP 320px-------------------*/
 @media screen and (max-width: 320px) {
   .mainShop .titleShop {
     font-size: 2rem; }
@@ -190,6 +302,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY SHOP 375px-------------------*/
 @media screen and (max-width: 375px) {
   .mainShop .titleShop {
     font-size: 2.2rem; }
@@ -209,6 +322,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY SHOP 425px-------------------*/
 @media screen and (max-width: 425px) {
   .mainShop .titleShop {
     font-size: 2rem; }
@@ -228,6 +342,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY SHOP 768px-------------------*/
 @media screen and (max-width: 768px) {
   .mainShop .titleShop {
     font-size: 3rem; }
@@ -247,6 +362,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 1.2rem; } }
 
+/*-----------------MEDIA QUERY SHOP 1024px-------------------*/
 @media screen and (max-width: 1024px) {
   .mainShop .titleShop {
     font-size: 4rem; }
@@ -266,7 +382,7 @@
       .mainShop .cardTienda .card-footer .btnComprar {
         font-size: 2rem; } }
 
-/*------------------------MQ TIENDAS-----------------------*/
+/*-----------------MEDIA QUERY TIENDAS 320px-------------------*/
 @media screen and (max-width: 320px) {
   .mainTiendas #titleTiendas {
     font-size: 3rem; }
@@ -277,6 +393,7 @@
     .mainTiendas .contenedorCards .footerCard .pCardTiendas {
       font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY TIENDAS 375px-------------------*/
 @media screen and (max-width: 375px) {
   .mainTiendas #titleTiendas {
     font-size: 3rem; }
@@ -285,6 +402,7 @@
   .mainTiendas .contenedorCards .footerCard .pCardTiendas {
     font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY TIENDAS 425px-------------------*/
 @media screen and (max-width: 425px) {
   .mainTiendas #titleTiendas {
     font-size: 3.5rem; }
@@ -293,6 +411,7 @@
   .mainTiendas .contenedorCards .footerCard .pCardTiendas {
     font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY TIENDAS 768px-------------------*/
 @media screen and (max-width: 768px) {
   .mainTiendas #titleTiendas {
     font-size: 3.5rem; }
@@ -303,6 +422,7 @@
     .mainTiendas .contenedorCards .footerCard .pCardTiendas {
       font-size: 1rem; } }
 
+/*-----------------MEDIA QUERY TIENDAS 1024px-------------------*/
 @media screen and (max-width: 1024px) {
   .mainTiendas #titleTiendas {
     font-size: 3.5rem; }
@@ -314,12 +434,34 @@
     .mainTiendas .contenedorCards .cardHeader .pCardTiendas {
       font-size: 1rem; } }
 
-/*------------CONTACTO MQ 320PX------------------*/
-@media screen and (max-width: 320px) {
+/*-----------------MEDIA QUERY CONTACTO 320px-------------------*/
+@media screen and (min-width: 280px) and (max-width: 320px) {
   .mainContacto .containerFormContacto .titleContacto {
     font-size: 3rem; }
   .mainContacto .containerFormContacto .row .btnEscribinos {
     font-size: 1.5rem; }
+  .mainContacto .modalEnvio {
+    overflow-y: auto; }
+    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
+      font-size: 1rem; } }
+
+/*-----------------MEDIA QUERY CONTACTO 375px-------------------*/
+@media screen and (max-width: 375px) {
+  .mainContacto .containerFormContacto .titleContacto {
+    font-size: 3rem; }
+  .mainContacto .containerFormContacto .row .btnEscribinos {
+    font-size: 2rem; }
+  .mainContacto .modalEnvio {
+    overflow-y: auto; }
+    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
+      font-size: 1rem; } }
+
+/*-----------------MEDIA QUERY CONTACTO 425px-------------------*/
+@media screen and (max-width: 425px) {
+  .mainContacto .containerFormContacto .titleContacto {
+    font-size: 3rem; }
+  .mainContacto .containerFormContacto .row .btnEscribinos {
+    font-size: 2.2rem; }
   .mainContacto .modalEnvio {
     overflow-y: auto; }
     .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
@@ -392,9 +534,9 @@ body {
           color: #FFF5CF;
           border-color: #5a493b; }
   body .mainIndex {
-    background-image: url("https://images.pexels.com/photos/3737655/pexels-photo-3737655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    height: auto;
+    background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
+    height: auto;
     background-position-y: -80vh;
     background-repeat: no-repeat; }
     body .mainIndex .container-fluid {
@@ -492,13 +634,14 @@ body {
         font-size: 1.4rem;
         background-color: #A8BAA9;
         color: #413225;
-        font-weight: 700;
+        font-weight: 800;
         margin-bottom: 1rem;
         text-align: center; }
       body .sectionIndex .container .colImagen .overlay .infoImagen {
         font-size: 1rem; }
         body .sectionIndex .container .colImagen .overlay .infoImagen .infoDestacada {
-          background-color: #806854; }
+          background-color: #DBCDAD;
+          color: #413225; }
     body .sectionIndex p {
       margin: 0%;
       font-size: 0.8rem;
@@ -531,7 +674,7 @@ body {
         width: 100%;
         color: white; }
     body .sectionIndex .text-muted {
-      color: #e5e2e2 !important; }
+      color: #e5e2e2; }
   body .articleIndexTestimonios {
     font-family: "Lato", sans-serif;
     background-color: #A8BAA9;
@@ -546,7 +689,6 @@ body {
       font-weight: 800;
       text-decoration: underline 0.3rem dotted #7e6e59;
       font-size: 2.5rem;
-      padding-bottom: 2vh;
       margin-top: 1vh;
       letter-spacing: 0.5rem; }
     body .articleIndexTestimonios .card {
@@ -560,7 +702,7 @@ body {
           font-weight: 400; }
       body .articleIndexTestimonios .card .contenidoUsuario p {
         font-family: "Heebo", sans-serif;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1rem;
         font-weight: 600; }
         body .articleIndexTestimonios .card .contenidoUsuario p .experienciaDestacada {
@@ -675,7 +817,7 @@ body {
   background-color: #DBCDAD; }
   .body .mainNosotros .contenedorNosotros {
     width: 100%; }
-    .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .titleNosotros {
+    .body .mainNosotros .contenedorNosotros .titleNosotros {
       color: #806854;
       font-size: 2rem;
       text-transform: uppercase;
@@ -689,18 +831,10 @@ body {
       align-items: center;
       text-align: center;
       margin: auto;
-      margin-top: 2rem;
+      padding-top: 2rem;
       margin-bottom: 2rem; }
-    .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .carouselNosotros .carousel-inner {
-      height: 50vh;
-      margin-bottom: 1rem; }
-      .body .mainNosotros .contenedorNosotros .row .colPrincipalMainNosotros .carouselNosotros .carousel-inner .carousel-item .imgCarousel {
-        width: 100%;
-        background-position-y: -50vh; }
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros {
-      background-color: #A8BAA9;
-      border-bottom-style: 1rem dotted #806854;
-      padding-bottom: 3rem; }
+      background-color: #A8BAA9; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
         color: #7e6e59;
         font-size: 2rem;
@@ -760,7 +894,7 @@ body {
           background-color: #5a493b;
           word-spacing: 0.5rem; }
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 {
-      padding-bottom: 2rem; }
+      padding-bottom: 1rem; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
         color: #7e6e59;
         font-size: 2rem;
@@ -782,11 +916,13 @@ body {
         text-align: justify; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
           color: #DBCDAD;
-          background-color: #5a493b; }
+          background-color: #5a493b;
+          margin-bottom: 2rem; }
           .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
             color: #A8BAA9; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
-        margin-bottom: 2rem; }
+        margin-bottom: 2rem;
+        padding-top: 1rem; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
           font-size: 1.6rem;
           font-weight: 600;
