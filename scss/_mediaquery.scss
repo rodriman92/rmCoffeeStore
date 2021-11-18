@@ -1,4 +1,4 @@
-/*-----------------MEDIA QUERY INDEX 320px-------------------*/
+/*-----------------MEDIA QUERY INDEX DISPOSITIVOS PEQUEÑOS-------------------*/
 @media only screen and (max-width: 600px) {
     .body {
         .navCustom {
@@ -47,7 +47,7 @@
         }
         .sectionIndex {
             #titleIndex {
-                font-size: 1.5rem;
+                font-size: 3rem;
             }
             .container {
                 .row {
@@ -106,7 +106,7 @@
     }
 }
 
-/*--------------TABLETS Y CELULARES PAYORES A 600px--------------*/
+/*--------------TABLETS Y CELULARES MAYORES A 600px--------------*/
 @media only screen and (min-width: 600px) {
     .body {
         .navCustom {
@@ -246,7 +246,7 @@
                                 p {
                                     margin-top: 2rem;
                                     #spin {
-                                        font-size: 4rem;
+                                        font-size: 4.5rem;
                                     }
                                 }
                                 .btnIndexTienda {
@@ -259,7 +259,7 @@
             }
             .sectionIndex {
                 #titleIndex {
-                    font-size: 3.2rem;
+                    font-size: 4.5rem;
                 }
                 .container {
                     .row {
@@ -370,7 +370,7 @@
         }
         .sectionIndex {
             #titleIndex {
-                font-size: 4rem;
+                font-size: 6rem;
             }
             .container {
                 .row {
@@ -437,468 +437,377 @@
         }
     }
 }
+/*-----------------------------FIN MEDIA QUERY INDEX--------------------------*/
 
-/*-----------------MEDIA QUERY NOSOTROS 320px-------------------*/
-@media screen and (max-width: 320px) {
+/*-----------------MEDIA QUERY NOSOTROS DISPOSITIVOS PEQUEÑOS-------------------*/
+@media only screen and (max-width: 600px) {
     .mainNosotros{
         .contenedorNosotros{
-            .titleNosotros{
-                font-size: 3.3rem;
+            #titleNosotros{
+                font-size: 3rem;
             }
             .rowImagenesNosotros{
                 .colTitulo1{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
+                    #h6Nosotros1{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 2.3rem;
+                        
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    .pNosotros1{
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        text-align: justify;
+                        .infoDestacada{
+                            background-color: #5a493b;
+                            color: white;
+                        }
                     }
+                    
                 }
                 .colImagen1{
-                    margin-bottom: 1rem;
+                    padding-bottom: 4rem;
                 }
             }
             .rowImagenesNosotros2{
+                
                 .colImagen2{
-                    margin-top: 1rem;
+                    padding-bottom: 2rem;
+                    padding-top: 2rem;
+                    width: 100%;
                 }
                 .colTitulo2{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
+                    #h6Nosotros2{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 2.3rem;  
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    #pNosotros2{
+                        font-size: 1.3rem;
                     }
                 }
             }
             .rowImagenesNosotros3{
                 .colTitulo3{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
+                    #h6Nosotros3{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 2.3rem; 
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    #pNosotros3{
+                        font-size: 1.3rem;
                     }
                 }
             }
         }
     }
-}
-/*-----------------MEDIA QUERY NOSOTROS 375px-------------------*/
+  }
 
-@media screen and (max-width: 375px) {
+  /*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+@media only screen and (min-width: 600px) {
     .mainNosotros{
         .contenedorNosotros{
-            .titleNosotros{
-                font-size: 3.5rem;
+            #titleNosotros{
+                font-size: 4.5rem;
             }
             .rowImagenesNosotros{
                 .colTitulo1{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
+                    #h6Nosotros1{
+                        margin-top: 1.5rem;
+                        margin-bottom: 3rem;
+                        font-size: 3.5rem;
+                        
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    .pNosotros1{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        text-align: justify;
+                        .infoDestacada{
+                            background-color: #5a493b;
+                            color: white;
+                        }
                     }
+                    
                 }
                 .colImagen1{
-                    margin-bottom: 1rem;
+                    padding-bottom: 2rem;
+                    padding-top: 2rem;
                 }
             }
-            .rowImagenesNosotros2{
-                .colImagen2{
-                    margin-top: 1rem;
-                }
-                .colTitulo2{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-            .rowImagenesNosotros3{
-                .colTitulo3{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY NOSOTROS 425px-------------------*/
 
-@media screen and (max-width: 425px) {
-    .mainNosotros{
-        .contenedorNosotros{
-            .titleNosotros{
-                font-size: 3.6rem;
-            }
-            .rowImagenesNosotros{
-                .colTitulo1{
-                    .h6Nosotros{
-                        font-size: 2.7rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-                .colImagen1{
-                    margin-bottom: 1rem;
-                }
-            }
             .rowImagenesNosotros2{
                 .colImagen2{
-                    margin-top: 1rem;
+                    margin-top: 2rem;
+                    padding-bottom: 2rem;
+                    
                 }
                 .colTitulo2{
-                    .h6Nosotros{
-                        font-size: 2.7rem;
+                    padding-top: 3rem;
+                    #h6Nosotros2{
+                        font-size: 3.5rem;
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-            .rowImagenesNosotros3{
-                .colTitulo3{
-                    .h6Nosotros{
-                        font-size: 2.7rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    #pNosotros2{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        text-align: justify;
+                        .infoDestacada{
+                            background-color: #5a493b;
+                            color: white;
+                        }
                     }
                 }
             }
-        }
-    }
-}
-/*-----------------MEDIA QUERY NOSOTROS 768px-------------------*/
 
-@media screen and (max-width: 768px) {
-    .mainNosotros{
-        .contenedorNosotros{
-            .titleNosotros{
-                font-size: 3.8rem;
-            }
-            .rowImagenesNosotros{
-                .colTitulo1{
-                    .h6Nosotros{
-                        font-size: 3rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-                .colImagen1{
-                    margin-top: 25%;
-                    margin-bottom: 1rem;
-                    height: auto;
-                }
-            }
-            .rowImagenesNosotros2{
-                .colImagen2{
-                    margin-top: 20%;
-                    margin-bottom: 1rem;
-                    height: auto;
-                }
-                .colTitulo2{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
-                    }
-                    .pNosotros{
-                        font-size: 1.2rem;
-                    }
-                }
-            }
             .rowImagenesNosotros3{
                 .colTitulo3{
-                    .h6Nosotros{
-                        font-size: 2.5rem;
+                    #h6Nosotros3{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 3.5rem; 
                     }
-                    .pNosotros{
-                        font-size: 1.2rem;
+                    #pNosotros3{
+                        font-size: 1.4rem;
                     }
                 }
                 .colImagen3{
-                    margin-top: 28%;
-                    margin-bottom: 1rem;
-                    height: auto;
+                    padding-top: 3rem;
                 }
             }
         }
     }
-    
-}
-/*-----------------MEDIA QUERY SHOP 320px-------------------*/
-@media screen and (max-width: 320px) {
-    .mainShop {
-        .titleShop {
-            font-size: 2rem;
-        }
-        .cardTienda {
-            height: auto;
-            .cardBody {
-                height: 60vh;
-                h3 {
-                    font-family: $fuente;
-                    font-size: 1rem;
-                    font-weight: 600;
-                }
-                .precioCard {
-                    font-size: 1.5rem;
-                    font-weight: 800;
-                    color: white;
-                }
-            }
-            .card-footer {
-                background-color: $color-navbar;
-                opacity: 0.9;
-                .btnComprar {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY SHOP 375px-------------------*/
+  }
 
-@media screen and (max-width: 375px) {
-    .mainShop {
-        .titleShop {
-            font-size: 2.2rem;
-        }
-        .cardTienda {
-            height: auto;
-            .cardBody {
-                h3 {
-                    font-family: $fuente;
-                    font-size: 1rem;
-                    font-weight: 600;
+/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+@media only screen and (min-width: 1200px) {
+    .mainNosotros{
+        .contenedorNosotros{
+            #titleNosotros{
+                font-size: 6rem;
+            }
+            .rowImagenesNosotros{
+                .colTitulo1{
+                    #h6Nosotros1{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 4rem;
+                        
+                    }
+                    .pNosotros1{
+                        font-size: 1.8rem;
+                        font-weight: 400;
+                        text-align: justify;
+                        .infoDestacada{
+                            background-color: #5a493b;
+                            color: white;
+                        }
+                    }
+                    
                 }
-                .precioCard {
-                    font-size: 1.5rem;
-                    font-weight: 800;
-                    color: white;
+                .colImagen1{
+                    padding-bottom: 2rem;
+                    padding-top: 2rem;
                 }
             }
-            .card-footer {
-                background-color: $color-navbar;
-                opacity: 0.9;
-                .btnComprar {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY SHOP 425px-------------------*/
 
-@media screen and (max-width: 425px) {
-    .mainShop {
-        .titleShop {
-            font-size: 2rem;
-        }
-        .cardTienda {
-            height: auto;
-            .cardBody {
-                h3 {
-                    font-family: $fuente;
-                    font-size: 1rem;
-                    font-weight: 600;
-                }
-                .precioCard {
-                    font-size: 1.5rem;
-                    font-weight: 800;
-                    color: white;
-                }
-            }
-            .card-footer {
-                background-color: $color-navbar;
-                opacity: 0.9;
-                .btnComprar {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY SHOP 768px-------------------*/
-
-@media screen and (max-width: 768px) {
-    .mainShop {
-        .titleShop {
-            font-size: 3rem;
-        }
-        .cardTienda {
-            height: auto;
-            .cardBody {
-                h3 {
-                    font-family: $fuente;
-                    font-size: 1.2rem;
-                    font-weight: 600;
-                }
-                .precioCard {
-                    font-size: 2rem;
-                    font-weight: 800;
-                    color: white;
-                }
-            }
-            .card-footer {
-                background-color: $color-navbar;
-                opacity: 0.9;
-                .btnComprar {
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY SHOP 1024px-------------------*/
-
-@media screen and (max-width: 1024px) {
-    .mainShop {
-        .titleShop {
-            font-size: 4rem;
-        }
-        .cardTienda {
-            height: auto;
-            .cardBody {
-                h3 {
-                    font-family: $fuente;
-                    font-size: 2.5rem;
-                    font-weight: 600;
-                }
-                .precioCard {
-                    font-size: 2rem;
-                    font-weight: 800;
-                    color: white;
-                }
-            }
-            .card-footer {
-                background-color: $color-navbar;
-                opacity: 0.9;
-                .btnComprar {
-                    font-size: 2rem;
-                }
-            }
-        }
-    }
-}
-
-/*-----------------MEDIA QUERY TIENDAS 320px-------------------*/
-@media screen and (max-width: 320px) {
-    .mainTiendas {
-        #titleTiendas {
-            font-size: 3rem;
-        }
-        .contenedorCards {
-            .footerCard {
-                height: auto;
-                .tituloCardTiendas {
-                    a {
-                        font-size: 1rem;
+            .rowImagenesNosotros2{
+                .colImagen2{
+                    margin-top: 2rem;
+                    padding-bottom: 2rem;
+                    .img-resposive{
+                        margin-top: 3rem;
+                        margin-bottom: 3vh;
                     }
                 }
-                .pCardTiendas {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY TIENDAS 375px-------------------*/
-
-@media screen and (max-width: 375px) {
-    .mainTiendas {
-        #titleTiendas {
-            font-size: 3rem;
-        }
-        .contenedorCards {
-            .footerCard {
-                .tituloCardTiendas {
-                    a {
-                        font-size: 1.2rem;
+                .colTitulo2{
+                    #h6Nosotros2{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 4rem; 
+                    }
+                    #pNosotros2{
+                        margin-right: 2rem;
+                        font-size: 1.8rem;
                     }
                 }
-                .pCardTiendas {
-                    font-size: 1rem;
+            }
+
+            .rowImagenesNosotros3{
+                .colTitulo3{
+                    #h6Nosotros3{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        font-size: 4rem; 
+                    }
+                    #pNosotros3{
+                        font-size: 1.8rem;
+                    }
+                }
+                .colImagen3{
+                    padding-top: 3rem;
                 }
             }
         }
     }
-}
-/*-----------------MEDIA QUERY TIENDAS 425px-------------------*/
+  }
 
-@media screen and (max-width: 425px) {
-    .mainTiendas {
-        #titleTiendas {
+/*-----------------MEDIA QUERY SHOP DISPOSITIVOS PEQUEÑOS-------------------*/
+@media screen and (max-width: 600px) {
+    .mainShop {
+        #titleShop {
             font-size: 3.5rem;
         }
-        .contenedorCards {
-            .footerCard {
-                .tituloCardTiendas {
-                    a {
-                        font-size: 1rem;
+        .row{
+            .cardTienda{
+                .cardBody{
+                    min-height: 20vh;
+                    .cards-title{
+                        .h3{
+                            font-size: 2rem;
+                            font-weight: 800;
+                        }
+                    }
+                    .row{
+                        .precioCard{
+                            font-size: 2rem;
+                            padding-bottom: 1rem;
+                        }
+                        
                     }
                 }
-                .pCardTiendas {
-                    font-size: 1rem;
+                .card-footer{
+                    .btnComprar{
+                        font-size: 1.5rem;
+                    }
                 }
             }
         }
+        
     }
 }
-/*-----------------MEDIA QUERY TIENDAS 768px-------------------*/
 
-@media screen and (max-width: 768px) {
-    .mainTiendas {
-        #titleTiendas {
-            font-size: 3.5rem;
+/*------------------MEDIA QUERY SHOP DISPOSITIVOS MEDIANOS (CELUALRES TABLET-----------*/
+@media screen and (min-width: 600px) {
+    .mainShop {
+        #titleShop {
+            font-size: 4.5rem;
         }
-        .contenedorCards {
-            .footerCard {
-                height: 30vh;
-                .tituloCardTiendas {
-                    a {
-                        font-size: 1rem;
+        .row{
+            .cardTienda{
+                .cardBody{
+                    min-height: 34vh;
+                    .cards-title{
+                        .h3{
+                            padding-top: 5rem;
+                            font-size: 2.2rem;
+                            font-weight: 800;
+                        }
+                    }
+                    .row{
+                        .precioCard{
+                            font-size: 2rem;
+                            padding-bottom: 1rem;
+                        }
+                        
                     }
                 }
-                .pCardTiendas {
-                    font-size: 1rem;
+                .card-footer{
+                    .btnComprar{
+                        font-size: 1.5rem;
+                    }
                 }
             }
         }
     }
 }
-/*-----------------MEDIA QUERY TIENDAS 1024px-------------------*/
 
-@media screen and (max-width: 1024px) {
-    .mainTiendas {
-        #titleTiendas {
-            font-size: 3.5rem;
+/*--------------------MEDIA QUERY SHOP DISPOSITIVOS GRANDES >1200px----------------*/
+@media screen and (min-width: 1200px) {
+    .mainShop {
+        #titleShop {
+            font-size: 6rem;
         }
-        .contenedorCards {
-            .cardHeader {
-                background-color: $color-navbar;
-                height: 30vh;
-                .tituloCardTiendas {
-                    a {
-                        font-size: 1rem;
+        .row{
+            .cardTienda{
+                .cardBody{
+                    padding: 0;
+                    margin: 0;
+                    min-height: 36vh;
+                    .cards-title{
+                        .h3{
+                            padding-top: 5rem;
+                            font-size: 2rem;
+                            font-weight: 800;
+                        }
+                    }
+                    .row{
+                        .precioCard{
+                            font-size: 2rem;
+                            padding-bottom: 1rem;
+                        }
+                        
                     }
                 }
-                .pCardTiendas {
-                    font-size: 1rem;
+                .card-footer{
+                    .btnComprar{
+                        font-size: 1.5rem;
+                    }
                 }
             }
         }
     }
 }
+
+/*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
+@media only screen and (max-width: 600px) {
+    .mainTiendas{
+        .row{
+            #titleTiendas{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+/*--------------------MEDIA QUERY TIENDAS DISPOSITIVOS MEDIANOS (TABLET, CELULARES >600px-----------------*/
+@media only screen and (min-width: 600px) {
+    .mainTiendas{
+        .row{
+            #titleTiendas{
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .mainTiendas{
+        .row{
+            #titleTiendas{
+                font-size: 6rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-----------------MEDIA QUERY CONTACTO 320px-------------------*/
 @media screen and (min-width: 280px) and (max-width: 320px) {

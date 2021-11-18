@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- GALERIA LIGHTBOX-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <link rel="icon" href="../favicon.ico"> 
 
     <!--KEYWORDS-->
@@ -75,122 +78,100 @@
             <h1 class="titleTiendas" id="titleTiendas">TIENDAS</h1>
         </div>
         <div class="container-fluid contenedorCards">
-            <div class="px-lg-5">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/1606573/pexels-photo-1606573.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
-                                class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">Palermo</a></h5>
-                                <p class="pCardTiendas">Av Santa Fé 981. Tel: +54193232353</p>
-                            </div>
-                            <div class="card-footer">
+            <div class="lightbox-gallery">
+                <div class="container">
+                    <div class="row photos">
+                        <!--CARD 1-->
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/1606573/pexels-photo-1606573.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">Palermo</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Santa Fé 981.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +54193232353</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 2-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/2564460/pexels-photo-2564460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
-                                class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">Belgrano</a></h5>
-                                <p class="pCardTiendas ">Av Berro 2356. Tel: +5411656689</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/2564460/pexels-photo-2564460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">Almagro</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Corrientes 1821.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +5416653323</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/194930/pexels-photo-194930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                                alt="" class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">Chubut</a></h5>
-                                <p class="pCardTiendas ">Av Sarmiento 179. Tel: +1235566</p>
-                            </div>
-                            <div class="card-footer">
+                        <!--CARD 3-->
+                        
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/194930/pexels-photo-194930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">La Plata</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Calle 9 54.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> 2215526653</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 4-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/291539/pexels-photo-291539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
-                                class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">Córdoba</a></h5>
-                                <p class="pCardTiendas">Calle 466 Nº 78. Tel: +94555554212</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/291539/pexels-photo-291539.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">Nuñez</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Libertador 912.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +5411323253</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 5-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/4119164/pexels-photo-4119164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
-                                class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">Almagro</a></h5>
-                                <p class="pCardTiendas">Av Cabildo 2345. Tel +5411545566</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/4119164/pexels-photo-4119164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">San Isidro</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Colón 148.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +5419329856</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 6-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/4059426/pexels-photo-4059426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                                alt="" class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">La Rioja</a></h5>
-                                <p class="pCardTiendas">Av Guemes 654. Tel +3223323655</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/4451667/pexels-photo-4451667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">Recoleta</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Belgrano 149.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +5422659626</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 7-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/10128042/pexels-photo-10128042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                                alt="" class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">La Plata</a></h5>
-                                <p class="pCardTiendas">Calle 4 655. Tel: +85512512212</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/10128042/pexels-photo-10128042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">La Boca</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Madrid 123.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +566495122</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>
                         </div>
-                    </div>
+                        <!--CARD 8-->
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 mb-4 cardTiendas">
-                        <div class="rounded shadow-sm"><img
-                                src="https://images.pexels.com/photos/4451667/pexels-photo-4451667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""
-                                class="img-fluid card-img-top">
-                            <div class="p-4 cardHeader">
-                                <h5 class="tituloCardTiendas"> <a href="#">La Pampa</a></h5>
-                                <p class="pCardTiendas">Calle 12 1234. Tel: +65121212</p>
-                            </div>
-                            <div class="card-footer">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item">
+                            <a data-lightbox="photos"><img class="img-fluid" src="https://images.pexels.com/photos/4255717/pexels-photo-4255717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></a>
+                            <div class="footerTiendas">
+                                <p class="nombreTienda">Caballito</p>
+                                <p class="direccionTienda"><i class="fas fa-map-marker-alt"></i> Av Goyena 789.</p>
+                                <p class="telTienda"><i class="fas fa-phone-alt"></i> +54992323363</p>
                                 <button type="button" class="btn btn-outline-light btnMapaModal" data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">Ver mapa</button>
                             </div>

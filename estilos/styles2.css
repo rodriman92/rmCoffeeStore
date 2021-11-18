@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 @import "https://fonts.googleapis.com/css?family=Montserrat";
-/*-----------------MEDIA QUERY INDEX 320px-------------------*/
+/*-----------------MEDIA QUERY INDEX DISPOSITIVOS PEQUEÑOS-------------------*/
 @media only screen and (max-width: 600px) {
   .body .navCustom .logo {
     font-size: 1.6rem; }
@@ -25,7 +25,7 @@
       .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
         font-size: 1rem; }
   .body .sectionIndex #titleIndex {
-    font-size: 1.5rem; }
+    font-size: 3rem; }
   .body .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
     font-size: 1rem; }
   .body .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
@@ -45,7 +45,7 @@
   .body .footer-section .copyright-area .copyright-text p {
     font-size: 0.8rem; } }
 
-/*--------------TABLETS Y CELULARES PAYORES A 600px--------------*/
+/*--------------TABLETS Y CELULARES MAYORES A 600px--------------*/
 @media only screen and (min-width: 600px) {
   .body .navCustom .logo {
     font-size: 2rem; }
@@ -104,11 +104,11 @@
       .body .mainIndex .container-fluid section .row .colPIndex p {
         margin-top: 2rem; }
         .body .mainIndex .container-fluid section .row .colPIndex p #spin {
-          font-size: 4rem; }
+          font-size: 4.5rem; }
       .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
         font-size: 1.5rem; }
   .body .sectionIndex #titleIndex {
-    font-size: 3.2rem; }
+    font-size: 4.5rem; }
   .body .sectionIndex .container .row .colImagen .image-top .image-top {
     background-position-y: -40vh; }
     .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .tituloImagen {
@@ -151,7 +151,7 @@
       .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
         font-size: 1.8rem; }
   .body .sectionIndex #titleIndex {
-    font-size: 4rem; }
+    font-size: 6rem; }
   .body .sectionIndex .container .row .colImagen .image-top .image-top {
     background-position-y: -40vh; }
     .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .tituloImagen {
@@ -178,251 +178,184 @@
   .body .footer-section .copyright-area .copyright-text p {
     font-size: 0.8rem; } }
 
-/*-----------------MEDIA QUERY NOSOTROS 320px-------------------*/
-@media screen and (max-width: 320px) {
-  .mainNosotros .contenedorNosotros .titleNosotros {
-    font-size: 3.3rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
-    margin-bottom: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
-    margin-top: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-    font-size: 1.2rem; } }
-
-/*-----------------MEDIA QUERY NOSOTROS 375px-------------------*/
-@media screen and (max-width: 375px) {
-  .mainNosotros .contenedorNosotros .titleNosotros {
-    font-size: 3.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
-    margin-bottom: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
-    margin-top: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-    font-size: 1.2rem; } }
-
-/*-----------------MEDIA QUERY NOSOTROS 425px-------------------*/
-@media screen and (max-width: 425px) {
-  .mainNosotros .contenedorNosotros .titleNosotros {
-    font-size: 3.6rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
-    font-size: 2.7rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
-    margin-bottom: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
-    margin-top: 1rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-    font-size: 2.7rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-    font-size: 2.7rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-    font-size: 1.2rem; } }
-
-/*-----------------MEDIA QUERY NOSOTROS 768px-------------------*/
-@media screen and (max-width: 768px) {
-  .mainNosotros .contenedorNosotros .titleNosotros {
-    font-size: 3.8rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+/*-----------------------------FIN MEDIA QUERY INDEX--------------------------*/
+/*-----------------MEDIA QUERY NOSOTROS DISPOSITIVOS PEQUEÑOS-------------------*/
+@media only screen and (max-width: 600px) {
+  .mainNosotros .contenedorNosotros #titleNosotros {
     font-size: 3rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
-    font-size: 1.2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 #h6Nosotros1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: justify; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
+      background-color: #5a493b;
+      color: white; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
-    margin-top: 25%;
-    margin-bottom: 1rem;
-    height: auto; }
+    padding-bottom: 4rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
-    margin-top: 20%;
-    margin-bottom: 1rem;
-    height: auto; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-    font-size: 2.5rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-    font-size: 1.2rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
-    margin-top: 28%;
-    margin-bottom: 1rem;
-    height: auto; } }
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    width: 100%; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #h6Nosotros2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 {
+    font-size: 1.3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #h6Nosotros3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.3rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 {
+    font-size: 1.3rem; } }
 
-/*-----------------MEDIA QUERY SHOP 320px-------------------*/
-@media screen and (max-width: 320px) {
-  .mainShop .titleShop {
-    font-size: 2rem; }
-  .mainShop .cardTienda {
-    height: auto; }
-    .mainShop .cardTienda .cardBody {
-      height: 60vh; }
-      .mainShop .cardTienda .cardBody h3 {
-        font-family: "Heebo", sans-serif;
-        font-size: 1rem;
-        font-weight: 600; }
-      .mainShop .cardTienda .cardBody .precioCard {
-        font-size: 1.5rem;
-        font-weight: 800;
+/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+@media only screen and (min-width: 600px) {
+  .mainNosotros .contenedorNosotros #titleNosotros {
+    font-size: 4.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 #h6Nosotros1 {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 3.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: justify; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
+      background-color: #5a493b;
+      color: white; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 2rem;
+    padding-bottom: 2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 {
+    padding-top: 3rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #h6Nosotros2 {
+      font-size: 3.5rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-align: justify; }
+      .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 .infoDestacada {
+        background-color: #5a493b;
         color: white; }
-    .mainShop .cardTienda .card-footer {
-      background-color: #A8BAA9;
-      opacity: 0.9; }
-      .mainShop .cardTienda .card-footer .btnComprar {
-        font-size: 1rem; } }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #h6Nosotros3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 3.5rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 {
+    font-size: 1.4rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
+    padding-top: 3rem; } }
 
-/*-----------------MEDIA QUERY SHOP 375px-------------------*/
-@media screen and (max-width: 375px) {
-  .mainShop .titleShop {
-    font-size: 2.2rem; }
-  .mainShop .cardTienda {
-    height: auto; }
-    .mainShop .cardTienda .cardBody h3 {
-      font-family: "Heebo", sans-serif;
-      font-size: 1rem;
-      font-weight: 600; }
-    .mainShop .cardTienda .cardBody .precioCard {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: white; }
-    .mainShop .cardTienda .card-footer {
-      background-color: #A8BAA9;
-      opacity: 0.9; }
-      .mainShop .cardTienda .card-footer .btnComprar {
-        font-size: 1rem; } }
-
-/*-----------------MEDIA QUERY SHOP 425px-------------------*/
-@media screen and (max-width: 425px) {
-  .mainShop .titleShop {
-    font-size: 2rem; }
-  .mainShop .cardTienda {
-    height: auto; }
-    .mainShop .cardTienda .cardBody h3 {
-      font-family: "Heebo", sans-serif;
-      font-size: 1rem;
-      font-weight: 600; }
-    .mainShop .cardTienda .cardBody .precioCard {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: white; }
-    .mainShop .cardTienda .card-footer {
-      background-color: #A8BAA9;
-      opacity: 0.9; }
-      .mainShop .cardTienda .card-footer .btnComprar {
-        font-size: 1rem; } }
-
-/*-----------------MEDIA QUERY SHOP 768px-------------------*/
-@media screen and (max-width: 768px) {
-  .mainShop .titleShop {
-    font-size: 3rem; }
-  .mainShop .cardTienda {
-    height: auto; }
-    .mainShop .cardTienda .cardBody h3 {
-      font-family: "Heebo", sans-serif;
-      font-size: 1.2rem;
-      font-weight: 600; }
-    .mainShop .cardTienda .cardBody .precioCard {
-      font-size: 2rem;
-      font-weight: 800;
-      color: white; }
-    .mainShop .cardTienda .card-footer {
-      background-color: #A8BAA9;
-      opacity: 0.9; }
-      .mainShop .cardTienda .card-footer .btnComprar {
-        font-size: 1.2rem; } }
-
-/*-----------------MEDIA QUERY SHOP 1024px-------------------*/
-@media screen and (max-width: 1024px) {
-  .mainShop .titleShop {
+/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+@media only screen and (min-width: 1200px) {
+  .mainNosotros .contenedorNosotros #titleNosotros {
+    font-size: 6rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 #h6Nosotros1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 4rem; }
-  .mainShop .cardTienda {
-    height: auto; }
-    .mainShop .cardTienda .cardBody h3 {
-      font-family: "Heebo", sans-serif;
-      font-size: 2.5rem;
-      font-weight: 600; }
-    .mainShop .cardTienda .cardBody .precioCard {
-      font-size: 2rem;
-      font-weight: 800;
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: justify; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
+      background-color: #5a493b;
       color: white; }
-    .mainShop .cardTienda .card-footer {
-      background-color: #A8BAA9;
-      opacity: 0.9; }
-      .mainShop .cardTienda .card-footer .btnComprar {
-        font-size: 2rem; } }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
+    margin-top: 2rem;
+    padding-bottom: 2rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 .img-resposive {
+      margin-top: 3rem;
+      margin-bottom: 3vh; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #h6Nosotros2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 4rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 {
+    margin-right: 2rem;
+    font-size: 1.8rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #h6Nosotros3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 4rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 {
+    font-size: 1.8rem; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
+    padding-top: 3rem; } }
 
-/*-----------------MEDIA QUERY TIENDAS 320px-------------------*/
-@media screen and (max-width: 320px) {
-  .mainTiendas #titleTiendas {
-    font-size: 3rem; }
-  .mainTiendas .contenedorCards .footerCard {
-    height: auto; }
-    .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
-      font-size: 1rem; }
-    .mainTiendas .contenedorCards .footerCard .pCardTiendas {
-      font-size: 1rem; } }
-
-/*-----------------MEDIA QUERY TIENDAS 375px-------------------*/
-@media screen and (max-width: 375px) {
-  .mainTiendas #titleTiendas {
-    font-size: 3rem; }
-  .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
-    font-size: 1.2rem; }
-  .mainTiendas .contenedorCards .footerCard .pCardTiendas {
-    font-size: 1rem; } }
-
-/*-----------------MEDIA QUERY TIENDAS 425px-------------------*/
-@media screen and (max-width: 425px) {
-  .mainTiendas #titleTiendas {
+/*-----------------MEDIA QUERY SHOP DISPOSITIVOS PEQUEÑOS-------------------*/
+@media screen and (max-width: 600px) {
+  .mainShop #titleShop {
     font-size: 3.5rem; }
-  .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
-    font-size: 1rem; }
-  .mainTiendas .contenedorCards .footerCard .pCardTiendas {
-    font-size: 1rem; } }
+  .mainShop .row .cardTienda .cardBody {
+    min-height: 20vh; }
+    .mainShop .row .cardTienda .cardBody .cards-title .h3 {
+      font-size: 2rem;
+      font-weight: 800; }
+    .mainShop .row .cardTienda .cardBody .row .precioCard {
+      font-size: 2rem;
+      padding-bottom: 1rem; }
+  .mainShop .row .cardTienda .card-footer .btnComprar {
+    font-size: 1.5rem; } }
 
-/*-----------------MEDIA QUERY TIENDAS 768px-------------------*/
-@media screen and (max-width: 768px) {
-  .mainTiendas #titleTiendas {
-    font-size: 3.5rem; }
-  .mainTiendas .contenedorCards .footerCard {
-    height: 30vh; }
-    .mainTiendas .contenedorCards .footerCard .tituloCardTiendas a {
-      font-size: 1rem; }
-    .mainTiendas .contenedorCards .footerCard .pCardTiendas {
-      font-size: 1rem; } }
+/*------------------MEDIA QUERY SHOP DISPOSITIVOS MEDIANOS (CELUALRES TABLET-----------*/
+@media screen and (min-width: 600px) {
+  .mainShop #titleShop {
+    font-size: 4.5rem; }
+  .mainShop .row .cardTienda .cardBody {
+    min-height: 34vh; }
+    .mainShop .row .cardTienda .cardBody .cards-title .h3 {
+      padding-top: 5rem;
+      font-size: 2.2rem;
+      font-weight: 800; }
+    .mainShop .row .cardTienda .cardBody .row .precioCard {
+      font-size: 2rem;
+      padding-bottom: 1rem; }
+  .mainShop .row .cardTienda .card-footer .btnComprar {
+    font-size: 1.5rem; } }
 
-/*-----------------MEDIA QUERY TIENDAS 1024px-------------------*/
-@media screen and (max-width: 1024px) {
-  .mainTiendas #titleTiendas {
-    font-size: 3.5rem; }
-  .mainTiendas .contenedorCards .cardHeader {
-    background-color: #A8BAA9;
-    height: 30vh; }
-    .mainTiendas .contenedorCards .cardHeader .tituloCardTiendas a {
-      font-size: 1rem; }
-    .mainTiendas .contenedorCards .cardHeader .pCardTiendas {
-      font-size: 1rem; } }
+/*--------------------MEDIA QUERY SHOP DISPOSITIVOS GRANDES >1200px----------------*/
+@media screen and (min-width: 1200px) {
+  .mainShop #titleShop {
+    font-size: 6rem; }
+  .mainShop .row .cardTienda .cardBody {
+    padding: 0;
+    margin: 0;
+    min-height: 36vh; }
+    .mainShop .row .cardTienda .cardBody .cards-title .h3 {
+      padding-top: 5rem;
+      font-size: 2rem;
+      font-weight: 800; }
+    .mainShop .row .cardTienda .cardBody .row .precioCard {
+      font-size: 2rem;
+      padding-bottom: 1rem; }
+  .mainShop .row .cardTienda .card-footer .btnComprar {
+    font-size: 1.5rem; } }
+
+/*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
+@media only screen and (max-width: 600px) {
+  .mainTiendas .row #titleTiendas {
+    font-size: 3rem; } }
+
+/*--------------------MEDIA QUERY TIENDAS DISPOSITIVOS MEDIANOS (TABLET, CELULARES >600px-----------------*/
+@media only screen and (min-width: 600px) {
+  .mainTiendas .row #titleTiendas {
+    font-size: 4.5rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .mainTiendas .row #titleTiendas {
+    font-size: 6rem; } }
 
 /*-----------------MEDIA QUERY CONTACTO 320px-------------------*/
 @media screen and (min-width: 280px) and (max-width: 320px) {
@@ -828,27 +761,29 @@ body {
       margin-bottom: 2rem; }
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros {
       background-color: #A8BAA9; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
-        color: #7e6e59;
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        color: #413225;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-        letter-spacing: 0.5rem;
-        font-size: 3rem;
-        letter-spacing: 0.5rem;
-        text-align: center;
-        margin-bottom: 5vh;
-        margin-top: 2rem; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
-        margin-left: 0.5rem;
-        font-size: 1.6rem;
-        text-align: justify; }
-        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros .infoDestacada {
-          color: #DBCDAD;
-          background-color: #5a493b; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 {
+        padding-top: 6rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
+          color: #7e6e59;
+          text-transform: uppercase;
+          font-family: "Lato", sans-serif;
+          font-weight: 700;
+          color: #413225;
+          text-decoration: none;
+          text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          letter-spacing: 0.5rem;
+          font-size: 3rem;
+          letter-spacing: 0.5rem;
+          text-align: center;
+          margin-bottom: 5vh;
+          margin-top: 2rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
+          margin-left: 0.5rem;
+          font-size: 1.6rem;
+          text-align: justify; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros .infoDestacada {
+            color: #DBCDAD;
+            background-color: #5a493b; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
         height: 25%; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 .img-responsive {
@@ -862,62 +797,66 @@ body {
           margin-top: 2rem;
           width: 100%;
           margin-bottom: 2rem; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
-        color: #7e6e59;
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        color: #413225;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-        letter-spacing: 0.5rem;
-        font-size: 3rem;
-        text-align: center;
-        margin: auto;
-        margin-bottom: 5vh;
-        margin-top: 2rem; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
-        font-size: 1.6rem;
-        text-align: justify;
-        margin-right: 0.5rem; }
-        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros .infoDestacada {
-          color: #DBCDAD;
-          background-color: #5a493b;
-          word-spacing: 0.5rem; }
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 {
+        padding-top: 6rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
+          color: #7e6e59;
+          text-transform: uppercase;
+          font-family: "Lato", sans-serif;
+          font-weight: 700;
+          color: #413225;
+          text-decoration: none;
+          text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          letter-spacing: 0.5rem;
+          font-size: 3rem;
+          text-align: center;
+          margin: auto;
+          margin-bottom: 5vh;
+          margin-top: 2rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
+          font-size: 1.6rem;
+          text-align: justify;
+          margin-right: 0.5rem; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros .infoDestacada {
+            color: #DBCDAD;
+            background-color: #5a493b;
+            word-spacing: 0.5rem; }
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 {
       padding-bottom: 1rem; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
-        color: #7e6e59;
-        text-transform: uppercase;
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        color: #413225;
-        text-decoration: none;
-        text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
-        letter-spacing: 0.5rem;
-        font-size: 3rem;
-        letter-spacing: 0.5rem;
-        text-align: center;
-        background-color: #DBCDAD;
-        margin-bottom: 5vh;
-        margin-top: 2rem; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
-        font-size: 1.6rem;
-        text-align: justify; }
-        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
-          color: #DBCDAD;
-          background-color: #5a493b;
-          margin-bottom: 2rem; }
-          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
-            color: #A8BAA9; }
-      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
-        margin-bottom: 2rem;
-        padding-top: 1rem; }
-        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
+      .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 {
+        padding-top: 3rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
+          color: #7e6e59;
+          text-transform: uppercase;
+          font-family: "Lato", sans-serif;
+          font-weight: 700;
+          color: #413225;
+          text-decoration: none;
+          text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          letter-spacing: 0.5rem;
+          font-size: 3rem;
+          letter-spacing: 0.5rem;
+          text-align: center;
+          background-color: #DBCDAD;
+          margin-bottom: 5vh;
+          margin-top: 2rem; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
           font-size: 1.6rem;
-          font-weight: 600;
-          background-color: #A8BAA9;
-          color: black; }
+          text-align: justify; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
+            color: #DBCDAD;
+            background-color: #5a493b;
+            margin-bottom: 2rem; }
+            .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
+              color: #A8BAA9; }
+        .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
+          margin-bottom: 2rem;
+          padding-top: 1rem; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
+            font-size: 1.6rem;
+            font-weight: 600;
+            background-color: #A8BAA9;
+            color: black; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
         height: 15%; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 .img-responsive {
@@ -940,34 +879,43 @@ body {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 4rem; }
-  .mainTiendas .contenedorCards .cardTiendas .cardHeader {
-    background-color: #A8BAA9;
-    height: 30%;
-    text-align: center;
-    justify-content: center;
-    margin: auto; }
-    .mainTiendas .contenedorCards .cardTiendas .cardHeader .tituloCardTiendas a {
-      color: #413225;
-      font-size: 1.5rem;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: 0.3rem;
-      text-decoration: 0.5rem dotted #413225 underline;
-      margin-bottom: 1.5rem; }
-    .mainTiendas .contenedorCards .cardTiendas .cardHeader .pCardTiendas {
-      color: #413225;
-      font-size: 1rem; }
-  .mainTiendas .contenedorCards .cardTiendas .card-footer {
-    background-color: #413225; }
-    .mainTiendas .contenedorCards .cardTiendas .card-footer .btnMapaModal {
-      background-color: #806854;
-      color: #A8BAA9;
-      font-weight: 700;
-      margin: auto;
-      justify-content: center;
-      text-align: center;
-      display: block; }
+  .mainTiendas .contenedorCards .lightbox-gallery p {
+    color: #fff; }
+  .mainTiendas .contenedorCards .lightbox-gallery .photos {
+    padding-bottom: 20px; }
+  .mainTiendas .contenedorCards .lightbox-gallery .item {
+    padding-bottom: 30px; }
+    .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas {
+      background-color: #A8BAA9;
+      min-height: 25vh; }
+      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .nombreTienda {
+        font-size: 2rem;
+        color: #413225;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: .5rem dotted #5a493b underline;
+        margin-bottom: 2rem; }
+      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .direccionTienda {
+        font-size: 1.3rem;
+        color: #5a493b;
+        font-weight: 600;
+        text-align: center; }
+      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .telTienda {
+        font-size: 1rem;
+        color: #5a493b;
+        text-align: center;
+        font-weight: bold; }
+      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .btnMapaModal {
+        text-align: center;
+        display: flex;
+        margin: auto;
+        background-color: #5a493b;
+        justify-content: flex-end; }
+  @media (max-width: 767px) {
+    .mainTiendas .contenedorCards .lightbox-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px; } }
   .mainTiendas .modalMapa .modalMapaHeader {
     background-color: #A8BAA9;
     color: #413225; }
@@ -995,9 +943,10 @@ body {
     justify-content: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    font-size: 4rem; }
+    font-size: 3rem; }
   .mainShop .cardTienda .cardBody {
     background-color: #413225;
+    opacity: .9;
     color: #DBCDAD;
     text-align: center;
     height: 20%; }
