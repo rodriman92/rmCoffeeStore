@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 @import "https://fonts.googleapis.com/css?family=Montserrat";
 /*-----------------MEDIA QUERY INDEX 320px-------------------*/
-@media screen and (max-width: 320px) {
-  .body .navCustom .navbar-brand .logo {
-    font-size: 1.5rem; }
+@media only screen and (max-width: 600px) {
+  .body .navCustom .logo {
+    font-size: 1.6rem; }
+  .body .navCustom .navbar-toggler {
+    width: auto; }
+    .body .navCustom .navbar-toggler .navbar-toggler-icon {
+      font-size: 1rem;
+      font-weight: 600; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
     font-size: 1.2rem; }
   .body .mainIndex {
@@ -29,164 +34,149 @@
     text-align: justify; }
   .body .articleIndexTestimonios .container .row .h2Index {
     font-size: 1.6rem; }
-  .body .articleIndexTestimonios .container .row .contenidoUsuario p {
-    font-size: 0.8rem; }
+  .body .articleIndexTestimonios .container .row .colTestimonios .card {
+    min-height: 15vh; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .contenidoUsuario p {
+      font-size: 0.8rem; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings {
+      margin-top: 0; }
+      .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
+        justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text p {
     font-size: 0.8rem; } }
 
-/*-----------------MEDIA QUERY INDEX 375px-------------------*/
-@media screen and (max-width: 375px) {
-  .body .navCustom .navbar-brand .logo {
-    font-size: 1.5rem; }
+/*--------------TABLETS Y CELULARES PAYORES A 600px--------------*/
+@media only screen and (min-width: 600px) {
+  .body .navCustom .logo {
+    font-size: 2rem; }
+  .body .navCustom .navbar-toggler {
+    width: auto; }
+    .body .navCustom .navbar-toggler .navbar-toggler-icon {
+      font-size: 1.2rem;
+      font-weight: 600; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1.2rem; }
-  .mainIndex {
+    font-size: 1.4rem; }
+  .body .mainIndex {
     width: auto;
     height: auto; }
-    .mainIndex .container-fluid {
+    .body .mainIndex .container-fluid {
       background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
       background-size: cover; }
-      .mainIndex .container-fluid section .row .colPIndex p {
+      .body .mainIndex .container-fluid section .row .colPIndex p {
         margin-top: 2rem; }
-        .mainIndex .container-fluid section .row .colPIndex p #spin {
+        .body .mainIndex .container-fluid section .row .colPIndex p #spin {
           font-size: 3rem; }
-      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+      .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
         font-size: 1rem; }
-  .sectionIndex #titleIndex {
-    font-size: 1.7rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1.2rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.5rem;
-    text-align: justify;
-    margin-right: 1rem; }
-  .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.8rem; }
-  .articleIndexTestimonios .container .row .contenidoUsuario p {
-    font-size: 0.8rem; }
-  .footer-section .copyright-area .copyright-text p {
-    font-size: 0.9rem; } }
-
-/*-----------------MEDIA QUERY INDEX 425px-------------------*/
-@media screen and (max-width: 425px) {
-  .body .navCustom .navbar-brand .logo {
-    font-size: 1.5rem; }
-  .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1.3rem; }
-  .mainIndex {
-    width: auto;
-    height: auto; }
-    .mainIndex .container-fluid {
-      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-      background-size: cover; }
-      .mainIndex .container-fluid section .row .colPIndex p {
-        margin-top: 2rem; }
-        .mainIndex .container-fluid section .row .colPIndex p #spin {
-          font-size: 3.3rem; }
-      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-        font-size: 1rem; }
-  .sectionIndex #titleIndex {
-    font-size: 1.5rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1.2rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 1rem;
+  .body .sectionIndex #titleIndex {
+    font-size: 3rem; }
+  .body .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
+    font-size: 1.4rem; }
+  .body .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
     margin-right: 1rem;
+    font-size: 0.8rem;
     text-align: justify; }
-  .articleIndexTestimonios .container .row .h2Index {
-    font-size: 1.7rem; }
-  .articleIndexTestimonios .container .row .contenidoUsuario p {
-    font-size: 1.1rem; }
-  .footer-section .copyright-area .copyright-text p {
-    font-size: 1rem; } }
+  .body .articleIndexTestimonios .container .row .h2Index {
+    font-size: 2rem; }
+  .body .articleIndexTestimonios .container .row .colTestimonios .card {
+    min-height: 62vh; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .contenidoUsuario p {
+      font-size: 1rem; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings {
+      margin-top: 0; }
+      .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
+        justify-content: flex-end; }
+  .body .footer-section .copyright-area .copyright-text p {
+    font-size: 0.8rem; } }
 
-/*-----------------MEDIA QUERY INDEX 768px-------------------*/
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .body .navCustom .navbar-brand .logo {
-    font-size: 2.5rem; }
-  .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1.3rem; }
-  .mainIndex {
-    width: auto;
-    height: auto; }
-    .mainIndex .container-fluid section .row .colPIndex p {
-      margin-top: 2rem; }
-      .mainIndex .container-fluid section .row .colPIndex p #spin {
-        font-size: 4.5rem; }
-    .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-      font-size: 1rem; } }
-
-.sectionIndex #titleIndex {
-  font-size: 1.8rem; }
-
-.sectionIndex .container .row .colImagen .image-top .overlay {
-  height: 55%; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1.5rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 1rem;
-    margin-right: 1rem; }
-
-.articleIndexTestimonios .container .row .h2Index {
-  font-size: 1.8rem; }
-
-.articleIndexTestimonios .container .row .contenidoUsuario p {
-  font-size: 1rem; }
-
-/*-----------------MEDIA QUERY INDEX 1024px-------------------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .body .navCustom .navbar-brand .logo {
-    font-size: 3rem; }
+/*----------------LAPTOPS, PC, 992px----------------------------*/
+@media only screen and (min-width: 992px) {
+  .body .navCustom .logo {
+    font-size: 2.2rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
     font-size: 1.5rem; }
-  .mainIndex {
+  .body .mainIndex {
     width: auto;
     height: auto; }
-    .mainIndex .container-fluid {
+    .body .mainIndex .container-fluid {
       background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
       background-size: cover; }
-      .mainIndex .container-fluid section .row .colPIndex p {
+      .body .mainIndex .container-fluid section .row .colPIndex p {
         margin-top: 2rem; }
-        .mainIndex .container-fluid section .row .colPIndex p #spin {
-          font-size: 4.5rem; }
-      .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-        font-size: 1rem; }
-  .sectionIndex #titleIndex {
-    font-size: 2.5rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1.2rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.8rem; }
-  .articleIndexTestimonios .container .row .h2Index {
-    font-size: 2.5rem; }
-  .articleIndexTestimonios .container .row .card {
-    height: 40vh; }
-  /*-----------------MEDIA QUERY INDEX 1440px-------------------*/ }
+        .body .mainIndex .container-fluid section .row .colPIndex p #spin {
+          font-size: 4rem; }
+      .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+        font-size: 1.5rem; }
+  .body .sectionIndex #titleIndex {
+    font-size: 3.2rem; }
+  .body .sectionIndex .container .row .colImagen .image-top .image-top {
+    background-position-y: -40vh; }
+    .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .tituloImagen {
+      font-size: 1.5rem; }
+    .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .infoImagen {
+      margin-right: 1rem;
+      font-size: 1rem;
+      text-align: justify; }
+  .body .articleIndexTestimonios .container .row .h2Index {
+    font-size: 2.5rem;
+    font-weight: 900; }
+  .body .articleIndexTestimonios .container .row .colTestimonios .card {
+    min-height: 62vh; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .contenidoUsuario p {
+      font-size: 1rem;
+      line-height: 1.7rem; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings {
+      margin-top: 0; }
+      .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
+        justify-content: flex-end; }
+  .body .footer-section .copyright-area .copyright-text p {
+    font-size: 0.8rem; } }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) and (max-width: 1440px) {
-  .body .navCustom .navbar-brand .logo {
+/*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
+@media only screen and (min-width: 1200px) {
+  .body .navCustom .logo {
     font-size: 3rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1.5rem; }
-  .mainIndex {
-    width: 100%;
+    font-size: 1.8rem; }
+  .body .mainIndex {
+    width: auto;
     height: auto; }
-    .mainIndex .container-fluid section .row .colPIndex p {
-      margin-top: 2rem; }
-      .mainIndex .container-fluid section .row .colPIndex p #spin {
-        font-size: 4.5rem; }
-    .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
-      font-size: 1rem; }
-  .sectionIndex #titleIndex {
-    font-size: 2.5rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .tituloImagen {
-    font-size: 1.2rem; }
-  .sectionIndex .container .row .colImagen .image-top .overlay .infoImagen {
-    font-size: 0.8rem; }
-  .articleIndexTestimonios .container .row .h2Index {
-    font-size: 2.5rem; }
-  .articleIndexTestimonios .container .row .card {
-    height: 40vh; } }
+    .body .mainIndex .container-fluid {
+      background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      background-size: cover; }
+      .body .mainIndex .container-fluid section .row .colPIndex p {
+        margin-top: 2rem; }
+        .body .mainIndex .container-fluid section .row .colPIndex p #spin {
+          font-size: 6rem; }
+      .body .mainIndex .container-fluid section .row .colPIndex .btnIndexTienda {
+        font-size: 1.8rem; }
+  .body .sectionIndex #titleIndex {
+    font-size: 4rem; }
+  .body .sectionIndex .container .row .colImagen .image-top .image-top {
+    background-position-y: -40vh; }
+    .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .tituloImagen {
+      font-size: 2rem; }
+    .body .sectionIndex .container .row .colImagen .image-top .image-top .overlay .infoImagen {
+      margin-right: 1rem;
+      font-size: 2rem;
+      text-align: justify; }
+  .body .articleIndexTestimonios .container .row .h2Index {
+    font-size: 3rem;
+    font-weight: 900; }
+  .body .articleIndexTestimonios .container .row .colTestimonios .card {
+    min-height: 50vh; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .contenidoUsuario p {
+      font-size: 1rem;
+      line-height: 1.7rem; }
+    .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings {
+      margin-top: 0;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 2rem;
+      text-align: center;
+      align-self: center; }
+  .body .footer-section .copyright-area .copyright-text p {
+    font-size: 0.8rem; } }
 
 /*-----------------MEDIA QUERY NOSOTROS 320px-------------------*/
 @media screen and (max-width: 320px) {
@@ -616,7 +606,6 @@ body {
     padding-bottom: 10vh; }
     body .sectionIndex .h1Index {
       color: #806854;
-      font-size: 2rem;
       text-transform: uppercase;
       font-family: "Lato", sans-serif;
       font-weight: 700;
@@ -627,7 +616,9 @@ body {
       font-weight: 600;
       align-items: center;
       text-align: center;
-      margin: auto; }
+      margin: auto;
+      margin-bottom: 3rem;
+      margin-top: 3rem; }
     body .sectionIndex .container {
       margin: 20px auto; }
       body .sectionIndex .container .colImagen .overlay .tituloImagen {
@@ -689,11 +680,13 @@ body {
       font-weight: 800;
       text-decoration: underline 0.3rem dotted #7e6e59;
       font-size: 2.5rem;
-      margin-top: 1vh;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
       letter-spacing: 0.5rem; }
     body .articleIndexTestimonios .card {
       border: none;
-      background-color: #DBCDAD; }
+      background-color: #DBCDAD;
+      min-height: 30rem; }
       body .articleIndexTestimonios .card .contenidoUsuario h5 {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -704,13 +697,14 @@ body {
         font-family: "Heebo", sans-serif;
         margin-top: 1rem;
         font-size: 1rem;
-        font-weight: 600; }
+        font-weight: 600;
+        text-align: justify; }
         body .articleIndexTestimonios .card .contenidoUsuario p .experienciaDestacada {
           background-color: #A8BAA9;
           color: #413225;
           font-style: normal; }
       body .articleIndexTestimonios .card .ratings i {
-        margin-top: 1rem;
+        margin-top: 2rem;
         color: #806854; }
   body .footer-section {
     background: #806854;
@@ -819,7 +813,6 @@ body {
     width: 100%; }
     .body .mainNosotros .contenedorNosotros .titleNosotros {
       color: #806854;
-      font-size: 2rem;
       text-transform: uppercase;
       font-family: "Lato", sans-serif;
       font-weight: 700;
@@ -837,7 +830,6 @@ body {
       background-color: #A8BAA9; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
         color: #7e6e59;
-        font-size: 2rem;
         text-transform: uppercase;
         font-family: "Lato", sans-serif;
         font-weight: 700;
@@ -872,7 +864,6 @@ body {
           margin-bottom: 2rem; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
         color: #7e6e59;
-        font-size: 2rem;
         text-transform: uppercase;
         font-family: "Lato", sans-serif;
         font-weight: 700;
@@ -897,7 +888,6 @@ body {
       padding-bottom: 1rem; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
         color: #7e6e59;
-        font-size: 2rem;
         text-transform: uppercase;
         font-family: "Lato", sans-serif;
         font-weight: 700;
@@ -939,7 +929,6 @@ body {
   background-color: #DBCDAD; }
   .mainTiendas .row .titleTiendas {
     color: #806854;
-    font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -995,7 +984,6 @@ body {
   background-color: #DBCDAD; }
   .mainShop .titleShop {
     color: #806854;
-    font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -1066,7 +1054,6 @@ body {
   background-color: #DBCDAD; }
   .mainContacto .titleContacto {
     color: #A8BAA9;
-    font-size: 2rem;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 700;

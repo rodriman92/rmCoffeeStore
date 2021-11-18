@@ -1,10 +1,15 @@
 /*-----------------MEDIA QUERY INDEX 320px-------------------*/
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 600px) {
     .body {
         .navCustom {
-            .navbar-brand {
-                .logo {
-                    font-size: 1.5rem;
+            .logo{
+                font-size: 1.6rem;
+            }
+            .navbar-toggler{
+                width: auto;
+                .navbar-toggler-icon{
+                    font-size: 1rem;
+                    font-weight: 600;
                 }
             }
             .navbar-collapse {
@@ -69,9 +74,21 @@
                     .h2Index {
                         font-size: 1.6rem;
                     }
-                    .contenidoUsuario {
-                        p {
-                            font-size: 0.8rem;
+                    .colTestimonios{
+                        .card{
+                            min-height: 15vh;
+                            .contenidoUsuario{
+                                p{
+                                    font-size: 0.8rem;
+                                }
+                            }
+                            .ratings{
+                                margin-top: 0;
+                                i{
+                                    
+                                    justify-content: flex-end;
+                                }
+                            }
                         }
                     }
                 }
@@ -89,381 +106,43 @@
     }
 }
 
-/*-----------------MEDIA QUERY INDEX 375px-------------------*/
-@media screen and (max-width: 375px) {
+/*--------------TABLETS Y CELULARES PAYORES A 600px--------------*/
+@media only screen and (min-width: 600px) {
     .body {
         .navCustom {
-            .navbar-brand {
-                .logo {
-                    font-size: 1.5rem;
+            .logo{
+                font-size: 2rem;
+            }
+            .navbar-toggler{
+                width: auto;
+                .navbar-toggler-icon{
+                    font-size: 1.2rem;
+                    font-weight: 600;
                 }
             }
             .navbar-collapse {
                 .navbar-nav {
                     .nav-item {
                         a {
-                            font-size: 1.2rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .mainIndex {
-        width: auto;
-        height: auto;
-        .container-fluid {
-            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-            background-size: cover;
-            section {
-                .row {
-                    .colPIndex {
-                        p {
-                            margin-top: 2rem;
-                            #spin {
-                                font-size: 3rem;
-                            }
-                        }
-                        .btnIndexTienda {
-                            font-size: 1rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .sectionIndex {
-        #titleIndex {
-            font-size: 1.7rem;
-        }
-        .container {
-            .row {
-                .colImagen {
-                    .image-top {
-                        .overlay {
-                            .tituloImagen {
-                                font-size: 1.2rem;
-                            }
-                            .infoImagen {
-                                font-size: 0.5rem;
-                                text-align: justify;
-                                margin-right: 1rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .articleIndexTestimonios {
-        .container {
-            .row {
-                .h2Index {
-                    font-size: 1.8rem;
-                }
-                .contenidoUsuario {
-                    p {
-                        font-size: 0.8rem;
-                    }
-                }
-            }
-        }
-    }
-    .footer-section {
-        .copyright-area {
-            .copyright-text {
-                p {
-                    font-size: 0.9rem;
-                }
-            }
-        }
-    }
-}
-
-/*-----------------MEDIA QUERY INDEX 425px-------------------*/
-@media screen and (max-width: 425px) {
-    .body {
-        .navCustom {
-            .navbar-brand {
-                .logo {
-                    font-size: 1.5rem;
-                }
-            }
-            .navbar-collapse {
-                .navbar-nav {
-                    .nav-item {
-                        a {
-                            font-size: 1.3rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .mainIndex {
-        width: auto;
-        height: auto;
-        .container-fluid {
-            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-            background-size: cover;
-            section {
-                .row {
-                    .colPIndex {
-                        p {
-                            margin-top: 2rem;
-                            #spin {
-                                font-size: 3.3rem;
-                            }
-                        }
-                        .btnIndexTienda {
-                            font-size: 1rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .sectionIndex {
-        #titleIndex {
-            font-size: 1.5rem;
-        }
-        .container {
-            .row {
-                .colImagen {
-                    .image-top {
-                        .overlay {
-                            .tituloImagen {
-                                font-size: 1.2rem;
-                            }
-                            .infoImagen {
-                                font-size: 1rem;
-                                margin-right: 1rem;
-                                text-align: justify;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .articleIndexTestimonios {
-        .container {
-            .row {
-                .h2Index {
-                    font-size: 1.7rem;
-                }
-                .contenidoUsuario {
-                    p {
-                        font-size: 1.1rem;
-                    }
-                }
-            }
-        }
-    }
-    .footer-section {
-        .copyright-area {
-            .copyright-text {
-                p {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-
-/*-----------------MEDIA QUERY INDEX 768px-------------------*/
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .body {
-        .navCustom {
-            .navbar-brand {
-                .logo {
-                    font-size: 2.5rem;
-                }
-            }
-            .navbar-collapse {
-                .navbar-nav {
-                    .nav-item {
-                        a {
-                            font-size: 1.3rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .mainIndex {
-        width: auto;
-        height: auto;
-        .container-fluid {
-            section {
-                .row {
-                    .colPIndex {
-                        p {
-                            margin-top: 2rem;
-                            #spin {
-                                font-size: 4.5rem;
-                            }
-                        }
-                        .btnIndexTienda {
-                            font-size: 1rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-.sectionIndex {
-    #titleIndex {
-        font-size: 1.8rem;
-    }
-    .container {
-        .row {
-            .colImagen {
-                .image-top {
-                    .overlay {
-                        height: 55%;
-                        .tituloImagen {
-                            font-size: 1.5rem;
-                        }
-                        .infoImagen {
-                            font-size: 1rem;
-                            margin-right: 1rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-.articleIndexTestimonios {
-    .container {
-        .row {
-            .h2Index {
-                font-size: 1.8rem;
-            }
-            .contenidoUsuario {
-                p {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-
-/*-----------------MEDIA QUERY INDEX 1024px-------------------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .body {
-        .navCustom {
-            .navbar-brand {
-                .logo {
-                    font-size: 3rem;
-                }
-            }
-            .navbar-collapse {
-                .navbar-nav {
-                    .nav-item {
-                        a {
-                            font-size: 1.5rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .mainIndex {
-        width: auto;
-        height: auto;
-        .container-fluid {
-            background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-            background-size: cover;
-            section {
-                .row {
-                    .colPIndex {
-                        p {
-                            margin-top: 2rem;
-                            #spin {
-                                font-size: 4.5rem;
-                            }
-                        }
-                        .btnIndexTienda {
-                            font-size: 1rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .sectionIndex {
-        #titleIndex {
-            font-size: 2.5rem;
-        }
-        .container {
-            .row {
-                .colImagen {
-                    .image-top {
-                        .overlay {
-                            .tituloImagen {
-                                font-size: 1.2rem;
-                            }
-                            .infoImagen {
-                                font-size: 0.8rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .articleIndexTestimonios {
-        .container {
-            .row {
-                .h2Index {
-                    font-size: 2.5rem;
-                }
-                .card {
-                    height: 40vh;
-                }
-            }
-        }
-    }
-
-/*-----------------MEDIA QUERY INDEX 1440px-------------------*/
-@media screen and (max-width: 1440px) {
-        .body {
-            .navCustom {
-                .navbar-brand {
-                    .logo {
-                        font-size: 3rem;
-                    }
-                }
-                .navbar-collapse {
-                    .navbar-nav {
-                        .nav-item {
-                            a {
-                                font-size: 1.5rem;
-                            }
+                            font-size: 1.4rem;
                         }
                     }
                 }
             }
         }
         .mainIndex {
-            width: 100%;
+            width: auto;
             height: auto;
             .container-fluid {
+                background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                background-size: cover;
                 section {
                     .row {
                         .colPIndex {
                             p {
                                 margin-top: 2rem;
                                 #spin {
-                                    font-size: 4.5rem;
+                                    font-size: 3rem;
                                 }
                             }
                             .btnIndexTienda {
@@ -476,7 +155,7 @@
         }
         .sectionIndex {
             #titleIndex {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
             .container {
                 .row {
@@ -484,10 +163,12 @@
                         .image-top {
                             .overlay {
                                 .tituloImagen {
-                                    font-size: 1.2rem;
+                                    font-size: 1.4rem;
                                 }
                                 .infoImagen {
+                                    margin-right: 1rem;
                                     font-size: 0.8rem;
+                                    text-align: justify;
                                 }
                             }
                         }
@@ -499,16 +180,264 @@
             .container {
                 .row {
                     .h2Index {
-                        font-size: 2.5rem;
+                        font-size: 2rem;
                     }
-                    .card {
-                        height: 40vh;
+                    .colTestimonios{
+                        .card{
+                            min-height: 62vh;
+                            .contenidoUsuario{
+                                p{
+                                    font-size: 1rem;
+                                }
+                            }
+                            .ratings{
+                                margin-top: 0;
+                                i{
+                                    
+                                    justify-content: flex-end;
+                                }
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
+        .footer-section {
+            .copyright-area {
+                .copyright-text {
+                    p {
+                        font-size: 0.8rem;
                     }
                 }
             }
         }
     }
 }
+
+/*----------------LAPTOPS, PC, 992px----------------------------*/
+@media only screen and (min-width: 992px) {
+        .body {
+            .navCustom {
+                .logo{
+                    font-size: 2.2rem;
+                }
+                
+                .navbar-collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            a {
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .mainIndex {
+                width: auto;
+                height: auto;
+                .container-fluid {
+                    background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                    background-size: cover;
+                    section {
+                        .row {
+                            .colPIndex {
+                                p {
+                                    margin-top: 2rem;
+                                    #spin {
+                                        font-size: 4rem;
+                                    }
+                                }
+                                .btnIndexTienda {
+                                    font-size: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sectionIndex {
+                #titleIndex {
+                    font-size: 3.2rem;
+                }
+                .container {
+                    .row {
+                        .colImagen {
+                            .image-top {
+                                .image-top{
+                                    background-position-y: -40vh;
+                                    .overlay {
+                                        .tituloImagen {
+                                            font-size: 1.5rem;
+                                        }
+                                        .infoImagen {
+                                            margin-right: 1rem;
+                                            font-size: 1rem;
+                                            text-align: justify;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .articleIndexTestimonios {
+                .container {
+                    .row {
+                        .h2Index {
+                            font-size: 2.5rem;
+                            font-weight: 900;
+                        }
+                        .colTestimonios{
+                            .card{
+                                min-height: 62vh;
+                                .contenidoUsuario{
+                                    p{
+                                        font-size: 1rem;
+                                        line-height: 1.7rem;
+                                    }
+                                }
+                                .ratings{
+                                    margin-top: 0;
+                                    i{
+                                        
+                                        justify-content: flex-end;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        
+                    }
+                }
+            }
+            .footer-section {
+                .copyright-area {
+                    .copyright-text {
+                        p {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+/*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
+@media only screen and (min-width: 1200px) {
+    .body {
+        .navCustom {
+            .logo{
+                font-size: 3rem;
+            }
+            
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .mainIndex {
+            width: auto;
+            height: auto;
+            .container-fluid {
+                background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                background-size: cover;
+                section {
+                    .row {
+                        .colPIndex {
+                            p {
+                                margin-top: 2rem;
+                                #spin {
+                                    font-size: 6rem;
+                                }
+                            }
+                            .btnIndexTienda {
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sectionIndex {
+            #titleIndex {
+                font-size: 4rem;
+            }
+            .container {
+                .row {
+                    .colImagen {
+                        .image-top {
+                            .image-top{
+                                background-position-y: -40vh;
+                                .overlay {
+                                    .tituloImagen {
+                                        font-size: 2rem;
+                                    }
+                                    .infoImagen {
+                                        margin-right: 1rem;
+                                        font-size: 2rem;
+                                        text-align: justify;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .articleIndexTestimonios {
+            .container {
+                .row {
+                    .h2Index {
+                        font-size: 3rem;
+                        font-weight: 900;
+                    }
+                    .colTestimonios{
+                        .card{
+                            min-height: 50vh;
+                            .contenidoUsuario{
+                                p{
+                                    font-size: 1rem;
+                                    line-height: 1.7rem;
+                                }
+                            }
+                            .ratings{
+                                margin-top: 0;
+                                position: absolute;
+                                bottom: 0;
+                                margin-bottom: 2rem;
+                                text-align: center;
+                                align-self: center;
+                            }
+                        }
+                    }
+                    
+                    
+                }
+            }
+        }
+        .footer-section {
+            .copyright-area {
+                .copyright-text {
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /*-----------------MEDIA QUERY NOSOTROS 320px-------------------*/
 @media screen and (max-width: 320px) {
     .mainNosotros{
