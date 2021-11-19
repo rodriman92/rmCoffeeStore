@@ -448,14 +448,15 @@
             }
             .rowImagenesNosotros{
                 .colTitulo1{
+                    padding-top: 2rem;
                     #h6Nosotros1{
-                        margin-top: 3rem;
-                        margin-bottom: 3rem;
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
                         font-size: 2.3rem;
                         
                     }
                     .pNosotros1{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                         font-weight: 400;
                         text-align: justify;
                         .infoDestacada{
@@ -478,12 +479,12 @@
                 }
                 .colTitulo2{
                     #h6Nosotros2{
-                        margin-top: 3rem;
-                        margin-bottom: 3rem;
+                        margin-top: 1rem;
+                        margin-bottom: 2rem;
                         font-size: 2.3rem;  
                     }
                     #pNosotros2{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
                 }
             }
@@ -495,7 +496,12 @@
                         font-size: 2.3rem; 
                     }
                     #pNosotros3{
-                        font-size: 1.3rem;
+                        font-size: 1rem;
+                        .listaTel{
+                            li{
+                                font-size: 1rem;
+                            }
+                        }
                     }
                 }
             }

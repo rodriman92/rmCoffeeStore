@@ -183,17 +183,19 @@
 @media only screen and (max-width: 600px) {
   .mainNosotros .contenedorNosotros #titleNosotros {
     font-size: 3rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 #h6Nosotros1 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    font-size: 2.3rem; }
-  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
-    font-size: 1.3rem;
-    font-weight: 400;
-    text-align: justify; }
-    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
-      background-color: #5a493b;
-      color: white; }
+  .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 {
+    padding-top: 2rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 #h6Nosotros1 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      font-size: 2.3rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: justify; }
+      .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
+        background-color: #5a493b;
+        color: white; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros .colImagen1 {
     padding-bottom: 4rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colImagen2 {
@@ -201,17 +203,19 @@
     padding-top: 2rem;
     width: 100%; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #h6Nosotros2 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     font-size: 2.3rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 {
-    font-size: 1.3rem; }
+    font-size: 1rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #h6Nosotros3 {
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 2.3rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 {
-    font-size: 1.3rem; } }
+    font-size: 1rem; }
+    .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 .listaTel li {
+      font-size: 1rem; } }
 
 /*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
 @media only screen and (min-width: 600px) {
@@ -762,7 +766,7 @@ body {
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros {
       background-color: #A8BAA9; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 {
-        padding-top: 6rem; }
+        padding-top: 2rem; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .h6Nosotros {
           color: #7e6e59;
           text-transform: uppercase;
@@ -798,7 +802,7 @@ body {
           width: 100%;
           margin-bottom: 2rem; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 {
-        padding-top: 6rem; }
+        padding-top: 2rem; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .h6Nosotros {
           color: #7e6e59;
           text-transform: uppercase;
@@ -824,7 +828,7 @@ body {
     .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 {
       padding-bottom: 1rem; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 {
-        padding-top: 3rem; }
+        padding-top: 2rem; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .h6Nosotros {
           color: #7e6e59;
           text-transform: uppercase;
@@ -851,9 +855,12 @@ body {
               color: #A8BAA9; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
           margin-bottom: 2rem;
-          padding-top: 1rem; }
+          padding-top: 1rem;
+          padding-left: 0; }
           .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
-            font-size: 1.6rem;
+            margin: 0;
+            list-style: none;
+            font-size: 1.3rem;
             font-weight: 600;
             background-color: #A8BAA9;
             color: black; }
