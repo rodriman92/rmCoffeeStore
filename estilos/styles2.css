@@ -193,7 +193,7 @@
       font-size: 2.3rem; }
     .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 {
       font-size: 1rem;
-      font-weight: 400;
+      font-weight: 600;
       text-align: justify; }
       .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros1 .infoDestacada {
         background-color: #5a493b;
@@ -209,13 +209,15 @@
     margin-bottom: 2rem;
     font-size: 2.3rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 #pNosotros2 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-weight: 600; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #h6Nosotros3 {
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 2.3rem; }
   .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-weight: 600; }
     .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 #pNosotros3 .listaTel li {
       font-size: 1rem; } }
 
@@ -852,22 +854,28 @@ body {
           font-size: 1.6rem;
           text-align: justify; }
           .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada {
-            color: #DBCDAD;
-            background-color: #5a493b;
+            background-color: #A8BAA9;
+            color: #413225;
             margin-bottom: 2rem; }
-            .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros .infoDestacada a {
-              color: #A8BAA9; }
+          .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros a {
+            text-decoration: none;
+            background-color: #A8BAA9;
+            color: #413225;
+            font-weight: 600; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel {
           margin-bottom: 2rem;
           padding-top: 1rem;
           padding-left: 0; }
           .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .listaTel li {
             margin: 0;
+            background-color: #A8BAA9;
             list-style: none;
             font-size: 1.3rem;
-            font-weight: 600;
-            background-color: #A8BAA9;
-            color: black; }
+            font-weight: 800;
+            color: black;
+            text-align: left;
+            line-height: 3rem;
+            text-decoration: 2px solid #413225 underline; }
       .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 {
         height: 15%; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colImagen3 .img-responsive {

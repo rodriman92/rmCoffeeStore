@@ -597,14 +597,15 @@ body{
 						font-size: 1.6rem;
 						text-align: justify;
 						.infoDestacada{
-							color: $color-section;
-							background-color: #5a493b;
+							background-color: $color-navbar;
+							color: #413225;
 							margin-bottom: 2rem;
-							a{
-								color: $color-navbar;
-								
-							}
-							
+						}
+						a{
+							text-decoration: none;
+							background-color: $color-navbar;
+							color: #413225;
+							font-weight: 600;
 						}
 						
 					}
@@ -614,11 +615,15 @@ body{
 						padding-left: 0;
 						li{
 							margin: 0;
+							background-color: $color-navbar;
 							list-style: none;
 							font-size: 1.3rem;
-							font-weight: 600;
-							background-color: $color-navbar;
+							font-weight: 800;
 							color: black;
+							text-align: left;
+							line-height: 3rem;
+							text-decoration: 2px solid #413225 underline;
+							
 						}
 					}
 				}
