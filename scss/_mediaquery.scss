@@ -55,11 +55,11 @@
                         .image-top {
                             .overlay {
                                 .tituloImagen {
-                                    font-size: 1rem;
+                                    font-size: 1.2rem;
                                 }
                                 .infoImagen {
                                     margin-right: 1rem;
-                                    font-size: 0.8rem;
+                                    font-size: 0.9rem;
                                     text-align: justify;
                                 }
                             }
@@ -73,13 +73,15 @@
                 .row {
                     .h2Index {
                         font-size: 1.6rem;
+                        line-height: 2.5rem;
+                        letter-spacing: 0.8rem;
                     }
                     .colTestimonios{
                         .card{
                             min-height: 15vh;
                             .contenidoUsuario{
                                 p{
-                                    font-size: 0.8rem;
+                                    font-size: 1rem;
                                 }
                             }
                             .ratings{
