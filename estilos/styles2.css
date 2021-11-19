@@ -365,40 +365,51 @@
 
 @media only screen and (min-width: 1200px) {
   .mainTiendas .row #titleTiendas {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+  .mainTiendas .row .contenedorCards .lightbox-gallery .item .footerTiendas .btnMapaModal {
+    margin-bottom: 2rem; } }
 
-/*-----------------MEDIA QUERY CONTACTO 320px-------------------*/
-@media screen and (min-width: 280px) and (max-width: 320px) {
-  .mainContacto .containerFormContacto .titleContacto {
+/*-------------------MEDIA QUERY CONTACTO PANTALLAS PEQUEÑAS <600px------------*/
+@media only screen and (max-width: 600px) {
+  .mainContacto #titleContacto {
     font-size: 3rem; }
-  .mainContacto .containerFormContacto .row .btnEscribinos {
-    font-size: 1.5rem; }
-  .mainContacto .modalEnvio {
-    overflow-y: auto; }
-    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
-      font-size: 1rem; } }
+  .mainContacto .row #h2Contacto {
+    font-size: 1.6rem;
+    text-transform: uppercase; }
+  .mainContacto .row #h3Contacto {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white; }
+  .mainContacto #btnEscribinos {
+    font-size: 1.8rem; } }
 
-/*-----------------MEDIA QUERY CONTACTO 375px-------------------*/
-@media screen and (max-width: 375px) {
-  .mainContacto .containerFormContacto .titleContacto {
-    font-size: 3rem; }
-  .mainContacto .containerFormContacto .row .btnEscribinos {
-    font-size: 2rem; }
-  .mainContacto .modalEnvio {
-    overflow-y: auto; }
-    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
-      font-size: 1rem; } }
+/*------------------MEDIA QUERY CONTACTO PANTALLAS MEDIANAS >600px----------*/
+@media only screen and (min-width: 600px) {
+  .mainContacto #titleContacto {
+    font-size: 4.5rem; }
+  .mainContacto .row #h2Contacto {
+    font-size: 2rem;
+    text-transform: uppercase; }
+  .mainContacto .row #h3Contacto {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: white; }
+  .mainContacto #btnEscribinos {
+    font-size: 2.2rem; } }
 
-/*-----------------MEDIA QUERY CONTACTO 425px-------------------*/
-@media screen and (max-width: 425px) {
-  .mainContacto .containerFormContacto .titleContacto {
-    font-size: 3rem; }
-  .mainContacto .containerFormContacto .row .btnEscribinos {
-    font-size: 2.2rem; }
-  .mainContacto .modalEnvio {
-    overflow-y: auto; }
-    .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
-      font-size: 1rem; } }
+/*------------------MEDIA QUERY CONTACTO PANTALLAS GRANDES >1200px----------*/
+@media only screen and (min-width: 1200px) {
+  .mainContacto #titleContacto {
+    font-size: 6rem; }
+  .mainContacto .row #h2Contacto {
+    font-size: 3rem;
+    text-transform: uppercase; }
+  .mainContacto .row #h3Contacto {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: white; }
+  .mainContacto #btnEscribinos {
+    font-size: 4rem; } }
 
 * {
   margin: 0;
@@ -738,11 +749,11 @@ body {
       text-align: center;
       justify-content: center;
       margin: auto;
-      font-size: 1rem;
       color: white; }
     body .copyright-area .copyright-text .devBy {
       margin-top: 2rem;
-      color: #A8BAA9; }
+      color: #A8BAA9;
+      font-size: 1.5rem; }
       body .copyright-area .copyright-text .devBy a {
         text-decoration: none;
         color: #A8BAA9; }
@@ -1034,6 +1045,24 @@ body {
     padding-top: 2rem;
     font-size: 4rem;
     margin-bottom: 4rem; }
+  .mainContacto .row .h2Contacto {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: #A8BAA9;
+    font-weight: bold;
+    color: #413225;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .mainContacto .row .h3Contacto {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    background-color: #7e6e59;
+    color: #DBCDAD;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 800; }
   .mainContacto .btnEscribinos {
     font-size: 2.5rem;
     text-align: center;
@@ -1048,13 +1077,12 @@ body {
     .mainContacto .btnEscribinos:hover {
       background-color: #413225;
       color: #A8BAA9;
-      transition: .5s;
-      letter-spacing: .3rem; }
+      transition: .5s; }
   .mainContacto .modalEnvio .modalHeaderEnvio {
     background-color: #A8BAA9;
     color: #413225; }
     .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: 600;
       text-align: center;
       justify-items: center;

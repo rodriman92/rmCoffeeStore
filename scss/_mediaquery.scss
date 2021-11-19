@@ -806,97 +806,105 @@
             #titleTiendas{
                 font-size: 6rem;
             }
+            .contenedorCards{
+                .lightbox-gallery{
+                    .item{
+                        .footerTiendas{
+                            .btnMapaModal{
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
+/*-------------------MEDIA QUERY CONTACTO PANTALLAS PEQUEÑAS <600px------------*/
+@media only screen and (max-width: 600px) {
+    .mainContacto{
+        #titleContacto{
+            font-size: 3rem;
+        }
+        .row{
+            #h2Contacto{
+                font-size: 1.6rem;
+                text-transform: uppercase;
+            }
+            #h3Contacto{
+                font-size: 1.2rem;
+                line-height: 2rem;
+                color: white;
+            }
+        }
+        #btnEscribinos{
+            font-size: 1.8rem;
+        }
+    }
+}
 
+/*------------------MEDIA QUERY CONTACTO PANTALLAS MEDIANAS >600px----------*/
+@media only screen and (min-width: 600px) {
+    .mainContacto{
+        #titleContacto{
+            font-size: 4.5rem;
+        }
+        .row{
+            #h2Contacto{
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+            #h3Contacto{
+                font-size: 1.4rem;
+                line-height: 2rem;
+                color: white;
+            }
+        }
+        #btnEscribinos{
+            font-size: 2.2rem;
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-----------------MEDIA QUERY CONTACTO 320px-------------------*/
-@media screen and (min-width: 280px) and (max-width: 320px) {
-    .mainContacto {
-        .containerFormContacto {
-            .titleContacto {
+/*------------------MEDIA QUERY CONTACTO PANTALLAS GRANDES >1200px----------*/
+@media only screen and (min-width: 1200px) {
+    .mainContacto{
+        #titleContacto{
+            font-size: 6rem;
+        }
+        .row{
+            #h2Contacto{
                 font-size: 3rem;
+                text-transform: uppercase;
             }
-            .row {
-                .btnEscribinos {
-                    font-size: 1.5rem;
-                }
+            #h3Contacto{
+                font-size: 2rem;
+                line-height: 3rem;
+                color: white;
             }
         }
-        .modalEnvio {
-            overflow-y: auto;
-            .modalHeaderEnvio {
-                .modalTituloEnvio {
-                    font-size: 1rem;
-                }
-            }
+        #btnEscribinos{
+            font-size: 4rem;
         }
     }
 }
-/*-----------------MEDIA QUERY CONTACTO 375px-------------------*/
 
-@media screen and (max-width: 375px) {
-    .mainContacto {
-        .containerFormContacto {
-            .titleContacto {
-                font-size: 3rem;
-            }
-            .row {
-                .btnEscribinos {
-                    font-size: 2rem;
-                }
-            }
-        }
-        .modalEnvio {
-            overflow-y: auto;
-            .modalHeaderEnvio {
-                .modalTituloEnvio {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
-/*-----------------MEDIA QUERY CONTACTO 425px-------------------*/
-@media screen and (max-width: 425px) {
-    .mainContacto {
-        .containerFormContacto {
-            .titleContacto {
-                font-size: 3rem;
-            }
-            .row {
-                .btnEscribinos {
-                    font-size: 2.2rem;
-                }
-            }
-        }
-        .modalEnvio {
-            overflow-y: auto;
-            .modalHeaderEnvio {
-                .modalTituloEnvio {
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

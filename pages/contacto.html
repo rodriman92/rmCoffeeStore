@@ -73,10 +73,12 @@
     </header>
     <main class="mainContacto">
         <div class="container containerFormContacto">
-            <h1 class="titleContacto">Contacto</h1>
+            <h1 class="titleContacto" id="titleContacto">Contacto</h1>
             <div class="row">
+                <h2 class="h2Contacto" id="h2Contacto">¿Necesitás nuestra ayuda?</h2>
+                <h3 class="h3Contacto" id="h3Contacto">Hacé click sobre el boton que se encuentra debajo y completá el formulario con tus datos para que te podamos asesorar.</h3>
                 <div class="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-md-center">
-                    <button class="btn btn-light btnEscribinos text-center" data-bs-target="#modalContactoEnvio" data-bs-toggle="modal">Escribinos✉</button>
+                    <button class="btn btn-light btnEscribinos text-center" id="btnEscribinos" data-bs-target="#modalContactoEnvio" data-bs-toggle="modal">CLICK ACÁ</button>
                 </div>
             </div>
         </div>
@@ -136,17 +138,17 @@
                                         data-bs-target="#modalContacto" data-bs-toggle="modal">Enviar</button>
                                 </form>
                             </div>
-                            <a href="mailto:contacto@rmcoffeestore.com" id="superFormOculto"></a>
                         </div>
                     </div>
-                  </div>
-                  <div class="modal-footer modalFooterEnvio">
+                </div>
+                <div class="modal-footer modalFooterEnvio">
                     <button type="button" class="btn btn-light btnCerrarFormEnvio" data-bs-dismiss="modal">
                         Cerrar
                     </button>
                 </div>
-              </div>
-          </div>
+            </div>
+        </div>
+        <a href="mailto:contacto@rmcoffeestore.com" id="superFormOculto"></a>
       </div>
         <!-- #FIN -->
     </main>

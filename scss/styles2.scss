@@ -476,15 +476,17 @@ body{
 				text-align: center;
 				justify-content: center;
 				margin: auto;
-				font-size: 1rem;
+
 				color: white;
 			}
 			.devBy{
 				margin-top: 2rem;
 				color: $color-navbar;
+				font-size: 1.5rem;
 				a{
 					text-decoration: none;
 					color: $color-navbar;
+					
 					&:hover{
 						font-weight: 800;
 					}
@@ -830,6 +832,28 @@ body{
 		margin-bottom: 4rem;
 		
 	}
+	.row{
+		.h2Contacto{
+			text-align: center;
+			font-size: 2.5rem;
+			margin-bottom: 2rem;
+			background-color: $color-navbar;
+			font-weight: bold;
+			color: #413225;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+		.h3Contacto{
+			text-align: center;
+			font-size: 1.6rem;
+			margin-bottom: 2rem;
+			background-color: $color-h2;
+			color: $color-section;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			font-weight: 800;
+		}
+	}
 	.btnEscribinos{
 		font-size: 2.5rem;
 		text-align: center;
@@ -845,7 +869,7 @@ body{
 			background-color: #413225;
 			color: $color-navbar;
 			transition: .5s;
-			letter-spacing: .3rem;
+
 		}		
 	}
 	.modalEnvio{
@@ -853,7 +877,7 @@ body{
 			background-color: $color-navbar;
 			color: #413225;
 			.modalTituloEnvio{
-				font-size: 1.5rem;
+				font-size: 2rem;
 				font-weight: 600;
 				text-align: center;
 				justify-items: center;
