@@ -352,7 +352,9 @@
 /*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
 @media only screen and (max-width: 600px) {
   .mainTiendas .row #titleTiendas {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .btnMapaModal {
+    margin-bottom: 2rem; } }
 
 /*--------------------MEDIA QUERY TIENDAS DISPOSITIVOS MEDIANOS (TABLET, CELULARES >600px-----------------*/
 @media only screen and (min-width: 600px) {
@@ -903,7 +905,7 @@ body {
         text-align: center;
         font-weight: 600;
         text-decoration: .5rem dotted #5a493b underline;
-        margin-bottom: 2rem; }
+        margin-bottom: 1rem; }
       .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .direccionTienda {
         font-size: 1.3rem;
         color: #5a493b;
@@ -922,9 +924,9 @@ body {
         justify-content: flex-end; }
   @media (max-width: 767px) {
     .mainTiendas .contenedorCards .lightbox-gallery h2 {
-      margin-bottom: 25px;
-      padding-top: 25px;
-      font-size: 24px; } }
+      margin-bottom: 1rem;
+      padding-top: 1rem;
+      font-size: 1.1rem; } }
   .mainTiendas .modalMapa .modalMapaHeader {
     background-color: #A8BAA9;
     color: #413225; }
