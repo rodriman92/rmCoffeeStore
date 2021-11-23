@@ -332,21 +332,22 @@ body {
 		background-color: $color-navbar;
 		.h2Index {
 			text-shadow: 0 0 1rem white;
-			fill: #413225;
+			fill: linear-gradient(45deg, rgba(128,104,84,1) 44%, rgba(219,205,173,1) 94%);
 			margin: auto;
 			justify-content: center;
 			text-align: center;
-			color: white;
+			color: #5a493b;
 			font-weight: 800;
-			text-decoration: underline 0.3rem dotted white;
-			font-size: 2.5rem;
+			text-decoration: underline 0.4rem dotted #806854;
+			font-size: 2.7rem;
 			margin-top: 3rem;
 			margin-bottom: 3rem;
 			letter-spacing: 0.5rem;
 		}
 		.card {
 			border: none;
-			background-color: $color-section;
+			background: rgb(128,104,84);
+			background: linear-gradient(45deg, rgba(128,104,84,1) 0%, rgba(219,205,173,1) 38%);
 			min-height: 30rem;
 
 			.contenidoUsuario {
@@ -374,7 +375,9 @@ body {
 
 			.ratings i {
 				margin-top: 2rem;
-				color: $color-h1;
+				color: white;
+				border-color: 3px solid #413225;
+				font-size: 1.5rem;
 			}
 		}
 	}
@@ -873,6 +876,10 @@ body {
 			padding-top: 2rem;
 			padding-bottom: 2rem;
 			font-weight: 800;
+			.infoDestacada{
+				background-color: $color-navbar;
+				color: #382e25;
+			}
 		}
 	}
 	.btnEscribinos {
@@ -905,8 +912,9 @@ body {
 			background-color: $color-navbar;
 			color: #413225;
 			.modalTituloEnvio {
-				font-size: 2rem;
-				font-weight: 600;
+				font-size: 1.5rem;
+				text-transform: uppercase;
+				font-weight: 800;
 				text-align: center;
 				justify-items: center;
 				margin: auto;
@@ -922,7 +930,13 @@ body {
 				color: white;
 				background: $color-principal;
 				margin-bottom: 2rem;
-
+				label{
+					margin-bottom: 1rem;
+					font-weight: 600;
+				}
+				.form-group{
+					margin-bottom: 1rem;
+				}
 				textarea {
 					width: 100%;
 					margin-bottom: 2rem;
@@ -931,10 +945,15 @@ body {
 				.btnEnviarFormulario {
 					width: 100%;
 					font-size: 1rem;
+					font-weight: bold;
 					background-color: $color-navbar;
+					display: flex;
+					text-align: center;
+					justify-content: center;
+					margin: auto;
+					width: 25%;
 					color: white;
 					border-color: white;
-					justify-items: center;
 					&:hover {
 						background-color: white;
 						color: $color-navbar;

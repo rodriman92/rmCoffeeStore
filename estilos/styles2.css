@@ -4,7 +4,7 @@
 /*-----------------MEDIA QUERY INDEX DISPOSITIVOS PEQUEÑOS-------------------*/
 @media only screen and (max-width: 600px) {
   .body .navCustom .logo {
-    font-size: 1.6rem; }
+    font-size: 1.4rem; }
   .body .navCustom .navbar-toggler {
     width: auto; }
     .body .navCustom .navbar-toggler .navbar-toggler-icon {
@@ -57,7 +57,7 @@
       font-size: 1.2rem;
       font-weight: 600; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
-    font-size: 1.4rem; }
+    font-size: 1.8rem; }
   .body .mainIndex {
     width: auto;
     height: auto; }
@@ -94,7 +94,7 @@
 /*----------------LAPTOPS, PC, 992px----------------------------*/
 @media only screen and (min-width: 992px) {
   .body .navCustom .logo {
-    font-size: 2.2rem; }
+    font-size: 2.4rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
     font-size: 1.5rem; }
   .body .mainIndex {
@@ -137,7 +137,7 @@
 /*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
 @media only screen and (min-width: 1200px) {
   .body .navCustom .logo {
-    font-size: 3rem; }
+    font-size: 3.5rem; }
   .body .navCustom .navbar-collapse .navbar-nav .nav-item a {
     font-size: 1.8rem; }
   .body .mainIndex {
@@ -426,7 +426,7 @@
     line-height: 3rem;
     color: white; }
   .mainContacto #btnEscribinos {
-    font-size: 4rem; } }
+    font-size: 3.5rem; } }
 
 * {
   margin: 0;
@@ -673,20 +673,21 @@ body {
     background-color: #A8BAA9; }
     body .articleIndexTestimonios .h2Index {
       text-shadow: 0 0 1rem white;
-      fill: #413225;
+      fill: linear-gradient(45deg, #806854 44%, #dbcdad 94%);
       margin: auto;
       justify-content: center;
       text-align: center;
-      color: white;
+      color: #5a493b;
       font-weight: 800;
-      text-decoration: underline 0.3rem dotted white;
-      font-size: 2.5rem;
+      text-decoration: underline 0.4rem dotted #806854;
+      font-size: 2.7rem;
       margin-top: 3rem;
       margin-bottom: 3rem;
       letter-spacing: 0.5rem; }
     body .articleIndexTestimonios .card {
       border: none;
-      background-color: #DBCDAD;
+      background: #806854;
+      background: linear-gradient(45deg, #806854 0%, #dbcdad 38%);
       min-height: 30rem; }
       body .articleIndexTestimonios .card .contenidoUsuario h5 {
         margin-top: 1rem;
@@ -706,7 +707,9 @@ body {
           font-style: normal; }
       body .articleIndexTestimonios .card .ratings i {
         margin-top: 2rem;
-        color: #806854; }
+        color: white;
+        border-color: 3px solid #413225;
+        font-size: 1.5rem; }
   body .footer-section {
     background: #806854;
     position: relative; }
@@ -1130,6 +1133,9 @@ body {
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 800; }
+    .mainContacto .row .h3Contacto .infoDestacada {
+      background-color: #A8BAA9;
+      color: #382e25; }
   .mainContacto .btnEscribinos {
     font-size: 2.5rem;
     text-align: center;
@@ -1155,8 +1161,9 @@ body {
     background-color: #A8BAA9;
     color: #413225; }
     .mainContacto .modalEnvio .modalHeaderEnvio .modalTituloEnvio {
-      font-size: 2rem;
-      font-weight: 600;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 800;
       text-align: center;
       justify-items: center;
       margin: auto; }
@@ -1170,16 +1177,26 @@ body {
       color: white;
       background: #806854;
       margin-bottom: 2rem; }
+      .mainContacto .modalEnvio .modalBodyEnvio .form-box label {
+        margin-bottom: 1rem;
+        font-weight: 600; }
+      .mainContacto .modalEnvio .modalBodyEnvio .form-box .form-group {
+        margin-bottom: 1rem; }
       .mainContacto .modalEnvio .modalBodyEnvio .form-box textarea {
         width: 100%;
         margin-bottom: 2rem; }
       .mainContacto .modalEnvio .modalBodyEnvio .form-box .btnEnviarFormulario {
         width: 100%;
         font-size: 1rem;
+        font-weight: bold;
         background-color: #A8BAA9;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        width: 25%;
         color: white;
-        border-color: white;
-        justify-items: center; }
+        border-color: white; }
         .mainContacto .modalEnvio .modalBodyEnvio .form-box .btnEnviarFormulario:hover {
           background-color: white;
           color: #A8BAA9;
