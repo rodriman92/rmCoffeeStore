@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Lato:400,300,900");
 @import "https://fonts.googleapis.com/css?family=Montserrat";
 @import "variables";
@@ -15,19 +14,13 @@ html {
 /*-----------------MIXIN TITULO-------------------*/
 @mixin titulosSecciones($color, $fuente) {
 	color: $color;
-    text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    color: #413225;
+	text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	color: #413225;
 	text-decoration: none;
-    text-shadow: 1px 1px 1px #f1efe9,
-        1px 2px 1px #f1efe9,
-        1px 3px 1px #f1efe9,
-        1px 4px 1px #f1efe9,
-        
-    1px 18px 6px rgba(16,16,16,0.4),
-
-
+	text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
+		1px 18px 6px rgba(16, 16, 16, 0.4);
 }
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
@@ -49,7 +42,7 @@ html {
 }
 
 /*--------------------------------------------*/
-body{
+body {
 	/*--------------------------NAVBAR------------------------*/
 	.navCustom {
 		background-image: linear-gradient(to left, $color-navbar 50%, $color-navbar);
@@ -57,53 +50,81 @@ body{
 		justify-content: center;
 		/*------------------------LOGO-------------------------*/
 		.logo {
-
-			transform: translate(50%,-50%);
+			margin: 0;
 			text-transform: uppercase;
 			font-family: "Lato", sans-serif;
-			font-size: 4rem;
-			font-weight: 700;
+			font-size: 6rem;
+			font-weight: 900;
 			color: #413225;
 			text-decoration: none;
-			text-shadow: 1px 1px 1px #f1efe9,
-				1px 2px 1px #f1efe9,
-				1px 3px 1px #f1efe9,
-				1px 4px 1px #f1efe9,
-				1px 5px 1px #f1efe9,
-				1px 18px 6px rgba(16,16,16,0.4),
-				1px 22px 10px rgba(16,16,16,0.2),
-				1px 25px 35px rgba(16,16,16,0.2),
-				1px 30px 60px rgba(16,16,16,0.4);
-				&:hover{
-					text-decoration: none;
+			text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
+				1px 18px 6px rgba(16, 16, 16, 0.4);
+			animation: fill 8s infinite;
+
+			@keyframes fill {
+				0% {
 					color: #413225;
+					text-decoration: none;
+					text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
+						1px 18px 6px rgba(16, 16, 16, 0.4);
 				}
+				25% {
+					color: #806854;
+					text-decoration: none;
+					text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
+						1px 18px 6px rgba(16, 16, 16, 0.4);
+				}
+				50% {
+					color: #b39c7d;
+					text-decoration: none;
+					text-shadow: 1px 1px 1px #806854, 1px 2px 1px #806854, 1px 3px 1px #806854, 1px 4px 1px #806854,
+						1px 18px 6px rgba(16, 16, 16, 0.4);
+				}
+				75% {
+					color: #dbcdad;
+					text-decoration: none;
+					text-shadow: 1px 1px 1px #413225, 1px 2px 1px #413225, 1px 3px 1px #413225, 1px 4px 1px #413225,
+						1px 18px 6px rgba(16, 16, 16, 0.4);
+				}
+				100% {
+					color: #413225;
+					text-decoration: none;
+					text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
+						1px 18px 6px rgba(16, 16, 16, 0.4);
+				}
+			}
 		}
-		.navbar-toggler{
+		.navbar-toggler {
 			background-color: $color-h2;
 			width: auto;
-			.navbar-toggler-icon{
+			.navbar-toggler-icon {
 				color: $color-navbar;
 				font-size: 1rem;
 				text-align: center;
 				justify-content: center;
 				font-weight: 200;
-				
 			}
 		}
 		.navbar-nav {
 			align-content: center;
 			text-align: center;
-			.nav-item{
-				.nav-link{
+
+			.nav-item {
+				.nav-link {
 					font-size: 1.8rem;
 					color: #5a493b;
 					font-weight: 600;
 					font-family: $fuente-navbar;
-					&:hover{
-						text-decoration: 0.5rem dotted #FFF5CF underline;
-						color: #FFF5CF;
+					&:hover {
+						text-decoration: 0.5rem dotted #fff5cf underline;
+						color: #fff5cf;
 						border-color: #5a493b;
+						animation: 0.5s ease-in-out;
+						text-underline-position: under;
+						height: 0.9rem;
+						::after {
+							animation: 0.5s ease-in-out;
+						}
 					}
 				}
 			}
@@ -112,14 +133,14 @@ body{
 	/*----------MAIN INDEX----------*/
 	.mainIndex {
 		background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-		background-size: cover;		
+		background-size: cover;
 		height: auto;
 		background-position-y: -80vh;
 		background-repeat: no-repeat;
-		.container-fluid{
+		.container-fluid {
 			/*----------CAFE VARIOS IDIOMAS INDEX---------*/
 			#spin {
-				color: #FFF5CF;
+				color: #fff5cf;
 				font-size: 6rem;
 				font-weight: 900;
 				background-color: #806854;
@@ -216,13 +237,23 @@ body{
 				color: $color-principal;
 			}
 		}
-
 	}
 	/*------------------IMAGENES MINI GALERIA INDEX-------------------*/
 	.sectionIndex {
-		padding-top: 2vh;
+		padding-top: 4vh;
 		background-color: $color-section;
-		padding-bottom: 10vh;
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		padding-bottom: 6vh;
 		.h1Index {
 			@include titulosSecciones($color-h1, $fuente);
 			font-size: 4rem;
@@ -235,23 +266,21 @@ body{
 		}
 		.container {
 			margin: 20px auto;
-			.colImagen{
-				.overlay{
-					.tituloImagen{
+			.colImagen {
+				.overlay {
+					.tituloImagen {
 						font-size: 1.4rem;
 						background-color: $color-navbar;
 						color: #413225;
 						font-weight: 800;
 						margin-bottom: 1rem;
 						text-align: center;
-
 					}
-					.infoImagen{
+					.infoImagen {
 						font-size: 1rem;
-						.infoDestacada{
+						.infoDestacada {
 							background-color: $color-section;
 							color: #413225;
-							
 						}
 					}
 				}
@@ -296,25 +325,25 @@ body{
 			}
 		}
 		.text-muted {
-			color: #e5e2e2 ;
+			color: #e5e2e2;
 		}
-		
-
 	}
 	/*------------------TESTIMONIOS INDEX----------------------*/
 	.articleIndexTestimonios {
 		font-family: "Lato", sans-serif;
-		background-color: $color-navbar;
 		height: auto;
 		padding-top: 2vh;
 		padding-bottom: 10vh;
+		background-color: $color-navbar;
 		.h2Index {
+			text-shadow: 0 0 1rem white;
+			fill: #413225;
 			margin: auto;
 			justify-content: center;
 			text-align: center;
-			color: $color-h2;
+			color: white;
 			font-weight: 800;
-			text-decoration: underline 0.3rem dotted $color-h2;
+			text-decoration: underline 0.3rem dotted white;
 			font-size: 2.5rem;
 			margin-top: 3rem;
 			margin-bottom: 3rem;
@@ -324,13 +353,13 @@ body{
 			border: none;
 			background-color: $color-section;
 			min-height: 30rem;
-	
-			.contenidoUsuario{
-				h5{
+
+			.contenidoUsuario {
+				h5 {
 					margin-top: 1rem;
 					margin-bottom: 1rem;
 					font-weight: 600;
-					span{
+					span {
 						font-weight: 400;
 					}
 				}
@@ -340,15 +369,14 @@ body{
 					font-size: 1rem;
 					font-weight: 600;
 					text-align: justify;
-					.experienciaDestacada{
+					.experienciaDestacada {
 						background-color: $color-navbar;
 						color: #413225;
 						font-style: normal;
 					}
 				}
-				
-			} 
-			
+			}
+
 			.ratings i {
 				margin-top: 2rem;
 				color: $color-h1;
@@ -359,7 +387,7 @@ body{
 	.footer-section {
 		background: #806854;
 		position: relative;
-		.container{
+		.container {
 			margin-top: 0;
 			.footer-content {
 				position: relative;
@@ -380,7 +408,7 @@ body{
 									font-weight: 800;
 									font-size: 1rem;
 								}
-								color: #FFF5CF;
+								color: #fff5cf;
 								font-family: $fuente-navbar;
 								font-size: 1rem;
 								font-weight: 600;
@@ -407,17 +435,16 @@ body{
 							text-align: center;
 							line-height: 2rem;
 							border-radius: 50%;
-							
 						}
-						.facebook-bg, .twitter-bg, .google-bg {
+						.facebook-bg,
+						.twitter-bg,
+						.google-bg {
 							background: $color-navbar;
-							&:hover{
+							&:hover {
 								color: #413225;
 							}
 						}
-						
 					}
-	
 				}
 				.footer-widget-heading {
 					h3 {
@@ -435,9 +462,7 @@ body{
 							width: 50px;
 							background: $color-navbar;
 						}
-						
 					}
-	
 				}
 				.subscribe-form {
 					position: relative;
@@ -445,8 +470,8 @@ body{
 					input {
 						width: 100%;
 						padding: 1rem 2rem;
-						background: #2E2E2E;
-						border: 1px solid #2E2E2E;
+						background: #2e2e2e;
+						border: 1px solid #2e2e2e;
 						color: #fff;
 					}
 					button {
@@ -464,10 +489,9 @@ body{
 					}
 				}
 			}
-	
 		}
 	}
-	
+
 	.copyright-area {
 		background: #382e25;
 		padding: 2rem 0;
@@ -476,18 +500,18 @@ body{
 				text-align: center;
 				justify-content: center;
 				margin: auto;
-
+				font-size: 1.5rem;
 				color: white;
 			}
-			.devBy{
+			.devBy {
 				margin-top: 2rem;
 				color: $color-navbar;
 				font-size: 1.5rem;
-				a{
+				a {
 					text-decoration: none;
 					color: $color-navbar;
-					
-					&:hover{
+
+					&:hover {
 						font-weight: 800;
 					}
 				}
@@ -498,11 +522,11 @@ body{
 
 /*-----------------------------------NOSOTROS--------------------------------------*/
 .body {
-	.mainNosotros{
+	.mainNosotros {
 		background-color: $color-section;
-		.contenedorNosotros{
+		.contenedorNosotros {
 			width: 100%;
-			.titleNosotros{
+			.titleNosotros {
 				@include titulosSecciones($color-h1, $fuente);
 				font-size: 4rem;
 				font-weight: 600;
@@ -512,12 +536,12 @@ body{
 				padding-top: 2rem;
 				margin-bottom: 2rem;
 			}
-			.rowImagenesNosotros{
+			.rowImagenesNosotros {
 				background-color: $color-navbar;
-				.colTitulo1{
+				.colTitulo1 {
 					padding-top: 2rem;
-					.h6Nosotros{
-						@include titulosSecciones($color-h2, $fuente );
+					.h6Nosotros {
+						@include titulosSecciones($color-h2, $fuente);
 						letter-spacing: 0.5rem;
 						font-size: 3rem;
 						letter-spacing: 0.5rem;
@@ -525,97 +549,91 @@ body{
 						margin-bottom: 5vh;
 						margin-top: 2rem;
 					}
-					.pNosotros{
+					.pNosotros {
 						margin-left: 0.5rem;
 						font-size: 1.6rem;
 						text-align: justify;
-						.infoDestacada{
+						.infoDestacada {
 							color: $color-section;
 							background-color: #5a493b;
 						}
-						
 					}
 				}
-				.colImagen1{
+				.colImagen1 {
 					height: 25%;
-					.img-responsive{
+					.img-responsive {
 						margin-top: 2rem;
 						width: 100%;
 					}
 				}
 			}
-			.rowImagenesNosotros2{
+			.rowImagenesNosotros2 {
 				background-color: #b89272;
-				.colImagen2{
+				.colImagen2 {
 					height: 25%;
-					.img-responsive{
+					.img-responsive {
 						margin-top: 2rem;
 						width: 100%;
 						margin-bottom: 2rem;
 					}
-		
 				}
-				.colTitulo2{
+				.colTitulo2 {
 					padding-top: 2rem;
-					.h6Nosotros{
-						@include titulosSecciones($color-h2, $fuente );
+					.h6Nosotros {
+						@include titulosSecciones($color-h2, $fuente);
 						letter-spacing: 0.5rem;
 						font-size: 3rem;
 						text-align: center;
 						margin: auto;
 						margin-bottom: 5vh;
 						margin-top: 2rem;
-		
 					}
-					.pNosotros{
+					.pNosotros {
 						font-size: 1.6rem;
 						text-align: justify;
 						margin-right: 0.5rem;
-						.infoDestacada{
+						.infoDestacada {
 							color: $color-section;
 							background-color: #5a493b;
 							word-spacing: 0.5rem;
 						}
-						
 					}
 				}
 			}
-			.rowImagenesNosotros3{
+			.rowImagenesNosotros3 {
+				background-color: #fff5cf;
 				padding-bottom: 1rem;
-				.colTitulo3{
+				.colTitulo3 {
 					padding-top: 2rem;
-					.h6Nosotros{
-						@include titulosSecciones($color-h2, $fuente );
+					.h6Nosotros {
+						@include titulosSecciones($color-h2, $fuente);
 						letter-spacing: 0.5rem;
 						font-size: 3rem;
 						letter-spacing: 0.5rem;
 						text-align: center;
-						background-color: $color-section;
 						margin-bottom: 5vh;
 						margin-top: 2rem;
-						
 					}
-					.pNosotros{
+					.pNosotros {
 						font-size: 1.6rem;
 						text-align: justify;
-						.infoDestacada{
+						.infoDestacada {
 							background-color: $color-navbar;
 							color: #413225;
 							margin-bottom: 2rem;
 						}
-						a{
+						a {
 							text-decoration: none;
 							background-color: $color-navbar;
 							color: #413225;
 							font-weight: 600;
 						}
-						
 					}
-					.listaTel{
+					.listaTel {
 						margin-bottom: 2rem;
 						padding-top: 1rem;
 						padding-left: 0;
-						li{
+						li {
 							margin: 0;
 							background-color: $color-navbar;
 							list-style: none;
@@ -625,13 +643,12 @@ body{
 							text-align: left;
 							line-height: 3rem;
 							text-decoration: 2px solid #413225 underline;
-							
 						}
 					}
 				}
-				.colImagen3{
+				.colImagen3 {
 					height: 15%;
-					.img-responsive{
+					.img-responsive {
 						margin-top: 2rem;
 						width: 100%;
 					}
@@ -639,15 +656,27 @@ body{
 			}
 		}
 	}
-	
+}
+.items {
+	width: 90%;
+	margin: 0px auto;
+	margin-top: 100px;
 }
 
+.slick-slide {
+	margin: 10px;
+}
+
+.slick-slide img {
+	width: 100%;
+	border: 0px solid #fff;
+}
 /*-------------------------------------TIENDAS------------------------------------------*/
-.mainTiendas{
+.mainTiendas {
 	background-color: $color-section;
-	.row{
-		.titleTiendas{
-			@include titulosSecciones($color-h1, $fuente );
+	.row {
+		.titleTiendas {
+			@include titulosSecciones($color-h1, $fuente);
 			margin: auto;
 			text-align: center;
 			margin-top: 2rem;
@@ -655,51 +684,55 @@ body{
 			font-size: 4rem;
 		}
 	}
-	.contenedorCards{
+	.contenedorCards {
 		.lightbox-gallery {
-
 			p {
 				color: #fff;
 			}
 			.photos {
-				padding-bottom: 20px;
+				padding-bottom: 1.5rem;
 			}
 			.item {
 				padding-bottom: 30px;
-				.footerTiendas{
+				.footerTiendas {
 					background-color: $color-navbar;
-					min-height: 25vh;
-					.nombreTienda{
+					min-height: 30vh;
+					.nombreTienda {
 						font-size: 2rem;
 						color: #413225;
 						text-align: center;
 						font-weight: 600;
-						text-decoration: .5rem dotted #5a493b underline;
-						margin-bottom: 1rem;
+						text-decoration: 0.5rem dotted #5a493b underline;
+						padding-top: 1rem;
 					}
-					.direccionTienda{
+					.direccionTienda {
 						font-size: 1.3rem;
 						color: #5a493b;
 						font-weight: 600;
 						text-align: center;
 					}
-					.telTienda{
+					.telTienda {
 						font-size: 1rem;
 						color: #5a493b;
 						text-align: center;
 						font-weight: bold;
 					}
-					.btnMapaModal{
+					.btnMapaModal {
 						text-align: center;
 						display: flex;
 						margin: auto;
+						margin-top: 2rem;
 						background-color: #5a493b;
 						justify-content: flex-end;
+						font-weight: 600;
+						&:hover {
+							color: $color-navbar;
+						}
 					}
 				}
 			}
 		}
-		@media (max-width:767px) {
+		@media (max-width: 767px) {
 			.lightbox-gallery {
 				h2 {
 					margin-bottom: 1rem;
@@ -708,32 +741,29 @@ body{
 				}
 			}
 		}
-		
 	}
-	.modalMapa{
-		.modalMapaHeader{
+	.modalMapa {
+		.modalMapaHeader {
 			background-color: $color-navbar;
 			color: #413225;
-			#staticBackdropLabel{
+			#staticBackdropLabel {
 				font-size: 1.2rem;
 				font-weight: 800;
 			}
-			
 		}
-		.modalMapaBody{
+		.modalMapaBody {
 			background-color: #413225;
 		}
-		.modalMapaFooter{
+		.modalMapaFooter {
 			background-color: $color-navbar;
-
 		}
 	}
 }
 
 /*--------------------------------------SHOP----------------------------------------*/
-.mainShop{
+.mainShop {
 	background-color: $color-section;
-	.titleShop{
+	.titleShop {
 		@include titulosSecciones($color-h1, $fuente);
 		margin: auto;
 		text-align: center;
@@ -745,7 +775,7 @@ body{
 	.cardTienda {
 		.cardBody {
 			background-color: #413225;
-			opacity: .9;
+			opacity: 0.9;
 			color: $color-section;
 			text-align: center;
 			height: 20%;
@@ -761,8 +791,8 @@ body{
 				margin: 0;
 				padding: 0;
 			}
-			.cantidadProducto{
-				input{
+			.cantidadProducto {
+				input {
 					font-size: 1rem;
 					font-weight: 800;
 				}
@@ -813,9 +843,6 @@ body{
 	}
 }
 
-
-
-
 /*------------------------------------CONTACTO---------------------------------*/
 
 .mainContacto {
@@ -823,17 +850,16 @@ body{
 	height: auto;
 	background-color: $color-section;
 	.titleContacto {
-		@include titulosSecciones($color-navbar, $fuente );
+		@include titulosSecciones($color-navbar, $fuente);
 		margin: auto;
 		text-align: center;
 		justify-content: center;
 		padding-top: 2rem;
 		font-size: 4rem;
 		margin-bottom: 4rem;
-		
 	}
-	.row{
-		.h2Contacto{
+	.row {
+		.h2Contacto {
 			text-align: center;
 			font-size: 2.5rem;
 			margin-bottom: 2rem;
@@ -843,7 +869,7 @@ body{
 			padding-top: 2rem;
 			padding-bottom: 2rem;
 		}
-		.h3Contacto{
+		.h3Contacto {
 			text-align: center;
 			font-size: 1.6rem;
 			margin-bottom: 2rem;
@@ -854,29 +880,36 @@ body{
 			font-weight: 800;
 		}
 	}
-	.btnEscribinos{
+	.btnEscribinos {
 		font-size: 2.5rem;
 		text-align: center;
 		justify-content: center;
 		justify-items: center;
+		content: "";
 		margin: auto;
 		margin-bottom: 4rem;
 		background-color: $color-navbar;
 		font-weight: 600;
-		transition: .5s;
-		color: white;
-		&:hover{
-			background-color: #413225;
-			color: $color-navbar;
-			transition: .5s;
+		transition: 0.5s;
+		color: #382e25;
+		animation: cambiaColor 5s infinite;
 
-		}		
+		@keyframes cambiaColor {
+			0% {
+				background-color: $color-navbar;
+				color: #382e25;
+			}
+			50% {
+				background-color: #382e25;
+				color: $color-navbar;
+			}
+		}
 	}
-	.modalEnvio{
-		.modalHeaderEnvio{
+	.modalEnvio {
+		.modalHeaderEnvio {
 			background-color: $color-navbar;
 			color: #413225;
-			.modalTituloEnvio{
+			.modalTituloEnvio {
 				font-size: 2rem;
 				font-weight: 600;
 				text-align: center;
@@ -884,7 +917,7 @@ body{
 				margin: auto;
 			}
 		}
-		.modalBodyEnvio{
+		.modalBodyEnvio {
 			background-color: #5a493b;
 			.form-box {
 				font-family: $fuente;
@@ -894,12 +927,12 @@ body{
 				color: white;
 				background: $color-principal;
 				margin-bottom: 2rem;
-				
+
 				textarea {
 					width: 100%;
 					margin-bottom: 2rem;
 				}
-		
+
 				.btnEnviarFormulario {
 					width: 100%;
 					font-size: 1rem;
@@ -915,9 +948,9 @@ body{
 				}
 			}
 		}
-		.modalFooterEnvio{
+		.modalFooterEnvio {
 			background-color: $color-navbar;
-			.btnCerrarFormEnvio{
+			.btnCerrarFormEnvio {
 				background-color: #806854;
 				color: white;
 				font-weight: 600;
@@ -925,4 +958,3 @@ body{
 		}
 	}
 }
-	

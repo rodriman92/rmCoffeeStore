@@ -2,12 +2,12 @@
 @media only screen and (max-width: 600px) {
     .body {
         .navCustom {
-            .logo{
+            .logo {
                 font-size: 1.6rem;
             }
-            .navbar-toggler{
+            .navbar-toggler {
                 width: auto;
-                .navbar-toggler-icon{
+                .navbar-toggler-icon {
                     font-size: 1rem;
                     font-weight: 600;
                 }
@@ -76,18 +76,17 @@
                         line-height: 2.5rem;
                         letter-spacing: 0.8rem;
                     }
-                    .colTestimonios{
-                        .card{
+                    .colTestimonios {
+                        .card {
                             min-height: 15vh;
-                            .contenidoUsuario{
-                                p{
+                            .contenidoUsuario {
+                                p {
                                     font-size: 1rem;
                                 }
                             }
-                            .ratings{
+                            .ratings {
                                 margin-top: 0;
-                                i{
-                                    
+                                i {
                                     justify-content: flex-end;
                                 }
                             }
@@ -112,12 +111,12 @@
 @media only screen and (min-width: 600px) {
     .body {
         .navCustom {
-            .logo{
+            .logo {
                 font-size: 2rem;
             }
-            .navbar-toggler{
+            .navbar-toggler {
                 width: auto;
-                .navbar-toggler-icon{
+                .navbar-toggler-icon {
                     font-size: 1.2rem;
                     font-weight: 600;
                 }
@@ -184,25 +183,22 @@
                     .h2Index {
                         font-size: 2rem;
                     }
-                    .colTestimonios{
-                        .card{
+                    .colTestimonios {
+                        .card {
                             min-height: 50vh;
-                            .contenidoUsuario{
-                                p{
+                            .contenidoUsuario {
+                                p {
                                     font-size: 1rem;
                                 }
                             }
-                            .ratings{
+                            .ratings {
                                 margin-top: 0;
-                                i{
-                                    
+                                i {
                                     justify-content: flex-end;
                                 }
                             }
                         }
                     }
-                    
-                    
                 }
             }
         }
@@ -220,123 +216,118 @@
 
 /*----------------LAPTOPS, PC, 992px----------------------------*/
 @media only screen and (min-width: 992px) {
-        .body {
-            .navCustom {
-                .logo{
-                    font-size: 2.2rem;
+    .body {
+        .navCustom {
+            .logo {
+                font-size: 2.2rem;
+            }
+
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            font-size: 1.5rem;
+                        }
+                    }
                 }
-                
-                .navbar-collapse {
-                    .navbar-nav {
-                        .nav-item {
-                            a {
+            }
+        }
+        .mainIndex {
+            width: auto;
+            height: auto;
+            .container-fluid {
+                background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                background-size: cover;
+                section {
+                    .row {
+                        .colPIndex {
+                            p {
+                                margin-top: 2rem;
+                                #spin {
+                                    font-size: 4.5rem;
+                                }
+                            }
+                            .btnIndexTienda {
                                 font-size: 1.5rem;
                             }
                         }
                     }
                 }
             }
-            .mainIndex {
-                width: auto;
-                height: auto;
-                .container-fluid {
-                    background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-                    background-size: cover;
-                    section {
-                        .row {
-                            .colPIndex {
-                                p {
-                                    margin-top: 2rem;
-                                    #spin {
-                                        font-size: 4.5rem;
-                                    }
-                                }
-                                .btnIndexTienda {
-                                    font-size: 1.5rem;
-                                }
-                            }
-                        }
-                    }
-                }
+        }
+        .sectionIndex {
+            #titleIndex {
+                font-size: 4.5rem;
             }
-            .sectionIndex {
-                #titleIndex {
-                    font-size: 4.5rem;
-                }
-                .container {
-                    .row {
-                        .colImagen {
+            .container {
+                .row {
+                    .colImagen {
+                        .image-top {
                             .image-top {
-                                .image-top{
-                                    background-position-y: -40vh;
-                                    .overlay {
-                                        .tituloImagen {
-                                            font-size: 1.5rem;
-                                        }
-                                        .infoImagen {
-                                            margin-right: 1rem;
-                                            font-size: 1rem;
-                                            text-align: justify;
-                                        }
+                                background-position-y: -40vh;
+                                .overlay {
+                                    .tituloImagen {
+                                        font-size: 1.5rem;
                                     }
-                                }
-                                
-                            }
-                        }
-                    }
-                }
-            }
-            .articleIndexTestimonios {
-                .container {
-                    .row {
-                        .h2Index {
-                            font-size: 2.5rem;
-                            font-weight: 900;
-                        }
-                        .colTestimonios{
-                            .card{
-                                min-height: 62vh;
-                                .contenidoUsuario{
-                                    p{
+                                    .infoImagen {
+                                        margin-right: 1rem;
                                         font-size: 1rem;
-                                        line-height: 1.7rem;
-                                    }
-                                }
-                                .ratings{
-                                    margin-top: 0;
-                                    i{
-                                        
-                                        justify-content: flex-end;
+                                        text-align: justify;
                                     }
                                 }
                             }
-                        }
-                        
-                        
-                    }
-                }
-            }
-            .footer-section {
-                .copyright-area {
-                    .copyright-text {
-                        p {
-                            font-size: 0.8rem;
                         }
                     }
                 }
             }
         }
+        .articleIndexTestimonios {
+            .container {
+                .row {
+                    .h2Index {
+                        font-size: 2.5rem;
+                        font-weight: 900;
+                    }
+                    .colTestimonios {
+                        .card {
+                            min-height: 62vh;
+                            .contenidoUsuario {
+                                p {
+                                    font-size: 1rem;
+                                    line-height: 1.7rem;
+                                }
+                            }
+                            .ratings {
+                                margin-top: 0;
+                                i {
+                                    justify-content: flex-end;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-section {
+            .copyright-area {
+                .copyright-text {
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
     }
-
+}
 
 /*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
 @media only screen and (min-width: 1200px) {
     .body {
         .navCustom {
-            .logo{
+            .logo {
                 font-size: 3rem;
             }
-            
+
             .navbar-collapse {
                 .navbar-nav {
                     .nav-item {
@@ -378,7 +369,7 @@
                 .row {
                     .colImagen {
                         .image-top {
-                            .image-top{
+                            .image-top {
                                 background-position-y: -40vh;
                                 .overlay {
                                     .tituloImagen {
@@ -391,7 +382,6 @@
                                     }
                                 }
                             }
-                            
                         }
                     }
                 }
@@ -404,16 +394,16 @@
                         font-size: 3rem;
                         font-weight: 900;
                     }
-                    .colTestimonios{
-                        .card{
+                    .colTestimonios {
+                        .card {
                             min-height: 50vh;
-                            .contenidoUsuario{
-                                p{
+                            .contenidoUsuario {
+                                p {
                                     font-size: 1rem;
                                     line-height: 1.7rem;
                                 }
                             }
-                            .ratings{
+                            .ratings {
                                 margin-top: 0;
                                 position: absolute;
                                 bottom: 0;
@@ -423,8 +413,6 @@
                             }
                         }
                     }
-                    
-                    
                 }
             }
         }
@@ -443,66 +431,63 @@
 
 /*-----------------MEDIA QUERY NOSOTROS DISPOSITIVOS PEQUEÑOS-------------------*/
 @media only screen and (max-width: 600px) {
-    .mainNosotros{
-        .contenedorNosotros{
-            #titleNosotros{
+    .mainNosotros {
+        .contenedorNosotros {
+            #titleNosotros {
                 font-size: 3rem;
             }
-            .rowImagenesNosotros{
-                .colTitulo1{
+            .rowImagenesNosotros {
+                .colTitulo1 {
                     padding-top: 2rem;
-                    #h6Nosotros1{
+                    #h6Nosotros1 {
                         margin-top: 1rem;
                         margin-bottom: 2rem;
                         font-size: 2.3rem;
-                        
                     }
-                    .pNosotros1{
+                    .pNosotros1 {
                         font-size: 1rem;
                         font-weight: 600;
                         text-align: justify;
-                        .infoDestacada{
+                        .infoDestacada {
                             background-color: #5a493b;
                             color: white;
                         }
                     }
-                    
                 }
-                .colImagen1{
+                .colImagen1 {
                     padding-bottom: 4rem;
                 }
             }
-            .rowImagenesNosotros2{
-                
-                .colImagen2{
+            .rowImagenesNosotros2 {
+                .colImagen2 {
                     padding-bottom: 2rem;
                     padding-top: 2rem;
                     width: 100%;
                 }
-                .colTitulo2{
-                    #h6Nosotros2{
+                .colTitulo2 {
+                    #h6Nosotros2 {
                         margin-top: 1rem;
                         margin-bottom: 2rem;
-                        font-size: 2.3rem;  
+                        font-size: 2.3rem;
                     }
-                    #pNosotros2{
+                    #pNosotros2 {
                         font-size: 1rem;
                         font-weight: 600;
                     }
                 }
             }
-            .rowImagenesNosotros3{
-                .colTitulo3{
-                    #h6Nosotros3{
+            .rowImagenesNosotros3 {
+                .colTitulo3 {
+                    #h6Nosotros3 {
                         margin-top: 3rem;
                         margin-bottom: 3rem;
-                        font-size: 2.3rem; 
+                        font-size: 2.3rem;
                     }
-                    #pNosotros3{
+                    #pNosotros3 {
                         font-size: 1rem;
                         font-weight: 600;
-                        .listaTel{
-                            li{
+                        .listaTel {
+                            li {
                                 font-size: 1rem;
                             }
                         }
@@ -511,56 +496,53 @@
             }
         }
     }
-  }
+}
 
-  /*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
 @media only screen and (min-width: 600px) {
-    .mainNosotros{
-        .contenedorNosotros{
-            #titleNosotros{
+    .mainNosotros {
+        .contenedorNosotros {
+            #titleNosotros {
                 font-size: 4.5rem;
             }
-            .rowImagenesNosotros{
-                .colTitulo1{
-                    #h6Nosotros1{
+            .rowImagenesNosotros {
+                .colTitulo1 {
+                    #h6Nosotros1 {
                         margin-top: 1.5rem;
                         margin-bottom: 3rem;
                         font-size: 3.5rem;
-                        
                     }
-                    .pNosotros1{
+                    .pNosotros1 {
                         font-size: 1.4rem;
                         font-weight: 400;
                         text-align: justify;
-                        .infoDestacada{
+                        .infoDestacada {
                             background-color: #5a493b;
                             color: white;
                         }
                     }
-                    
                 }
-                .colImagen1{
+                .colImagen1 {
                     padding-bottom: 2rem;
                     padding-top: 2rem;
                 }
             }
 
-            .rowImagenesNosotros2{
-                .colImagen2{
+            .rowImagenesNosotros2 {
+                .colImagen2 {
                     margin-top: 2rem;
                     padding-bottom: 2rem;
-                    
                 }
-                .colTitulo2{
+                .colTitulo2 {
                     padding-top: 3rem;
-                    #h6Nosotros2{
+                    #h6Nosotros2 {
                         font-size: 3.5rem;
                     }
-                    #pNosotros2{
+                    #pNosotros2 {
                         font-size: 1.4rem;
                         font-weight: 400;
                         text-align: justify;
-                        .infoDestacada{
+                        .infoDestacada {
                             background-color: #5a493b;
                             color: white;
                         }
@@ -568,97 +550,124 @@
                 }
             }
 
-            .rowImagenesNosotros3{
-                .colTitulo3{
-                    #h6Nosotros3{
+            .rowImagenesNosotros3 {
+                .colTitulo3 {
+                    #h6Nosotros3 {
                         margin-top: 3rem;
                         margin-bottom: 3rem;
-                        font-size: 3.5rem; 
+                        font-size: 3.5rem;
                     }
-                    #pNosotros3{
+                    #pNosotros3 {
                         font-size: 1.4rem;
                     }
                 }
-                .colImagen3{
+                .colImagen3 {
                     padding-top: 3rem;
                 }
             }
         }
     }
-  }
+}
 
-/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 600px -------------------*/
+/*----------COROUSEL TABLET---------------*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .mainNosotros {
+        .contenedorNosotros {
+            .rowImagenesNosotros {
+                .colImagen1 {
+                    padding-bottom: 2rem;
+                    margin-top: 13rem;
+                }
+            }
+
+            .rowImagenesNosotros2 {
+                .colImagen2 {
+                    padding-bottom: 2rem;
+                    margin-top: 11rem;
+                }
+            }
+
+            .rowImagenesNosotros3 {
+                .colImagen3 {
+                    margin-top: 9rem;
+                    padding-top: 3rem;
+                }
+            }
+        }
+    }
+}
+/*-----------------FIN--------------------*/
+
+/*-----------------MEDIA QUERY NOSOTROS TABLETS Y CELULARES MAYORES A 1200px -------------------*/
 @media only screen and (min-width: 1200px) {
-    .mainNosotros{
-        .contenedorNosotros{
-            #titleNosotros{
+    .mainNosotros {
+        .contenedorNosotros {
+            #titleNosotros {
                 font-size: 6rem;
             }
-            .rowImagenesNosotros{
-                .colTitulo1{
-                    #h6Nosotros1{
+            .rowImagenesNosotros {
+                .colTitulo1 {
+                    #h6Nosotros1 {
                         margin-top: 3rem;
                         margin-bottom: 3rem;
                         font-size: 4rem;
-                        
                     }
-                    .pNosotros1{
+                    .pNosotros1 {
                         font-size: 1.8rem;
                         font-weight: 400;
                         text-align: justify;
-                        .infoDestacada{
+                        .infoDestacada {
                             background-color: #5a493b;
                             color: white;
                         }
                     }
-                    
                 }
-                .colImagen1{
+                .colImagen1 {
                     padding-bottom: 2rem;
                     padding-top: 2rem;
                 }
             }
 
-            .rowImagenesNosotros2{
-                .colImagen2{
+            .rowImagenesNosotros2 {
+                .colImagen2 {
                     margin-top: 2rem;
                     padding-bottom: 2rem;
-                    .img-resposive{
+                    .img-resposive {
                         margin-top: 3rem;
                         margin-bottom: 3vh;
                     }
                 }
-                .colTitulo2{
-                    #h6Nosotros2{
+                .colTitulo2 {
+                    #h6Nosotros2 {
                         margin-top: 3rem;
                         margin-bottom: 3rem;
-                        font-size: 4rem; 
+                        font-size: 4rem;
                     }
-                    #pNosotros2{
+                    #pNosotros2 {
                         margin-right: 2rem;
                         font-size: 1.8rem;
                     }
                 }
             }
 
-            .rowImagenesNosotros3{
-                .colTitulo3{
-                    #h6Nosotros3{
+            .rowImagenesNosotros3 {
+                .colTitulo3 {
+                    #h6Nosotros3 {
                         margin-top: 3rem;
                         margin-bottom: 3rem;
-                        font-size: 4rem; 
+                        font-size: 4rem;
                     }
-                    #pNosotros3{
+                    #pNosotros3 {
                         font-size: 1.8rem;
                     }
                 }
-                .colImagen3{
+                .colImagen3 {
                     padding-top: 3rem;
                 }
             }
         }
     }
-  }
+}
 
 /*-----------------MEDIA QUERY SHOP DISPOSITIVOS PEQUEÑOS-------------------*/
 @media screen and (max-width: 600px) {
@@ -666,32 +675,30 @@
         #titleShop {
             font-size: 3.5rem;
         }
-        .row{
-            .cardTienda{
-                .cardBody{
+        .row {
+            .cardTienda {
+                .cardBody {
                     min-height: 20vh;
-                    .cards-title{
-                        .h3{
+                    .cards-title {
+                        .h3 {
                             font-size: 2rem;
                             font-weight: 800;
                         }
                     }
-                    .row{
-                        .precioCard{
+                    .row {
+                        .precioCard {
                             font-size: 2rem;
                             padding-bottom: 1rem;
                         }
-                        
                     }
                 }
-                .card-footer{
-                    .btnComprar{
+                .card-footer {
+                    .btnComprar {
                         font-size: 1.5rem;
                     }
                 }
             }
         }
-        
     }
 }
 
@@ -701,27 +708,26 @@
         #titleShop {
             font-size: 4.5rem;
         }
-        .row{
-            .cardTienda{
-                .cardBody{
+        .row {
+            .cardTienda {
+                .cardBody {
                     min-height: 34vh;
-                    .cards-title{
-                        .h3{
+                    .cards-title {
+                        .h3 {
                             padding-top: 5rem;
                             font-size: 2.2rem;
                             font-weight: 800;
                         }
                     }
-                    .row{
-                        .precioCard{
+                    .row {
+                        .precioCard {
                             font-size: 2rem;
                             padding-bottom: 1rem;
                         }
-                        
                     }
                 }
-                .card-footer{
-                    .btnComprar{
+                .card-footer {
+                    .btnComprar {
                         font-size: 1.5rem;
                     }
                 }
@@ -736,29 +742,28 @@
         #titleShop {
             font-size: 6rem;
         }
-        .row{
-            .cardTienda{
-                .cardBody{
+        .row {
+            .cardTienda {
+                .cardBody {
                     padding: 0;
                     margin: 0;
                     min-height: 36vh;
-                    .cards-title{
-                        .h3{
+                    .cards-title {
+                        .h3 {
                             padding-top: 5rem;
                             font-size: 2rem;
                             font-weight: 800;
                         }
                     }
-                    .row{
-                        .precioCard{
+                    .row {
+                        .precioCard {
                             font-size: 2rem;
                             padding-bottom: 1rem;
                         }
-                        
                     }
                 }
-                .card-footer{
-                    .btnComprar{
+                .card-footer {
+                    .btnComprar {
                         font-size: 1.5rem;
                     }
                 }
@@ -769,21 +774,10 @@
 
 /*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
 @media only screen and (max-width: 600px) {
-    .mainTiendas{
-        .row{
-            #titleTiendas{
+    .mainTiendas {
+        .row {
+            #titleTiendas {
                 font-size: 3rem;
-            }
-        }
-        .contenedorCards{
-            .lightbox-gallery{
-                .item{
-                    .footerTiendas{
-                        .btnMapaModal{
-                            margin-bottom: 2rem;
-                        }
-                    }
-                }
             }
         }
     }
@@ -791,9 +785,9 @@
 
 /*--------------------MEDIA QUERY TIENDAS DISPOSITIVOS MEDIANOS (TABLET, CELULARES >600px-----------------*/
 @media only screen and (min-width: 600px) {
-    .mainTiendas{
-        .row{
-            #titleTiendas{
+    .mainTiendas {
+        .row {
+            #titleTiendas {
                 font-size: 4.5rem;
             }
         }
@@ -801,21 +795,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .mainTiendas{
-        .row{
-            #titleTiendas{
+    .mainTiendas {
+        .row {
+            #titleTiendas {
                 font-size: 6rem;
-            }
-            .contenedorCards{
-                .lightbox-gallery{
-                    .item{
-                        .footerTiendas{
-                            .btnMapaModal{
-                                margin-bottom: 2rem;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -823,22 +806,22 @@
 
 /*-------------------MEDIA QUERY CONTACTO PANTALLAS PEQUEÑAS <600px------------*/
 @media only screen and (max-width: 600px) {
-    .mainContacto{
-        #titleContacto{
+    .mainContacto {
+        #titleContacto {
             font-size: 3rem;
         }
-        .row{
-            #h2Contacto{
+        .row {
+            #h2Contacto {
                 font-size: 1.6rem;
                 text-transform: uppercase;
             }
-            #h3Contacto{
+            #h3Contacto {
                 font-size: 1.2rem;
                 line-height: 2rem;
                 color: white;
             }
         }
-        #btnEscribinos{
+        #btnEscribinos {
             font-size: 1.8rem;
         }
     }
@@ -846,22 +829,22 @@
 
 /*------------------MEDIA QUERY CONTACTO PANTALLAS MEDIANAS >600px----------*/
 @media only screen and (min-width: 600px) {
-    .mainContacto{
-        #titleContacto{
+    .mainContacto {
+        #titleContacto {
             font-size: 4.5rem;
         }
-        .row{
-            #h2Contacto{
+        .row {
+            #h2Contacto {
                 font-size: 2rem;
                 text-transform: uppercase;
             }
-            #h3Contacto{
+            #h3Contacto {
                 font-size: 1.4rem;
                 line-height: 2rem;
                 color: white;
             }
         }
-        #btnEscribinos{
+        #btnEscribinos {
             font-size: 2.2rem;
         }
     }
@@ -869,42 +852,23 @@
 
 /*------------------MEDIA QUERY CONTACTO PANTALLAS GRANDES >1200px----------*/
 @media only screen and (min-width: 1200px) {
-    .mainContacto{
-        #titleContacto{
+    .mainContacto {
+        #titleContacto {
             font-size: 6rem;
         }
-        .row{
-            #h2Contacto{
+        .row {
+            #h2Contacto {
                 font-size: 3rem;
                 text-transform: uppercase;
             }
-            #h3Contacto{
+            #h3Contacto {
                 font-size: 2rem;
                 line-height: 3rem;
                 color: white;
             }
         }
-        #btnEscribinos{
+        #btnEscribinos {
             font-size: 4rem;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
