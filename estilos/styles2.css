@@ -48,7 +48,7 @@
     font-size: 0.8rem;
     opacity: .7; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 0.6; }
+      font-size: 0.8; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
         color: yellow; } }
@@ -95,11 +95,10 @@
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text {
+    font-size: 0.8rem;
     opacity: .7; }
-    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
-      font-size: 0.5rem; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 0.5; }
+      font-size: 0.8; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
         color: yellow; } }
@@ -141,15 +140,14 @@
       font-size: 1rem;
       line-height: 1.7rem; }
     .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings {
-      margin-top: 0; }
+      padding-top: 2rem; }
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text {
+    font-size: 0.9rem;
     opacity: .7; }
-    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
-      font-size: 0.6rem; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 0.6; }
+      font-size: 0.9rem; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
         color: yellow; } }
@@ -198,11 +196,10 @@
       text-align: center;
       align-self: center; }
   .body .footer-section .copyright-area .copyright-text {
+    font-size: 1rem;
     opacity: .7; }
-    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
-      font-size: 0.8rem; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 0.6; }
+      font-size: 1rem; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
         color: yellow; } }

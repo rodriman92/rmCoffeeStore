@@ -101,7 +101,7 @@
                     font-size: 0.8rem;
                     opacity: .7;
                     .devBy{
-                        font-size: 0.6;
+                        font-size: 0.8;
                         a{
                             text-decoration: none;
                             color: yellow;
@@ -211,12 +211,10 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
+                    font-size: 0.8rem;
                     opacity: .7;
-                    .copyrightFooter{
-                        font-size: 0.5rem;
-                    }
                     .devBy{
-                        font-size: 0.5;
+                        font-size: 0.8;
                         a{
                             text-decoration: none;
                             color: yellow;
@@ -312,8 +310,9 @@
                                 }
                             }
                             .ratings {
-                                margin-top: 0;
+                                padding-top: 2rem;
                                 i {
+                                    
                                     justify-content: flex-end;
                                 }
                             }
@@ -325,12 +324,10 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
+                    font-size: 0.9rem;
                     opacity: .7;
-                    .copyrightFooter{
-                        font-size: 0.6rem;
-                    }
                     .devBy{
-                        font-size: 0.6;
+                        font-size: 0.9rem;
                         a{
                             text-decoration: none;
                             color: yellow;
@@ -441,12 +438,10 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
+                    font-size: 1rem;
                     opacity: .7;
-                    .copyrightFooter{
-                        font-size: 0.8rem;
-                    }
                     .devBy{
-                        font-size: 0.6;
+                        font-size: 1rem;
                         a{
                             text-decoration: none;
                             color: yellow;
