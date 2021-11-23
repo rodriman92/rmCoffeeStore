@@ -364,17 +364,27 @@
 
 /*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
 @media only screen and (max-width: 600px) {
-  .mainTiendas .row #titleTiendas {
-    font-size: 3rem; } }
+  .mainTiendas .row {
+    min-height: 20vh; }
+    .mainTiendas .row #titleTiendas {
+      font-size: 3rem; }
+    .mainTiendas .row .footerTiendas .btnMapaModal {
+      margin-bottom: 1rem; } }
 
 /*--------------------MEDIA QUERY TIENDAS DISPOSITIVOS MEDIANOS (TABLET, CELULARES >600px-----------------*/
 @media only screen and (min-width: 600px) {
-  .mainTiendas .row #titleTiendas {
-    font-size: 4.5rem; } }
+  .mainTiendas .row {
+    min-height: 20vh; }
+    .mainTiendas .row #titleTiendas {
+      font-size: 4.5rem; }
+    .mainTiendas .row .footerTiendas .btnMapaModal {
+      margin-bottom: 1rem; } }
 
 @media only screen and (min-width: 1200px) {
   .mainTiendas .row #titleTiendas {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+  .mainTiendas .row .footerTiendas .btnMapaModal {
+    margin-bottom: 1rem; } }
 
 /*-------------------MEDIA QUERY CONTACTO PANTALLAS PEQUEÑAS <600px------------*/
 @media only screen and (max-width: 600px) {
@@ -503,12 +513,7 @@ body {
         body .navCustom .navbar-nav .nav-item .nav-link:hover {
           text-decoration: 0.5rem dotted #fff5cf underline;
           color: #fff5cf;
-          border-color: #5a493b;
-          animation: 0.5s ease-in-out;
-          text-underline-position: under;
-          height: 0.9rem; }
-          body .navCustom .navbar-nav .nav-item .nav-link:hover ::after {
-            animation: 0.5s ease-in-out; }
+          border-color: #5a493b; }
   body .mainIndex {
     background-image: url("https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
@@ -975,8 +980,9 @@ body {
   .mainTiendas .contenedorCards .lightbox-gallery .item {
     padding-bottom: 30px; }
     .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas {
+      box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
       background-color: #A8BAA9;
-      min-height: 30vh; }
+      min-height: 25vh; }
       .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .nombreTienda {
         font-size: 2rem;
         color: #413225;
@@ -994,16 +1000,13 @@ body {
         color: #5a493b;
         text-align: center;
         font-weight: bold; }
-      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .btnMapaModal {
+      .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .verMapaTienda {
+        font-size: 1.2rem;
+        color: #382e25;
+        font-weight: 600;
         text-align: center;
-        display: flex;
-        margin: auto;
-        margin-top: 2rem;
-        background-color: #5a493b;
-        justify-content: flex-end;
-        font-weight: 600; }
-        .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .btnMapaModal:hover {
-          color: #A8BAA9; }
+        cursor: pointer;
+        margin-bottom: 2rem; }
   @media (max-width: 767px) {
     .mainTiendas .contenedorCards .lightbox-gallery h2 {
       margin-bottom: 1rem;

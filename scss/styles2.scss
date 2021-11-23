@@ -119,12 +119,7 @@ body {
 						text-decoration: 0.5rem dotted #fff5cf underline;
 						color: #fff5cf;
 						border-color: #5a493b;
-						animation: 0.5s ease-in-out;
-						text-underline-position: under;
-						height: 0.9rem;
-						::after {
-							animation: 0.5s ease-in-out;
-						}
+						
 					}
 				}
 			}
@@ -685,6 +680,7 @@ body {
 		}
 	}
 	.contenedorCards {
+		
 		.lightbox-gallery {
 			p {
 				color: #fff;
@@ -695,8 +691,9 @@ body {
 			.item {
 				padding-bottom: 30px;
 				.footerTiendas {
+					box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
 					background-color: $color-navbar;
-					min-height: 30vh;
+					min-height: 25vh;
 					.nombreTienda {
 						font-size: 2rem;
 						color: #413225;
@@ -717,18 +714,15 @@ body {
 						text-align: center;
 						font-weight: bold;
 					}
-					.btnMapaModal {
-						text-align: center;
-						display: flex;
-						margin: auto;
-						margin-top: 2rem;
-						background-color: #5a493b;
-						justify-content: flex-end;
+					.verMapaTienda{
+						font-size: 1.2rem;
+						color: #382e25;
 						font-weight: 600;
-						&:hover {
-							color: $color-navbar;
-						}
+						text-align: center;
+						cursor: pointer;
+						margin-bottom: 2rem;
 					}
+					
 				}
 			}
 		}

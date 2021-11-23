@@ -774,8 +774,14 @@
 @media only screen and (max-width: 600px) {
     .mainTiendas {
         .row {
+            min-height: 20vh;
             #titleTiendas {
                 font-size: 3rem;
+            }
+            .footerTiendas{
+                .btnMapaModal{
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
@@ -785,8 +791,14 @@
 @media only screen and (min-width: 600px) {
     .mainTiendas {
         .row {
+            min-height: 20vh;
             #titleTiendas {
                 font-size: 4.5rem;
+            }
+            .footerTiendas{
+                .btnMapaModal{
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
@@ -797,6 +809,11 @@
         .row {
             #titleTiendas {
                 font-size: 6rem;
+            }
+            .footerTiendas{
+                .btnMapaModal{
+                    margin-bottom: 1rem;
+                }
             }
         }
     }
