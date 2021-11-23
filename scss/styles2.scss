@@ -493,28 +493,7 @@ body {
 	.copyright-area {
 		background: #382e25;
 		padding: 2rem 0;
-		.copyright-text {
-			p {
-				text-align: center;
-				justify-content: center;
-				margin: auto;
-				font-size: 1.5rem;
-				color: white;
-			}
-			.devBy {
-				margin-top: 2rem;
-				color: $color-navbar;
-				font-size: 1.5rem;
-				a {
-					text-decoration: none;
-					color: $color-navbar;
-
-					&:hover {
-						font-weight: 800;
-					}
-				}
-			}
-		}
+		color: white;
 	}
 }
 
@@ -698,11 +677,11 @@ body {
 					background-color: $color-navbar;
 					min-height: 25vh;
 					.nombreTienda {
-						font-size: 2rem;
+						font-size: 1.8rem;
 						color: #413225;
 						text-align: center;
-						font-weight: 600;
-						text-decoration: 0.5rem dotted #5a493b underline;
+						font-weight: 700;
+						text-transform: uppercase;
 						padding-top: 1rem;
 					}
 					.direccionTienda {

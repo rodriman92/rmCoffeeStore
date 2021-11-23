@@ -44,8 +44,14 @@
       margin-top: 0; }
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
-  .body .footer-section .copyright-area .copyright-text p {
-    font-size: 0.8rem; } }
+  .body .footer-section .copyright-area .copyright-text {
+    font-size: 0.8rem;
+    opacity: .7; }
+    .body .footer-section .copyright-area .copyright-text .devBy {
+      font-size: 0.6; }
+      .body .footer-section .copyright-area .copyright-text .devBy a {
+        text-decoration: none;
+        color: yellow; } }
 
 /*--------------TABLETS Y CELULARES MAYORES A 600px--------------*/
 @media only screen and (min-width: 600px) {
@@ -88,8 +94,15 @@
       margin-top: 0; }
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
-  .body .footer-section .copyright-area .copyright-text p {
-    font-size: 0.8rem; } }
+  .body .footer-section .copyright-area .copyright-text {
+    opacity: .7; }
+    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
+      font-size: 0.5rem; }
+    .body .footer-section .copyright-area .copyright-text .devBy {
+      font-size: 0.5; }
+      .body .footer-section .copyright-area .copyright-text .devBy a {
+        text-decoration: none;
+        color: yellow; } }
 
 /*----------------LAPTOPS, PC, 992px----------------------------*/
 @media only screen and (min-width: 992px) {
@@ -131,8 +144,15 @@
       margin-top: 0; }
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
-  .body .footer-section .copyright-area .copyright-text p {
-    font-size: 0.8rem; } }
+  .body .footer-section .copyright-area .copyright-text {
+    opacity: .7; }
+    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
+      font-size: 0.6rem; }
+    .body .footer-section .copyright-area .copyright-text .devBy {
+      font-size: 0.6; }
+      .body .footer-section .copyright-area .copyright-text .devBy a {
+        text-decoration: none;
+        color: yellow; } }
 
 /*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
 @media only screen and (min-width: 1200px) {
@@ -177,8 +197,15 @@
       margin-bottom: 2rem;
       text-align: center;
       align-self: center; }
-  .body .footer-section .copyright-area .copyright-text p {
-    font-size: 0.8rem; } }
+  .body .footer-section .copyright-area .copyright-text {
+    opacity: .7; }
+    .body .footer-section .copyright-area .copyright-text .copyrightFooter {
+      font-size: 0.8rem; }
+    .body .footer-section .copyright-area .copyright-text .devBy {
+      font-size: 0.6; }
+      .body .footer-section .copyright-area .copyright-text .devBy a {
+        text-decoration: none;
+        color: yellow; } }
 
 /*-----------------------------FIN MEDIA QUERY INDEX--------------------------*/
 /*-----------------MEDIA QUERY NOSOTROS DISPOSITIVOS PEQUEÑOS-------------------*/
@@ -798,22 +825,8 @@ body {
               transform: rotate(-6deg); }
   body .copyright-area {
     background: #382e25;
-    padding: 2rem 0; }
-    body .copyright-area .copyright-text p {
-      text-align: center;
-      justify-content: center;
-      margin: auto;
-      font-size: 1.5rem;
-      color: white; }
-    body .copyright-area .copyright-text .devBy {
-      margin-top: 2rem;
-      color: #A8BAA9;
-      font-size: 1.5rem; }
-      body .copyright-area .copyright-text .devBy a {
-        text-decoration: none;
-        color: #A8BAA9; }
-        body .copyright-area .copyright-text .devBy a:hover {
-          font-weight: 800; }
+    padding: 2rem 0;
+    color: white; }
 
 /*-----------------------------------NOSOTROS--------------------------------------*/
 .body .mainNosotros {
@@ -987,11 +1000,11 @@ body {
       background-color: #A8BAA9;
       min-height: 25vh; }
       .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .nombreTienda {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #413225;
         text-align: center;
-        font-weight: 600;
-        text-decoration: 0.5rem dotted #5a493b underline;
+        font-weight: 700;
+        text-transform: uppercase;
         padding-top: 1rem; }
       .mainTiendas .contenedorCards .lightbox-gallery .item .footerTiendas .direccionTienda {
         font-size: 1.3rem;

@@ -98,8 +98,14 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    p {
-                        font-size: 0.8rem;
+                    font-size: 0.8rem;
+                    opacity: .7;
+                    .devBy{
+                        font-size: 0.6;
+                        a{
+                            text-decoration: none;
+                            color: yellow;
+                        }
                     }
                 }
             }
@@ -205,8 +211,16 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    p {
-                        font-size: 0.8rem;
+                    opacity: .7;
+                    .copyrightFooter{
+                        font-size: 0.5rem;
+                    }
+                    .devBy{
+                        font-size: 0.5;
+                        a{
+                            text-decoration: none;
+                            color: yellow;
+                        }
                     }
                 }
             }
@@ -311,8 +325,16 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    p {
-                        font-size: 0.8rem;
+                    opacity: .7;
+                    .copyrightFooter{
+                        font-size: 0.6rem;
+                    }
+                    .devBy{
+                        font-size: 0.6;
+                        a{
+                            text-decoration: none;
+                            color: yellow;
+                        }
                     }
                 }
             }
@@ -419,8 +441,16 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    p {
+                    opacity: .7;
+                    .copyrightFooter{
                         font-size: 0.8rem;
+                    }
+                    .devBy{
+                        font-size: 0.6;
+                        a{
+                            text-decoration: none;
+                            color: yellow;
+                        }
                     }
                 }
             }
