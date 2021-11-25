@@ -384,7 +384,7 @@
       font-size: 2rem;
       padding-bottom: 1rem; }
   .mainShop .row .cardTienda .card-footer .btnComprar {
-    font-size: 1.5rem; } }
+    font-size: 1.2rem; } }
 
 /*-----------------MEDIA QUERY TIENDAS DISPOSITIVOS PEQUEÑOS---------*/
 @media only screen and (max-width: 600px) {
@@ -1054,7 +1054,7 @@ body {
     margin-top: 2rem;
     font-size: 3rem; }
   .mainShop .cardTienda .cardBody {
-    background-color: #413225;
+    background-color: #927e6c;
     opacity: 0.9;
     color: #DBCDAD;
     text-align: center;
@@ -1082,7 +1082,8 @@ body {
       justify-content: center;
       background-color: #413225;
       color: white;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
+      width: 50%;
       font-weight: 600; }
   .mainShop .modalCompra .modalContent {
     background-color: #DBCDAD; }
