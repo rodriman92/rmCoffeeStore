@@ -98,13 +98,14 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    font-size: 0.8rem;
-                    opacity: .7;
+                    font-size: 0.7rem;
+                    opacity: .9;
                     .devBy{
                         font-size: 0.8;
                         a{
                             text-decoration: none;
-                            color: yellow;
+                            color: $color-section;
+                            background-color: #000000;
                         }
                     }
                 }
@@ -211,13 +212,14 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    font-size: 0.8rem;
-                    opacity: .7;
+                    font-size: 0.7rem;
+                    opacity: .9;
                     .devBy{
                         font-size: 0.8;
                         a{
                             text-decoration: none;
-                            color: yellow;
+                            color: $color-section;
+                            background-color: #000000;
                         }
                     }
                 }
@@ -324,13 +326,14 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    font-size: 0.9rem;
-                    opacity: .7;
+                    font-size: 0.8rem;
+                    opacity: .9;
                     .devBy{
-                        font-size: 0.9rem;
+                        font-size: 0.8;
                         a{
                             text-decoration: none;
-                            color: yellow;
+                            color: $color-section;
+                            background-color: #000000;
                         }
                     }
                 }
@@ -438,13 +441,13 @@
         .footer-section {
             .copyright-area {
                 .copyright-text {
-                    font-size: 1rem;
-                    opacity: .7;
+                    font-size: 0.9rem;
                     .devBy{
-                        font-size: 1rem;
+                        font-size: 0.9rem;
                         a{
                             text-decoration: none;
-                            color: yellow;
+                            color: $color-section;
+                            background-color: #000000;
                         }
                     }
                 }

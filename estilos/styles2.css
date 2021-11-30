@@ -45,13 +45,14 @@
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text {
-    font-size: 0.8rem;
-    opacity: .7; }
+    font-size: 0.7rem;
+    opacity: .9; }
     .body .footer-section .copyright-area .copyright-text .devBy {
       font-size: 0.8; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
-        color: yellow; } }
+        color: #DBCDAD;
+        background-color: #000000; } }
 
 /*--------------TABLETS Y CELULARES MAYORES A 600px--------------*/
 @media only screen and (min-width: 600px) {
@@ -95,13 +96,14 @@
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text {
-    font-size: 0.8rem;
-    opacity: .7; }
+    font-size: 0.7rem;
+    opacity: .9; }
     .body .footer-section .copyright-area .copyright-text .devBy {
       font-size: 0.8; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
-        color: yellow; } }
+        color: #DBCDAD;
+        background-color: #000000; } }
 
 /*----------------LAPTOPS, PC, 992px----------------------------*/
 @media only screen and (min-width: 992px) {
@@ -144,13 +146,14 @@
       .body .articleIndexTestimonios .container .row .colTestimonios .card .ratings i {
         justify-content: flex-end; }
   .body .footer-section .copyright-area .copyright-text {
-    font-size: 0.9rem;
-    opacity: .7; }
+    font-size: 0.8rem;
+    opacity: .9; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 0.9rem; }
+      font-size: 0.8; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
-        color: yellow; } }
+        color: #DBCDAD;
+        background-color: #000000; } }
 
 /*------------LAPTOPS Y MONITORES MAYORES A 1200px--------------*/
 @media only screen and (min-width: 1200px) {
@@ -196,13 +199,13 @@
       text-align: center;
       align-self: center; }
   .body .footer-section .copyright-area .copyright-text {
-    font-size: 1rem;
-    opacity: .7; }
+    font-size: 0.9rem; }
     .body .footer-section .copyright-area .copyright-text .devBy {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
       .body .footer-section .copyright-area .copyright-text .devBy a {
         text-decoration: none;
-        color: yellow; } }
+        color: #DBCDAD;
+        background-color: #000000; } }
 
 /*-----------------------------FIN MEDIA QUERY INDEX--------------------------*/
 /*-----------------MEDIA QUERY NOSOTROS DISPOSITIVOS PEQUEÑOS-------------------*/
@@ -617,7 +620,9 @@ body {
         color: #806854; }
   body .sectionIndex {
     padding-top: 4vh;
-    background-color: #DBCDAD;
+    background: linear-gradient(-45deg, #A6D4F2, #A8BAA9, #F2EFD6, #C09E65);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
     padding-bottom: 6vh; }
 
 @keyframes gradient {
@@ -635,6 +640,8 @@ body {
       color: #413225;
       text-decoration: none;
       text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+      animation: zoomIn;
+      animation-duration: 2s;
       font-size: 4rem;
       font-weight: 600;
       align-items: center;
@@ -707,7 +714,9 @@ body {
       font-size: 2.7rem;
       margin-top: 3rem;
       margin-bottom: 3rem;
-      letter-spacing: 0.5rem; }
+      letter-spacing: 0.5rem;
+      animation: slideInLeft;
+      animation-duration: 8s; }
     body .articleIndexTestimonios .card {
       border: none;
       background: #806854;
@@ -838,6 +847,8 @@ body {
       color: #413225;
       text-decoration: none;
       text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+      animation: zoomIn;
+      animation-duration: 2s;
       font-size: 4rem;
       font-weight: 600;
       align-items: center;
@@ -857,12 +868,16 @@ body {
           color: #413225;
           text-decoration: none;
           text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          animation: zoomIn;
+          animation-duration: 2s;
           letter-spacing: 0.5rem;
           font-size: 3rem;
           letter-spacing: 0.5rem;
           text-align: center;
           margin-bottom: 5vh;
-          margin-top: 2rem; }
+          margin-top: 2rem;
+          animation: slideInLeft;
+          animation-duration: 6s; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros .colTitulo1 .pNosotros {
           margin-left: 0.5rem;
           font-size: 1.6rem;
@@ -893,12 +908,16 @@ body {
           color: #413225;
           text-decoration: none;
           text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          animation: zoomIn;
+          animation-duration: 2s;
           letter-spacing: 0.5rem;
           font-size: 3rem;
           text-align: center;
           margin: auto;
           margin-bottom: 5vh;
-          margin-top: 2rem; }
+          margin-top: 2rem;
+          animation: slideInRight;
+          animation-duration: 6s; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros2 .colTitulo2 .pNosotros {
           font-size: 1.6rem;
           text-align: justify;
@@ -920,12 +939,16 @@ body {
           color: #413225;
           text-decoration: none;
           text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+          animation: zoomIn;
+          animation-duration: 2s;
           letter-spacing: 0.5rem;
           font-size: 3rem;
           letter-spacing: 0.5rem;
           text-align: center;
           margin-bottom: 5vh;
-          margin-top: 2rem; }
+          margin-top: 2rem;
+          animation: slideInLeft;
+          animation-duration: 6s; }
         .body .mainNosotros .contenedorNosotros .rowImagenesNosotros3 .colTitulo3 .pNosotros {
           font-size: 1.6rem;
           text-align: justify; }
@@ -972,7 +995,17 @@ body {
 
 /*-------------------------------------TIENDAS------------------------------------------*/
 .mainTiendas {
-  background-color: #DBCDAD; }
+  background: linear-gradient(-45deg, #806854, #F2EFD6, #C09E65);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite; }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .mainTiendas .row .titleTiendas {
     color: #806854;
     text-transform: uppercase;
@@ -981,6 +1014,8 @@ body {
     color: #413225;
     text-decoration: none;
     text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    animation: zoomIn;
+    animation-duration: 2s;
     margin: auto;
     text-align: center;
     margin-top: 2rem;
@@ -1038,7 +1073,17 @@ body {
 
 /*--------------------------------------SHOP----------------------------------------*/
 .mainShop {
-  background-color: #DBCDAD; }
+  background: linear-gradient(-45deg, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite; }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .mainShop .titleShop {
     color: #806854;
     text-transform: uppercase;
@@ -1047,6 +1092,8 @@ body {
     color: #413225;
     text-decoration: none;
     text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    animation: zoomIn;
+    animation-duration: 2s;
     margin: auto;
     text-align: center;
     justify-content: center;
@@ -1111,7 +1158,17 @@ body {
 .mainContacto {
   width: 100%;
   height: auto;
-  background-color: #DBCDAD; }
+  background: linear-gradient(-45deg, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite; }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
   .mainContacto .titleContacto {
     color: #A8BAA9;
     text-transform: uppercase;
@@ -1120,6 +1177,8 @@ body {
     color: #413225;
     text-decoration: none;
     text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9, 1px 18px 6px rgba(16, 16, 16, 0.4);
+    animation: zoomIn;
+    animation-duration: 2s;
     margin: auto;
     text-align: center;
     justify-content: center;

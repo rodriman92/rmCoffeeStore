@@ -21,6 +21,8 @@ html {
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #f1efe9, 1px 2px 1px #f1efe9, 1px 3px 1px #f1efe9, 1px 4px 1px #f1efe9,
 		1px 18px 6px rgba(16, 16, 16, 0.4);
+	animation: zoomIn; 
+	animation-duration: 2s; 
 }
 /*--------------------BREADCRUMBS-----------------*/
 .navBreadcrumb {
@@ -43,6 +45,7 @@ html {
 
 /*--------------------------------------------*/
 body {
+	
 	/*--------------------------NAVBAR------------------------*/
 	.navCustom {
 		background-image: linear-gradient(to left, $color-navbar 50%, $color-navbar);
@@ -236,10 +239,13 @@ body {
 	/*------------------IMAGENES MINI GALERIA INDEX-------------------*/
 	.sectionIndex {
 		padding-top: 4vh;
-		background-color: $color-section;
+		background: linear-gradient(-45deg, #A6D4F2, #A8BAA9, #F2EFD6, #C09E65);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
 		@keyframes gradient {
 			0% {
 				background-position: 0% 50%;
+
 			}
 			50% {
 				background-position: 100% 50%;
@@ -343,6 +349,8 @@ body {
 			margin-top: 3rem;
 			margin-bottom: 3rem;
 			letter-spacing: 0.5rem;
+			animation: slideInLeft; 
+			animation-duration: 8s;
 		}
 		.card {
 			border: none;
@@ -525,6 +533,8 @@ body {
 						text-align: center;
 						margin-bottom: 5vh;
 						margin-top: 2rem;
+						animation: slideInLeft;
+						animation-duration: 6s;
 					}
 					.pNosotros {
 						margin-left: 0.5rem;
@@ -564,6 +574,8 @@ body {
 						margin: auto;
 						margin-bottom: 5vh;
 						margin-top: 2rem;
+						animation: slideInRight;
+						animation-duration: 6s;
 					}
 					.pNosotros {
 						font-size: 1.6rem;
@@ -590,6 +602,8 @@ body {
 						text-align: center;
 						margin-bottom: 5vh;
 						margin-top: 2rem;
+						animation: slideInLeft;
+						animation-duration: 6s;
 					}
 					.pNosotros {
 						font-size: 1.6rem;
@@ -650,7 +664,21 @@ body {
 }
 /*-------------------------------------TIENDAS------------------------------------------*/
 .mainTiendas {
-	background-color: $color-section;
+	background: linear-gradient(-45deg, #806854, #F2EFD6, #C09E65);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		
 	.row {
 		.titleTiendas {
 			@include titulosSecciones($color-h1, $fuente);
@@ -738,7 +766,21 @@ body {
 
 /*--------------------------------------SHOP----------------------------------------*/
 .mainShop {
-	background-color: $color-section;
+
+		background: linear-gradient(-45deg, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
 	.titleShop {
 		@include titulosSecciones($color-h1, $fuente);
 		margin: auto;
@@ -749,6 +791,7 @@ body {
 		font-size: 3rem;
 	}
 	.cardTienda {
+		
 		.cardBody {
 			background-color: #927e6c;
 			opacity: 0.9;
@@ -826,7 +869,21 @@ body {
 .mainContacto {
 	width: 100%;
 	height: auto;
-	background-color: $color-section;
+	background: linear-gradient(-45deg, #FFF5CF, #DBCDAD, #B39C7D, #806854);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
 	.titleContacto {
 		@include titulosSecciones($color-navbar, $fuente);
 		margin: auto;
