@@ -21,4 +21,4 @@ En mi tiempo libre disfruto de hacer deporte y estar con amigos/as.
 <h3>Me podes contactar a traves de:</h3>
 <a href="mailto:rodmancilla92@gmail.com?subject=Consulta" target:"_blank">Mi correo ✉️</a>
 <h3>Podes ver mis trabajos en: </h3>
-<a href="https:\\github.com/rodriman92" target:"_blank">Mi repositorio 👾</a>
+<a href="https://github.com/rodriman92?tab=repositories" target:"_blank">Mi repositorio 👾</a>
